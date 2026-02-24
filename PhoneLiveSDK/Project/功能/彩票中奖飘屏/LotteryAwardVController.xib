@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LotteryAwardVController">
+            <connections>
+                <outlet property="amountLabel" destination="dOD-WF-FYC" id="3sh-Et-aea"/>
+                <outlet property="closeTitleLabel" destination="ZFU-36-3O2" id="i6J-4W-dNw"/>
+                <outlet property="contentView" destination="2sr-CX-hWq" id="I8K-wU-DNj"/>
+                <outlet property="lotteryImgView" destination="0v4-q7-jfJ" id="xWs-pk-VIA"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2sr-CX-hWq">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lottery_reward.png" translatesAutoresizingMaskIntoConstraints="NO" id="0v4-q7-jfJ">
+                            <rect key="frame" x="0.0" y="336" width="414" height="224"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="224" id="iU5-jY-Srj"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中奖 100 元" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dOD-WF-FYC">
+                            <rect key="frame" x="0.0" y="515.66666666666663" width="414" height="19.333333333333371"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                            <color key="textColor" systemColor="systemYellowColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点击任意处关闭（3）" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZFU-36-3O2">
+                            <rect key="frame" x="128.66666666666666" y="695" width="156.99999999999997" height="19.333333333333371"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="0v4-q7-jfJ" secondAttribute="trailing" id="3Sb-zk-L3O"/>
+                        <constraint firstItem="0v4-q7-jfJ" firstAttribute="leading" secondItem="2sr-CX-hWq" secondAttribute="leading" id="7MV-AG-9Yc"/>
+                        <constraint firstItem="dOD-WF-FYC" firstAttribute="bottom" secondItem="0v4-q7-jfJ" secondAttribute="bottom" constant="-25" id="7tU-xe-vOF"/>
+                        <constraint firstAttribute="trailing" secondItem="dOD-WF-FYC" secondAttribute="trailing" id="LPI-vZ-jWF"/>
+                        <constraint firstItem="ZFU-36-3O2" firstAttribute="centerX" secondItem="2sr-CX-hWq" secondAttribute="centerX" id="Sfh-gj-ZGf"/>
+                        <constraint firstItem="0v4-q7-jfJ" firstAttribute="centerX" secondItem="2sr-CX-hWq" secondAttribute="centerX" id="UJt-bl-cKh"/>
+                        <constraint firstItem="dOD-WF-FYC" firstAttribute="leading" secondItem="2sr-CX-hWq" secondAttribute="leading" id="igb-pL-zgj"/>
+                        <constraint firstItem="0v4-q7-jfJ" firstAttribute="centerY" secondItem="2sr-CX-hWq" secondAttribute="centerY" id="w5Z-Wp-e9O"/>
+                        <constraint firstAttribute="bottomMargin" secondItem="ZFU-36-3O2" secondAttribute="bottom" constant="139.66999999999999" id="wk5-oM-ggG"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="2sr-CX-hWq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="3IM-Az-2Cc"/>
+                <constraint firstItem="2sr-CX-hWq" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="QVB-ch-qFS"/>
+                <constraint firstItem="2sr-CX-hWq" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="pVu-zF-Pf1"/>
+                <constraint firstAttribute="bottom" secondItem="2sr-CX-hWq" secondAttribute="bottom" id="yfc-12-rly"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="143.30357142857142"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="lottery_reward.png" width="201.5" height="166.5"/>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
