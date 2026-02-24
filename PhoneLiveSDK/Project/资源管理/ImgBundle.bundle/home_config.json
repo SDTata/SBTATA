@@ -1,0 +1,90 @@
+{
+  "MainPage": {
+    "TopNavs": [
+      {
+        "title": "推荐",
+        "nav": "nav://recommend",
+        "tags": [
+          {
+            "tag_name": "推荐",
+            "tag_type": "recommend_recommend"
+          }
+        ]
+      },
+      {
+        "title": "长视频",
+        "nav": "nav://longvideo",
+        "tags": []
+      }
+    ],
+    "ShakingFloatingButton": [
+      {
+        "title": "宝箱",
+        "icon_selected": "",
+        "icon_normal": "",
+        "text_color_selected": "#df5caa",
+        "text_color_normal": "#878787",
+        "nav": "nav://task"
+      }
+    ],
+    "tabbar": {
+      "bg_normal": "",
+      "tabbar_buttons": [
+        {
+          "title": "首页",
+          "icon_selected": "",
+          "icon_normal": "",
+          "text_color_selected": "#9F57DF",
+          "text_color_normal": "#878787",
+          "nav": "nav://homepage"
+        },
+        {
+          "title": "短视频",
+          "icon_selected": "",
+          "icon_normal": "",
+          "text_color_selected": "#9F57DF",
+          "text_color_normal": "#878787",
+          "nav": "nav://shortVideo",
+          "tags": [
+            {
+              "tag_name": "关注",
+              "tag_type": "shortVideo_follow"
+            },
+            {
+              "tag_name": "热门",
+              "tag_type": "shortVideo_hot"
+            },
+            {
+              "tag_name": "喜欢",
+              "tag_type": "shortVideo_like"
+            }
+          ]
+        },
+        {
+          "title": "直播",
+          "icon_selected": "",
+          "icon_normal": "",
+          "text_color_selected": "#9F57DF",
+          "text_color_normal": "#878787",
+          "nav": "nav://liveshow"
+        },
+        {
+          "title": "游戏",
+          "icon_selected": "",
+          "icon_normal": "",
+          "text_color_selected": "#9F57DF",
+          "text_color_normal": "#878787",
+          "nav": "nav://gamepage"
+        },
+        {
+          "title": "我的",
+          "icon_selected": "",
+          "icon_normal": "",
+          "text_color_selected": "#9F57DF",
+          "text_color_normal": "#878787",
+          "nav": "nav://personalPage"
+        }
+      ]
+    }
+  }
+}

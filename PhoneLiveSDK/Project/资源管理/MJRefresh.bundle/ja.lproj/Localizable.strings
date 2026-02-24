@@ -1,0 +1,19 @@
+"MJRefreshHeaderIdleText" = "プルダウンして更新";
+"MJRefreshHeaderPullingText" = "すぐにリリースして更新";
+"MJRefreshHeaderRefreshingText" = "データを更新しています...";
+
+"MJRefreshTrailerIdleText" = "スワイプしてグラフィックの詳細を表示";
+"MJRefreshTrailerPullingText" = "グラフィックの詳細を表示するためのリリース";
+
+"MJRefreshAutoFooterIdleText" = "クリックまたはプルアップしてさらに読み込みます";
+"MJRefreshAutoFooterRefreshingText" = "さらにデータを読み込んでいます...";
+"MJRefreshAutoFooterNoMoreDataText" = "すべてが読み込まれました";
+
+"MJRefreshBackFooterIdleText" = "プルアップしてさらにロード";
+"MJRefreshBackFooterPullingText" = "リリースしてすぐにロードする";
+"MJRefreshBackFooterRefreshingText" = "さらにデータを読み込んでいます...";
+"MJRefreshBackFooterNoMoreDataText" = "すべてが読み込まれました";
+
+"MJRefreshHeaderLastTimeText" = "最終更新：";
+"MJRefreshHeaderDateTodayText" = "今日";
+"MJRefreshHeaderNoneLastDateText" = "レコードなし";

@@ -1,0 +1,101 @@
+/*
+  FaceUnity.strings
+  XPYCamera
+
+  Created by 项林平 on 2021/6/15.
+  
+*/
+
+/// Mô-đun
+"美肤" = "Da";
+"美型" = "Hình dáng";
+"滤镜" = "Bộ lọc";
+"贴纸" = "Sticker";
+"美妆" = "Trang điểm";
+"美体" = "Body";
+"游戏" = "Game";
+"人像分割" = "Phân đoạn";
+
+/// Da
+"精细磨皮" = "Mịn";
+"磨皮" = "Mịn";
+"美白" = "Trắng";
+"红润" = "Hồng hào";
+"锐化" = "Sắc nét";
+"五官立体" = "3D Khuôn mặt";
+"亮眼" = "Mắt sáng";
+"美牙" = "Răng trắng";
+"去黑眼圈" = "Quầng thâm";
+"去法令纹" = "Nếp nhăn";
+
+/// Hình dáng
+"瘦脸" = "Mặt thon";
+"v脸" = "Mặt V";
+"窄脸" = "Mặt nhỏ";
+"短脸" = "Mặt ngắn";
+"小脸" = "Mặt nhỏ";
+"瘦颧骨" = "Gò má";
+"瘦下颌骨" = "Hàm dưới";
+"圆眼" = "Mắt tròn";
+"大眼" = "Mắt to";
+"下巴" = "Cằm";
+"额头" = "Trán";
+"瘦鼻" = "Mũi";
+"嘴型" = "Miệng";
+"嘴唇厚度" = "Môi dày";
+"眼睛位置" = "Vị trí mắt";
+"开眼角" = "Khóe mắt";
+"眼睑下至" = "Mí mắt";
+"眼距" = "Khoảng cách mắt";
+"眼睛角度" = "Góc mắt";
+"长鼻" = "Mũi dài";
+"缩人中" = "Phần giữa mũi";
+"微笑嘴角" = "Cười";
+"眉毛上下" = "Lông mày";
+"眉间距" = "Khoảng cách lông mày";
+"眉毛粗细" = "Độ dày lông mày";
+
+/// Body
+"瘦身" = "Thon";
+"长腿" = "Chân dài";
+"细腰" = "Eo thon";
+"美肩" = "Vai đẹp";
+"美臀" = "Mông đẹp";
+"小头" = "Đầu nhỏ";
+"瘦腿" = "Chân thon";
+
+/// Bộ lọc
+"origin" = "Gốc";
+"ziran1" = "Tự nhiên1";
+"zhiganhui1" = "Xám1";
+"bailiang1" = "Sáng1";
+"fennen1" = "Hồng1";
+"lengsediao1"= "Tông lạnh";
+
+"卸妆" = "Tẩy trang";
+"恢复" = "Khôi phục";
+
+"是否将所有参数恢复到默认值" = "Khôi phục tất cả cài đặt về mặc định?";
+"确认" = "Xác nhận";
+"取消" = "Hủy bỏ";
+"该功能只支持在高端机上使用" = "Tính năng này chỉ hỗ trợ trên thiết bị cao cấp";
+
+"卸妆" = "Tẩy Trang";
+"减龄" = "Trẻ Hóa";
+"暖冬" = "Mùa Đông Ấm Áp";
+"红枫" = "Phong Đỏ";
+"Rose" = "Hoa Hồng";
+"少女" = "Phong Cách Thiếu Nữ";
+"紫韵" = "Vẻ Đẹp Tím";
+"厌世猫" = "Mèo Cục Súc";
+"人鱼" = "Nàng Tiên Cá";
+"初秋" = "Đầu Mùa Thu";
+"千纸鹤" = "Hạc Giấy";
+"超模" = "Siêu Mẫu";
+"雏菊" = "Hoa Cúc";
+"港风" = "Phong Cách Hồng Kông";
+"性感" = "Quyến Rũ";
+"甜美" = "Ngọt Ngào";
+"邻家" = "Cô Gái Bên Cạnh";
+"欧美" = "Phương Tây";
+"妩媚" = "Gợi Cảm";

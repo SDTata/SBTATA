@@ -1,0 +1,104 @@
+/*
+  FaceUnity.strings
+  XPYCamera
+
+  Created by 项林平 on 2021/6/15.
+  
+*/
+
+/// Modul
+"美肤" = "Kulit";
+"美型" = "Bentuk";
+"滤镜" = "Filter";
+"贴纸" = "Stiker";
+"美妆" = "Makeup";
+"美体" = "Body";
+"游戏" = "Game";
+"人像分割" = "Segmentasi";
+
+/// Kulit
+"精细磨皮" = "Halus";
+"磨皮" = "Penghalusan";
+
+"美白" = "Pemutih";
+"红润" = "Merona";
+"锐化" = "Tajam";
+"五官立体" = "Fitur 3D";
+"亮眼" = "Mata Cerah";
+"美牙" = "Gigi Putih";
+"去黑眼圈" = "Kantong Mata";
+"去法令纹" = "Kerutan";
+
+/// Bentuk
+"瘦脸" = "Wajah Ramping";
+"v脸" = "Wajah V";
+"窄脸" = "Wajah Sempit";
+"短脸" = "Wajah Pendek";
+"小脸" = "Wajah Kecil";
+"瘦颧骨" = "Tulang Pipi";
+"瘦下颌骨" = "Rahang";
+"圆眼" = "Mata Bulat";
+"大眼" = "Mata Besar";
+"下巴" = "Dagu";
+"额头" = "Dahi";
+"瘦鼻" = "Hidung";
+"嘴型" = "Mulut";
+"嘴唇厚度" = "Tebal Bibir";
+"眼睛位置" = "Posisi Mata";
+"开眼角" = "Sudut Mata";
+"眼睑下至" = "Kelopak Mata";
+"眼距" = "Jarak Mata";
+"眼睛角度" = "Sudut Mata";
+"长鼻" = "Hidung Panjang";
+"缩人中" = "Philtrum";
+"微笑嘴角" = "Senyum";
+"眉毛上下" = "Alis";
+"眉间距" = "Jarak Alis";
+"眉毛粗细" = "Ketebalan Alis";
+
+/// Body
+"瘦身" = "Langsing";
+"长腿" = "Kaki Panjang";
+"细腰" = "Pinggang Kecil";
+"美肩" = "Bahu";
+"美臀" = "Pantat";
+"小头" = "Kepala Kecil";
+"瘦腿" = "Kaki Langsing";
+
+/// Filter
+"origin" = "Asli";
+"ziran1" = "Natural1";
+"zhiganhui1" = "Abu1";
+"bailiang1" = "Terang1";
+"fennen1" = "Pink1";
+"lengsediao1"= "Tone Dingin";
+
+"卸妆" = "Hapus Makeup";
+
+
+"是否将所有参数恢复到默认值" = "Apakah Anda ingin mengatur ulang semua pengaturan ke default?";
+"确认" = "Konfirmasi";
+"取消" = "Batal";
+"该功能只支持在高端机上使用" = "Fitur ini hanya didukung di perangkat high-end";
+"恢复" = "Pulihkan";
+
+
+"卸妆" = "Hapus Makeup";
+"减龄" = "Tampak Muda";
+"暖冬" = "Musim Dingin Hangat";
+"红枫" = "Maple Merah";
+"Rose" = "Mawar";
+"少女" = "Gadis";
+"紫韵" = "Pesona Ungu";
+"厌世猫" = "Kucing Kesal";
+"人鱼" = "Putri Duyung";
+"初秋" = "Awal Musim Gugur";
+"千纸鹤" = "Bangau Kertas";
+"超模" = "Model";
+"雏菊" = "Daisy";
+"港风" = "Gaya Hong Kong";
+"性感" = "Seksi";
+"甜美" = "Manis";
+"邻家" = "Tetangga";
+"欧美" = "Barat";
+"妩媚" = "Menawan";

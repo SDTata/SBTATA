@@ -1,0 +1,1658 @@
+/*
+  Info.strings
+  yunbaolive
+
+  Created by IOS1 on 2019/2/26.
+  Copyright © 2019 cat. All rights reserved.
+*/
+
+//连尾下注翻译需要特别修复 后台
+// 蓝方胜 红方胜 后台数据需要匹配
+//"GameListVC_lotteryTitle" = "彩票"; //containsString 特殊处理
+//"socketLivePlay_getConatct" = "收到主播名片："; // stringByReplacingOccurrencesOfString
+
+//"h5game_submit_successfully" = "提交成功"; //isEqualToString
+//"h5game_application_progress" = "申请进度"; //isEqualToString
+//"h5game_My_family_tree" = "我的家族"; //isEqualToString
+
+//图片不需要翻译文字。
+"public_kefuIcon" = "in_ic_kefu"; //图片
+"public_fans_follow_Icon" = "in_fans_follow"; //图片
+"public_fans_followed_Icon" = "in_fans_followed"; //图片
+//Hotpage
+"Hotpage_zxggIcon" = "in_img_zxgg";//图片
+//FirstInvestAlert
+"FirstInvestAlert_GoCharge_BT" = "in_charge_gift"; //图片
+"FirstInvestAlert_ChargeBgImgV" = "in_charge_gift_bg";//图片
+//RotaionRecordVC
+"RotaionRecordVC_recordAll_N" = "in_dajl_n";//图片
+"RotaionRecordVC_recordAll_S" = "in_djjl_s";//图片
+"RotaionRecordVC_recordMy_N"  = "in_wdjl_n";//图片
+"RotaionRecordVC_recordMy_S"  = "in_wdjl_s";//图片
+//RotationDescVC
+"RotationDescVC_ImgBg" = "in_jcgzbg";//图片
+
+//RotationResultVC
+"RotationResultVC_bgImgV" = "in_zjresultbg";//图片
+//RotationVC
+"RotationVC_topTitleImgV" = "in_jczjzz"; //图片
+"RotationVC_giftRecordButton" = "in_zjjl"; //图片
+"RotationVC_giftRuleButton" = "in_jcgz";//图片
+//TYRotaryView
+"TYRotaryView_jcdjcj" = "in_jcdjcj"; //图片
+
+//RotationNothingVC
+"RotationNothingVC_Nothing" = "in_rotaionResultNothing";//图片
+"RotationNothingVC_Confirm" = "in_zjresultsure";
+//LotteryBarrageView
+"LotteryBarrageView_daxianshenshou" = "in_daxianshenshou";//图片
+"LotteryBarrageView_yimingjinren" = "in_yimingjinren";//图片
+"LotteryBarrageView_shouqinitian" = "in_shouqinitian";//图片
+//guardListCell
+"guardListCell_guard_low" = "in_guard_low";//图片
+"guardListCell_guard_heig" = "in_guard_heig";//图片
+//guardShowView
+"guardShowView_GuardStar" ="in_guard_star";//图片
+"guardShowView_GuardEmpty" = "in_GuardEmpty";//图片
+
+//searchVC
+"searchVC_empty" = "in_search_empty";//图片
+//giftCell
+"giftCell_haoIcon" = "in_gift_rich";//图片
+"giftCell_hotIcon" = "in_gift_hot";//图片
+"giftCell_guardIcon" = "in_gift_guard";//图片
+//chatModel
+"chatModel_chat_shou" = "in_chat_shou_month";//图片
+"chatModel_chat_system" = "in_chat_system";//图片
+"chatModel_chat_follow_game" = "in_chat_follow_game";//图片
+"chatModel_chat_shou_year" = "in_chat_shou_year";//图片
+"chatModel_chat_win" = "in_chat_win";//图片
+"chatModel_chat_follow_bet" = "in_chat_follow_bet";//图片
+"chatModel_chat_liang" = "in_chat_liang";//图片
+"chatModel_chat_admin" = "in_chat_admin";//图片
+"chatModel_chat_dividend" = "in_chat_dividend";//图片
+"chatModel_chat_translate" = "in_translate_btn";//图片
+
+//redBagView
+"redBagView_DelayTimeIcon" = "in_DelayTimeIcon"; //图片
+"redBagView_rightNowIcon" = "in_rightNowIcon";  //图片
+//LiveContactView
+"LiveContactView_ContactGetIcon" = "in_anchor_get"; //图片'
+
+//YBSetListCell
+"YBSetListCell_updateBtnIcon" = "in_btn_gx";//图片
+//OpenAwardViewController
+"OpenAwardVC_RightWin"="in_nn_red_win";//图片
+"OpenAwardVC_LeftWin" = "in_nn_blue_win";//图片
+//GameListViewController
+"GameListVC_txjl" = "in_icon_txjl";//图片
+//HotCollectionViewCell
+"HotCollectionViewCell_Nomal_Room" = "in_live_normal";//图片
+"HotCollectionViewCell_PWD_Room" = "in_live_password";//图片
+"HotCollectionViewCell_Pay_Room" = "in_live_pay";//图片
+"HotCollectionViewCell_Time_Room" = "in_live_timer";//图片
+"copyID" = "in_copyID";
+"docoasessssimage" = "in_docoasessssimage.jpg";
+"LotteryAwardVC_lottery_reward_bgImg" = "in_lottery_reward";
+"home_tgzq" = "in_home_tgzq";
+"img_zwsj" = "in_img_zwsj";
+"liveShare_" = "in_liveShare_";
+"logFirst_成功" = "in_logFirst_success";
+"logFirst_headerImg" = "in_logFirst_headerImg";
+"bjl_title_player_img" = "bjl_player";
+"bjl_title_banker_img" = "bjl_banker";
+
+"lh_title_dragon_img" = "dragan";
+"lh_title_tiger_img" = "tiger";
+
+//////////////////////////////////////////下面需要翻译中文文字/////////////////////////////////////////
+NSCameraUsageDescription = "Akses kamera Anda, memungkinkan Anda untuk memulai streaming langsung dan merekam video";
+NSLocationWhenInUseUsageDescription = "Kunjungi lokasi Anda untuk mengizinkan akses ke siaran langsung dan video lokal";
+NSMicrophoneUsageDescription = "Akses mikrofon Anda, memungkinkan Anda merekam suara";
+NSPhotoLibraryAddUsageDescription = "Baca album foto Anda, memungkinkan konten album foto diunggah ke server";
+NSPhotoLibraryUsageDescription = "Akses ke album foto Anda, memungkinkan Anda untuk menyimpan video di album foto";
+NSUserTrackingUsageDescription = "Kami perlu menggunakan izin pelacakan iklan Anda untuk memastikan penggunaan normal";
+NSBluetoothAlwaysUsageDescription = "Aplikasi kami menggunakan Bluetooth untuk menghubungkan perangkat";
+NSFaceIDUsageDescription = "Izinkan akses ke FaceID perangkat";
+
+
+//启动app /这个小部分可以强制翻译
+"activity_login_connectkefu1" = "Hubungi Layanan Pelanggan";
+"launchAppP_islauching" = "Mulai, harap tunggu";
+"launchAppP_logscopy" = "Salin log";
+"launchAppP_domainCheckingLine2" = "Cobalah untuk mendapatkan jalur 2";
+"launchAppP_LineReadyGet" = "Mulai baris permintaan";
+"launchAppP_Line2ErrorMoretime" = "Jalur 2 mendapat banyak kegagalan dan kehabisan waktu";
+"launchAppP_Line2timeOutCantGet" = "Jalur 2 telah habis waktu dan tidak dapat diperoleh";
+"launchAppP_Line2SuccessBack" = "Sukses nama domain uji kecepatan baris 2";
+"launchAppP_Line2DomainError" = "Tes kecepatan jalur 2 gagal";
+"launchAppP_Line2AnalyseLocation"  = "Mulai mendapatkan informasi geografis";
+"launchAppP_LocationHaveCache" = "Cache informasi geografis ada";
+"launchAppP_Line2AnalyseBegain" = "Mulai menganalisis baris 2";
+"launchAppP_Line2SuccessAnalyseError" = "Baris 2 mengembalikan kesuksesan, dan analisisnya gagal";
+"launchAppP_readyCheck" = "Siap untuk menguji";
+"launchAppP_noNetwork" = "Tidak ada jaringan, harap periksa koneksi jaringan";
+"launchAppP_Line1timeOutCantGet" = "Baris 1 telah habis dan tidak dapat diperoleh";
+"launchAppP_domainCheckingError" = "Tes kecepatan nama domain gagal, mulai dari awal";
+"launchAppP_readyDomainChecking" = "Mulai tes kecepatan";
+"launchAppP_domainCheckEnd" = "Tes kecepatan akhir";
+"launchAppP_Line1DomainError" = "Nama domain uji kecepatan baris 1 gagal";
+"launchAppP_Line2SuccessGetCallback" = "Baris 2 baris kembali sukses";
+"launchAppP_Line1SuccessBack" = "Sukses nama domain uji kecepatan baris 1";
+"launchAppP_domainCheckingRetry" = "Mulai ulang mencoba mendeteksi";
+"launchAppP_domainCheckingSpeedReady"="Mulai bersiap untuk tes kecepatan";
+"launchAppP_AnalyseSpeedSuccessReady"="Tes kecepatan berhasil, mulai tes";
+"launchAppP_Line2AnalyseLocationSuccess"="Permintaan informasi geografis berhasil";
+
+
+"Illegal_request"="Illegal request";
+
+//系统语言
+"zh-Hans"  = "中文简体";
+"zh-Hant"  = "中文繁體";
+"en" = "English";
+"ja" = "日本語";
+"vi" = "Tiếng Việt";
+"id" = "Bahasa Indonesia";
+
+//公共参数
+"publictool_copy_success" = "berhasil salin";
+"public_warningAlert" = "petunjuk";
+"publictool_copy" = "salin";
+"publictool_sure" = "pasti";
+"public_cancel" = "batal";
+"public_manage" = "mengelola";
+"public_timeFormat1" = "tahun-bulan-tanggal  jam:menit";
+"public_networkError" = "jaringan tidak valid, silahkan coba lagi nanti";
+"public_close" = "menutup";
+"public_retryAgain" = "coba lagi";
+"public_back" = "kembali";
+"public_systemMsgTitle" = "pengumuman sistem";
+"public_noEmpty" = "sementara tidak ada data";
+"public_loadMore_loading"= "sedang memuat data...";
+"public_loadMore_noMore" = "tidak ada lebih banyak lagi yo~";
+"Bet_Charge_Title" = "isi ulang";
+"public_WithDraw" = "Penarikan";
+"public_WithDraw_creator" = "Penghasilan kreator";
+
+"MaxMoney" = "maksimum";
+
+"public_errorReson" = "ada kesalahan";
+"public_fans" = "penggemar";
+"public_liang" = "terang";
+"public_itemMsg" = "pasang";
+"public_Save" = "simpan";
+"public_Day" = "hari";
+"public_like" = "mendapat suka";
+//登录页面
+
+"version_update" = "pembaruan versi baru";
+"version_updateNow" = "Perbarui";
+"version_newversion_title" = "Versi baru";
+"version_newversion_now" = "Sudah versi terbaru";
+
+
+"loginActivity_switchstandbyline" = "Mengaktifkan jalur cadangan";
+"loginActivity_switchdefaltline" = "Beralih ke jalur default";
+"loginActivity_switchLinesuccess" = "Garis dialihkan";
+"loginActivity_logsCopySuccess" = "Log berhasil disalin";
+"loginActivity_sendmsgcode" = "Kirim kode verifikasi";
+"loginActivity_login_ing" = "sedang masuk...";
+"loginActivity_sendingcodewarning" = "Saat mengirim kode verifikasi, tolong jangan klik berulang kali";
+"loginActivity_sendingcodetimeoutretry" = "Waktu pengiriman habis, harap kirim ulang";
+"loginActivity_reg_input_phone" = "Silakan masukkan nomor ponsel Anda";
+"loginActivity_sendingcode" = "sedang mengirim...";
+"loginActivity_resend" = "Kirim ulang";
+"loginActivity_sendsuccess" = "Berhasil dikirim";
+"loginActivity_senderrorretry" = "Pengiriman gagal, coba lagi nanti!";
+"loginActivity_login_input_phone" = "Silakan masukkan nomor telepon";
+"loginActivity_login_input_email" = "Silakan masukkan email Anda";
+"loginActivity_login_input_userName" = "Silakan masukkan nama pengguna";
+"loginActivity_login_input_pwd" = "kode konfirmasi";
+"loginActivity_login_warning" = "sedang Masuk, jangan klik berulang kali";
+"loginActivity_login_error" = "Login gagal, harap periksa koneksi jaringan";
+
+"activity_login_phoneLogin" = "Login nomor ponsel";
+"activity_login_emailLogin" = "Login dengan email";
+"activity_login_userName" = "Masuk dengan nama pengguna";
+"activity_login_guestLogin" = "Login tamu";
+"activity_login_privateServer" = "Login untuk mendaftar berarti Anda menyetujui \"Perjanjian Layanan Pendaftaran Pengguna\" dan \"Kebijakan Privasi\"";
+//"activity_login_privateServer" = "Login untuk mendaftar berarti Anda menyetujui 《Perjanjian Layanan Pendaftaran Pengguna》 dan 《Kebijakan Privas》";
+"activity_login_country_region" = "negara/wilayah";
+"activity_login_country_region1" = "negara dan wilayah";
+
+"activity_login_inputPhoneNum" = "silahkan masukan nomor ponsel";
+"activity_login_inputEmail" = "Silakan masukkan email";
+"activity_login_inputcode" = "kode verifikasi";
+"activity_login_inputPassword" = "Kata sandi";
+"activity_login_login" = "login";
+"activity_login_loginAndRegister" = "Masuk/Daftar";
+"activity_login_connectkefu" = "hubungi layanan pelanggan";
+"activity_charge_connectkefu" = "Problems?";
+"activity_login_loginproblem" = "Kesulitan login/registrasi?";
+"activity_login_standbyline" = "Garis cadangan:";
+"activity_login_versionTitle" = "nomor versi";
+"login_tip_2" = "Ketentuan Layanan dan Privasi";
+"login_phone_error" = "Silakan masukkan nomor telepon yang benar";
+"login_email_error" = "Silakan masukkan email yang benar";
+"activity_login_changeLoginMethod" = "Beralih metode masuk";
+
+//绑定手机号
+"activity_bind_phone_number_bindphonetitle" = "ikat nomor ponsel anda";
+"activity_bind_phone_number_bindphonesubtitle" = "Untuk memudahkan penyetoran dan penarikan Anda, harap ikat nomor ponsel Anda";
+"activity_bind_phone_number_phone" = "ponsel";
+"activity_bind_phone_number_Login" = ",Apakah Anda ingin masuk langsung?";
+"activity_bind_phone_number_bindEmailTitle" = "Mengikat surel Anda";
+"activity_bind_phone_number_bindEmailSubtitle" = "Untuk memudahkan deposit dan penarikan, silakan mengikat surel Anda";
+"activity_bind_phone_number_Email" = "Surel";
+
+//TaskVC
+"taskTitleString" = "tugas lobby";
+"taskEmptyString" = "sementara tidak ada data aktifitas";
+"taskgofinish" = "selesain";
+"taskfinished" = "telah selesai";
+"tasktoget" = "mengambil";
+"task_time" = "waktu";
+"task_reward_title" = "Pusat Hadiah";
+"task_reward_bet" = "Bertaruh";
+"task_reward_level" = "Tingkat";
+"task_reward_backwater" = "Rabat waktu nyata";
+"task_reward_backwater_rate" = "Rasio rabat";
+"task_reward_backwater_amount" = "Pengeluaran atau jumlah taruhan efektif";
+"task_reward_backwater_limit" = "Batas atas uang kembali";
+"task_reward_backwater_about" = "Pengenalan fungsi";
+"task_reward_draw_success" = "Berhasil diterima";
+"task_reward_sign_success" = "Berhasil masuk";
+"task_reward_backwater_tip1" = "Rebate real-time adalah mekanisme rabat instan berdasarkan statistik pesanan pemain. Pemain dapat menerima jumlah rabat segera ketika kondisi terpenuhi dan menikmati lebih banyak keistimewaan dan keuntungan.";
+"task_reward_backwater_tip2" = "\n\n1. Metode perhitungan";
+"task_reward_backwater_tip3" = "\n     Jumlah rabat dihitung berdasarkan pesanan yang diselesaikan.";
+"task_reward_backwater_tip4" = "\n2. Cara menerima";
+"task_reward_backwater_tip5" = "\n     50% dari jumlah tersebut ditambahkan ke saldo, 50% dari jumlah tersebut dibagi menjadi 3 bagian, dan satu bagian dapat diterima setiap 4 jam.";
+"task_reward_backwater_tip6" = "\n3. Interval pengumpulan";
+"task_reward_backwater_tip7" = "\n     Interval antara setiap pengumpulan adalah 20 menit.";
+"task_reward_backwater_tip8" = "\n4. Rasio rabat";
+"task_reward_backwater_tip9" = "\n     Rasio rabat terkait dengan level raja dan jenis permainan.";
+"task_reward_alert_tip" = "Selamat atas perolehannya";
+"task_reward_alert_title" = "Hadiah";
+"task_reward_alert_success" = "Anda berhasil menerima hadiah";
+"skit_home_record" = "Rekaman Menonton";
+
+"livetaskTitleString" = "tugas penyair";
+
+//PayWaitConfirmViewController
+
+"pay_wait_page_back" = "kembali ke beranda";
+"pay_wait_page_des" ="Keuangan sedang diperiksa\nAkun tidak diterima dalam waktu 3-5 menit, silakan hubungi layanan pelanggan";
+
+//PayChannelViewController
+"PayChanne_title" = "Saluran pembayaran";
+
+//PayReqViewController
+
+"PayReq_chargeNow" = "segera isi ulang";
+"PayReq_warning"="Pengingat penting: Saluran pembayaran akan berubah dari waktu ke waktu. Harap periksa dan konfirmasi akun terbaru sebelum menyetor dana sebelum melakukan pengiriman uang.";
+
+//RechargePopView
+"RechargePop_Warning"="petunjuk isi ulang";
+"RechargePop_bindPhoneTitle"="demi keamanan akun, silahkan ikat nomor ponsel！";
+"RechargePop_bindPhone"="ikat nomor ponsel";
+"RechargePop_ChargeContinue"="isi ulang terus";
+
+//PayInsteadViewController
+"PayInstead_accountTitle"="Akun isi ulang Anda:";
+"PayInstead_tipwarning"="Kartu bank deposit kami berubah secara tidak teratur, mohon jangan simpan nomor kartu bank untuk transfer\nUntuk deposit, silakan masuk ke halaman [Transfer Kartu Bank] untuk menyalin transfer nomor kartu terbaru";
+
+
+//PayInsteadCollectionViewCell
+"PayInsteadCell_installQQ"="Silakan instal QQ seluler terlebih dahulu";
+"PayInsteadCell_desTitle"="menjelaskan";
+"PayInsteadCell_desQQDetail"="\nNomor QQ agen telah disalin\nSilakan buka QQ untuk menambahkan agen untuk menyelesaikan pengisian ulang\nKlik OK untuk melompat secara otomatis\n";
+"PayInsteadCell_installWechat"="Silakan instal WeChat seluler terlebih dahulu";
+"PayInsteadCell_desWechatDetail"="\nAkun WeChat proxy telah disalin\nSilakan buka WeChat untuk menambahkan proxy untuk menyelesaikan pengisian ulang\nKlik Oke untuk melompat secara otomatis\n";
+"PayInsteadCell_installAlipay" = "Silakan instal ponsel Alipay terlebih dahulu";
+"PayInsteadCell_desAlipayDetail" = "\nNomor Alipay agen telah disalin\nSilakan buka Alipay untuk menambahkan agen guna menyelesaikan pengisian ulang\nKlik OK untuk melompat secara otomatis\n";
+"PayInsteadCell_canPayamount"="Kuota yang tersedia:";
+"PayInsteadCell_contactNow"="Hubungi sekarang";
+
+//PayAmountViewController
+"PayAmount_Range_%@%@_%@%@" = "Rentang isi ulang%1$@%2$@-%3$@%4$@";
+
+"PayAmount_giftRule1_%@%.1f_%@%.1f_%@%.1f" = "Untuk setiap pengisian ulang %1$@%2$.1f, dapatkan %3$@%4$.1f hadiah tertinggi%5$@%6$.1f";
+"PayAmount_giftRule2_%.2f_%@%.1f"="Isi ulang hadiah%1$.2f%% Hadiah maksimum%2$@%3$.1f";
+
+"PayAmount_giftRule3_%@%@_%@%@" = "Untuk setiap pengisian ulang %1$@%2$@";
+
+
+"PayAmount_giftRule3%@%@"="menerima%1$@%2$@";
+"PayAmount_chargeTitle" = "Nominal";
+"PayAmount_input_charge_amount" = "Masukkan Nominal";
+
+//PayTransferViewController
+"Transfer_nameTitle" = "Nama pengiriman uang";
+"Transfer_leaveMsg" = "Pesan pengiriman uang";
+"Transfer_nameplaceholder" = "Nama pengiriman uang";
+"Transfer_optionalplaceholder" = "Opsional";
+
+//PayTransferCollectionViewCell
+"Transfer_bankNumberTitle" = "Nomor kartu bank";
+"Transfer_bankUserNameTitle" = "Nama penerima";
+"Transfer_bankNameTitle" = "akun bank";
+"Transfer_bankPlaceTitle" = "Pembukaan akun";
+
+//PayViewController
+"PayVC_Title"= "pusat isi ulang";
+"PayVC_AlertDestitle"="penjelasan penting";
+"PayVC_AlertImportDestitle"="petunjuk penting";
+"PayVC_AlertImportDetail" = "\nHarap lakukan transfer sebelum mengirimkan pesanan\n\n";
+"PayVC_finishedtransfer" = "Selesai transfer";
+"PayVC_noTransfer" = "belum transfer";
+"PayVC_OrderError" = "Gagal mengirim pesanan, silakan coba lagi nanti";
+"PayVC_TransferResultTitle" = "\nHasil pembayaran\n\n";
+"PayVC_PaySuccess" = "pembayaran berhasil";
+"PayVC_PayError" = "pembayaran gagal";
+"PayVC_BalanceTitle" = "Saldo Saya";
+"PayVC_Record" = "Catatan";
+"PayVC_ChargeAmount" = "Jumlah Top-up Langsung";
+"PayVC_PwdAlertTitle" = "Kata sandi dana dompet";
+"PayVC_PwdAlertTip" = "Silakan masukkan kata sandi dana dompet Anda";
+
+"chargeMoney2" = "Isi Ulang";
+
+//BetOptionCollectionViewCell2
+"BetOption2_errorAlert" = "Harap perbarui versi terbaru untuk jenis warna yang saat ini tidak didukung";
+
+//OpenAwardCollectionViewCell
+"OpenAward_dateTitle" = "tanggal";
+
+//CommonCollectionViewController2
+"CommonCollectionVC2_selected %ld Warning" ="Pilih paling banyak %1$d angka~";
+
+//CommonPageViewController
+"CommonPageVC_notitle" = "tidak ada judul";
+"public_rule" = "peraturan";
+//LobbyBetConfirmCollectionViewCell
+
+"LobbyBetCell_Unit_Count" = "taruh";
+"LobbyBetCell_double_total"="%1$@kali lipat gabung";
+
+"LobbyBetCell_double_total11"="taruh gabung";
+
+//LobbyBetConfirmViewController
+
+"LobbyBet_name%@_date%@_Alert" = "%1$@-Nomor masalah telah diperbarui menjadi %2$@";
+"LobbyBet_name%@_date%@_second%@timeTi" = "%1$@-th %2$@ periode sebelum penutupan: %3$@";
+"LobbyBet_name%@_date%@_endbet" = "%1$@-th %2$@ periode telah ditutup";
+"LobbyBet_name%@_date%@_betOpening" = "%1$@-th %2$@ sedang mengundi hadiah";
+"LobbyBet_selecte_Warning" = "Silakan pilih setidaknya satu taruhan";
+"LobbyBet_changeBet" = "Ubah chip taruhan tunggal";
+"LobbyBet_MinMoneyBet%@" = "Taruhan minimum adalah 1 %1$@";
+"LobbyBet_RangeBetMoney" = "Rentang khusus ";
+"LobbyBet_ClearAll" = "kosong";
+"LobbyBet_betContent" = "konten taruhan";
+"LobbyBet_DeleteTip" = "ini yang terakhir kali, tidak boelh di hapus yahh~";
+"LobbyBetConfirm_title" = "memastikan taruhan";
+"LobbyBetConfirm_balance" = "jumlah saldo";
+
+//LobbyLotteryVC
+"LobbyLotteryVC_UpdateDate" ="Nomor edisi saat ini telah diperbarui ke";
+"LobbyLotteryVC_UpdateError" = "Gagal mendapatkan informasi lotere😭";
+
+"LobbyLotteryVC_selectedCount%@_total%@%@_profit%@%@" = "%1$@ catatan telah dipilih, total %2$@%3$@, satu catatan diharapkan menghasilkan %4$@%5$@";
+"LobbyLotteryVC2_selectedCount%@_total%@%@_profit1%@_profit2%@%@" = "%1$@ catatan telah dipilih, total %2$@%3$@, satu catatan diharapkan menghasilkan %4$@~%5$@%6$@";
+
+//拆分上面字符串作为富文本文字染色
+"LobbyLotteryVC_selectedCount1" = "terpilih";
+"LobbyLotteryVC_selectedCount2" = "taruhan, jumlah";
+"LobbyLotteryVC_selectedCount3%@" = "%1$@, taruhan tunggal diharapkan didapat";
+
+"LobbyLotteryVC3_selectedCount%ld_scale%ld_profit%.1f%@" = "Total %1$ld bertaruh %2$ld kali, diharapkan mendapatkan %3$.1f%4$@";
+"LobbyLotteryVC_betEnd" = "Penutupan";
+"LobbyLotteryVC_betOpen" = "Seri";
+"LobbyLotteryVC_Stay_tuned_for" = "harap mengundang~";
+"LobbyLotteryVC_betHistory" = "Sejarah taruhan";
+"LobbyLotteryVC_betExplain" = "Cara bermain";
+"LobbyLotteryVC_Bleuberi" = "Bleuberi";
+"LobbyLotteryVC_Lemon" = "Lemon";
+"LobbyLotteryVC_Ceri" = "Ceri";
+"lobby_big" = "Besar";
+"lobby_small" = "Kecil";
+"lobby_single" = "Tunggal";
+"lobby_double" = "Ganda";
+"points" = "poin";
+
+"lottery_trend_xiao" = "S";
+"lottery_trend_da" = "B";
+"lottery_trend_dan" = "S";
+"lottery_trend_shuang" = "D";
+"lottery_trend_long" = "D";
+"lottery_trend_hu" = "T";
+"lottery_trend_hong" = "R";
+"lottery_trend_hei" = "B";
+"lottery_trend_lan" = "B";
+"lottery_trend_lv" = "G";
+"lottery_trend_xian" = "P";
+"lottery_trend_zhuang" = "B";
+"lottery_trend_ning" = "L";
+"lottery_trend_ying" = "C";
+
+"LobbyLotteryVC_bet_balance_Error" = "Saldo Anda kurang dari taruhan minimum";
+"LobbyLotteryVC_bet_endBet" = "Pada periode saat ini, taruhan tidak tersedia untuk sementara";
+"LobbyLotteryVC_betEmptySelecte" = "Anda belum menambahkan taruhan";
+"LobbyLotteryVC_NoBalance" = "saldo tidak mencukupi";
+"LobbyLotteryVC_NoBalanceDetailDes" = "Saldo Anda tidak cukup untuk taruhan ini";
+"LobbyLotteryVC_titleBet" = "Lobby lotere";
+
+
+"LobbyLotteryVC_DateNow%@" = "minggu %1$@";
+//期数字符拆分
+"LobbyLotteryVC_DateNow1" = "yang";
+"LobbyLotteryVC_DateNow2" = "minggu";
+
+
+
+"LobbyLotteryVC_DateBetingNow%@" = "Akhir periode %1$@";
+//期数字符拆分
+"LobbyLotteryVC_DateBetingNow1" = "Jarak";
+"LobbyLotteryVC_DateBetingNow2" = "memotong waktu";
+"LobbyLotteryVC_moreBtn" = "lebih banyak";
+"LobbyLotteryVC_deviceRandomBtn" = "Pemilihan mesin";
+"LobbyLotteryVC_BetRecord" = "riwayat taruhan";
+"LobbyLotteryVC_betAll" = "pejantan";
+"LobbyLotteryVC_betMin" = "taruhan minimum:";
+"LobbyLotteryVC_Bet" = "taruhan";
+"LobbyLotteryVC_BetAddChoise" = "Tambahkan ke taruhan";
+"LobbyLotteryVC_GoToBet" = "pergi taruhan";
+"LobbyLotteryVC_total" = "total jumlah";
+"menu_lottery_result" = "Hasil Undian";
+
+//LobbyOpenHistoryViewController
+"LobbyOpenHistory_periods" = "Jumlah periode";
+
+"LobbyOpenHistory_Type_Number" = "nomor";
+"LobbyOpenHistory_Type_Size" = "besar kecil";
+"LobbyOpenHistory_Type_SingleDouble" = "tunggal ganda";
+"LobbyOpenHistory_Type_WinnerDragonTiger" = "juara naga harimau";
+"LobbyOpenHistory_Type_total" = "jumlah";
+"LobbyOpenHistory_Type_Tema" = "tema";
+
+
+
+"OpenAward_NiuNiu_Red" = "merah";
+"OpenAward_NiuNiu_Blue" = "biru";
+
+//OpenHistoryViewController
+"OpenHistory_titleBetHistory" = "sejarah pembukaan";
+"OpenHistory_DateNow%@" = "minggu %1$@";
+
+
+//BetConfirmCollectionViewCell
+
+"BetCell_double"="kali lipat";
+"BetCell_double1"="1X";
+"BetCell_double2"="2X";
+"BetCell_double5"="5X";
+"BetCell_double10"="10X";
+"BetCell_double20"="20X";
+
+"BetCell_remove"="menghapus";
+
+//ChipSwitchViewController
+"ChipSwitch_currentChip_title" = "tema sekarang";
+"ChipSwitch_input_custom_chip" = "Masukkan chip khusus";
+"ChipSwitch_settitle" = "pengaturan tema";
+"ChipSwitch_ChangeChip_title" = "【ngubah tema】";
+
+//LotteryBetViewController_NN
+"LotteryBetVC_NN_TimeTitle" = "berhenti:";
+
+//LotteryBetViewController
+"LotteryBetVC_TimeTitle" = "minggu ini berhenti:";
+
+//GameListViewController
+"GameListVC_UnknowGamePlat" = "Platform permainan tidak dikenal";
+
+"GameListVC_lotteryTitle" = "lotre"; //containsString 特殊处理
+"GameListVC_GameCenter_title" = "pusat permainan";
+
+//h5game
+"h5game_Amount_Conversion" = "Konversi";
+"h5game_submit_successfully" = "Dikirim dengan sukses"; //isEqualToString
+"h5game_application_progress" = "Kemajuan Aplikasi"; //isEqualToString
+"h5game_My_family_tree" = "Keluarga saya"; //isEqualToString
+
+//XHLaunchAdButton
+"XHLaunchAdButton_titleSkip" = "lewati";
+
+//MsgSysVC
+"MsgSysVC_systemMsg" = "informasi sistem";
+"MsgSysVC_noMoremsg" = "sementara belum mendapatkan informasi";
+"MsgSysVC_allRead" = "Semua dibaca";
+
+//PublicObj
+
+
+
+//GameToolClass
+"GameToolClass_switchMoneyType" = "Mengonversi saldo..";
+"GameToolClass_switchMoneyTypeSuccess" = "Konversi yang berhasil";
+"GameToolClass_EnterGame" = "sedang memasuki..";
+"GameToolClass_EnterGameReson" = "memasuki tidak normal";
+"GameToolClass_EnterGameError" ="memasuki permainan gagal";
+"GameToolClass_gameName%@_balance%@" = "Saldo [%1$@] saat ini: %2$@\nSelamat bermain.\nJika Anda perlu mengisi ulang, Anda dapat kembali ke antarmuka utama siaran langsung atau menggunakan tombol mengambang untuk mengisi ulang.";
+
+//YBToolClass
+"YBToolClass_timeFormat_Hour%02ld_Min%02ld_Second%02ld" = "%1$02jam lama%2$02d menit%3$02d detik";
+"YBToolClass_timeFormat_Min%02ld_Second%02ld" = "%1$02d menit%2$02d detik";
+"YBToolClass_timeFormat_Second%02ld" = "%1$02d detik";
+
+//homepageController
+"homepageController_attention" = "Suka";
+"homepageController_live" = "Siaran langsung";
+"homepageController_game" = "permainan";
+"homepageController_Rich_list" = "daftar kaya";
+
+//ZYTabBar
+"ZYTabBar_open_live" = "Mulai";
+"ZYTabBar_Box" = "️Tugas";
+
+//ZYTabBarController
+"ZYTabBarC_HomePage" = "beranda";
+"ZYTabBarC_MePage" = "kepunyaan saya";
+
+//EnterLivePlay
+"EnterLivePlay_enterWinnerRoom" = "Apakah akan pergi ke ruang siaran langsung\nuntuk menjadi kaya";
+"EnterLivePlay_enterRoom" = "pergi ke";
+"EnterLivePlay_pwdRoomWarning" = "Kamar ini adalah ruang kode";
+"EnterLivePlay_input_pwd" = "silahkan masukan kata sandi";
+"EnterLivePlay_pwd_error" = "kata sandi salah";
+
+//AttentionHeader
+"AttentionHeader_myAttention" = "yang saya ikuti";
+"AttentionHeader_Popular_Hot" = "rekomendasi populer";
+"AttentionHeader_No_Attention" = "sementara tidak mengikut";
+"AttentionHeader_No_Hot" = "sementara tidak ada populer";
+
+//GamesController
+"GamesVC_NoGameAnchor" = "Tidak ada jangkar game untuk saat ini~";
+"GamesVC_SeeOthersGameAnchor" = "Cepat dan tonton siaran langsung dari jangkar lain~";
+
+//GamesHeader
+"GamesHeader_Game_Recommend" = "permainan rekomendasi";
+"GamesHeader_isHit" = "sedang di bioskop";
+
+//Hotpage
+"Hotpage_leftAddMore" = "lainnya";
+"Hotpage_my_expand" = "promosi saya";
+"Hotpage_Hot" = "populer";
+
+//classVC
+"classVC_noAnchorLive" = "Tidak ada penyair untuk saat ini";
+"classVC_goToOthersAnchorLive" = "Buruan kunjungi channel lainnya~";
+//LiveNotificationAlert
+"LiveNotif_AlertTitle" = "Pengumuman";
+
+
+//RankCell
+"RankCell_FollowButton" = "mengikuti";
+"RankCell_Title_scroe%@" = "Tertinggal %1$@";
+//RankVC
+"RankVC_FollowMeError" = "tidak boleh mengikuti diri sendiri";
+"RankVC_Empty" = "sementara kosong";
+"RankVC_profit_list" = "pendapatan";
+"RankVC_contribution_list" = "penyumbangan";
+"RankVC_List_of_day" = "harian";
+"RankVC_Yesterday_the_list" = "kemarin";
+"RankVC_List_of_Week" = "mingguan";
+"RankVC_List_of_Month" = "bulanan";
+//RotationVC
+"RotationVC_remaining_lottery_times" = "Sisa jumlah undian:";
+"RotationVC_giftPoolTitle" = "Sisa bonus di kumpulan bonus";
+
+//RotationResultVC
+"RotationResultVC_ResultContent" = "Selamat atas akuisisi Anda yang sukses";
+//jubaoVC
+"jubaoVC_headerLabel" = "   pilih alasan melaporkan";
+"jubaoVC_Option_title" = "Untuk informasi lebih detail, harap jelaskan di kotak deskripsi (opsional)";
+"jubaoVC_submit" = "serahkan";
+"jubaoVC_reason_title"="silahkan pilih alasan melapor";
+"jubaoVC_success" = "Laporkan berhasil";
+"jubaoVC_title" = "melapor";
+
+//LotteryBarrageView
+"LotteryBarrageView_clickTitle" = "klik untuk ikut taruh";
+"LotteryBarrageView_name%@_type%@_way%@_money%@%@" = "<font color=\"#72f3e1\">%1$@</font><font color=\"#ffffff\">di</font><font color=\"#fff292\">%2$@ </font><font color=\"#ffffff\">Cara bertaruh</font><font color=\"#fff292\">%3$@</font><font color=\"#ffffff\" >Menang</font><font color=\"#f9d347\">%4$@</font><font color=\"#ffffff\">%5$@. </font>";
+
+"LotteryCenterBarrageView_name%@_type%@_money%@%@" ="<font color=\"#72f3e1\">%1$@</font><font color=\"#ffffff\">Trong</font><font color=\"#fff292\">%2$@</font><font color=\"#ffffff\">Thắng</font><font color=\"#f9d347\">%3$@</font><font color=\"#ffffff\">%4$@。</font>";
+
+
+//LotteryAwardVController
+"LotteryAwardVC%@%@" = "menang %1$@ %2$@";
+"LotteryAwardVC_close" = "Klik di mana saja untuk menutup";
+
+
+//TopTodayView
+"TopTodayView_update_time_title" = "pembaruan terbaru:";
+"TopTodayView_LevelAlert_title" = "Tidak jauh dari yang sebelumnya";
+"TopTodayView_title" = "hari  daftar list";
+"TopTodayView_SendGift" = "membagiakn hadiah";
+"Top rank" = "Peringkat teratas";
+
+//guardShowView
+"guardShowView_guardUntilTime" = "Anda adalah wali bulan dari jangkar saat ini\nTanggal wali sudah habis";
+"guardShowView_RenewGuard" = "perpanjang pelindung";
+"guardShowView_OpenGuard" = "mulai pelindung";
+"guardShowView_OpenGuardAlert" ="Silakan dan nyalakan pelindung untuk penyair favorit Anda";
+"guardShowView_NoGuard" = "anda masih belum ada pelindung ya";
+"guardShowView_BeFirstGuard" = "Menjadi perlidung pertama TA";
+"guardShowView_ThisWeekGuard" = "Kontribusi minggu ini";
+"guardShowView_OpenNow" = "segera mulai";
+
+//shouhuView
+"shouhuView_guardTime" = "Pilih waktu pelindung";
+"shouhuView_guardrights" = "hak istimewa pelindung";
+"shouhuView_MyBalance" = "kepunyaan saya";
+"shouhuView_GuardMonthDes" = "anda demi pelindung bulanan penyair sekarang, mengaktifkan pelindung tahunan mencakup waktu pelindung bulanan, apakah anda ingin mengaktifkan?";
+"shouhuView_GuardYearDes" = "anda pelindung tahunan sekarang\n tidak bisa mulai 7 hari/pelindung bulanan";
+"shouhuView_You_will_coast" = "Anda akan menghabiskan";
+"shouhuView_Guard7Days" = "mulai 7 hari pelindung demi penyair";
+"shouhuView_GuardMonthDays" = "mulai pelindung bulanan demi penyair";
+"shouhuView_GuardOneYear" = "mulai pelindung tahunan demi penyair";
+
+//upmessageInfo
+"upmessageInfo_content" = "Diduga menyebarkan informasi cabul dan pornografi";
+"upmessageInfo_report" = "melaporkan";
+"upmessageInfo_sended" = "Kirim keluar";
+"upmessageInfo_income" = "pendapatan";
+"upmessageInfo_ten_thousand" = "juta";
+"upmessageInfo_on_Mars" = "kayak di mars";
+"upmessageInfo_followed" = "sudah mengikuti";
+"upmessageInfo_kick" = "mengluarkan orang";
+"upmessageInfo_silent" = "kata terlarang";
+"upmessageInfo_set_management" = "Setel untuk mengelola";
+"upmessageInfo_cancel_management" = "Batalkan pengelolaan";
+
+"upmessageInfo_management_list" = "daftar administrator";
+"upmessageInfo_close_live" = "menutup siaran langsung";
+"upmessageInfo_disable_live" = "dilarang siaran langsung";
+"upmessageInfo_add_the_impression+" = "+ tambahkan kesan";
+"upmessageInfo_add_the_impression" = "tambahkan kesan"; //contains
+"upmessageInfo_Send_a_card" = "mengirim kartu nama";
+"upmessageInfo_HomeTitle" = "beranda";
+
+//searchVC
+"searchVC_input_name_id" = "Silakan masukkan nama panggilan atau ID yang ingin Anda cari";
+
+//setViewM
+"setViewM_guardTitle" = "pelindung   tempat kosong>";
+"setViewM_Top_list" = "daftar>";
+"setViewM_Guard" = "pelindung";
+"setViewM_People" = "orang";
+"setViewM_Guardians" = "pelindung";
+"setViewM_GuardiansP" = "orang";
+
+//liwuview
+"liwuview_sendGift" = "membagikan hadiah";
+"liwuview_SendButton" = "memberi";
+"liwuview_YearGift" = "hadiah khusus pelindung tahunan";
+"liwuview_sendSuccess" = "berhasil memberi";
+"liwuview_Bursts" = "mengirim terus menerus";
+"Give the streamer a small gift" = "Berikan hadiah kecil untuk streamer";
+"RC toy" = "Mainan RC";
+"Issue command" = "Mengirim perintah";
+
+//coastselectview
+"coastselectview_minue" = "menit";
+"coastselectview_coast_money" = "Jumlah biaya";
+"coastselectview_Choose_to_charge_for" = "Pilih untuk mengisi daya";
+
+//redBagView
+"redBagView_redbagTitle" = "ang pao siaran langsung";
+"redBagView_sendRedBag" = "bagi ang pao ke penonton siaran langsung sekarang";
+"redBagView_LuckyRedBag" = "ang pao tangan beruntung";
+"redBagView_average" = "ang pao rata-rata";
+"redBagView_total_money" = "total jumlah";
+"redBagView_amount" = "kuantitas";
+//"redBagView_Congratulations" = "Selamat menjadi kaya, semoga sukses";
+"redBagView_sendRedBagTitle" = "bagi ang pao";
+"redBagView_peerMoney" = "jumlah tunggal";
+"redBagView_input_redbag_money" = "silahkan masukan jumlah ang pao";
+"redBagView_input_redbag_amount" = "silahkan masukan kuantitas ang pao";
+
+//redDetails
+"redDetails_whoRedBag" = "ang pao";
+"redDetails_no_get" = "belum dapat meraih";
+"redDetails_get_to_me" = "Telah disimpan";
+"redDetails_already_got" = "telah mengambil";
+"redDetails_peer_amount" = "pcs";
+"redDetails_total" = "total";
+//redListCell
+"redListCell_delayRedBag" = "Mendistribusikan ang pao tertunda";
+"redListCell_nowRedBag" = "Mendistribusikan ang pao instan";
+"redListCell_GetNow" = "merebut";
+//redListView
+"redListView_redBag" = "ang pao";
+"redListView_timeEndCanGet" = "Anda dapat mengambilnya setelah hitungan mundur selesai";
+"redListView_ShowDetailRedBagGot" = "Lihat detail koleksi》";
+"redListView_redBagOver" = "Tangannya lambat, amplop merahnya sudah jadi";
+"redListView_congratulations" = "selamat anda!";
+"redListView_GotBag" = "dapat merebut";
+"redListView_Who" = "distribusi";
+//continueGift
+"continueGift_continue" = "beri terus menerus";
+
+//exoensiveGifGiftV
+"exoensiveGifGiftV_giveOne" = "berikan 1 pcs";
+
+//shipAction
+"shipAction_shipSend" = "Berikan pelayaran mewah";
+//adminLists
+"adminLists_currentManager" = "Administrator saat ini";
+"adminLists_Alert" = "Tips";
+"adminLists_ifCancel" = "Apakah Anda yakin untuk membatalkan";
+"adminLists_managerRule" = "Sebagai pengurus";
+"adminLists_No" = "tidak lah";
+//lastview
+"lastview_endLive" = "siaran langsung selesai";
+
+
+//bottombuttonv
+"bottombuttonv_flash" = "flash";
+"bottombuttonv_timing" = "Waktu";
+"bottombuttonv_tickets" = "tiket";
+"bottombuttonv_beauty" = "kecantikan";
+"bottombuttonv_flip" = "Balik";
+"bottombuttonv_music" = "Iringan";
+"bottombuttonv_share" = "berbagi";
+"bottombuttonv_redBag" = "ang pao";
+"bottombuttonv_toy" = "penggetar";
+"bottombuttonv_order" = "petunjuk";
+//musicView
+"musicView_downloading" = "sedang mengunduh";
+"musicView_choise" = "pilih";
+"musicView_donwload" = "mengunduh";
+//PresentView
+"PresentView_send" = "berikan";
+
+//nuserLoginAnimation
+"nuserLoginAnimation_enter_room" = "Masukkan langsung";
+
+//fenXiangView
+"fenXiangView_shareTo" = "bagikan ke";
+"fenXiangView_have_%@_fans_coming" = "Dia memiliki %1$@ penggemar, datang dan tonton!";
+"fenXiangView_%@_in_here%@_share" = "%1$@ juga ada di %2$@, ~klik untuk melihat ceritanya～";
+"fenXiangView_ShareSuccess" = "berbagi berhasil";
+"fenXiangView_ShareError" = "berbagi gagal";
+
+//liveclosepopview
+"liveclosepopview_leave" = "meninggalkan";
+"liveclosepopview_follow_exit" = "mengikuti serta keluar";
+"liveclosepopview_title" = "ikuti penyair tidak sesat~";
+"liveclosepopview_hint" = "kembali yah~";
+
+//Livebroadcast
+"Livebroadcast_live_cover" = "sampul siaran langsung";
+"Livebroadcast_live_title" = "judul siaran langsung";
+"Livebroadcast_live_title_tip" = "tuliskan judul untuk siaran langsung";
+"Livebroadcast_choise_lottery_type" = "pilih warna siaran langsung";
+"Livebroadcast_push_card" = "Mendorong kartu nama:";
+"Livebroadcast_Nopush_card" = "Jangan mendorong";
+"Livebroadcast_begain_live" = "mulai siaran langsung";
+"Livebroadcast_OBS_live" = "Streaming langsung OBS";
+"Livebroadcast_room_type" = "jenis ruangan";
+"Livebroadcast_choise_price" = "pilih harga";
+"Livebroadcast_room_type_nomal" = "biasa";
+"Livebroadcast_room_type_pwd" = "kata sandi";
+"Livebroadcast_room_type_tickets" = "tiket";
+"Livebroadcast_room_type_time" = "waktu";
+"Livebroadcast_room" = "ruangan";
+"Livebroadcast_please_set_room_pwd" = "Silakan atur kata sandi kamar";
+"Livebroadcast_please_enter_right_pwd" = "Silakan masukkan kata sandi yang benar";
+"Livebroadcast_please_set_ticket_price" = "Silakan tentukan harga tiket kamar";
+"Livebroadcast_please_enterPrice" = "Silakan masukkan harganya";
+"Livebroadcast_please_rightTicket_price" = "Silakan masukkan harga tiket yang benar";
+"Livebroadcast_no_open" = "Versi ini belum dibuka";
+"Livebroadcast_Choise_live_type" = "Silakan pilih saluran";
+"Livebroadcast_private_rule_no" = "Izin diblokir";
+"Livebroadcast_please_open_camera_private" = "Harap aktifkan izin kamera di pengaturan";
+"Livebroadcast_please_open_mic_private" = "Harap aktifkan izin mikrofon di pengaturan";
+"Livebroadcast_please_choise_uploadWay" = "Pilih metode unggah";
+"Livebroadcast_Alumb" = "galery";
+"Livebroadcast_Camera" = "potret";
+"Livebroadcast_Change_Cover" = "ganti sampul";
+"Livebroadcast_Live_End" = "siaran langsung selesai";
+"Livebroadcast_LiveTimes" = "waktu siaran langsung";
+"Livebroadcast_harvest" = "pendapatan";
+"Livebroadcast_watchNumbers" = "jumlah penonton";
+"Livebroadcast_LiveMsgs" = "informasi siaran langsung";
+"Livebroadcast_LiveSend%d_gift%@" = "berikan %1$d %2$@";
+"Livebroadcast_lotteryDisable" = "Dihentikan";
+"Livebroadcast_liveEnd" = "Apakah Anda yakin akan keluar dari siaran langsung";
+"Livebroadcast_haveNewMsgs" = "ada informasi baru";
+"Livebroadcast_SayHi" = "Apa yang harus dikatakan kepada semua orang";
+"Livebroadcast_SaySomething" = "Katakan sesuatu...";
+"Livebroadcast_OnlyMsgs" = "hanya obrolan";
+"Livebroadcast_switchRoom_cannot" = "Anda telah beralih jenis kamar dan tidak dapat beralih";
+"Livebroadcast_switchRoom_cannot1" = "Hanya kamar biasa yang bisa berpindah antar kamar";
+"Livebroadcast_Input_word_limit50" = "Hingga 50 kata";
+"Livebroadcast_Login_other_device" = "Akun saat ini sudah masuk di perangkat lain";
+"Livebroadcast_Open_msg_notifys" = "Nyalakan pengeras suara";
+"Livebroadcast_No_lyrics" = "sementara tidak ada lirik";
+"Livebroadcast_end" = "selesai";
+"live_close_adv" = "Serangan permainan ditutup";
+"live_open_adv" = "Serangan game dibuka ";
+"live_toy_close" = "Tidak terhubung";
+"live_toy_open" = "terhubung";
+"live_order_list" = "daftar perintah";
+"live_more_surprise" = "Lebih banyak kejutan";
+"Livebroadcast_title_server" = "Server";
+"Livebroadcast_title_stream" = "Kunci Stream";
+"Livebroadcast_title_start_stream" = "Mulai Siaran Langsung";
+"Livebroadcast_title_start_stream_info" = "Setelah Anda mulai melakukan streaming, pengguna teknologi dapat mengklik tombol \"Mulai Siaran Langsung\" di bawah.";
+"Livebroadcast_title_OBS_stream_info" = "Untuk melakukan streaming langsung menggunakan aplikasi lain, silakan masukkan URL server dan kunci streaming berikut di dalam aplikasi.";
+"Livebroadcast_order_select_all" = "Pilih Semua";
+"Livebroadcast_order_confirm" = "Konfirmasi";
+"Livebroadcast_toy_unconnect" = "Perangkat tidak terhubung";
+"Livebroadcast_order_unselect" = "Silakan pilih perintah dari daftar perintah";
+"Livebroadcast_error_toyDisconnect" = "Terputus -> Mode Telur (Tidak Terhubung) Sakelar Status Mode Telur Menampilkan Tertutup";
+"Livebroadcast_room_need_charge" = "Kamar ini adalah kamar berbayar, memerlukan pembayaran";
+
+"RemoteInterfaceView_in_queue" = "Sedang antri saat ini";
+"RemoteInterfaceView_remote_user" = "Manipulasi orang";
+"RemoteInterfaceView_remain_time" = "Waktu eksekusi yang tersisa";
+"RemoteInterfaceView_toy_connect" = "Pembawa acara sudah siap";
+"RemoteInterfaceView_wait_you_control" = "Menunggu Anda mengendalikan";
+"RemoteInterfaceView_order_name" = "Perintah";
+"RemoteInterfaceView_control_and_order" = "Remote Control & Perintah";
+"RemoteInterfaceView_toy_title" = "Antrian Telur Loncat";
+"RemoteInterfaceView_order_title" = "Antrian Perintah";
+"RemoteInterfaceView_cmd_name" = "Nama perintah";
+"RemoteInterfaceView_cmd_time" = "Durasi (detik)";
+"RemoteInterfaceView_cmd_price" = "Harga";
+"RemoteInterfaceView_cmd_delete" = "Menghapus";
+"RemoteInterfaceView_cmd_edit" = "Merevisi";
+"RemoteInterfaceView_cmd_confirm" = "Tentu";
+"RemoteInterfaceView_cmd_input_name" = "Silakan masukkan nama perintah";
+"RemoteInterfaceView_cmd_input_time" = "Silakan masukkan durasi";
+
+"SearchToyVC_title_name" = "Lovense";
+"SearchToyVC_bluetooth_connected" = "bluetooth: 🔵";
+"SearchToyVC_bluetooth_disconnect" = "bluetooth: ⚪️";
+"SearchToyVC_no_connected_text" = "Tidak terhubung ❌";
+"SearchToyVC_connected_text" = "Terhubung ✅";
+"SearchToyVC_searching_toy" = "Mencari Lovense";
+"SearchToyVC_stop_search_toy" = "Berhenti mencari Lovense";
+"SearchToyVC_clear_all_toy" = "Hapus semua Lovense";
+"SearchToyVC_star_connecting_toy" = "Mulai menghubungkan Lovense";
+"SearchToyVC_have_no_found_toy" = "Tidak ditemukan Lovense";
+"SearchToyVC_connected_toy" = "Terhubung dengan Lovense";
+"SearchToyVC_connect_fail" = "Gagal terhubung";
+"SearchToyVC_search" = "Cari";
+"SearchToyVC_stop_search" = "Berhenti mencari";
+
+"ToyDetailVC_toy_control" = "Kontrol Lovense";
+"ToyDetailVC_battery" = "Baterai";
+"ToyDetailVC_device_type" = "Tipe Perangkat";
+"ToyDetailVC_version" = "Versi";
+"ToyDetailVC_disconnect" = "Putuskan";
+"ToyDetailVC_all_toy_command" = "Semua Perintah Lovense";
+"ToyDetailVC_vibration" = "Getaran";
+"ToyDetailVC_quick_flash" = "Flash Cepat";
+"ToyDetailVC_preset" = "Praset";
+"ToyDetailVC_nora_rotation" = "Nora Rotasi";
+"ToyDetailVC_nora_rotation_anti_clockwise" = "Nora Rotasi (Berlawanan arah jarum jam)";
+"ToyDetailVC_nora_rotation_change" = "Nora Perubahan Rotasi";
+"ToyDetailVC_turn_off_AID_light" = "Matikan Lampu AID";
+"ToyDetailVC_turn_on_AID_light" = "Hidupkan Lampu AID";
+"ToyDetailVC_get_AID_light_status" = "Dapatkan Status Lampu AID";
+"ToyDetailVC_turn_off_light" = "Matikan Lampu";
+"ToyDetailVC_turn_on_light" = "Hidupkan Lampu";
+"ToyDetailVC_start_tracking_movement" = "Mulai melacak gerakan";
+"ToyDetailVC_stop_tracking_movement" = "Berhenti melacak gerakan";
+"ToyDetailVC_max_air_in" = "Input Udara Maksimum";
+"ToyDetailVC_max_air_out" = "Output Udara Maksimum";
+"ToyDetailVC_max_air_auto" = "Aliran Udara Maksimum Otomatis";
+"ToyDetailVC_device_info" = "Informasi Perangkat";
+"ToyDetailVC_movement" = "Pindah";
+
+"RemoteControllerCell_second" = "s";
+
+"Livebroadcast_mic_volum_number" = "Volume mikrofon";
+"Livebroadcast_micBg_volum_number" = "Volume musik latar";
+"Livebroadcast_name%@_BetType%@_betMoney%@%@" = "<font color=\"#ffffff\">%1$@</font><font color=\"#ffffff\">di</font><font color=\"#fff292\">%2$@ </font><font color=\"#ffffff\">Masuk, pasang taruhan</font><font color=\"#fff292\">%3$@</font><font color=\"# ffffff\">%4$@. </font>";
+
+"Livebroadcast_Congratulations_Name%@_game%@" = "<font color=\"#ffffff\">Selamat</font><font color=\"#ffffff\">%1$@</font><font color=\"#ffffff\">di</ font> font><font color=\"#fff292\">%2$@</font><font color=\"#ffffff\">Saya memenangkan hadiahnya</font>";
+
+"Livebroadcast_shareMoney_fromName%@_lotteryName%@_money%@_%@" = "<font color=\"#ffffff\">Selamat</font><font color=\"#ffffff\">Dapatkan</font><font color=\"#fff292\">%1$@</ font> font><font color=\"#ffffff\">di</font></font><font color=\"#fff292\">%2$@</font><font color=\"# ffffff\">Bonus kemenangan<font color=\"#fff292\">%3$@</font>%4$@</font>";
+"Livebroadcast_LiveAnchor" = "penyair";
+
+//LivePlay
+"LivePlay_KickedRoom" = "anda telah dikeluatkan dari ruangan";
+"LivePlay_sayTimeOver" = "jumlah komentar sudah habis";
+"LivePlay_sayTimes%ld" = "tersisa %1$ld kali komentar";
+"LivePlay_SaidMoreQuikly" = "Mengirim terlalu sering, harap coba lagi dalam 1 menit";
+"LivePlay_SayRule%d" = "Jika level Anda kurang dari %1$d, Anda tidak dapat berbicara\nAnda dapat meningkatkan versi untuk membuka kunci ucapan dengan mengisi ulang dan memberi hadiah";
+"LivePlay_GoCharge" = "pergi isi ulang";
+"LivePlay_GoSendGifts" = "pergi bagi hadiah";
+"LivePlay_RommSwitchTime_%@%@Price" = "Ruangan ini telah dialihkan ke ruangan berwaktu, %1$@%2$@/menit, apakah akan melanjutkan";
+"LivePlay_RommSwitchTicket_%@%@Price" = "Kamar ini telah dialihkan ke ruang tiket, Anda harus membayar %1$@%2$@, apakah akan melanjutkan";
+"LivePlay_No" = "tidak";
+"LivePlay_YES" = "iya";
+"LivePlay_BalanceNot" = "Saldo Anda saat ini tidak cukup untuk ditonton";
+
+//LiveContactView
+"LiveContactView_ConatctTitle1" = "Komentar nama panggilan pengguna cepat berlalu";
+"LiveContactView_ConatctTitle2" = "Dapatkan kemajuan kartu nama";
+"LiveContactView_ConatctTitle3" = "Dapatkan hadiah jika memenuhi persyaratan";
+"LiveContactView_ConatctTitle4" = "1. Saat menambahkan, harap perhatikan nama panggilan untuk menghindari jangkar tidak dapat membedakan";
+"LiveContactView_ConatctTitle5" = "2. Jika informasi kontak salah, Anda dapat mengeluh melalui pelanggan";
+"LiveContactView_WhoName%@" = "Kartu nama %1$@";
+"LiveContactView_NoCard" = "penyair tidak memasang kartu nama";
+"LiveContactView_NotEnoughGifts" = "Konsumsi Anda belum mencapai target";
+"LiveContactView_GetError" = "Gagal mendapatkan kartu nama";
+"socketLivePlay_getConatct" = "Menerima kartu nama penyair :"; // stringByReplacingOccurrencesOfString
+"socketLivePlay_getCard" = "Terima kartu nama penyair";
+"socketLivePlay_Anchor_Card" = "kartu nama penyair";
+//fansViewController
+"fansViewController_noFans" = "anda belum ada pengemar";
+"fansViewController_noFansTip" = "Meningkatkan informasi pribadi akan membuat lebih banyak orang memperhatikanmu~";
+
+//attrViewController
+"attrViewController_noFolllow" = "Anda belum mengikuti siapa pun";
+"attrViewController_noFolllowTip" = "Cepat dan perhatikan orang yang Anda minati ~";
+//personLiveCell
+"personLiveCell_numberTip" = "orang sudah lihat";
+//otherUserMsgVC
+"otherUserMsgVC_block" = "list hitam";
+"otherUserMsgVC_blocked" = "ter list hitam";
+"otherUserMsgVC_unblocked"="menghapus list hitam";
+"otherUserMsgVC_impressed" = "kesan penyair";
+"otherUserMsgVC_GuardTop" = "daftar list pelindung";
+"otherUserMsgVC_Video" = "vidio";
+"otherUserMsgVC_no_work" = "Belum ada karya";
+"otherUserMsgVC_no_like" = "Belum ada yang disukai";
+"otherUserMsgVC_no_live" = "Belum ada siaran langsung";
+
+//EditContactInfo
+"EditContactInfo_editMyConatct" = "Ubah kartu nama saya";
+"EditContactInfo_Empty" = "beluim isi";
+"EditContactInfo_inputTip" = "Masukkan hingga 20 karakter\nMisalnya: host WeChat";
+"EditContactInfo_InputLimit" = "Jumlah kata melebihi bat";
+//EditNiceName
+"EditNiceName_NameEdit" = "ganti nama pengguna";
+"EditNiceName_FreeTip" = "Ini adalah modifikasi pertama, dan modifikasinya gratis.";
+"EditNiceName_coast%@_%@" =  "Modifikasi ini akan dikenakan biaya %1$@ %2$@.";
+"EditNiceName_nameLimitlenth" = "Nama panggilan hingga 8 karakter";
+"EditNiceName_ChangeCoastTip_%@%@" = "Biayanya %1$@ %2$@ setiap kali (modifikasi pertama gratis.)";
+//EditSignature
+"EditSignature_signature" = "Ubah tanda tangan";
+"EditSignature_signatureLimit" = "Masukkan hingga 20 karakter";
+//InfoEdit1TableViewCell
+"InfoEdit1TableViewCell_Avatar" = "gambar profil";
+//myInfoEdit
+"myInfoEdit_nickName" = "nama panggilan";
+"myInfoEdit_phoneNum" = "Nomor telepon";
+"myInfoEdit_email" = "Surel";
+"myInfoEdit_signature" = "tanda tangan";
+"myInfoEdit_MyCard" = "kartu nama saya";
+"myInfoEdit_BirthDay" = "ulang tahun";
+"myInfoEdit_Sex" = "jenis kelamin";
+"myInfoEdit_My_Impressed" = "kesan penyiar saya";
+"myInfoEdit_EditInfo" = "edit informasi";
+"myInfoEdit_Man"="laki-laki";
+"myInfoEdit_Woman"="perempuan";
+"myInfoEdit_Uploading" = "mengunggah";
+"myInfoEdit_Upload_Error" = "Kegagalan";
+//sexCell
+"sexCell_Sexy" = "jenis kelamin";
+//impressVC
+"impressVC_anchorImpressed_choise" = "silahkan pilih kesan anda ke penyair";
+"impressVC_MyImpressed" = "kesan penyair yang anda dapatkan";
+"impressVC_NoImpressed" = "sementara anda belum mendapatkan kesn penyair";
+"impressVC_Choise_limitNum" = "paling banyak pilih 3 halaman";
+"impressVC_Choise_min_tip" = "paling sedikit pilih 1 halaman";
+
+//socketLivePlay
+"socketLivePlay_who%@_Guard" = "%1$@ melindungi penyair";
+"socketLivePlay_whoGuard" = "melindungi penyair";
+"socketLivePlay_Who%@_time%@" = "%1$@ dilarang%2$@";
+"socketLivePlay_DisableSendMsgSuccess" = "Bisukan sukses";
+"socketLivePlay_Kick%@Room" = "%1$@ diusir dari ruangan";
+"socketLivePlay_KickSuccess"= "berhasil mengeluarkan orang";
+"socketLivePlay_SendRedbag" = "Kirim ang pao di ruang siaran langsung! Pergi ambil itu～";
+//socketLive
+"socketLive_closeManagerSuceess" = "Batalkan administrator dengan sukses";
+"socketLive_setManagerSuceess" = "Siapkan administrator dengan sukses";
+"socketLive_CloseLive" = "Siaran langsung ditutup";
+"socketLive_droppedLive" = "Diduga melanggar peraturan dan diunduh";
+"socketLive_silenced" = "Anda telah dibisukan";
+"socketLive_BecloseManager" = "Administrator yang dibatalkan";
+"socketLive_BeManager" = "Menjadi administrator";
+//AppDelegate
+"AppDelegate_oldVersion" = "Gunakan versi lama";
+"AppDelegate_GoUpdate" = "Pergi untuk memperbarui";
+"AppDelegate_Information_maintain" = "Informasi perawatan";
+"AppDelegate_Living" = "sedang siaran langsung, tidak dapat keluar";
+"AppDelegate_ifCancelLiveRoom" = "apakah ingin keluar dari siaran langsung";
+
+
+//VIPVC
+"VIPVC_title" = "gaji raja";
+"VIPVC_KingLeve%@_title" = "raja v%1$@";
+"VIPVC_KingLeveCurrent%@" = "Level raja saat ini: VIP%1$@";
+"VIPVC_Charge%@_UpKingLeve%ld" = "Isi ulang %1$@ masih kurang untuk meningkatkan ke King V%2$ld";
+"VIPVC_KingLeve%@_Rights" = "Anggota raja V%1$@ yang terhormat, Anda dapat menikmati hak-hak berikut";
+"VIPVC_Can'tGet" = "Tidak dapat diklaim";
+"VIPVC_NextTime%@" = "Lain kali: %1$@";
+"VIPVC_KingRights" = "Keistimewaan Raja";
+"VIPVC_KingDetailRule" = "Detail raja";
+"VIPVC_KingRuleLevel" = "tingkat raja";
+"VIPVC_KingRuleChargeRange" = "Total isi ulang\nrentang";
+"VIPVC_KingRuleUpHandsel" = "hadiah naik level";
+"VIPVC_KingRuleWeekSalary" = "gaji mingguan";
+"VIPVC_King" = "Raja";
+"VIPVC_Current_Level" = "Level Saat Ini";
+
+"kingsalary_kinglevel" = "Level Raja";
+"kingsalary_totalrecharge" = "Total Pengisian";
+"kingsalary_promotionbonus" = "Bonus Promosi";
+"monthfenglu" = "Gaji Bulanan";
+"view_wangzhevipdes_zhou_fenglu" = "gaji mingguan";
+
+"PostVideo_title" = "Posting Video";
+"PostVideo_sub_title1" = "Judul Video";
+"PostVideo_sub_title2" = "Tambah Judul Video";
+"PostVideo_sub_title3" = "Tambah Video";
+"PostVideo_sub_title3_1" = "Ganti video";
+"PostVideo_sub_title4" = "Tambah Sampul Video (Opsional)";
+"PostVideo_sub_title4_1" = "Ganti Sampul Video";
+"PostVideo_sub_title5" = "Tambah Tag Video";
+"PostVideo_chooseTag" = "Silakan pilih tag";
+"PostVideo_sub_title6" = "Posting";
+
+"PostVideo_sub_wait_video" = "Menunggu unggahan video";
+"PostVideo_sub_wait_cover" = "Menunggu unggahan sampul";
+
+"PostVideo_sub_upload_video_success" = "Video berhasil diunggah, segera publikasikan!";
+"PostVideo_sub_upload_video_error" = "Unggahan video gagal, silakan pilih lagi";
+
+"PostVideo_sub_title_cancel" = "Apakah Anda ingin membatalkan pengunggahan video?";
+"PostVideo_cancel_upload" = "Batalkan Unggahan";
+"PostVideo_continue_upload" = "Lanjutkan Unggahan";
+
+
+
+//BillVC
+"BillVC_consumeDetail" = "Detail konsumen";
+"BillVC_inComeDetail" = "Perincian pendapatan";
+"BillVC_consumeToday_%@%@" = "Belanjakan hari ini %1$@%2$@";
+"BillVC_incomeToday_%@%@" = "Penghasilan hari ini%1$@%2$@";
+"BillVC_DateFormat" = "MM-dd";
+"BillVC_DateChoiseTitle" = "7 hari terakhir";
+"BillVC_Month" = "bulan";
+"BillVC_Days" = "tanggal";
+"BillVC_Anthor_name" = "nama panggilan penyair";
+
+//myRechargeCoinVC
+"myRechargeCoinVC_Promotion%@_tile" = "Pendapatan promosi%1$@";
+"myRechargeCoinVC_Charge%@_num" = "Masukkan jumlah %1$@ yang akan diisi ulang";
+"myRechargeCoinVC_CanHaveHowMuch" = "Bisa sampai";
+"myRechargeCoinVC_symbol%@" = "%1$@¥";
+"myRechargeCoinVC_OptionSuccess" = "pengelolaan berhasil";
+"myRechargeCoinVC_OptionError" = "pengelolaan gagal";
+"myRechargeCoinVC_ChargeIn" = "isi saldo";
+
+//market
+"market_member" = "anggota  ";
+"market_liangNum" = "nomor terang";
+"market_mount" = "Gunung";
+
+//myProfitVC
+"myProfitVC_WithDrawRecord" = "riwayat penarikan";
+"myProfitVC_WithDrawMoneyChoise" = "Jumlah Penarikan";
+
+"myProfitVC_totalNum%@" = "Jumlah %1$@angka";
+"myProfitVC_WithDrawTotal%@" = "Dapat menarik %1$@number";
+"myProfitVC_WithDraw_input%@" = "Masukkan jumlah %1$@ yang akan ditarik";
+"myProfitVC_To_account_num" = "Jumlah yang tersedia";
+"myProfitVC_choise_withDraw_account" = "Silakan pilih akun penarikan";
+"myProfitVC_withDraw_now" = "Tarik sekarang";
+"myProfitVC_NoWithDrawError" ="Tidak ada metode penarikan yang dipilih";
+
+//profit2
+"profit2_input_withDraw_money" = "Silakan masukkan jumlah penarikan";
+"profit2_input_money" = "Silakan masukkan jumlahnya";
+"profit2_withDraw_account" = "Pilih Akun Penarikan";
+"profit2_add" = "tambahkan";
+"profit2_NoAddAccount" = "Saat ini Anda belum menyiapkan akun penarikan";
+"profit2_if_delete_account" = "Apakah Anda yakin akan menghapus akun penarikan ini?";
+//AddCardViewController
+"AddCard_title" = "Mengikat Akun Bank";
+"AddCard_CardUserName" = "Nama Pemilik Kartu";
+"AddCard_CardNum" = "Nomor Rekening Bank";
+"AddCard_CardBankName" = "pilih bank rekening";
+"AddCard_CardCity" ="pilih area penanganan";
+"AddCard_CardAddress" = "titik pembukaan akun";
+"AddCard_ChoiseBank" = "Silakan pilih bank";
+"AddCard_CurrencyType" = "pilih jenis mata uang";
+"AddCard_ChoiseBankCity" = "Silakan pilih area penanganan";
+"AddCard_Transfor_tip" = "Harap isi informasi rekening dengan hati-hati, untuk menghindari penarikan tidak dapat diterima secara normal (dapat ditambahkan hingga 5 rekening, silakan masukkan informasi pembukaan rekening untuk kartu bank)";
+"AddCard_Transfor_tip1" = "Vui lòng điền thông tin tài khoản một cách cẩn thận, tránh tình trạng tiền không đến tài khoản (tối đa có thể liên kết 5 NH, vui lòng nhập chính xác thông tin NH)";
+
+"AddCard_CardUserName_title" = "Nama Lengkap";
+"AddCard_BankNum_title" = "Nomor Rekening";
+"AddCard_CardBankName_title" = "akun bank";
+"AddCard_ChoiseBankCity_title" = "Area pembukaan akun";
+"AddCard_CardAddress_title" = "Cabang rekening";
+"AddCard_CurrencyType_title" = "Jenis mata uang";
+"SearchCard_BankName" = "silahkan masukkan kata kunci untuk pencarian";
+
+//LiveNodeTableViewCell
+"LiveNodeTableViewCell_peopleNumberTitle" = "orang sudah melihat siaran langsung";
+//LiveNodeViewController
+
+"LiveNodeVC_Record_title" = "riwayat siaran langsung";
+"LiveNodeVC_HaveNoLive" = "belakangan ini anda tidak buka siaran langsung";
+"LiveNodeVC_HaveNoLive_tip" = "Cepat dan rasakan siaran langsung pembukaan~";
+
+//myPopularizeVC
+"myPopularizeVC_Charge_title" = "sudah terisi dalam akun";
+"myPopularizeVC_invite%d" = "mengajak %1$d orang";
+"myPopularizeVC_Charge%d_%@" = "mengisi %@ %2$@";
+"myPopularizeVC_WithDrawSuccess" = "penarikan sukses";
+"myPopularizeVC_WithDraw_Applying" = "memeriksa penarikan sukses";
+"myPopularizeVC_copy_link" = "salin link promosi";
+"myPopularizeVC_DetailPopularize" = "----laporan keuntunganmu----";
+
+//addPopTypeView
+"addPopTypeView_addAccount" = "menambah metode penarikan";
+"addPopTypeView_AddAccountType" = "jenis akun";
+"addPopTypeView_alipay" = "alipay";
+"addPopTypeView_input_aplipayAccount" = "silakan mengisi akun alipay";
+"addPopTypeView_input_aplipayName" = "silakan mengisi nama akun alipay";
+"addPopTypeView_input_WechatAccount" = "silakan masukkan akun wechat";
+
+"addPopTypeView_input_bankName" = "silakan mengisi nama bank";
+"addPopTypeView_input_bankNum" = "silakan mengisi akun bank";
+"addPopTypeView_input_bankUserName" = "silakan mengisi nama akun bank";
+"addPopTypeView_Wechat" = "wechat";
+"addPopTypeView_banKCard" = "kartu bank";
+
+//setView设置
+"setView_VersionCheck" = "versi saat ini sudah merupakan versi terbaru";
+"setView_CleardCache" ="cache telah dibersihkan";
+"setView_logout" = "Keluar";
+//applePay
+"applePay_error" = "tidak dapat mendapatkan informasi penerima bayaran";
+"applePay_checkDebug" = "silakan periksa apakah situs web mengaktifkan mode debug";
+"applePay_ChargeSuccess" = "pengisian berhasil";
+"applePay_canBuy" ="pengguna telah memulihkan pembelian";
+
+//YBUserInfoViewController
+"YBUserInfoVC_BillDetail" = "Transaksi";
+"YBUserInfoVC_personSet" = "setting pribadi";
+"YBUserInfoVC_total%@_Balance" = "total aset（%1$@）";
+"YBUserInfoVC_BindPhone" = "Sertifikasi";
+"YBUserInfoVC_BindEmail" = "Mengikat surel";
+"YBUserInfoVC_ExchangeRate" = "（ganti nilai tukar）";
+//YBPersonTableViewModel
+"YBPersonTableViewMode_fansN%.1f" = "%1$.1f puluh ribu";
+//ExchangeRateViewController
+"ExchangeRateVC_ExchangeRate" = "kurs";
+//exchangeVC
+"exchangeVC_balance" ="saldo akun";
+"exchangeVC_balanceAutoChange" = "penukaran kurs otomatis";
+"exchangeVC_OneKeyBack" = "Daur ulang";
+"exchangeVC_SwitchIn" = "masuk";
+"exchangeVC_SwitchOut" = "keluar";
+"exchangeVC_Input_Money" = "Masukkan jumlah transfer";
+"exchangeVC_all" = "seluruh";
+"exchangeVC_option" = "sedang mengoperasi";
+"exchangeVC_Refresh%@_Balance" = "[%1$@]reset saldo"; // [JDB]刷新余额
+"exchangeVC_RefreshAccountBalance" = "reset saldo akun";
+"exchangeVC_curreny_title" = "Mata uang";
+
+"Gesture_Password" = "kata sandi gerakan";
+"Gesture_PasswordUnlock" = "Buka kata sandi gerakan";
+"Modif_UnlockPassword" = "Ubah kata sandi gerakan";
+"Draw_UnlockPattern" = "Gambar pola buka kunci";
+"Draw_Original_Gesturepsd" = "Harap gambar kata sandi gerakan asli";
+"Gesture_Neglect" = "Menelantarkan";
+"Gesture_redraw" = "Hubungkan setidaknya 4 titik, harap gambar ulang";
+"Draw_UnlockPatternAgain" = "Gambar pola buka kunci lagi";
+"Successfully_GestureSet" = "Berhasil ditetapkan";
+"Draw_PasswordError" = "Kata sandi salah, harap gambar ulang";
+"LastDraw_Inconsistent" = "Tidak sesuai dengan gambar sebelumnya, harap gambar ulang";
+"Turn_GesturePasscode" = "Nonaktifkan kode sandi gerakan";
+"Set_GesturePasscode" = "Setel kode sandi gerakan";
+"ReSet_GesturePasscode" = "Atur ulang kode sandi gerakan";
+"Turn_GesturePasscode_close" = "Apakah Anda yakin ingin menonaktifkan kata sandi gerakan?";
+"Turn_GesturePasscode_Warn" = "Tips keamanan: Disarankan untuk mengatur kata sandi, melindungi privasi Anda secara mendalam, setiap kali Anda meninggalkan produk, itu akan secara otomatis terkunci!";
+"Turn_GesturePasscode_forget" = "Lupa kata sandi gerakan memerlukan login ulang, dan perlindungan kunci layar akan dimatikan secara otomatis setelah login";
+"Draw_PasswordErrorNum%d" = "Kata sandi salah, %1$d peluang tersisa";
+"Forgot_GesturePassword" = "Lupa kata sandi gerakan";
+
+
+//mineVideoVC
+"mineVideoVC_youHaveNoVideo" = "anda masih belum ada kreasi video";
+"mineVideoVC_youHaveNoVideo_tip" = "segera mulai memosting video～";
+//myWithdrawVC2
+"myWithdrawVC2_Account%@_Balance" ="saldo akun %1$@";
+"myWithdrawVC2_Account%@_Balance1" ="saldo akun %1$@:";
+"myWithdrawVC2_Account_Balance2" ="VIPPAY saldo:";
+"myWithdrawVC2_inputHowMany" = "Masukkan Nominal";
+"myWithdrawVC2_CanWithDrawNum" = "Bisa Ditarik";
+"myWithdrawVC2_limitDes" ="penjelasan saldo";
+"myWithdrawVC2_WithDrawDesTip" = "setelah pengisian, anda perlu bertaruh senilai dengan jumlah pengisian anda untuk dapat melakukan penarikan,(jumlah taruhan mungkin ada sedikit tertunda, silakan tunggu 3-5 menit)";
+"myWithdrawVC2_UpdatingBalance" = "sedang reset saldo akun";
+"myWithdrawVC2_WithDrawOver%@%f" = "jumlah penarikan melebihi jumlah saldo:%1$@%2$.2f";
+"myWithdrawVC2_MaxWithDrawMoney%@%.1f" = "jumlah penarikan maksimum untuk satu kali penarikan:%1$@%2$.1f";
+"myWithdrawVC2_MinWithDrawMoney%@%.1f" = "jumlah penarikan minimum untuk satu kali penarikan:%1$@%2$.1f";
+"myWithdrawVC2_WithDrawWaitTip" = "permintaan anda untuk penarikan saldo berhasil! kami akan mengurusnya secepat mungkin";
+"myWithdrawVC2_CanWithDrawMoney%.1f" = "jumlah saldo yang dapat anda tarik berupa:¥%1$.1f";
+
+//withdrawPopView
+"withdrawPopView_tip" = "petunjuk penarikan";
+"withdrawPopView_Error_tip_BindPhone" = "silakan menghubungkan nomor ponsel sebelum melakukan penarikan";
+"withdrawPopView_goBindPhone" = "diharapkan untuk menuju halaman untuk menghubungkan";
+//myWithdrawVC
+
+"myWithdrawVC_minWithDrawAmount%.2f" = "nilai minimum penarikan:¥%1$.2f";
+
+///
+"PayInsta_tenTh%.0f" = "%1$.0fsepuluh ribu+";
+"PayInsta_Th%.0f" = "%.0fribu+";
+"PayInsta_hund%.0f" = "%.0fRatus+";
+
+"Filter_title" = "lebih banyak";
+
+"More_title" = "Lagi";
+
+"movie_pay_Purchased" = "Telah dibeli";
+"movie_pay" = "Bayar";
+"movie_nav" = "Navigasi";
+"movie_game_menu" = "Bermain sambil Menonton";
+"movie_video_menu" = "Video Terkait";
+"movie_pay_vip" = "Buka Kunci VIP untuk Menonton";
+"unlockremind_buyviptips1" = "Naikkan ke VIP untuk menggunakan fitur ini";
+"VIP_Activate_now" = "Aktifkan Sekarang";
+"movie_pay_money" = "Buka Kunci untuk Menonton";
+"movie_vip_tip" = "Ini adalah video eksklusif VIP, akses VIP diperlukan untuk menonton";
+"movie_open_vip" = "Anda belum menjadi VIP, aktifkan sekarang";
+"movie_ticket_tip" = "Tiket nonton tidak cukup. Pasang taruhan untuk mendapatkan lebih banyak.";
+"movie_amount_tip" = "Saldo saat ini tidak mencukupi, segera isi ulang";
+"movie_vip_pay_tip" = "Ini adalah video berbayar VIP, beli untuk menonton";
+"movie_money_pay_tip" = "Ini adalah video berbayar";
+"movie_money_pay_tip2" = "Beli untuk menonton";
+"movie_money_pay_tip3" = "Jelajahi dan tonton";
+"movie_trying_load_tip" = "Pratinjau berakhir setelah %@. Silakan tonton video selengkapnya";
+"movie_trying_end_tip" = "Pratinjau sudah selesai. Silakan tonton video selengkapnya";
+"movie_money_pay_title" = "Pembayaran dengan Saldo";
+"movie_ticket_unit" = "Tiket";
+"movie_ticket_name" = "Tiket Film";
+"movie_time_expire" = "Expiring";
+"movie_time_valid" = "Selamanya";
+"movie_pay_title" = "Kami sarankan Anda menggunakan tiket film";
+"vip_pay_title" = "Keanggotaan VIP terbuka";
+"vip_pay_button" = "VIP terbuka";
+"vip_open_account" = "Buka akun";
+"vip_open_title" = "Aktifkan setelah diisi ulang";
+"vip_pay_ballance" = "Bayar dengan saldo";
+"vip_pay_need_amount" = "Masih perlu isi ulang";
+"create_menu_record" = "Laporan Pendapatan";
+"create_menu_rule" = "Aturan Pembuatan";
+"create_menu_upload" = "Unggah video";
+"create_total_income" = "Pendapatan kumulatif";
+"create_manage_show" = "Tampilkan";
+"create_manage_hide" = "Sembunyikan";
+"create_nav_title" = "Kreasi saya";
+"create_state_approved" = "Diterbitkan";
+"create_state_pending" = "Dalam peninjauan";
+"create_state_rejected" = "Gagal";
+"create_select_count" = "| %@ video dipilih";
+"create_should_choose" = "Silakan pilih video";
+"create_date_today" = "Hari ini";
+"create_date_yesterday" = "kemarin";
+"create_date_week" = "Minggu lalu";
+"create_date_month" = "hampir satu bulan";
+"create_report_from" = "Sumber video";
+"create_report_date" = "Tanggal";
+"create_report_amount" = "Jumlah pendapatan";
+"create_total_amount" = "Total pendapatan";
+"video_trying_start" = "Pratinjau(Klik untuk membuka kunci)";
+"video_trying_stop" = "Pratinjau akhir";
+"video_game_can_full" = "Tidak dapat menampilkan layar penuh dalam game";
+
+///语言切换
+"swichLanguage" = "setting bahasa";
+"swichNotice" = "Pengaturan notifikasi";
+
+///还没翻译
+
+"curreny_unit_alert" = "anda dapat mendapatkan%1$@ %2$@ ,kurs saat ini%3$@";
+
+"curreny_unit_alert_charge" = "anda dapat mendapatkan%1$@ %2$@";
+
+"WithDrawNumberTip%@" = "jumlah turn over yang di perlukan untuk penarikan adalah %1$@ (jumlah turn over adalah jumlah bet game dalam permainan)";
+
+"ChargeNumberTip%@" = "Isi ulang langsung masih memerlukan omset sebesar %1$@ (omset adalah total jumlah taruhan pada lotere dan permainan).";
+
+"history_award" = "menang";
+
+"history_profit" = "keuntungan";
+
+"history_starttime" = "waktu mulai";
+
+"history_endtime" = "waktu selesai";
+
+"history_statetitle" = "pilih status transaksi";
+
+"history_typetitle" = "pilih jenis lotre";
+
+"history_betcontent%@%@" = "nomor seri:%1$@ isi taruhan: %2$@";
+
+"history_betTitle%@" = "Undian ke-%1$@";
+
+"history_bettime%@" = "waktu bertaruh：%1$@";
+
+"history_statewillaward" = "belum diundi";
+
+"history_statenotaward" = "tidak menang";
+
+"history_statedidaward" = "menang";
+
+"history_stateequal" = "undian seri";
+
+"TimeSelect_tipError" = "waktu mulai tidak boleh melebihi waktu selesai";
+//签到
+"ContinuousCheckin" = "telah absen berturut-turut";
+"ChekinRightNow" = "segera absen";
+
+//历史记录
+"all_state" = "semua status";
+"didAward" = "telah menang";
+"notAward" = "tidak menang";
+"willAward" = "menunggu undian";
+"equalEnd" = "undian seri";
+"lb_resultTime" = "sampai";
+"all_type" = "semua jenis";
+"time_sel" = "Pilih waktu";
+//游戏
+"game_begain" = "mulai bertaruh";
+"game_will_begain" = "Segera akan datang";
+"game_continue_bet" = "Memperbarui";
+
+"trend" = "C\nH\nA\nR\nT";
+"trend_title" = "CHART";
+"Chart_Area" = "Cakupan";
+"Chart_Area_Color" = "Special Color";
+
+"Chart_Area_big_small" = "B/S";
+"Chart_Area_single_double" = "S/D";
+"Chart_Area_red_black" = "R/B";
+
+//设置主播名片
+"ContactInfo_notEditTipsTitle" = "Anda belum menyetel kartu nama jangkar";
+"ContactInfo_notEditTipsMsg" = "Apakah Anda ingin mengaturnya?";
+"ContactInfo_notEditTipsSure" = "Buka Pengaturan";
+"ContactInfo_notEditTipsCancel" = "Berikutnya";
+//添加提现方式
+"AddWithDrawType_title" = "Silakan pilih metode penarikan yang ditambahkan";
+"AddWithDrawType_message" = "";
+"AddWithDrawType_usdt" = "USDT";
+"AddWithDrawType_card" = "kartu bank";
+"AddWithDrawType_cancel" = "Membatalkan";
+"AddProfitTip_Error" = "Belum dibuka, pantau terus";
+//添加USDT
+"AddUSDT_title" = "Tambahkan USDT";
+"AddUSDT_Type_title" = "jaringan transfer";
+"AddUSDT_Address_title" = "alamat USDT";
+"AddUSDT_ChoiseType_title" = "Silakan pilih jaringan transfer";
+"AddUSDT_Type_Tips" = "Anda belum memilih jenis mainnet USDT";
+"AddUSDT_Address_Tips" = "Anda belum menulis alamat USDT";
+"AddUSDT_Transfor_tip" = "Transfer ke alamat dompet orang lain tidak akan dapat dipulihkan, harap periksa alamat dompet dengan cermat untuk menghindari kerugian yang tidak perlu";
+"AddUSDT_Paste" = "tempel";
+"AddUSDT_PlaceHolder" = "Silakan masukkan alamat dompet";
+//添加其他
+"AddOther_title%@" = "Tambahkan %1$@";
+"AddOther_Address_title%@" = "alamat %1$@";
+"AddOther_Address_Tips%@" = "Anda belum menulis alamat %1$@";
+//禁止录屏
+"Live_ProhibitScreenRecording" = "Melarang perekaman layar";
+///直播间弹幕过滤
+"filter_belowf" = "Saring di bawah 100";
+"filter_belows" = "Saring di bawah 1K";
+"filter_belowt" = "Saring di bawah 1W";
+///不用翻译
+"socketLivePlay_Light" = "我点亮了";//不翻译
+"socketLivePlay_Followed" = "关注了主播";//不翻译
+"Livebroadcast_backtoRoom" = "主播回来了";//不翻译
+"Livebroadcast_liveinbackgroud" = "主播离开一下，精彩不中断，不要走开哦";//不翻译
+//OpenAwardViewController
+"OpenAward_NiuNiu_BlueWin" = "蓝方胜";
+"OpenAward_NiuNiu_RedWin" = "红方胜";
+"PublicObj_blue" = "蓝方:";
+"PublicObj_red" = "红方:";
+"PublicObj_Spade" = "黑桃";
+"PublicObj_Heart" = "红心";
+"PublicObj_Club" = "梅花";
+"PublicObj_Diamond" = "方块";
+"OpenAward_NiuNiu_Green" = "hijau";
+
+
+"Hotpage_AddMoreCountry" = "lebih banyak negara";
+"GameCenter_List" = "Laporan";
+"Mypage_CopyId" = "Klik salin";
+"LiveGame_NoBetList" = "Tidak ada catatan taruhan";
+
+"OpenHistory_Dragon" = "龙";
+"OpenHistory_he" = "合";
+"OpenHistory_Tiger" = "虎";
+
+"忘记手势密码" = "Lupa kata sandi isyarat";
+"指纹解锁" = "Buka kunci sidik jari";
+"面容ID解锁" = "Buka kunci ID Wajah";
+"点击进行指纹解锁" = "Klik untuk membuka kunci dengan sidik jari";
+"点击进行面容ID解锁" = "Klik untuk membuka kunci dengan ID Wajah";
+
+"DramaHomeViewController_title" = "Tiket Film";
+"DramaHomeHistoryCell_history_title" = "Riwayat Tontonan";
+"DramaHomeHeaderView_latest" = "Terbaru";
+"DramaHomeHeaderView_hot" = "Populer";
+
+"DramaFavoriteViewController_title" = "Favorit";
+"DramaFavoriteViewController_empty_favorite" = "Anda belum menandai konten apa pun";
+
+"DramaPortraitVideoControlView_fullScreen_title" = "Tonton Layar Penuh";
+"DramaPortraitVideoControlView_unlock_pay" = "Buka kunci berbayar";
+"DramaVideoViewController_video_not_available" = "Film ini belum dirilis";
+"DramaFavoriteViewController_empty_follow" = "Anda belum mengikuti konten apa pun";
+"DramaFavoriteViewController_empty_like" = "Anda belum menyukai konten apa pun";
+
+"DramaVideoViewController_video_buy_ticket" = "Apakah Anda ingin menggunakan %d kupon nonton film?";
+"DramaAllHeaderView_pay_info" = "Termasuk %d episode berbayar";
+"DramaAllHeaderView_pay_info_vip" = "Termasuk %d episode VIP berbayar";
+"DramaAllHeaderView_all_episodes" = "Semua %d episode";
+"DramaAllListCell_pay" = "Membayar";
+"Hotpage_skit_entrance" = "Pintu Masuk Drama Pendek";
+"VIP Pay" = "VIP berbayar";
+"DramaAllHeaderView_paid_info" = "Termasuk %d episode";
+"play" = "Putar";
+
+"Please stay tuned" = "Harap tunggu";
+"like" = "suka";
+"work" = "karya";
+"Tap to live stream room" = "Klik untuk masuk ruang siaran langsung";
+"Not Search Any Result" = "Tidak ditemukan hasil yang relevan";
+"short_video_favorite_unit" = "M";
+"short_video_preview" = "Coba tonton %@";
+"short_video_buy" = "Beli";
+"short_video_preview_end" = "Pratinjau berakhir";
+
+"post_video_free" = "Gratis";
+"post_video_ticket_name" = "Tiket Menonton";
+"post_video_other_price" = "Jumlah Lain:";
+"post_video_other_tags" = "Tag Lain";
+"post_video_no_rule" = "Anda tidak memiliki izin untuk mengunggah video";
+"post_video_uploading" = "Sedang diproses, harap tunggu...";
+"post_video_upload_wait" = "Harap tunggu hingga unggahan selesai";
+"post_video_upload_retry" = "Harap unggah ulang video";
+"post_video_upload_cover_again" = "Harap unggah ulang sampul";
+
+"Live Streaming" = "Sedang siaran langsung";
+"All %ld episodes, completed" = "Total %ld episode, telah selesai";
+"Favorite" = "Favorit";
+"Watch History" = "Riwayat Tontonan";
+"Serialization" = "Sedang berlangsung";
+"Episodes finished" = "Telah selesai";
+"Episodes updating" = "Sedang diperbarui";
+"Not watched" = "Belum ditonton";
+"Episode %ld" = "Episode %ld";
+"%@ people online" = "%@ orang online";
+"follow_recommend" = "Rekomendasi";
+"Episodes update to" = "Perbarui ke";
+"No Prefix Episode %ld" = "%ld episode";
+"Select episode" = "Pilih episode";
+
+//短视频评论
+"short_video_comment_lookingForwardYourComments" = "Menantikan komentar Anda";
+"short_video_comment_leaveCommentExpressYourThoughts" = "Tinggalkan komentar untuk menyampaikan pemikiran Anda";
+"short_video_comment_noMoreComments" = "Tidak ada komentar lagi~";
+"short_video_comment_kindWordsBringGood" = "Kata-kata yang baik membawa kebaikan, kata-kata kasar menyakiti hati";
+"short_video_comment_send" = "Kirim";
+"short_video_comment_howManyComments" = "komentar";
+"short_video_comment_reply" = "Balas";
+"short_video_comment_expand" = "Perluas";
+"short_video_comment_close" = "Tutup";
+"short_video_comment_year" = "tahun lalu";
+"short_video_comment_month" = "bulan lalu";
+"short_video_comment_weekOfYear" = "minggu lalu";
+"short_video_comment_day" = "hari lalu";
+"short_video_comment_hour" = "jam lalu";
+"short_video_comment_minute" = "menit lalu";
+"short_video_comment_justNow" = "Baru saja";
+
+//首页容器
+"home_container_recommend" = "Rekomendasi";
+"home_container_recommend_space" = "Rek omen dasi"; //三个半形空白键
+"home_container_skit_space" = "Dra ma Pen dek";
+
+//搜索页
+"home_search_searchVideos" = "Cari video";
+"home_search_all" = "Semua";
+"home_search_shortVideo" = "Video pendek";
+"home_search_skit" = "Drama pendek";
+"home_search_longVideo" = "Video panjang";
+"home_search_anchorNickname" = "Host";
+"home_search_searchRecord" = "Riwayat pencarian";
+"home_search_youLike" = "Rekomendasi untuk Anda";
+"home_search_hotSearch" = "Pencarian populer";
+"home_search_tenThousand" = "Puluh ribu";
+"home_search_thousand" = "Ribu";
+"home_search_noRelevantResultsFound" = "Tidak ada hasil terkait yang ditemukan";
+"home_search_modifySearchKeywordsAndTryAgain" = "Disarankan untuk mengubah kata kunci pencarian dan coba lagi";
+"home_search_search" = "Cari";
+"home_search_userNickName" = "Nama Panggilan Pengguna";
+
+//发布短视频
+"post_video_rules_title" = "Aturan Pengunggahan Video Pendek";
+"post_video_desc_section1" = "Durasi Video";
+"post_video_desc_rulse1" = "Durasi video harus antara 10 detik hingga 5 menit.";
+"post_video_desc_section2" = "Format Video";
+"post_video_desc_rulse2_1" = "Format file yang didukung: MP4, MOV, AVI, dll.";
+"post_video_desc_rulse2_2" = "Resolusi minimal 720p (720x1280 piksel).";
+"post_video_desc_rulse2_3" = "Ukuran file tidak lebih dari 100MB.";
+"post_video_desc_section3" = "Panduan Konten";
+"post_video_desc_rulse3_1" = "Dilarang keras konten kekerasan, politik, dan ujaran kebencian.";
+"post_video_desc_rulse3_2" = "Melindungi privasi orang lain, harus mendapatkan izin dari orang yang difilmkan.";
+"post_video_desc_section4" = "Kualitas Video";
+"post_video_desc_rulse4" = "Video harus jelas dan stabil, audio harus bersih tanpa gangguan.";
+"post_video_desc_section5" = "Judul dan Deskripsi Video";
+"post_video_desc_rulse5_1" = "Judul dan deskripsi harus mencerminkan isi video secara akurat.";
+"post_video_desc_rulse5_2" = "Gunakan tag terkait untuk klasifikasi dan pencarian.";
+"post_video_desc_section6" = "Persyaratan Lain";
+"post_video_desc_rulse6_1" = "Video hanya akan dipublikasikan setelah lulus peninjauan platform.";
+"post_video_desc_rulse6_2" = "Pilih kategori yang tepat berdasarkan isi video untuk dipublikasikan.";
+"post_video_max_tags" = "Maksimal lima tag";
+//我的
+"profile_center_wallet" = "Dompet Pusat";
+"profile_center_myWallet" = "Dompet Saya";
+"profile_center_change_unit" = "Ganti Mata Uang";
+
+//消息列表
+"message_list" = "Daftar Pesan";
+"message_list_no_new_notifi" = "Tidak ada notifikasi baru";
+"message_list_interactive_messages" = "Pesan Interaktif";
+"message_list_people_have_saved_your_comments" = "%1$@ orang menyukai komentar Anda";
+"message_list_reply_comment" = "Balas komentar";
+"message_list_like" = "Suka";
+"message_list_no_messages" = "Tidak ada pesan, terlalu rendah hati～";
+"message_list_go_play_game" = "Pergi main game dulu";
+
+// 簽到
+"Signed In" = "Sudah Check-In";
+"The more consecutive sign-ins, the greater the rewards" = "Semakin banyak check-in berturut-turut, semakin besar hadiahnya!";
+"Achieved" = "Telah Tercapai";
+"Consecutive Sign-ins" = "Check-In Berturut-Turut";
+"Daily Sign-in" = "Check-In Harian";
+
+// 幸運抽獎
+"luckyDraw_title" = "Undian Keberuntungan";
+"luckyDraw_remaining_bonus_in_the_prize_pool" = "Bonus tersisa di kolam hadiah";
+"luckyDraw_number_of_draws_remaining" = "Jumlah undian tersisa";
+"luckyDraw_winning_record" = "Catatan pemenang";
+"luckyDraw_bonus_rules" = "Aturan Bonus";
+"luckyDraw_reset_time" = "Jumlah undian Anda akan direset pada %1$@, silakan gunakan segera.";
+"luckyDraw_tips" = "Segera selesaikan tugas di bawah ini untuk mendapatkan kesempatan undian.";
+"luckyDraw_result_tips" = "Terus capai target, raih hadiah menarik dari undian keberuntungan!";
+
+// 大奖记录 & 我的记录
+"bounsRules_category_title1" = "Catatan Hadiah Besar";
+"bounsRules_category_title2" = "Catatan Saya";
+
+// 幸运抽奖次数活动
+"bounsRules_section1_title" = "Aktivitas Jumlah Undian Keberuntungan";
+"bounsRules_section1_row1" = "Isi ulang pertama kali akan diberikan satu kesempatan undian.";
+"bounsRules_section1_row2" = "Mengikat nomor ponsel akan diberikan satu kesempatan undian.";
+"bounsRules_section1_row3" = "Login selama tiga hari berturut-turut akan diberikan satu kesempatan undian.";
+"bounsRules_section1_row4" = "Memberi hadiah lebih dari berlian ke penyiar akan diberikan satu kesempatan undian (tidak dapat digabungkan dalam satu hari).";
+"bounsRules_section1_row5" = "Taruhan tiket lotere lebih dari ¥100 akan diberikan satu kesempatan undian (tidak dapat digabungkan dalam satu hari).";
+"bounsRules_section1_row6" = "Setoran langsung hands-free lebih dari ¥100 akan diberikan satu kesempatan undian (tidak dapat digabungkan dalam satu hari).";
+
+// 幸运抽奖规则
+"bounsRules_section2_title" = "Aturan Undian Keberuntungan";
+"bounsRules_section2_row1" = "Bonus di kolam hadiah dihasilkan oleh taruhan pemain, dan bonus dalam kolam diperbarui secara real-time.";
+"bounsRules_section2_row2" = "Jumlah undian yang diberikan akan direset pada pukul 23:59 setiap hari Minggu. Jika tidak mengikuti undian minggu ini, dianggap sebagai pengunduran diri otomatis.";
+"bounsRules_section2_row3" = "Jika jumlah kemenangan lebih besar dari bonus di kolam hadiah, sisa bonus dalam kolam seluruhnya menjadi milik pemenang.";
+"bounsRules_section2_row4" = "Jika ada keterlambatan sistem yang menyebabkan hadiah tidak diterima tepat waktu, silakan login ulang atau hubungi layanan pelanggan online.";
+"bounsRules_section2_row5" = "Aturan dan cara bermain undian keberuntungan adalah hak akhir platform untuk menjelaskan.";
+
+// 中奖纪录
+"Winning_record_welcome" = "Selamat datang bergabung～";
+"Winning_record_lucky" = "Semoga beruntung dan menang!";
+"Winning_record_eve" = "Kemarin dulu";
+"Winning_record_congratulations_your_winning_draw" = "Selamat, Anda memenangkan:";
+"Winning_record_Congratulations_user_winning_draw" = "Selamat kepada pengguna yang memenangkan:";
+"Winning_record_user_name" = "Nama pengguna:";
+
+"comment_replay_like_des" = "menyukai komentar Anda";
+"comment_replay_like_video_des" = "menyukai video Anda";
+"comment_post_new_video" = "memposting karya baru";
+"read_all" = "Tandai semua";
+
+"post_video_upload_interrupted" = "Unggahan Terputus";
+"post_video_resume_prompt" = "Lanjutkan unggahan?";
+"post_video_retry" = "Unggah ulang";
+"ppublic_continue" = "Lanjutkan";
+"ppublic_account" = "Akun";
+"video_ticket_float" = "coupon_ticket-in";
+
+"验证码验证超时，请重试" = "Verifikasi kode waktu habis, silakan coba lagi";
+"网络连接失败，请检查网络后重试" = "Koneksi jaringan gagal, silakan periksa jaringan dan coba lagi";
+"验证已取消" = "Verifikasi telah dibatalkan";
+"验证码初始化失败，请稍后重试" = "Inisialisasi kode verifikasi gagal, silakan coba lagi nanti";
+"验证码配置错误，请联系客服" = "Kesalahan konfigurasi kode verifikasi, silakan hubungi layanan pelanggan";
+"验证结果无效，请重新验证" = "Hasil verifikasi tidak valid, silakan verifikasi ulang";
+"验证失败，请重试" = "Verifikasi gagal, silakan coba lagi";
+"验证失败" = "Verifikasi gagal";
+"验证码初始化失败" = "Inisialisasi kode verifikasi gagal";
+"降级模式验证成功" = "Verifikasi mode fallback berhasil";
