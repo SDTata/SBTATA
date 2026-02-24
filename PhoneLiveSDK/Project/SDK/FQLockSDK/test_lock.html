@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>高端安全手势密码</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+            font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+        }
+        
+        body {
+            background-color: #0a0a0a;
+            color: #fff;
+            line-height: 1.5;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        /* 背景效果 */
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(ellipse at top, var(--bg-gradient-start, #1a1a2e) 0%, var(--bg-gradient-end, #000000) 70%);
+            z-index: -1;
+            transition: background 0.5s ease;
+        }
+        
+        /* 安全格栅效果 */
+        .security-grid {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(rgba(12, 24, 36, 0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(12, 24, 36, 0.05) 1px, transparent 1px);
+            background-size: 20px 20px;
+            z-index: -1;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 360px;
+            padding: 20px;
+            position: relative;
+        }
+        
+        .lock-icon {
+            width: 50px;
+            height: 50px;
+            margin: 0 auto 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(17, 24, 39, 0.8);
+            border-radius: 50%;
+            box-shadow: 0 0 15px var(--theme-color-transparent, rgba(64, 123, 255, 0.3));
+            transition: box-shadow 0.3s ease;
+        }
+        
+        .lock-icon svg path {
+            transition: stroke 0.3s ease, fill 0.3s ease;
+        }
+        
+        .gesture-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .gesture-title {
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 10px;
+            background: linear-gradient(to right, #e0e0e0, #ffffff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 0.5px;
+        }
+        
+        .gesture-message {
+            font-size: 15px;
+            color: rgba(255, 255, 255, 0.7);
+            font-weight: 400;
+            transition: all 0.3s ease;
+        }
+        
+        .gesture-message.error {
+            color: #ff4757;
+        }
+        
+        .gesture-message.success {
+            color: #2ed573;
+        }
+        
+        .gesture-grid-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 100%;
+            margin: 0 auto 25px;
+        }
+        
+        .gesture-grid {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+            background-color: rgba(12, 24, 36, 0.4);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            touch-action: none;
+        }
+        
+        .dot-container {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            padding: 10%;
+        }
+        
+        .dot-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        
+        .dot {
+            width: 13px;
+            height: 13px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.3);
+            position: relative;
+            transition: all 0.2s ease;
+        }
+        
+        .dot::before {
+            content: "";
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            border-radius: 50%;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.3s ease;
+        }
+        
+        .dot.selected {
+            background-color: var(--theme-color, #407bff);
+            box-shadow: 0 0 10px var(--theme-color, #407bff), 0 0 20px var(--theme-color-transparent, rgba(64, 123, 255, 0.5));
+            transform: scale(1.3);
+        }
+        
+        .dot.selected::before {
+            border-color: var(--theme-color-transparent, rgba(64, 123, 255, 0.5));
+        }
+        
+        .line-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+        
+        .line {
+            position: absolute;
+            height: 2px;
+            background-color: var(--theme-color, #407bff);
+            top: 0;
+            left: 0;
+            transform-origin: 0 0;
+            box-shadow: 0 0 5px var(--theme-color-transparent, rgba(64, 123, 255, 0.8));
+        }
+        
+        .security-tip {
+            margin-top: 30px;
+            padding: 16px 20px;
+            background-color: rgba(12, 24, 36, 0.6);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 8px;
+            border-left: 3px solid var(--theme-color, #407bff);
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 14px;
+            line-height: 1.5;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            transition: border-color 0.3s ease;
+        }
+        
+        .security-tip-icon {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+        
+        .security-tip-icon path {
+            transition: stroke 0.3s ease;
+        }
+        
+        .security-tip strong {
+            color: #ffffff;
+        }
+        
+        .action-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            gap: 12px;
+        }
+        
+        .btn {
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-size: 15px;
+            font-weight: 500;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            outline: none;
+            letter-spacing: 0.3px;
+        }
+        
+        .btn-default {
+            background-color: rgba(255, 255, 255, 0.03);
+            color: rgba(255, 255, 255, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+        }
+        
+        .btn-default:hover {
+            background-color: rgba(255, 255, 255, 0.07);
+            color: rgba(255, 255, 255, 0.8);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(to right, var(--theme-color-dark, #3a7bd5), var(--theme-color, #407bff));
+            color: white;
+            box-shadow: 0 4px 10px var(--theme-color-transparent, rgba(64, 123, 255, 0.3));
+            transition: all 0.3s ease, background 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            box-shadow: 0 6px 15px var(--theme-color-transparent, rgba(64, 123, 255, 0.4));
+            transform: translateY(-1px);
+        }
+        
+        /* 动画效果 */
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 var(--theme-color-transparent, rgba(64, 123, 255, 0.4));
+            }
+            70% {
+                box-shadow: 0 0 0 10px rgba(64, 123, 255, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(64, 123, 255, 0);
+            }
+        }
+        
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+        
+        /* 模式切换区域 */
+        .mode-selector {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: rgba(12, 24, 36, 0.6);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 50px;
+            padding: 3px;
+            display: flex;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            z-index: 100;
+        }
+        
+        .mode-option {
+            padding: 8px 12px;
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.6);
+            cursor: pointer;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+        }
+        
+        .mode-option.active {
+            background-color: var(--theme-color, #407bff);
+            color: white;
+            box-shadow: 0 2px 6px var(--theme-color-transparent, rgba(64, 123, 255, 0.3));
+        }
+        
+        /* 主题选择器 */
+        .theme-selector {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: rgba(12, 24, 36, 0.6);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            z-index: 100;
+        }
+        
+        .theme-title {
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .theme-options {
+            display: flex;
+            gap: 8px;
+        }
+        
+        .theme-color {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .theme-color:hover {
+            transform: scale(1.1);
+        }
+        
+        .theme-color.active {
+            border-color: rgba(255, 255, 255, 0.9);
+            transform: scale(1.1);
+        }
+        
+        .theme-blue {
+            background: linear-gradient(to bottom right, #3a7bd5, #407bff);
+        }
+        
+        .theme-green {
+            background: linear-gradient(to bottom right, #0cad67, #2ed573);
+        }
+        
+        .theme-purple {
+            background: linear-gradient(to bottom right, #8e44ad, #9b59b6);
+        }
+        
+        .theme-red {
+            background: linear-gradient(to bottom right, #d63031, #ff4757);
+        }
+        
+        .theme-gold {
+            background: linear-gradient(to bottom right, #e1b12c, #fbc531);
+        }
+        
+        /* 响应式调整 */
+        @media (max-width: 400px) {
+            .container {
+                padding: 15px;
+            }
+            
+            .gesture-title {
+                font-size: 20px;
+            }
+            
+            .dot {
+                width: 12px;
+                height: 12px;
+            }
+            
+            .theme-selector {
+                top: auto;
+                bottom: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            
+            .theme-options {
+                justify-content: center;
+            }
+        }
+        
+        /* 主题变量 */
+        :root {
+            --theme-color: #407bff;
+            --theme-color-dark: #3a7bd5;
+            --theme-color-transparent: rgba(64, 123, 255, 0.4);
+            --bg-gradient-start: #1a1a2e;
+            --bg-gradient-end: #000000;
+        }
+        
+        /* 绿色主题 */
+        .theme-green-active {
+            --theme-color: #2ed573;
+            --theme-color-dark: #0cad67;
+            --theme-color-transparent: rgba(46, 213, 115, 0.4);
+            --bg-gradient-start: #0a2e1f;
+            --bg-gradient-end: #000000;
+        }
+        
+        /* 紫色主题 */
+        .theme-purple-active {
+            --theme-color: #9b59b6;
+            --theme-color-dark: #8e44ad;
+            --theme-color-transparent: rgba(155, 89, 182, 0.4);
+            --bg-gradient-start: #1e1a2e;
+            --bg-gradient-end: #000000;
+        }
+        
+        /* 红色主题 */
+        .theme-red-active {
+            --theme-color: #ff4757;
+            --theme-color-dark: #d63031;
+            --theme-color-transparent: rgba(255, 71, 87, 0.4);
+            --bg-gradient-start: #2a1a1d;
+            --bg-gradient-end: #000000;
+        }
+        
+        /* 金色主题 */
+        .theme-gold-active {
+            --theme-color: #fbc531;
+            --theme-color-dark: #e1b12c;
+            --theme-color-transparent: rgba(251, 197, 49, 0.4);
+            --bg-gradient-start: #2e280f;
+            --bg-gradient-end: #000000;
+        }
+    </style>
+</head>
+<body>
+    <!-- 背景效果 -->
+    <div class="background"></div>
+    <div class="security-grid"></div>
+    
+    <!-- 主题选择器 -->
+    <div class="theme-selector">
+        <div class="theme-title">主题颜色</div>
+        <div class="theme-options">
+            <div class="theme-color theme-blue active" data-theme="blue"></div>
+            <div class="theme-color theme-green" data-theme="green"></div>
+            <div class="theme-color theme-purple" data-theme="purple"></div>
+            <div class="theme-color theme-red" data-theme="red"></div>
+            <div class="theme-color theme-gold" data-theme="gold"></div>
+        </div>
+    </div>
+    
+    <!-- 模式切换按钮 -->
+    <div class="mode-selector">
+        <div id="mode-set" class="mode-option active">设置</div>
+        <div id="mode-verify" class="mode-option">验证</div>
+        <div id="mode-locked" class="mode-option">锁定</div>
+    </div>
+    
+    <div class="container">
+        <div class="lock-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 11H5C3.89543 11 3 11.8954 3 13V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V13C21 11.8954 20.1046 11 19 11Z" stroke="#407BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M7 11V7C7 5.67392 7.52678 4.40215 8.46447 3.46447C9.40215 2.52678 10.6739 2 12 2C13.3261 2 14.5979 2.52678 15.5355 3.46447C16.4732 4.40215 17 5.67392 17 7V11" stroke="#407BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 16C12.5523 16 13 15.5523 13 15C13 14.4477 12.5523 14 12 14C11.4477 14 11 14.4477 11 15C11 15.5523 11.4477 16 12 16Z" fill="#407BFF" stroke="#407BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        
+        <div class="gesture-header">
+            <h1 id="header-title" class="gesture-title">设置安全手势</h1>
+            <p id="message" class="gesture-message">请绘制解锁图案</p>
+        </div>
+        
+        <div class="gesture-grid-container">
+            <div class="gesture-grid" id="gesture-grid">
+                <!-- 9个点的容器 -->
+                <div class="dot-container" id="dot-container">
+                    <!-- 第一行 -->
+                    <div class="dot-wrapper"><div class="dot" data-index="0"></div></div>
+                    <div class="dot-wrapper"><div class="dot" data-index="1"></div></div>
+                    <div class="dot-wrapper"><div class="dot" data-index="2"></div></div>
+                    
+                    <!-- 第二行 -->
+                    <div class="dot-wrapper"><div class="dot" data-index="3"></div></div>
+                    <div class="dot-wrapper"><div class="dot" data-index="4"></div></div>
+                    <div class="dot-wrapper"><div class="dot" data-index="5"></div></div>
+                    
+                    <!-- 第三行 -->
+                    <div class="dot-wrapper"><div class="dot" data-index="6"></div></div>
+                    <div class="dot-wrapper"><div class="dot" data-index="7"></div></div>
+                    <div class="dot-wrapper"><div class="dot" data-index="8"></div></div>
+                </div>
+                
+                <!-- 连线容器 -->
+                <div class="line-container" id="line-container"></div>
+            </div>
+        </div>
+        
+        <div class="security-tip">
+            <svg class="security-tip-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#407BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 16V12" stroke="#407BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 8H12.01" stroke="#407BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <strong>安全提示：</strong>建议设置密码，深度保护您的隐私，每次离开本产品，将自动落锁！
+        </div>
+        
+        <div class="action-buttons">
+            <button id="btn-reset" class="btn btn-default">重置</button>
+            <button id="btn-confirm" class="btn btn-primary">确认</button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // 模式切换元素
+            const modeSet = document.getElementById('mode-set');
+            const modeVerify = document.getElementById('mode-verify');
+            const modeLocked = document.getElementById('mode-locked');
+            
+            // 界面元素
+            const headerTitle = document.getElementById('header-title');
+            const message = document.getElementById('message');
+            const btnReset = document.getElementById('btn-reset');
+            const btnConfirm = document.getElementById('btn-confirm');
+            const gestureGrid = document.getElementById('gesture-grid');
+            const dotContainer = document.getElementById('dot-container');
+            const lineContainer = document.getElementById('line-container');
+            const lockIcon = document.querySelector('.lock-icon');
+            const securityTipIcon = document.querySelector('.security-tip-icon path');
+            
+            // 主题选择器
+            const themeColors = document.querySelectorAll('.theme-color');
+            
+            // 手势相关变量
+            let currentPattern = [];
+            let firstPattern = [];
+            let isTouching = false;
+            let isConfirming = false;
+            let currentDotIndex = -1;
+            let currentMode = 'set'; // 'set', 'verify', 'locked'
+            let savedPattern = [];
+            let currentPoint = { x: 0, y: 0 };
+            let dotPositions = [];
+            
+            // 主题设置
+            function setTheme(theme) {
+                document.body.className = '';
+                if (theme !== 'blue') {
+                    document.body.classList.add(`theme-${theme}-active`);
+                }
+                
+                // 更新SVG颜色
+                const themeColorMap = {
+                    'blue': '#407BFF',
+                    'green': '#2ed573',
+                    'purple': '#9b59b6',
+                    'red': '#ff4757',
+                    'gold': '#fbc531'
+                };
+                
+                const themeColor = themeColorMap[theme];
+                
+                // 更新锁图标颜色
+                lockIcon.querySelectorAll('path').forEach(path => {
+                    path.setAttribute('stroke', themeColor);
+                    if (path.hasAttribute('fill') && path.getAttribute('fill') !== 'none') {
+                        path.setAttribute('fill', themeColor);
+                    }
+                });
+                
+                // 更新提示图标颜色
+                document.querySelectorAll('.security-tip-icon path').forEach(path => {
+                    path.setAttribute('stroke', themeColor);
+                });
+            }
+            
+            // 计算和存储点的位置
+            function calculateDotPositions() {
+                const dots = document.querySelectorAll('.dot');
+                dotPositions = [];
+                
+                dots.forEach((dot, index) => {
+                    const rect = dot.getBoundingClientRect();
+                    const gridRect = gestureGrid.getBoundingClientRect();
+                    
+                    dotPositions.push({
+                        index: index,
+                        x: rect.left + rect.width / 2 - gridRect.left,
+                        y: rect.top + rect.height / 2 - gridRect.top
+                    });
+                });
+            }
+            
+            // 窗口调整时重新计算点位置
+            window.addEventListener('resize', calculateDotPositions);
+            setTimeout(calculateDotPositions, 100);
+            
+            // 绘制线条
+            function drawLines() {
+                // 清除所有现有线条
+                lineContainer.innerHTML = '';
+                
+                if (currentPattern.length < 2) return;
+                
+                // 绘制连接选中点的线条
+                for (let i = 1; i < currentPattern.length; i++) {
+                    const prevIndex = currentPattern[i - 1];
+                    const currentIndex = currentPattern[i];
+                    
+                    if (prevIndex !== undefined && currentIndex !== undefined) {
+                        const prevDot = dotPositions[prevIndex];
+                        const currentDot = dotPositions[currentIndex];
+                        
+                        if (prevDot && currentDot) {
+                            // 计算线条长度
+                            const length = Math.sqrt(
+                                Math.pow(currentDot.x - prevDot.x, 2) + 
+                                Math.pow(currentDot.y - prevDot.y, 2)
+                            );
+                            
+                            // 计算角度
+                            const angle = Math.atan2(
+                                currentDot.y - prevDot.y, 
+                                currentDot.x - prevDot.x
+                            );
+                            
+                            // 创建线条元素
+                            const line = document.createElement('div');
+                            line.className = 'line';
+                            line.style.width = `${length}px`;
+                            line.style.left = `${prevDot.x}px`;
+                            line.style.top = `${prevDot.y}px`;
+                            line.style.transform = `rotate(${angle}rad)`;
+                            
+                            lineContainer.appendChild(line);
+                        }
+                    }
+                }
+                
+                // 如果正在触摸，绘制连接最后一个点到当前位置的线
+                if (isTouching && currentPattern.length > 0 && currentPoint.x && currentPoint.y) {
+                    const lastIndex = currentPattern[currentPattern.length - 1];
+                    const lastDot = dotPositions[lastIndex];
+                    const gridRect = gestureGrid.getBoundingClientRect();
+                    
+                    // 计算相对于网格的坐标
+                    const relativeX = currentPoint.x - gridRect.left;
+                    const relativeY = currentPoint.y - gridRect.top;
+                    
+                    // 计算线条长度
+                    const length = Math.sqrt(
+                        Math.pow(relativeX - lastDot.x, 2) + 
+                        Math.pow(relativeY - lastDot.y, 2)
+                    );
+                    
+                    // 计算角度
+                    const angle = Math.atan2(
+                        relativeY - lastDot.y, 
+                        relativeX - lastDot.x
+                    );
+                    
+                    // 创建线条元素
+                    const line = document.createElement('div');
+                    line.className = 'line';
+                    line.style.width = `${length}px`;
+                    line.style.left = `${lastDot.x}px`;
+                    line.style.top = `${lastDot.y}px`;
+                    line.style.transform = `rotate(${angle}rad)`;
+                    
+                    lineContainer.appendChild(line);
+                }
+            }
+            
+            // 更新点的选中状态
+            function updateDots() {
+                const dots = document.querySelectorAll('.dot');
+                
+                dots.forEach((dot, index) => {
+                    if (currentPattern.includes(index)) {
+                        dot.classList.add('selected');
+                    } else {
+                        dot.classList.remove('selected');
+                    }
+                });
+            }
+            
+            // 检查是否触碰到点
+            function checkTouchedDot(x, y) {
+                const gridRect = gestureGrid.getBoundingClientRect();
+                const relativeX = x - gridRect.left;
+                const relativeY = y - gridRect.top;
+                
+                for (let i = 0; i < dotPositions.length; i++) {
+                    const dot = dotPositions[i];
+                    const distance = Math.sqrt(
+                        Math.pow(relativeX - dot.x, 2) + 
+                        Math.pow(relativeY - dot.y, 2)
+                    );
+                    
+                    // 如果在点的范围内且尚未选中
+                    if (distance < 25 && !currentPattern.includes(i)) {
+                        return i;
+                    }
+                }
+                
+                return -1;
+            }
+            
+            // 重置手势状态
+            function resetGesture() {
+                currentPattern = [];
+                updateDots();
+                drawLines();
+                message.className = 'gesture-message';
+            }
+            
+            // 显示错误消息
+            function showError(msg) {
+                message.textContent = msg;
+                message.className = 'gesture-message error';
+                
+                setTimeout(() => {
+                    resetGesture();
+                    
+                    if (currentMode === 'set') {
+                        if (isConfirming) {
+                            isConfirming = false;
+                            message.textContent = '请重新绘制解锁图案';
+                        } else {
+                            message.textContent = '请绘制解锁图案';
+                        }
+                    } else if (currentMode === 'verify' || currentMode === 'locked') {
+                        message.textContent = '请输入解锁图案';
+                    }
+                    
+                    message.className = 'gesture-message';
+                }, 1000);
+            }
+            
+            // 显示成功消息
+            function showSuccess(msg) {
+                message.textContent = msg;
+                message.className = 'gesture-message success';
+            }
+            
+            // 处理手势完成
+            function handleGestureComplete() {
+                if (currentPattern.length < 4) {
+                    showError('图案太简单，至少连接4个点');
+                    return;
+                }
+                
+                if (currentMode === 'set') {
+                    if (!isConfirming) {
+                        // 第一次设置
+                        firstPattern = [...currentPattern];
+                        isConfirming = true;
+                        message.textContent = '请再次绘制相同的图案';
+                        setTimeout(() => {
+                            resetGesture();
+                        }, 500);
+                    } else {
+                        // 确认密码
+                        if (JSON.stringify(currentPattern) === JSON.stringify(firstPattern)) {
+                            showSuccess('手势密码设置成功');
+                            savedPattern = [...currentPattern];
+                            
+                            // 保存到本地存储
+                            localStorage.setItem('gesturePattern', JSON.stringify(savedPattern));
+                            
+                            // 延迟后切换到验证模式
+                            setTimeout(() => {
+                                setMode('verify');
+                            }, 1500);
+                        } else {
+                            showError('两次图案不一致，请重新设置');
+                            isConfirming = false;
+                        }
+                    }
+                } else if (currentMode === 'verify' || currentMode === 'locked') {
+                    // 验证模式
+                    if (JSON.stringify(currentPattern) === JSON.stringify(savedPattern)) {
+                        showSuccess('验证成功');
+                        
+                        if (currentMode === 'locked') {
+                            setTimeout(() => {
+                                setMode('verify');
+                                lockIcon.classList.remove('pulse');
+                            }, 1000);
+                        }
+                    } else {
+                        showError('图案错误，请重试');
+                    }
+                }
+            }
+            
+            // 设置模式
+            function setMode(mode) {
+                currentMode = mode;
+                resetGesture();
+                isConfirming = false;
+                
+                // 移除所有活动类
+                document.querySelectorAll('.mode-option').forEach(opt => {
+                    opt.classList.remove('active');
+                });
+                
+                // 设置活动模式
+                if (mode === 'set') {
+                    modeSet.classList.add('active');
+                    headerTitle.textContent = '设置安全手势';
+                    message.textContent = '请绘制解锁图案';
+                    btnReset.textContent = '重置';
+                    btnConfirm.textContent = '确认';
+                } else if (mode === 'verify') {
+                    modeVerify.classList.add('active');
+                    headerTitle.textContent = '验证安全手势';
+                    message.textContent = '请输入解锁图案';
+                    btnReset.textContent = '忘记密码';
+                    btnConfirm.textContent = '验证';
+                } else if (mode === 'locked') {
+                    modeLocked.classList.add('active');
+                    headerTitle.textContent = '安全锁定';
+                    message.textContent = '请输入手势密码解锁';
+                    btnReset.textContent = '忘记密码';
+                    btnConfirm.textContent = '解锁';
+                    lockIcon.classList.add('pulse');
+                }
+            }
+            
+            // 触摸事件处理
+            function handleTouchStart(e) {
+                e.preventDefault();
+                
+                // 如果已确认设置，则跳过
+                if (currentMode === 'set' && isConfirming && currentPattern.length > 0) return;
+                
+                resetGesture();
+                isTouching = true;
+                
+                const touch = e.touches[0];
+                currentPoint = { x: touch.clientX, y: touch.clientY };
+                
+                // 检查是否触碰到点
+                const dotIndex = checkTouchedDot(touch.clientX, touch.clientY);
+                if (dotIndex !== -1) {
+                    currentPattern.push(dotIndex);
+                    updateDots();
+                }
+            }
+            
+            function handleTouchMove(e) {
+                if (!isTouching) return;
+                e.preventDefault();
+                
+                const touch = e.touches[0];
+                currentPoint = { x: touch.clientX, y: touch.clientY };
+                
+                // 检查是否触碰到新的点
+                const dotIndex = checkTouchedDot(touch.clientX, touch.clientY);
+                if (dotIndex !== -1) {
+                    if (!currentPattern.includes(dotIndex)) {
+                        currentPattern.push(dotIndex);
+                        updateDots();
+                    }
+                }
+                
+                // 更新连线
+                drawLines();
+            }
+            
+            function handleTouchEnd(e) {
+                if (!isTouching) return;
+                e.preventDefault();
+                
+                isTouching = false;
+                currentPoint = { x: 0, y: 0 };
+                
+                // 处理手势完成
+                if (currentPattern.length > 0) {
+                    handleGestureComplete();
+                }
+                
+                // 更新最终的连线状态
+                drawLines();
+            }
+            
+            // 添加触摸事件监听
+            gestureGrid.addEventListener('touchstart', handleTouchStart);
+            gestureGrid.addEventListener('touchmove', handleTouchMove);
+            gestureGrid.addEventListener('touchend', handleTouchEnd);
+            
+            // 鼠标事件（用于桌面端测试）
+            gestureGrid.addEventListener('mousedown', function(e) {
+                e.preventDefault();
+                
+                // 模拟触摸事件
+                const touchEvent = {
+                    preventDefault: () => {},
+                    touches: [{ clientX: e.clientX, clientY: e.clientY }]
+                };
+                
+                handleTouchStart(touchEvent);
+                
+                // 添加鼠标移动和抬起事件
+                document.addEventListener('mousemove', handleMouseMove);
+                document.addEventListener('mouseup', handleMouseUp);
+            });
+            
+            function handleMouseMove(e) {
+                e.preventDefault();
+                
+                // 模拟触摸事件
+                const touchEvent = {
+                    preventDefault: () => {},
+                    touches: [{ clientX: e.clientX, clientY: e.clientY }]
+                };
+                
+                handleTouchMove(touchEvent);
+            }
+            
+            function handleMouseUp(e) {
+                e.preventDefault();
+                
+                // 模拟触摸事件
+                const touchEvent = {
+                    preventDefault: () => {},
+                    touches: []
+                };
+                
+                handleTouchEnd(touchEvent);
+                
+                // 移除鼠标事件监听
+                document.removeEventListener('mousemove', handleMouseMove);
+                document.removeEventListener('mouseup', handleMouseUp);
+            }
+            
+            // 按钮事件处理
+            btnReset.addEventListener('click', function() {
+                if (currentMode === 'set') {
+                    resetGesture();
+                    isConfirming = false;
+                    message.textContent = '请绘制解锁图案';
+                } else {
+                    if (confirm('确定要重置手势密码吗？')) {
+                        setMode('set');
+                        localStorage.removeItem('gesturePattern');
+                        savedPattern = [];
+                    }
+                }
+            });
+            
+            btnConfirm.addEventListener('click', function() {
+                if (currentPattern.length > 0) {
+                    handleGestureComplete();
+                } else {
+                    showError('请先绘制手势图案');
+                }
+            });
+            
+            // 模式切换事件
+            modeSet.addEventListener('click', function() {
+                setMode('set');
+            });
+            
+            modeVerify.addEventListener('click', function() {
+                if (savedPattern.length > 0) {
+                    setMode('verify');
+                } else {
+                    alert('请先设置手势密码');
+                    setMode('set');
+                }
+            });
+            
+            modeLocked.addEventListener('click', function() {
+                if (savedPattern.length > 0) {
+                    setMode('locked');
+                } else {
+                    alert('请先设置手势密码');
+                    setMode('set');
+                }
+            });
+            
+            // 主题切换
+            themeColors.forEach(color => {
+                color.addEventListener('click', function() {
+                    const theme = this.getAttribute('data-theme');
+                    
+                    // 移除所有活动类
+                    themeColors.forEach(c => c.classList.remove('active'));
+                    
+                    // 添加当前活动类
+                    this.classList.add('active');
+                    
+                    // 设置主题
+                    setTheme(theme);
+                    
+                    // 保存主题选择
+                    localStorage.setItem('gestureTheme', theme);
+                });
+            });
+            
+            // 初始化
+            function init() {
+                // 尝试从本地存储加载保存的图案
+                const savedPatternString = localStorage.getItem('gesturePattern');
+                if (savedPatternString) {
+                    savedPattern = JSON.parse(savedPatternString);
+                    setMode('verify');
+                } else {
+                    setMode('set');
+                }
+                
+                // 尝试加载保存的主题
+                const savedTheme = localStorage.getItem('gestureTheme');
+                if (savedTheme) {
+                    const themeColor = document.querySelector(`.theme-color[data-theme="${savedTheme}"]`);
+                    if (themeColor) {
+                        themeColor.click();
+                    }
+                }
+                
+                // 计算点位置
+                calculateDotPositions();
+            }
+            
+            // 执行初始化
+            init();
+        });
+    </script>
+</body>
+</html>

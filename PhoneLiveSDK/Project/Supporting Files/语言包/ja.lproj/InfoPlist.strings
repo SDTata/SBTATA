@@ -1,0 +1,1628 @@
+/* 
+  Info.strings
+  yunbaolive
+
+  Created by IOS1 on 2019/2/26.
+  Copyright © 2019 cat. All rights reserved.
+*/
+
+//连尾下注翻译需要特别修复 后台
+// 蓝方胜 红方胜 后台数据需要匹配
+//"GameListVC_lotteryTitle" = "彩票"; //containsString 特殊处理
+
+
+//图片不需要翻译文字。
+"public_kefuIcon" = "ja_ic_kefu"; //图片
+"public_fans_follow_Icon" = "ja_fans_follow"; //图片
+"public_fans_followed_Icon" = "ja_fans_followed"; //图片
+//Hotpage
+"Hotpage_zxggIcon" = "ja_img_zxgg";//图片
+//FirstInvestAlert
+"FirstInvestAlert_GoCharge_BT" = "ja_charge_gift"; //图片
+"FirstInvestAlert_ChargeBgImgV" = "ja_charge_gift_bg";//图片
+//RotaionRecordVC
+"RotaionRecordVC_recordAll_N" = "ja_dajl_n";//图片
+"RotaionRecordVC_recordAll_S" = "ja_djjl_s";//图片
+"RotaionRecordVC_recordMy_N"  = "ja_wdjl_n";//图片
+"RotaionRecordVC_recordMy_S"  = "ja_wdjl_s";//图片
+//RotationDescVC
+"RotationDescVC_ImgBg" = "ja_jcgzbg";//图片
+
+//RotationResultVC
+"RotationResultVC_bgImgV" = "ja_zjresultbg";//图片
+//RotationVC
+"RotationVC_topTitleImgV" = "ja_jczjzz"; //图片
+"RotationVC_giftRecordButton" = "ja_zjjl"; //图片
+"RotationVC_giftRuleButton" = "ja_jcgz";//图片
+//TYRotaryView
+"TYRotaryView_jcdjcj" = "ja_jcdjcj"; //图片
+
+//RotationNothingVC
+"RotationNothingVC_Nothing" = "ja_rotaionResultNothing";//图片
+"RotationNothingVC_Confirm" = "ja_zjresultsure";
+//LotteryBarrageView
+"LotteryBarrageView_daxianshenshou" = "ja_daxianshenshou";//图片
+"LotteryBarrageView_yimingjinren" = "ja_yimingjinren";//图片
+"LotteryBarrageView_shouqinitian" = "ja_shouqinitian";//图片
+//guardListCell
+"guardListCell_guard_low" = "ja_guard_low";//图片
+"guardListCell_guard_heig" = "ja_guard_heig";//图片
+//guardShowView
+"guardShowView_GuardStar" = "ja_guard_star";//图片
+"guardShowView_GuardEmpty" = "ja_GuardEmpty";//图片
+
+//searchVC
+"searchVC_empty" = "ja_search_empty";//图片
+//giftCell
+"giftCell_haoIcon" = "ja_gift_rich";//图片
+"giftCell_hotIcon" = "ja_gift_hot";//图片
+"giftCell_guardIcon" = "ja_gift_guard";//图片
+//chatModel
+"chatModel_chat_shou" = "ja_chat_shou_month";//图片
+"chatModel_chat_system" = "ja_chat_system";//图片
+"chatModel_chat_follow_game" = "ja_chat_follow_game";//图片
+"chatModel_chat_shou_year" = "ja_chat_shou_year";//图片
+"chatModel_chat_win" = "ja_chat_win";//图片
+"chatModel_chat_follow_bet" = "ja_chat_follow_bet";//图片
+"chatModel_chat_liang" = "ja_chat_liang";//图片
+"chatModel_chat_admin" = "ja_chat_admin";//图片
+"chatModel_chat_dividend" = "ja_chat_dividend";//图片
+"chatModel_chat_translate" = "ja_translate_btn";//图片
+
+//redBagView
+"redBagView_DelayTimeIcon" = "ja_DelayTimeIcon"; //图片
+"redBagView_rightNowIcon" = "ja_rightNowIcon";  //图片
+//LiveContactView
+"LiveContactView_ContactGetIcon" = "ja_anchor_get"; //图片'
+
+//YBSetListCell
+"YBSetListCell_updateBtnIcon" = "ja_btn_gx";//图片
+//OpenAwardViewController
+"OpenAwardVC_RightWin"= "ja_nn_red_win";//图片
+"OpenAwardVC_LeftWin" = "ja_nn_blue_win";//图片
+//GameListViewController
+"GameListVC_txjl" = "ja_icon_txjl";//图片
+//HotCollectionViewCell
+"HotCollectionViewCell_Nomal_Room" = "ja_live_normal";//图片
+"HotCollectionViewCell_PWD_Room" = "ja_live_password";//图片
+"HotCollectionViewCell_Pay_Room" = "ja_live_pay";//图片
+"HotCollectionViewCell_Time_Room" = "ja_live_timer";//图片
+"copyID" = "ja_copyID";
+"docoasessssimage" = "ja_docoasessssimage.jpg";
+"LotteryAwardVC_lottery_reward_bgImg" = "ja_lottery_reward";
+"home_tgzq" = "ja_home_tgzq";
+"img_zwsj" = "ja_img_zwsj";
+"liveShare_" = "ja_liveShare_";
+"logFirst_成功" = "ja_logFirst_success";
+"logFirst_headerImg" = "ja_logFirst_headerImg";
+"bjl_title_player_img" = "bjl_player";
+"bjl_title_banker_img" = "bjl_banker";
+
+"lh_title_dragon_img" = "dragan";
+"lh_title_tiger_img" = "tiger";
+
+
+//////////////////////////////////////////下面需要翻译中文文字/////////////////////////////////////////
+NSCameraUsageDescription = "カメラにアクセスして、ライブ配信とビデオ録画を許可する";
+NSLocationWhenInUseUsageDescription = "位置情報にアクセスして、近くの人のライブ配信や動画の視聴を許可する";
+NSMicrophoneUsageDescription = "マイクにアクセスして、録音を許可する";
+NSPhotoLibraryAddUsageDescription = "アルバムを読み込み、アルバムの画像をサーバーにアップロードすることを許可する";
+NSPhotoLibraryUsageDescription = "アルバムにアクセスして、動画のアルバムへの保存を許可する";
+NSUserTrackingUsageDescription = "正常に使用するためにアクティビティの追跡の許可を求めています";
+NSBluetoothAlwaysUsageDescription = "アプリは Bluetooth を使用してデバイスを接続します";
+NSFaceIDUsageDescription = "デバイスのFaceIDアクセスを許可する";
+
+
+//システム言語
+"zh-Hans"  = "中文简体";
+"zh-Hant"  = "中文繁體";
+"en" = "English";
+"ja" = "日本語";
+"vi" = "Tiếng Việt";
+"id" = "Bahasa Indonesia";
+
+//app起動 /この一部分は強制的に翻訳することができる
+"activity_login_connectkefu1" = "カスタマーサポートに連絡する";
+"launchAppP_islauching" = "起動しています、少しお待ちください";
+"launchAppP_logscopy" = "ログをコピーします";
+"launchAppP_domainCheckingLine2" = "回線２に接続します";
+"launchAppP_LineReadyGet" = "回線に要求を開始します";
+"launchAppP_Line2ErrorMoretime" = "回線２の接続に複数回失敗し、タイムアウトになりました";
+"launchAppP_Line2timeOutCantGet" = "回線2がタイムアウトになりました。接続できません";
+"launchAppP_Line2SuccessBack" = "回線2のDNSの速度測定に成功しました";
+"launchAppP_Line2DomainError" = "回線2の速度測定に失敗しました";
+"launchAppP_Line2AnalyseLocation"  = "地理情報の取得を開始します";
+"launchAppP_LocationHaveCache" = "地理情報のキャッシュが存在しています";
+"launchAppP_Line2AnalyseBegain" = "回線２の分析を開始します";
+"launchAppP_Line2SuccessAnalyseError" = "回線２に戻りました。解析に失敗しました";
+"launchAppP_readyCheck" = "検査します";
+"launchAppP_noNetwork" = "インターネットに接続されていません。インターネット接続を確認してください";
+"launchAppP_Line1timeOutCantGet" = "回線1がタイムアウトしました。接続できません";
+"launchAppP_domainCheckingError" = " DNSの速度測定に失敗しました。もう一度開始します";
+"launchAppP_readyDomainChecking" = "速度測定を開始します";
+"launchAppP_domainCheckEnd" = "速度測定が終わりました";
+"launchAppP_Line1DomainError" = "回線１のDNSの速度測定に失敗しました";
+"launchAppP_Line2SuccessGetCallback" = "回線２に戻りました";
+"launchAppP_Line1SuccessBack" = "回線１のDNSの速度測定に成功しました";
+"launchAppP_domainCheckingRetry" = "もう一度検査を開始します";
+"launchAppP_domainCheckingSpeedReady"="速度測定を開始します";
+"launchAppP_AnalyseSpeedSuccessReady"="速度測定に成功しました。検査を開始します";
+"launchAppP_Line2AnalyseLocationSuccess"="地理情報の照会に成功しました";
+
+
+"Illegal_request"="Illegal request";
+
+
+//パブリックパラメータ
+"publictool_copy_success" = "コピー成功";
+"public_warningAlert" = "通知";
+"publictool_copy" = "コピー";
+"publictool_sure" = "決定";
+"public_cancel" = "キャンセル";
+"public_manage" = "管理";
+"public_timeFormat1" = "YYYY-MM-dd HH:mm";
+"public_networkError" = "インターネットが異常です。少しお待ちください";
+"public_close" = "閉じる";
+"public_retryAgain" = "再実行";
+"public_back" = "戻る";
+"public_systemMsgTitle" = "システム通知";
+"public_noEmpty" = "データがありません";
+"public_loadMore_loading"= "データを読み込んでいます...";
+"public_loadMore_noMore" = "これ以上ありません~";
+"Bet_Charge_Title" = "チャージ";
+"public_WithDraw" = "引き出し";
+"public_WithDraw_creator" = "クリエイター報酬";
+"public_errorReson" = "エラー";
+"public_fans" = "ファン";
+"public_liang" = "美しい";
+"public_itemMsg" = "本";
+"public_Save" = "保存";
+"public_Day" = "日";
+"public_like" = "いいねをもらう";
+//ログイン画面
+"version_update" = "バージョン更新";
+
+"version_updateNow" = "更新";
+"version_newversion_title" = "新バージョンあり";
+"version_newversion_now" = "すでに最新バージョンです";
+
+
+"loginActivity_switchstandbyline" = "予備回線を開いています";
+"loginActivity_switchdefaltline" = "既定の回線に切り替えています";
+"loginActivity_switchLinesuccess" = "回線の切り替えが完了しました";
+"loginActivity_logsCopySuccess" = "ログのコピーに成功しました";
+"loginActivity_sendmsgcode" = "送信";
+"loginActivity_login_ing" = "ログイン中..";
+"loginActivity_sendingcodewarning" = "認証コードを送信しています。クリックしないでください。";
+"loginActivity_sendingcodetimeoutretry" = "送信がタイムアウトになりました。もう一度送信してください";
+"loginActivity_reg_input_phone" = "携帯電話番号を入力してください";
+"loginActivity_sendingcode" = "送信中...";
+"loginActivity_resend" = "再送信";
+"loginActivity_sendsuccess" = "送信成功";
+"loginActivity_senderrorretry" = "送信失敗しました、しばらくしてから再試行してください!";
+"loginActivity_login_input_phone" = "携帯電話番号を入力してください";
+"loginActivity_login_input_email" = "メールアドレスを入力してください";
+"loginActivity_login_input_userName" = "ユーザー名を入力してください";
+"loginActivity_login_input_pwd" = "認証コードを入力してください";
+"loginActivity_login_warning" = "ログインしています、クリックしないでください";
+"loginActivity_login_error" = "ログインに失敗しました。インターネットの接続を確認してください";
+"activity_login_phoneLogin" = "携帯電話番号でログイン";
+"activity_login_emailLogin" = "メールでログイン";
+"activity_login_userName" = "ユーザー名でログイン";
+"activity_login_guestLogin" = "ゲストログイン";
+"activity_login_privateServer" = "ログイン、登録を行った場合、「ユーザー登録サービス契約」および「プライバシーポリシー」に同意したものとみなされます";
+"activity_login_country_region" = "国/地区";
+"activity_login_country_region1" = "国と地区";
+
+"activity_login_inputPhoneNum" = "携帯電話番号を入力してください";
+"activity_login_inputEmail" = "メールアドレスを入力してください";
+"activity_login_inputcode" = "認証コード";
+"activity_login_inputPassword" = "パスワード";
+"activity_login_login" = "ログイン";
+"activity_login_loginAndRegister" = "ログイン/登録";
+"activity_login_connectkefu" = "サービス员";
+"activity_charge_connectkefu" = "充電に問題？";
+"activity_login_loginproblem" = "登録時の問題？";
+"activity_login_standbyline" = "予備回線:";
+"activity_login_versionTitle" = "バージョン番号";
+"login_tip_2" = "サービスとプライバシー条項";
+"login_phone_error" = "正しい携帯電話番号を入力してください";
+"login_email_error" = "正しいメールアドレスを入力してください";
+"activity_login_changeLoginMethod" = "ログイン方法を変更する";
+
+//携帯電話番号を紐付ける
+"activity_bind_phone_number_bindphonetitle" = "携帯電話番号を登録してください。";
+"activity_bind_phone_number_bindphonesubtitle" = "携帯電話番号を登録すると、お金の出し入れがスムーズにできます。";
+"activity_bind_phone_number_phone" = "携帯電話";
+"activity_bind_phone_number_Login" = "，直接ログインしますか？";
+"activity_bind_phone_number_bindEmailTitle" = "あなたのメールアドレスをバインドする";
+"activity_bind_phone_number_bindEmailSubtitle" = "ご入金と引き出しの便宜のため、メールアドレスをバインドしてください";
+"activity_bind_phone_number_Email" = "メール";
+
+//TaskVC
+"taskTitleString" = "宝箱ミッション";
+"taskEmptyString" = "現在イベントはありません";
+"taskgofinish" = "達成しに行く";
+"taskfinished" = "達成済み";
+"tasktoget" = "受け取る";
+"task_time" = "時間";
+"task_reward_title" = "「報酬センター」";
+"task_reward_bet" = "ベット";
+"task_reward_level" = "レベル";
+"task_reward_backwater" = "「リアルタイムリベート」";
+"task_reward_backwater_rate" = "「リベート率」";
+"task_reward_backwater_amount" = "支出または有効な賭け金";
+"task_reward_backwater_limit" = "キャッシュバック上限";
+"task_reward_backwater_about" = "「機能紹介」";
+"task_reward_draw_success" = "正常に受信されました";
+"task_reward_sign_success" = "サインインに成功しました";
+"task_reward_backwater_tip1" = "「リアルタイム リベートは、プレイヤーの注文統計に基づいたインスタント リベート メカニズムです。プレイヤーは、条件が満たされるとすぐにリベート金額を受け取ることができ、より多くの特典や特典を享受できます。」";
+"task_reward_backwater_tip2" = "\n\n1. 計算方法";
+"task_reward_backwater_tip3" = "\n     リベート金額は決済された注文に基づいて計算されます。";
+"task_reward_backwater_tip4" = "\n2. 収集方法";
+"task_reward_backwater_tip5" = "\n     金額の 50% が残高に追加され、金額の 50% が 3 回に分けられ、4 時間ごとに 1 回ずつ受け取ることができます。";
+"task_reward_backwater_tip6" = "\n3. 収集間隔";
+"task_reward_backwater_tip7" = "\n     各収集の間隔は 20 分です。";
+"task_reward_backwater_tip8" = "\n4. リベート率";
+"task_reward_backwater_tip9" = "\n     リベート率はキングレベルとゲームタイプに関連しています。";
+"task_reward_alert_tip" = "取得おめでとうございます";
+"task_reward_alert_title" = "報酬";
+"task_reward_alert_success" = "報酬を正常に受け取りました";
+"skit_home_record" = "視聴記録";
+
+"livetaskTitleString" = "キャストミッション";
+
+//PayWaitConfirmViewController
+
+"pay_wait_page_back" = "トップページに戻る";
+"pay_wait_page_des" ="財務チェック中\n3～5分以内に入金されない場合、カスタマーサポートに連絡してください";
+
+//PayChannelViewController
+"PayChanne_title" = "お支払い方法";
+
+//PayReqViewController
+
+"PayReq_chargeNow" = "今すぐにチャージ";
+"PayReq_warning"="注意事項:振込先情報は不定期に更新されますので、送金前に最新の口座番号をご確認の上、送金してください。";
+
+//RechargePopView
+"RechargePop_Warning"="チャージ時のご注意";
+"RechargePop_bindPhoneTitle"="アカウントのセキュリティのために、携帯電話番号を登録してください！";
+"RechargePop_bindPhone"="携帯電話を登録して";
+"RechargePop_ChargeContinue"="チャージを続ける";
+
+//PayInsteadViewController
+"PayInstead_accountTitle"="チャージアカウント：";
+"PayInstead_tipwarning"="当社の振込先情報は不定期に更新されますので、振込先情報を保存しないでください。。\n送金しは「チャージ」のページを開いて、最新の振込先情報をコピーしてお金を振り込んでください。";
+
+
+//PayInsteadCollectionViewCell
+"PayInsteadCell_installQQ"="まずQQを携帯電話にインストールしてください";
+"PayInsteadCell_desTitle"="説明";
+"PayInsteadCell_desQQDetail"="\n代理人のQQ番号をコピーしました\nQQを開いて代理人を追加してチャージを完了してください\n決定をクリックすると自動的に移動します\n";
+"PayInsteadCell_installWechat"="まず携帯電話にWeChatをインストールしてください";
+"PayInsteadCell_desWechatDetail"="\n代理人のWeChat番号をコピーしました\nWeChatを開いて代理人を追加してチャージを完了してください\n決定をクリックすると自動的に移動します\n";
+"PayInsteadCell_installAlipay" = "まず携帯電話にアリペイをインストールしてください";
+"PayInsteadCell_desAlipayDetail" = "\n代理人のアリペイ番号をコピーしました\nアリペイを開いて代理人を追加してチャージを完了してください\n決定をクリックすると自動的に移動します\n";
+"PayInsteadCell_canPayamount"="利用可能限度額：";
+"PayInsteadCell_contactNow"="すぐに連絡する";
+
+//PayAmountViewController
+"PayAmount_Range_%@%@_%@%@" = "チャージ可能区間%1$@%2$@-%3$@%4$@";
+
+"PayAmount_giftRule1_%@%.1f_%@%.1f_%@%.1f" = "チャージする度%1$@%2$.1f %3$@%4$.1fプレゼント 最高%5$@%6$.1f";
+"PayAmount_giftRule2_%.2f_%@%.1f"="チャージボーナス%1$.2f%% 最高%2$@%3$.1f";
+
+"PayAmount_giftRule3_%@%@_%@%@" = "チャージする度%1$@%2$@ %3$@%4$@プレゼント";
+
+
+"PayAmount_giftRule3%@%@"="%1$@%2$@獲得できます";
+"PayAmount_chargeTitle" = "金額";
+"PayAmount_input_charge_amount" = "金額入力";
+
+//PayTransferViewController
+"Transfer_nameTitle" = "送金者氏名";
+"Transfer_leaveMsg" = "送金メッセージ";
+"Transfer_nameplaceholder" = "送金者の氏名を入力してください";
+"Transfer_optionalplaceholder" = "記入";
+
+//PayTransferCollectionViewCell
+"Transfer_bankNumberTitle" = "銀行口座番号";
+"Transfer_bankUserNameTitle" = "受取人氏名";
+"Transfer_bankNameTitle" = "銀行名";
+"Transfer_bankPlaceTitle" = "支店名";
+
+//PayViewController
+"PayVC_Title"= "チャージセンター";
+"PayVC_AlertDestitle"="重要説明";
+"PayVC_AlertImportDestitle"="注意事項";
+"PayVC_AlertImportDetail" = "\nお金を振り込んだ後完了してください\n\n";
+"PayVC_finishedtransfer" = "振り込みが完了しました";
+"PayVC_noTransfer" = "お金が振り込まれていません";
+"PayVC_OrderError" = "完了できませんでした。しばらくしてから再度実行してください";
+"PayVC_TransferResultTitle" = "\振込結果\n\n";
+"PayVC_PaySuccess" = "支払い成功";
+"PayVC_PayError" = "支払い失敗";
+"PayVC_BalanceTitle" = "私の残高";
+"PayVC_Record" = "記録";
+"PayVC_ChargeAmount" = "直接チャージ金額";
+"PayVC_PwdAlertTitle" = "ウォレットファンドのパスワード";
+"PayVC_PwdAlertTip" = "ウォレットファンドのパスワードを入力してください";
+
+"chargeMoney2" = "チャージ";
+
+//BetOptionCollectionViewCell2
+"BetOption2_errorAlert" = "サポートされていない宝くじは最新版に更新してください";
+
+//OpenAwardCollectionViewCell
+"OpenAward_dateTitle" = "期";
+
+//CommonCollectionViewController2
+"CommonCollectionVC2_selected %ld Warning" ="最大%1$d個の番号を選択できます~";
+
+//CommonPageViewController
+"CommonPageVC_notitle" = "タイトルなし";
+
+//LobbyBetConfirmCollectionViewCell
+
+"LobbyBetCell_Unit_Count" = "組";
+"LobbyBetCell_double_total"="%1$@倍  合";
+
+"LobbyBetCell_double_total11"="組  合";
+
+//LobbyBetConfirmViewController
+
+"LobbyBet_name%@_date%@_Alert" = "%1$@-ナンバーは　に更新されました%2$@";
+"LobbyBet_name%@_date%@_second%@timeTi" = "%1$@-第%2$@期 取引停止まで:%3$@";
+"LobbyBet_name%@_date%@_endbet" = "%1$@-第%2$@期 取引は停止しました";
+"LobbyBet_name%@_date%@_betOpening" = "%1$@-第%2$@期 抽選中";
+"LobbyBet_selecte_Warning" = "最低一つ掛け金を選択してください";
+"LobbyBet_changeBet" = "Betを変更する";
+"LobbyBet_MinMoneyBet%@" = "最低Bet金額は1%1$@";
+"LobbyBet_RangeBetMoney" = "Bet金額の範囲を設定する";
+"LobbyBet_ClearAll" = "空にする";
+"LobbyBet_betContent" = "掛け金内訳";
+"LobbyBet_DeleteTip" = "これが最後です。全部消すことはできません~";
+"LobbyBetConfirm_title" = "Bet金額を確定する";
+"LobbyBetConfirm_balance" = "残高";
+
+//LobbyLotteryVC
+"LobbyLotteryVC_UpdateDate" ="現在のナンバーは　に更新されました";
+"LobbyLotteryVC_UpdateError" = "宝くじの情報を取得できませんでした😭";
+
+"LobbyLotteryVC_selectedCount%@_total%@%@_profit%@%@" = "%1$@組選択済み、合計%2$@%3$@、注文ごとに獲得予定%4$@%5$@";
+"LobbyLotteryVC2_selectedCount%@_total%@%@_profit1%@_profit2%@%@" = "%1$@組選択済み、合計%2$@%3$@、注文ごとに獲得予定%4$@~%5$@%6$@";
+
+//上の文字列を分割してリッチテキストとして色付けする
+"LobbyLotteryVC_selectedCount1" = "組選択済み";
+"LobbyLotteryVC_selectedCount2" = "、合計";
+"LobbyLotteryVC_selectedCount3%@" = "%1$@、注文ごとに獲得予定";
+
+"LobbyLotteryVC3_selectedCount%ld_scale%ld_profit%.1f%@" = "合計%1$ld注%2$ld倍、%3$.1f%4$@獲得予定";
+"LobbyLotteryVC_betEnd" = "取引停止中";
+"LobbyLotteryVC_betOpen" = "抽選中";
+"LobbyLotteryVC_Stay_tuned_for" = "ご期待ください~";
+"LobbyLotteryVC_betHistory" = "掛け金履歴";
+"LobbyLotteryVC_betExplain" = "遊び方説明";
+"LobbyLotteryVC_Bleuberi" = "ブルーベリー";
+"LobbyLotteryVC_Lemon" = "レモン";
+"LobbyLotteryVC_Ceri" = "チェリー";
+
+"lobby_big" = "大";
+"lobby_small" = "小";
+"lobby_single" = "単";
+"lobby_double" = "ダブル";
+"points" = "ポイント";
+
+"lottery_trend_xiao" = "S";
+"lottery_trend_da" = "B";
+"lottery_trend_dan" = "S";
+"lottery_trend_shuang" = "D";
+"lottery_trend_long" = "D";
+"lottery_trend_hu" = "T";
+"lottery_trend_hong" = "R";
+"lottery_trend_hei" = "B";
+"lottery_trend_lan" = "B";
+"lottery_trend_lv" = "G";
+"lottery_trend_xian" = "P";
+"lottery_trend_zhuang" = "B";
+"lottery_trend_ning" = "L";
+"lottery_trend_ying" = "C";
+
+"LobbyLotteryVC_bet_balance_Error" = "残高が最低掛け金より少なくなっています";
+"LobbyLotteryVC_bet_endBet" = "取引停止中ですので、しばらくお金を掛けられません";
+"LobbyLotteryVC_betEmptySelecte" = "アカウントを追加していません";
+"LobbyLotteryVC_NoBalance" = "残高が不足しています";
+"LobbyLotteryVC_NoBalanceDetailDes" = "残高が不足しているのでお金を掛けられません";
+"LobbyLotteryVC_titleBet" = "宝くじロビー";
+
+
+"LobbyLotteryVC_DateNow%@" = "第 %1$@ 期";
+//期数字符拆分
+"LobbyLotteryVC_DateNow1" = "第";
+"LobbyLotteryVC_DateNow2" = "期";
+
+"public_rule" = "ルール";
+
+"LobbyLotteryVC_DateBetingNow%@" = "第 %1$@ 期締め切りまで";
+//期数字分解
+"LobbyLotteryVC_DateBetingNow1" = "第　まで";
+"LobbyLotteryVC_DateBetingNow2" = "期締め切り";
+"LobbyLotteryVC_moreBtn" = "その他";
+"LobbyLotteryVC_deviceRandomBtn" = "ランダム";
+"LobbyLotteryVC_BetRecord" = "掛け記録";
+"LobbyLotteryVC_betAll" = "ファイブスタッドポーカー";
+"LobbyLotteryVC_betMin" = "最低掛け金";
+"LobbyLotteryVC_Bet" = "Bet金額";
+"LobbyLotteryVC_BetAddChoise" = "アカウントに追加する";
+"LobbyLotteryVC_GoToBet" = "金を賭ける";
+"LobbyLotteryVC_total" = "合計:";
+"menu_lottery_result" = "抽選結果";
+
+//LobbyOpenHistoryViewController
+"LobbyOpenHistory_periods" = "期";
+
+"LobbyOpenHistory_Type_Number" = "番号";
+"LobbyOpenHistory_Type_Size" = "サイズ";
+"LobbyOpenHistory_Type_SingleDouble" = "奇数・偶数";
+"LobbyOpenHistory_Type_WinnerDragonTiger" = "ドラゴンタイガー";
+"LobbyOpenHistory_Type_total" = "トータル";
+"LobbyOpenHistory_Type_Tema" = "当選番号";
+
+
+"OpenAward_NiuNiu_Red" = "赤";
+"OpenAward_NiuNiu_Blue" = "青";
+
+//OpenHistoryViewController
+"OpenHistory_titleBetHistory" = "抽選履歴";
+"OpenHistory_DateNow%@" = "第%1$@期";
+
+
+//BetConfirmCollectionViewCell
+
+"BetCell_double"="倍";
+"BetCell_double1"="1倍";
+"BetCell_double2"="2倍";
+"BetCell_double5"="5倍";
+"BetCell_double10"="10倍";
+"BetCell_double20"="20倍";
+
+"BetCell_remove"="削除";
+
+//ChipSwitchViewController
+"ChipSwitch_currentChip_title" = "現在のコイン";
+"ChipSwitch_input_custom_chip" = "コインを設定して入力";
+"ChipSwitch_settitle" = "コインを設定";
+"ChipSwitch_ChangeChip_title" = "【コインを変更】";
+
+//LotteryBetViewController_NN
+"LotteryBetVC_NN_TimeTitle" = "締め切り:";
+
+//LotteryBetViewController
+"LotteryBetVC_TimeTitle" = "今回は締め切り:";
+
+//GameListViewController
+"GameListVC_UnknowGamePlat" = "未知のゲームプラットフォーム";
+
+"GameListVC_lotteryTitle" = "宝くじ"; //containsString 特殊処理
+"GameListVC_GameCenter_title" = "ゲームセンター";
+
+//h5game
+"h5game_Amount_Conversion" = "限度額変更";
+"h5game_submit_successfully" = "提出完了"; //isEqualToString
+"h5game_application_progress" = "申請進捗状況"; //isEqualToString
+"h5game_My_family_tree" = "私の家族"; //isEqualToString
+
+//XHLaunchAdButton
+"XHLaunchAdButton_titleSkip" = "スキップ";
+
+//MsgSysVC
+"MsgSysVC_systemMsg" = "システムメッセージ";
+"MsgSysVC_noMoremsg" = "メッセージはありません";
+"MsgSysVC_allRead" = "全部読んだ";
+
+
+//GameToolClass
+"GameToolClass_switchMoneyType" = "残高に変換しています..";
+"GameToolClass_switchMoneyTypeSuccess" = "変換完了しました";
+"GameToolClass_EnterGame" = "ルームに入っています..";
+"GameToolClass_EnterGameReson" = "エラーが起こりました";
+"GameToolClass_EnterGameError" ="ルームに入ることができませんでした";
+"GameToolClass_gameName%@_balance%@" = "残高は[%1$@]:￥%2$@\nゲームをお楽しみください。\nチャージが必要な場合はライブ配信のメインインターフェースに戻るか、若しくはフローティングボタンを使用してチャージしてください";
+
+//YBToolClass
+"YBToolClass_timeFormat_Hour%02ld_Min%02ld_Second%02ld" = "%1$02ld小时%2$02d分%3$02d秒";
+"YBToolClass_timeFormat_Min%02ld_Second%02ld" = "%1$02d分%2$02d秒";
+"YBToolClass_timeFormat_Second%02ld" = "%1$02d秒";
+
+//homepageController
+"homepageController_attention" = "フォロー";
+"homepageController_live" = "ライブ配信";
+"homepageController_game" = "ゲーム";
+"homepageController_Rich_list" = "大富豪";
+
+//ZYTabBar
+"ZYTabBar_open_live" = "配信を開始する";
+"ZYTabBar_Box" = "宝箱";
+
+//ZYTabBarController
+"ZYTabBarC_HomePage" = "トップページ";
+"ZYTabBarC_MePage" = "マイページ";
+
+//EnterLivePlay
+"EnterLivePlay_enterWinnerRoom" = "このライブルームに入りますか？ \n金運が上がります";
+"EnterLivePlay_enterRoom" = "入る";
+"EnterLivePlay_pwdRoomWarning" = "このルームはパスワードがかかっています";
+"EnterLivePlay_input_pwd" = "パスワードを入力してください";
+"EnterLivePlay_pwd_error" = "パスワードが違います";
+
+//AttentionHeader
+"AttentionHeader_myAttention" = "フォロー";
+"AttentionHeader_Popular_Hot" = "おすすめ";
+"AttentionHeader_No_Attention" = "誰もフォローしていません";
+"AttentionHeader_No_Hot" = "おすすめはありません";
+
+//GamesController
+"GamesVC_NoGameAnchor" = "今ゲーム配信はありません～";
+"GamesVC_SeeOthersGameAnchor" = "早く他の配信者の配信を見に行きましょう～";
+
+//GamesHeader
+"GamesHeader_Game_Recommend" = "おすすめゲーム";
+"GamesHeader_isHit" = "好評上映中";
+
+//Hotpage
+"Hotpage_leftAddMore" = "左にスワイプ";
+"Hotpage_my_expand" = "私のプロモーション";
+"Hotpage_Hot" = "トレンド";
+
+//classVC
+"classVC_noAnchorLive" = "現在配信を行っている配信者はいません";
+"classVC_goToOthersAnchorLive" = "早く他のチャンネルを見に行きましょう～";
+//LiveNotificationAlert
+"LiveNotif_AlertTitle" = "お知らせ";
+
+
+//RankCell
+"RankCell_FollowButton" = "フォロー";
+"RankCell_Title_scroe%@" = "%1$@ビハインド";
+//RankVC
+"RankVC_FollowMeError" = "自分をフォローすることはできません";
+"RankVC_Empty" = "今は空です";
+"RankVC_profit_list" = "収益";
+"RankVC_contribution_list" = "貢献";
+"RankVC_List_of_day" = "本日";
+"RankVC_Yesterday_the_list" = "昨日";
+"RankVC_List_of_Week" = "週間";
+"RankVC_List_of_Month" = "月間";
+//RotationVC
+"RotationVC_remaining_lottery_times" = "残り抽選回数：";
+"RotationVC_giftPoolTitle" = "ジャックポット残りボーナス";
+
+//RotationResultVC
+"RotationResultVC_ResultContent" = "獲得おめでとうございます";
+//jubaoVC
+"jubaoVC_headerLabel" = "   通報の理由を選択してください";
+"jubaoVC_Option_title" = "詳細をご記入ください（任意）";
+"jubaoVC_submit" = "提出";
+"jubaoVC_reason_title"="通報の理由を選択してください";
+"jubaoVC_success" = "通報完了";
+"jubaoVC_title" = "通報";
+
+//LotteryBarrageView
+"LotteryBarrageView_clickTitle" = "コールをクリック";
+"LotteryBarrageView_name%@_type%@_way%@_money%@%@" = "<font color=\"#72f3e1\">%1$@</font><font color=\"#ffffff\"></font><font color=\"#fff292\">%2$@</font><font color=\"#ffffff\">で掛け金遊び方</font><font color=\"#fff292\">%3$@</font><font color=\"#ffffff\"> </font><font color=\"#f9d347\">%4$@</font><font color=\"#ffffff\">%5$@獲得。</font>";
+
+"LotteryCenterBarrageView_name%@_type%@_money%@%@" = "<font color=\"#72f3e1\">%1$@</font><font color=\"#ffffff\"></font><font color=\"#fff292\">%2$@</font><font color=\"#ffffff\"> </font><font color=\"#f9d347\">%3$@</font><font color=\"#ffffff\">%4$@獲得。</font>";
+
+//LotteryAwardVController
+"LotteryAwardVC%@%@" = "%1$@ %2$@獲得";
+"LotteryAwardVC_close" = "どこかをクリックして閉じる";
+
+
+//TopTodayView
+"TopTodayView_update_time_title" = "最終更新：";
+"TopTodayView_LevelAlert_title" = "一つ上の人に及びませんでした";
+"TopTodayView_title" = "本日順位";
+"TopTodayView_SendGift" = "プレゼントを贈る";
+"Top rank" = "トップ";
+
+//guardShowView
+"guardShowView_guardUntilTime" = "あなたは現在配信者の月のサポーターです\nサポートは　までです";
+"guardShowView_RenewGuard" = "サポート更新";
+"guardShowView_OpenGuard" = "サポート開始";
+"guardShowView_OpenGuardAlert" ="早くお気に入りの配信者のためにサポートを開始しましょう";
+"guardShowView_NoGuard" = "まだサポーターになっていません";
+"guardShowView_BeFirstGuard" = "彼／彼女の初めてのサポーターになりました";
+"guardShowView_ThisWeekGuard" = "今週の貢献";
+"guardShowView_OpenNow" = "すぐに開始する";
+
+//shouhuView
+"shouhuView_guardTime" = "サポートする時間を選択する";
+"shouhuView_guardrights" = "サポーターの特権";
+"shouhuView_MyBalance" = "マイページ";
+"shouhuView_GuardMonthDes" = "あなたは現在配信者の月のサポーターです。年のサポーターに申し込んだ場合、月のサポーターの残り期間もカバーされます。年のサポーターに申し込みますか？";
+"shouhuView_GuardYearDes" = "あなたは現在配信者の年のサポーターです\n7天/月のサポーターに申し込むことはできません";
+"shouhuView_You_will_coast" = "お金を払います";
+"shouhuView_Guard7Days" = "配信者のために7日間のサポーターになりました";
+"shouhuView_GuardMonthDays" = "配信者のために月のサポーターになりました";
+"shouhuView_GuardOneYear" = "配信者のために年のサポーターになりました";
+
+//upmessageInfo
+"upmessageInfo_content" = "わいせつな配信をした疑いがあります";
+"upmessageInfo_report" = "通報";
+"upmessageInfo_sended" = "送る";
+"upmessageInfo_income" = "収入";
+"upmessageInfo_ten_thousand" = "万";
+"upmessageInfo_on_Mars" = "火星にいるようだ";
+"upmessageInfo_followed" = "フォロー中";
+"upmessageInfo_kick" = "キック";
+"upmessageInfo_silent" = "アカウント停止";
+"upmessageInfo_set_management" = "管理人にする";
+"upmessageInfo_cancel_management" = "管理人解任";
+
+"upmessageInfo_management_list" = "管理人リスト";
+"upmessageInfo_close_live" = "ライブ配信を閉じる";
+"upmessageInfo_disable_live" = "無効のライブ配信";
+"upmessageInfo_add_the_impression+" = "+ 印象を追加する";
+"upmessageInfo_add_the_impression" = "印象を追加する"; //contains
+"upmessageInfo_Send_a_card" = "名刺を送る";
+"upmessageInfo_HomeTitle" = "トップページ";
+
+//searchVC
+"searchVC_input_name_id" = "ニックネーム、IDを入力してください。";
+
+//setViewM
+"setViewM_guardTitle" = "サポート ポストを空けて待つ>";
+"setViewM_Top_list" = "リスト >";
+"setViewM_Guard" = "サポート";
+"setViewM_People" = "人";
+"setViewM_Guardians" = "サポーター";
+"setViewM_GuardiansP" = "人";
+
+//liwuview
+"liwuview_sendGift" = "プレゼントを贈る";
+"liwuview_SendButton" = "贈る";
+"liwuview_YearGift" = "年のサポートオリジナルプレゼント";
+"liwuview_sendSuccess" = "プレゼント成功";
+"liwuview_Bursts" = "連発";
+"Give the streamer a small gift" = "配信者に小さなプレゼントを贈りましょう";
+"RC toy" = "ラジコン";
+"Issue command" = "指令を出す";
+
+//coastselectview
+"coastselectview_minue" = "分";
+"coastselectview_coast_money" = "課金額";
+"coastselectview_Choose_to_charge_for" = "課金選択";
+
+//redBagView
+"redBagView_redbagTitle" = "ラッキーコイン";
+"redBagView_sendRedBag" = "ライブルームの視聴者にラッキーコインを送る";
+"redBagView_LuckyRedBag" = "ラッキー赤い封筒";
+"redBagView_average" = "平均ラッキーコイン";
+"redBagView_total_money" = "合計";
+"redBagView_amount" = "数量";
+"redBagView_sendRedBagTitle" = "ラッキーコインを送る";
+"redBagView_peerMoney" = "一通";
+"redBagView_input_redbag_money" = "ラッキーコインの合計を入力してください";
+"redBagView_input_redbag_amount" = "ラッキーコインの数を入力してください";
+
+//redDetails
+"redDetails_whoRedBag" = "のラッキーコイン";
+"redDetails_no_get" = "手に入れられませんでした";
+"redDetails_get_to_me" = "入金済み";
+"redDetails_already_got" = "受け取りました";
+"redDetails_peer_amount" = "個";
+"redDetails_total" = "合計";
+//redListCell
+"redListCell_delayRedBag" = "遅れたラッキーコインを配りました";
+"redListCell_nowRedBag" = "リアルタイムラッキーコインを配りました";
+"redListCell_GetNow" = "開";
+//redListView
+"redListView_redBag" = "ラッキーコイン";
+"redListView_timeEndCanGet" = "カウントダウンが終わったら手に入れることができます。";
+"redListView_ShowDetailRedBagGot" = "受取の詳細を見る》";
+"redListView_redBagOver" = "遅かったです。ラッキーコインは配り終わりました。";
+"redListView_congratulations" = "おめでとうございます!";
+"redListView_GotBag" = "手に入りました";
+"redListView_Who" = "配ったもの";
+//continueGift
+"continueGift_continue" = "連続で送る";
+
+//exoensiveGifGiftV
+"exoensiveGifGiftV_giveOne" = "一つ送る";
+
+//shipAction
+"shipAction_shipSend" = "豪華クルーズを贈りました";
+//adminLists
+"adminLists_currentManager" = "現在の管理人";
+"adminLists_Alert" = "お知らせ";
+"adminLists_ifCancel" = "キャンセルしますか？ ";
+"adminLists_managerRule" = "の管理人";
+"adminLists_No" = "できません";
+//lastview
+"lastview_endLive" = "ライブ配信が終わりました";
+
+
+//bottombuttonv
+"bottombuttonv_flash" = "フラッシュ";
+"bottombuttonv_timing" = "時間を測る";
+"bottombuttonv_tickets" = "チケット";
+"bottombuttonv_beauty" = "美顔";
+"bottombuttonv_flip" = "反転";
+"bottombuttonv_music" = "音楽";
+"bottombuttonv_share" = "シェア";
+"bottombuttonv_redBag" = "ラッキーコイン";
+"bottombuttonv_toy" = "バイブレーター";
+"bottombuttonv_order" = "命令";
+//musicView
+"musicView_downloading" = "ダウンロード中";
+"musicView_choise" = "選択";
+"musicView_donwload" = "ダウンロード";
+//PresentView
+"PresentView_send" = "送りました";
+
+//nuserLoginAnimation
+"nuserLoginAnimation_enter_room" = "ライブルームに入りました";
+
+//fenXiangView
+"fenXiangView_shareTo" = "にシェアする";
+"fenXiangView_have_%@_fans_coming" = "彼／彼女に%1$@ファンがいます。急いで見に行きましょう!";
+"fenXiangView_%@_in_here%@_share" = "“%1$@“も%2$@にいます～クリックして彼／彼女のストーリーを見てみましょう～";
+"fenXiangView_ShareSuccess" = "シェア成功";
+"fenXiangView_ShareError" = "シェア失敗";
+
+//Livebroadcast
+"Livebroadcast_live_cover" = "ライブ配信カバー";
+"Livebroadcast_live_title" = "ライブ配信タイトル";
+"Livebroadcast_live_title_tip" = "ライブ配信にタイトルをつけましょう";
+"Livebroadcast_choise_lottery_type" = "ライブルームの宝くじを選ぶ";
+"Livebroadcast_push_card" = "名刺を送る：";
+"Livebroadcast_Nopush_card" = "送らない";
+"Livebroadcast_begain_live" = "ライブ配信を始める";
+"Livebroadcast_OBS_live" = "OBSライブストリーミング";
+"Livebroadcast_room_type" = "ルームタイプ";
+"Livebroadcast_choise_price" = "価格を選択する";
+"Livebroadcast_room_type_nomal" = "普通";
+"Livebroadcast_room_type_pwd" = "パスワード";
+"Livebroadcast_room_type_tickets" = "チケット";
+"Livebroadcast_room_type_time" = "時間を測る";
+"Livebroadcast_room" = "ルーム";
+"Livebroadcast_please_set_room_pwd" = "ルームのパスワードを設定してください";
+"Livebroadcast_please_enter_right_pwd" = "正しいパスワードを入力してください";
+"Livebroadcast_please_set_ticket_price" = "ルームのチケット価格を設定してください";
+"Livebroadcast_please_enterPrice" = "価格を入力してください";
+"Livebroadcast_please_rightTicket_price" = "正しい価格を入力してください";
+"Livebroadcast_no_open" = "このバージョンはまだ開放されていません";
+"Livebroadcast_Choise_live_type" = "チャンネルを選んでください";
+"Livebroadcast_private_rule_no" = "権限がオフになっています";
+"Livebroadcast_please_open_camera_private" = "設定を開いてカメラの権限をオンにしてください";
+"Livebroadcast_please_open_mic_private" = "設定を開いてマイクの権限をオンにしてください";
+"Livebroadcast_please_choise_uploadWay" = "アップロードの方法を選んでください";
+"Livebroadcast_Alumb" = "アルバム";
+"Livebroadcast_Camera" = "写真を撮る";
+"Livebroadcast_Change_Cover" = "カバーを変える";
+"Livebroadcast_Live_End" = "ライブ配信は終了しました";
+"Livebroadcast_LiveTimes" = "配信時間";
+"Livebroadcast_harvest" = "成果";
+"Livebroadcast_watchNumbers" = "視聴人数";
+"Livebroadcast_LiveMsgs" = "ライブルームメッセージ";
+"Livebroadcast_LiveSend%d_gift%@" = "%1$d个%2$@を送りました";
+"Livebroadcast_lotteryDisable" = "販売を停止しています";
+"Livebroadcast_liveEnd" = "本当に退出しますか？ ";
+"Livebroadcast_haveNewMsgs" = "新しいメッセージがあります";
+"Livebroadcast_SayHi" = "皆さんに何をいいますか？";
+"Livebroadcast_SaySomething" = "彼／彼女を口説く...";
+"Livebroadcast_OnlyMsgs" = "話すだけ";
+"Livebroadcast_switchRoom_cannot" = "既にルームタイプを切り替えていますので、もう切り替えることができません";
+"Livebroadcast_switchRoom_cannot1" = "普通のルームのみルームの切り替えができます";
+"Livebroadcast_Input_word_limit50" = "最大50文字まで";
+"Livebroadcast_Login_other_device" = "このアカウントは違うデバイスからログインされています";
+"Livebroadcast_Open_msg_notifys" = "ラッパを鳴らす";
+"Livebroadcast_No_lyrics" = "歌詞がありません";
+"Livebroadcast_end" = "終了";
+"live_close_adv" = "ゲームの弾幕が閉じられました";
+"live_open_adv" = "ゲームの弾幕が開かれました";
+"live_toy_close" = "接続されていません";
+"live_toy_open" = "接続されています";
+"live_order_list" = "コマンドリスト";
+"live_more_surprise" = "もっと驚き";
+"Livebroadcast_title_server" = "サーバー";
+"Livebroadcast_title_stream" = "ストリームキー";
+"Livebroadcast_title_start_stream" = "ライブを開始する";
+"Livebroadcast_title_start_stream_info" = "ストリーミングを開始したら、ギークは下部の「生放送を開始」ボタンをクリックします。";
+"Livebroadcast_title_OBS_stream_info" = "他のアプリケーションを使用してライブストリーミングを行う場合は、アプリケーションに以下のサーバーアドレスとストリーミングキーを入力してください。";
+"Livebroadcast_order_select_all" = "全て選択";
+"Livebroadcast_order_confirm" = "確認";
+"Livebroadcast_toy_unconnect" = "デバイスが接続されていません";
+"Livebroadcast_order_unselect" = "コマンドリストからコマンドを選択してください";
+"Livebroadcast_error_toyDisconnect" = "切断済み->エッグモード（未接続） エッグモードのステータススイッチが閉じて表示されています";
+"Livebroadcast_room_need_charge" = "この部屋は有料で、支払いが必要です";
+
+"RemoteInterfaceView_in_queue" = "現在待ち行列中です";
+"RemoteInterfaceView_remote_user" = "人を操る";
+"RemoteInterfaceView_remain_time" = "残りの実行時間";
+"RemoteInterfaceView_toy_connect" = "キャスター準備完了";
+"RemoteInterfaceView_wait_you_control" = "あなたがコントロールするのを待っています";
+"RemoteInterfaceView_order_name" = "命令";
+"RemoteInterfaceView_control_and_order" = "リモートコントロール＆コマンド ";
+"RemoteInterfaceView_toy_title" = "ジャンプエッグキュー";
+"RemoteInterfaceView_order_title" = "コマンドキュー";
+"RemoteInterfaceView_cmd_name" = "コマンド名";
+"RemoteInterfaceView_cmd_time" = "持続時間(秒)";
+"RemoteInterfaceView_cmd_price" = "価格";
+"RemoteInterfaceView_cmd_delete" = "消去";
+"RemoteInterfaceView_cmd_edit" = "改訂";
+"RemoteInterfaceView_cmd_confirm" = "もちろん";
+"RemoteInterfaceView_cmd_input_name" = "コマンド名を入力してください";
+"RemoteInterfaceView_cmd_input_time" = "期間を入力してください";
+
+"SearchToyVC_title_name" = "Lovense";
+"SearchToyVC_bluetooth_connected" = "bluetooth: 🔵";
+"SearchToyVC_bluetooth_disconnect" = "bluetooth: ⚪️";
+"SearchToyVC_no_connected_text" = "接続されていません ❌";
+"SearchToyVC_connected_text" = "接続されました ✅";
+"SearchToyVC_searching_toy" = "Lovenseを検索中";
+"SearchToyVC_stop_search_toy" = "Lovenseの検索を停止";
+"SearchToyVC_clear_all_toy" = "全てのLovenseをクリア";
+"SearchToyVC_star_connecting_toy" = "Lovenseとの接続を開始";
+"SearchToyVC_have_no_found_toy" = "Lovenseが見つかりません";
+"SearchToyVC_connected_toy" = "Lovenseに接続しました";
+"SearchToyVC_connect_fail" = "接続失敗";
+"SearchToyVC_search" = "検索";
+"SearchToyVC_stop_search" = "検索を停止";
+"MaxMoney" = "最大";
+
+"ToyDetailVC_toy_control" = "Lovenseの制御";
+"ToyDetailVC_battery" = "バッテリー";
+"ToyDetailVC_device_type" = "デバイスの種類";
+"ToyDetailVC_version" = "バージョン";
+"ToyDetailVC_disconnect" = "切断";
+"ToyDetailVC_all_toy_command" = "すべてのLovenseコマンド";
+"ToyDetailVC_vibration" = "振動";
+"ToyDetailVC_quick_flash" = "クイックフラッシュ";
+"ToyDetailVC_preset" = "プリセット";
+"ToyDetailVC_nora_rotation" = "Nora 回転";
+"ToyDetailVC_nora_rotation_anti_clockwise" = "Nora 反時計回りの回転 ";
+"ToyDetailVC_nora_rotation_change" = "Nora 回転変更";
+"ToyDetailVC_turn_off_AID_light" = "AID ライトをオフにする";
+"ToyDetailVC_turn_on_AID_light" = "AID ライトをオンにする";
+"ToyDetailVC_get_AID_light_status" = "AID ライトの状態を取得する";
+"ToyDetailVC_turn_off_light" = "ライトをオフにする";
+"ToyDetailVC_turn_on_light" = "ライトをオンにする";
+"ToyDetailVC_start_tracking_movement" = "動きのトラッキングを開始する";
+"ToyDetailVC_stop_tracking_movement" = "動きのトラッキングを停止する";
+"ToyDetailVC_max_air_in" = "最大空気取り入れ量";
+"ToyDetailVC_max_air_out" = "最大空気排出量";
+"ToyDetailVC_max_air_auto" = "自動最大風量";
+"ToyDetailVC_device_info" = "機器情報";
+"ToyDetailVC_movement" = "移動";
+
+"RemoteControllerCell_second" = "s";
+
+"Livebroadcast_mic_volum_number" = "マイク音量";
+"Livebroadcast_micBg_volum_number" = "BGM音量";
+"Livebroadcast_name%@_BetType%@_betMoney%@%@" = "<font color=\"#ffffff\">%1$@</font><font color=\"#ffffff\"></font><font color=\"#fff292\">%2$@</font><font color=\"#ffffff\">で,</font><font color=\"#fff292\">%3$@</font><font color=\"#ffffff\">%4$@賭けました。";
+
+"Livebroadcast_Congratulations_Name%@_game%@" = "<font color=\"#ffffff\">おめでとうございます</font><font color=\"#ffffff\">%1$@</font><font color=\"#ffffff\"></font><font color=\"#fff292\">%2$@</font><font color=\"#ffffff\">で当たりました</font>";
+
+"Livebroadcast_shareMoney_fromName%@_lotteryName%@_money%@_%@" = "<font color=\"#ffffff\">おめでとうございます</font><font color=\"#ffffff\"></font><font color=\"#fff292\">%1$@</font><font color=\"#ffffff\">を獲得しました。</font></font><font color=\"#fff292\">%2$@</font><font color=\"#ffffff\">の賞金を分配します<font color=\"#fff292\">%3$@</font>%4$@</font>";
+"Livebroadcast_LiveAnchor" = "配信者";
+
+//LivePlay
+"LivePlay_KickedRoom" = "あなたはライブルームから追い出されました";
+"LivePlay_sayTimeOver" = "発言回数が上限に達しました";
+"LivePlay_sayTimes%ld" = "残り%1$ld回発言できます";
+"LivePlay_SaidMoreQuikly" = "送信が多すぎます。一分後に再試行してください";
+"LivePlay_SayRule%d" = "レベルが%1$dに達していないため発言できません。\nチャージしてプレゼントを送ってレベルを上げて発言できるようにしてください";
+"LivePlay_GoCharge" = "チャージする";
+"LivePlay_GoSendGifts" = "プレゼントを送る";
+"LivePlay_RommSwitchTime_%@%@Price" = "このルームはタイマールームに切り替わりました。%1$@%2$@/分、続けますか？";
+"LivePlay_RommSwitchTicket_%@%@Price" = "このルームはチケットルームに切り替わりました。%1$@%2$@かかります。続けますか？";
+"LivePlay_No" = "いいえ";
+"LivePlay_YES" = "はい";
+"LivePlay_BalanceNot" = "残高が不足しているため視聴できません";
+
+//LiveContactView
+"LiveContactView_ConatctTitle1" = "ユーザーのニックネームをメモして素早くパスします";
+"LiveContactView_ConatctTitle2" = "名刺獲得進捗状況";
+"LiveContactView_ConatctTitle3" = "プレゼントは要求を満たせば獲得することができます";
+"LiveContactView_ConatctTitle4" = "1.追加時にニックネームをメモして、配信者がわからなくならないようにしましょう";
+"LiveContactView_ConatctTitle5" = "2.虚偽の連絡先があった場合はカスタマーサポートに通報することができます";
+"LiveContactView_WhoName%@" = "%1$@の名刺";
+"LiveContactView_NoCard" = "配信者は名刺を設定していません";
+"LiveContactView_NotEnoughGifts" = "消費金額が規定の水準に達していません";
+"LiveContactView_GetError" = "名刺が取得できませんでした";
+"socketLivePlay_getConatct" = "配信者の名刺を受け取りました："; // stringByReplacingOccurrencesOfString
+"socketLivePlay_getCard" = "配信者の名刺を受け取りました";
+"socketLivePlay_Anchor_Card" = "配信者の名刺";
+//fansViewController
+"fansViewController_noFans" = "あなたはまだフォロワーがいません";
+"fansViewController_noFansTip" = "個人情報を完成させてフォロワーを増やしましょう～";
+
+//attrViewController
+"attrViewController_noFolllow" = "まだ誰もフォローしていません";
+"attrViewController_noFolllowTip" = "早く気になる人をフォローしましょう～";
+//personLiveCell
+"personLiveCell_numberTip" = "人が見たことある";
+//otherUserMsgVC
+"otherUserMsgVC_block" = "ブロック";
+"otherUserMsgVC_blocked" = "ブロック済み";
+"otherUserMsgVC_unblocked"="ブロック解除済み";
+"otherUserMsgVC_impressed" = "配信者の印象";
+"otherUserMsgVC_GuardTop" = "サポーターランキング";
+"otherUserMsgVC_Video" = "動画";
+"otherUserMsgVC_no_work" = "作品がありません";
+"otherUserMsgVC_no_like" = "気に入ったものがありません";
+"otherUserMsgVC_no_live" = "ライブ配信はありません";
+
+//EditContactInfo
+"EditContactInfo_editMyConatct" = "名刺を変更する";
+"EditContactInfo_Empty" = "未記入";
+"EditContactInfo_inputTip" = "最大20文字入力可能\n例：配信者Wechat:123456";
+"EditContactInfo_InputLimit" = "文字数が制限を超えています";
+//EditNiceName
+"EditNiceName_NameEdit" = "ニックネーム変更";
+"EditNiceName_FreeTip" = "今回は初めての変更なので、無料で変更できます.";
+"EditNiceName_coast%@_%@" =  "今回の変更には%1$@%2$@かかります.";
+"EditNiceName_nameLimitlenth" = "ニックネームは8文字以内です";
+"EditNiceName_ChangeCoastTip_%@%@" = "毎回%1$@%2$@かかります。(一回目の変更は無料).";
+//EditSignature
+"EditSignature_signature" = "サイン変更";
+"EditSignature_signatureLimit" = "最大20文字入力可能";
+//InfoEdit1TableViewCell
+"InfoEdit1TableViewCell_Avatar" = "プロフィール写真";
+//myInfoEdit
+"myInfoEdit_nickName" = "ニックネーム";
+"myInfoEdit_phoneNum" = "電話番号";
+"myInfoEdit_email" = "メール";
+"myInfoEdit_signature" = "サイン";
+"myInfoEdit_MyCard" = "私の名刺";
+"myInfoEdit_BirthDay" = "生年月日";
+"myInfoEdit_Sex" = "性別";
+"myInfoEdit_My_Impressed" = "私の配信者の印象";
+"myInfoEdit_EditInfo" = "資料を編集する";
+"myInfoEdit_Man"="男";
+"myInfoEdit_Woman"="女";
+"myInfoEdit_Uploading" = "アップロード中";
+"myInfoEdit_Upload_Error" = "失敗";
+//sexCell
+"sexCell_Sexy" = "性別";
+//impressVC
+"impressVC_anchorImpressed_choise" = "配信者に対する印象を選択してください";
+"impressVC_MyImpressed" = "配信者の印象を受け取りました";
+"impressVC_NoImpressed" = "配信者の印象をまだ受け取っていません";
+"impressVC_Choise_limitNum" = "最大三つ選択できます";
+"impressVC_Choise_min_tip" = "最低一つ選択してください";
+
+//socketLivePlay
+"socketLivePlay_who%@_Guard" = "%1$@ 配信者をサポートしました";
+"socketLivePlay_whoGuard" = "配信者をサポートしました";
+"socketLivePlay_Who%@_time%@" = "%1$@あなたのアカウントが停止になりました%2$@";
+"socketLivePlay_DisableSendMsgSuccess" = "アカウントを停止させました";
+"socketLivePlay_Kick%@Room" = "%1$@ルームから追い出されました";
+"socketLivePlay_KickSuccess"= "キックしました";
+"socketLivePlay_SendRedbag" = "ライブルームでラッキーコインを送りました。早く手に入れましょう～";
+//socketLive
+"socketLive_closeManagerSuceess" = "管理人を解任しました";
+"socketLive_setManagerSuceess" = "管理人を設定しました";
+"socketLive_CloseLive" = "ライブ配信を閉じる";
+"socketLive_droppedLive" = "規約に違反した疑いがあるため、配信を終了しました";
+"socketLive_silenced" = "あなたのアカウントが停止になりました";
+"socketLive_BecloseManager" = "管理人を解任されました";
+"socketLive_BeManager" = "管理人に選ばれました";
+//AppDelegate
+"AppDelegate_oldVersion" = "旧バージョンを使用";
+"AppDelegate_GoUpdate" = "更新する";
+"AppDelegate_Information_maintain" = "メンテナンス情報";
+"AppDelegate_Living" = "現在ライブ配信中ですので、退出できません";
+"AppDelegate_ifCancelLiveRoom" = "退出しますか？ ";
+
+
+//VIPVC
+"VIPVC_title" = "王者収入";
+"VIPVC_KingLeve%@_title" = "王者v%1$@";
+"VIPVC_KingLeveCurrent%@" = "現在のレベル:VIP%1$@";
+"VIPVC_Charge%@_UpKingLeve%ld" = "次のレベルまであと%@チャージ";
+"VIPVC_KingLeve%@_Rights" = "高貴な王者V%1$@会員、以下の特典がございます";
+"VIPVC_Can'tGet" = "獲得できません";
+"VIPVC_NextTime%@" = "次回:%1$@";
+"VIPVC_KingRights" = "王者の特権";
+"VIPVC_KingDetailRule" = "王者の詳細";
+"VIPVC_KingRuleLevel" = "王者ランク";
+"VIPVC_KingRuleChargeRange" = "総額チャット";
+"VIPVC_KingRuleUpHandsel" = "昇格ボーナス";
+"VIPVC_KingRuleWeekSalary" = "週間収入";
+"VIPVC_King" = "王者";
+"VIPVC_Current_Level" = "現在のレベル";
+
+"kingsalary_kinglevel" = "王者レベル";
+"kingsalary_totalrecharge" = "総入金額";
+"kingsalary_promotionbonus" = "昇格ボーナス";
+"monthfenglu" = "月給";
+"view_wangzhevipdes_zhou_fenglu" = "週間収入";
+
+
+
+"PostVideo_title" = "動画を投稿";
+"PostVideo_sub_title1" = "動画のタイトル";
+"PostVideo_sub_title2" = "動画のタイトルを追加";
+"PostVideo_sub_title3" = "動画を追加";
+"PostVideo_sub_title3_1" = "ビデオを変更する";
+"PostVideo_sub_title4" = "動画のカバーを追加 (任意)";
+"PostVideo_sub_title4_1" = "ビデオカバーを置換する";
+"PostVideo_sub_title5" = "動画のタグを追加";
+"PostVideo_chooseTag" = "タグを選択してください";
+"PostVideo_sub_title6" = "投稿";
+
+"PostVideo_sub_wait_video" = "動画のアップロードを待っています";
+"PostVideo_sub_wait_cover" = "カバーのアップロードを待っています";
+
+"PostVideo_sub_upload_video_success" = "動画が正常にアップロードされました。今すぐ公開しましょう！";
+"PostVideo_sub_upload_video_error" = "動画のアップロードに失敗しました。もう一度選択してください";
+
+"PostVideo_sub_title_cancel" = "アップロード中の動画をキャンセルしますか？";
+"PostVideo_cancel_upload" = "アップロードをキャンセル";
+"PostVideo_continue_upload" = "アップロードを続行";
+
+
+//BillVC
+"BillVC_consumeDetail" = "消費明細";
+"BillVC_inComeDetail" = "収入明細";
+"BillVC_consumeToday_%@%@" = "本日の消費%1$@%2$@";
+"BillVC_incomeToday_%@%@" = "本日の收入%1$@%2$@";
+"BillVC_DateFormat" = "MM月dd日";
+"BillVC_DateChoiseTitle" = "最近7日間";
+"BillVC_Month" = "月";
+"BillVC_Days" = "日";
+"BillVC_Anthor_name" = "配信者名";
+
+//myRechargeCoinVC
+"myRechargeCoinVC_Promotion%@_tile" = "プロモーション収益%1$@";
+"myRechargeCoinVC_Charge%@_num" = "チャージする%1$@数を入力";
+"myRechargeCoinVC_CanHaveHowMuch" = "入金できます";
+"myRechargeCoinVC_symbol%@" = "%1$@¥";
+"myRechargeCoinVC_OptionSuccess" = "操作成功";
+"myRechargeCoinVC_OptionError" = "操作失敗";
+"myRechargeCoinVC_ChargeIn" = "チャージ";
+
+//market
+"market_member" = "会員";
+"market_liangNum" = "高運ID番号";
+"market_mount" = "乗り物";
+
+//myProfitVC
+"myProfitVC_WithDrawRecord" = "払出し記録";
+"myProfitVC_WithDrawMoneyChoise" = "引き出し額";
+
+"myProfitVC_totalNum%@" = "合計%1$@数";
+"myProfitVC_WithDrawTotal%@" = "払出し可能%1$@数";
+"myProfitVC_WithDraw_input%@" = "払出し%1$@数を入力";
+"myProfitVC_To_account_num" = "入金金額";
+"myProfitVC_choise_withDraw_account" = "銀行口座を選んでください";
+"myProfitVC_withDraw_now" = "今すぐ払出し";
+"myProfitVC_NoWithDrawError" ="引き出しの方法が選択されていません";
+
+//profit2
+"profit2_input_withDraw_money" = "引き出す金額を入力してください";
+"profit2_input_money" = "金額を入力してください";
+"profit2_withDraw_account" = "銀行口座";
+"profit2_add" = "追加";
+"profit2_NoAddAccount" = "銀行口座を設定していません";
+"profit2_if_delete_account" = "この銀行口座を削除しますか？ ";
+//AddCardViewController
+"AddCard_title" = "キャッシュカードを登録をする";
+"AddCard_CardUserName" = "口座名義人";
+"AddCard_CardNum" = "キャッシュカード番号";
+"AddCard_CardBankName" = "銀行名を入力してくだい";
+"AddCard_CardCity" ="国名を選択";
+"AddCard_CardAddress" = "支店名を入力してください";
+"AddCard_ChoiseBank" = "銀行を選択してください";
+"AddCard_CurrencyType" = "通貨タイプを選択";
+"AddCard_ChoiseBankCity" = "手続した都市名を選択してください";
+"AddCard_Transfor_tip" = "他人のカード番号を入れると戻すことができませんので、不必要な損失を避けるためによく確認してください";
+"AddCard_Transfor_tip1" = "正常に入金されるように、キャッシュカードの情報を正しく入力してください（最大5枚までキャッシュカードを追加できます）";
+"AddCard_CardUserName_title" = "口座名義人";
+"AddCard_BankNum_title" = "口座番号";
+"AddCard_CardBankName_title" = "銀行名";
+"AddCard_ChoiseBankCity_title" = "国名";
+"AddCard_CurrencyType_title" = "通貨タイプ";
+"AddCard_CardAddress_title" = "支店名";
+
+//LiveNodeTableViewCell
+"LiveNodeTableViewCell_peopleNumberTitle" = "誰かがライブ配信を見ました";
+//LiveNodeViewController
+
+"LiveNodeVC_Record_title" = "ライブ配信記録";
+"LiveNodeVC_HaveNoLive" = "最近ライブ配信を見ていません";
+"LiveNodeVC_HaveNoLive_tip" = "さっそくライブ配信を体験してみましょう～";
+
+//myPopularizeVC
+"myPopularizeVC_Charge_title" = "口座にチャージする";
+"myPopularizeVC_invite%d" = "%1$d人を招待する";
+"myPopularizeVC_Charge%d_%@" = "チャージ%@%2$@";
+"myPopularizeVC_WithDrawSuccess" = "払出し完了";
+"myPopularizeVC_WithDraw_Applying" = "払出し申請中";
+"myPopularizeVC_copy_link" = "プロモーションリンクをコピー";
+"myPopularizeVC_DetailPopularize" = "----収益明細----";
+
+//addPopTypeView
+"addPopTypeView_addAccount" = "銀行口座を追加";
+"addPopTypeView_AddAccountType" = "口座のタイプ";
+"addPopTypeView_alipay" = "アリペイ";
+"addPopTypeView_input_aplipayAccount" = "アリペイのアカウント番号を入力してください";
+"addPopTypeView_input_aplipayName" = "アリペイのアカウントの氏名を入力してください";
+"addPopTypeView_input_WechatAccount" = "WeChatのアカウント番号を入力してください";
+
+"addPopTypeView_input_bankName" = "銀行名を入力してください";
+"addPopTypeView_input_bankNum" = "銀行の口座番号を入力してください";
+"addPopTypeView_input_bankUserName" = "キャッシュカードの名義人の氏名を入力してください";
+"addPopTypeView_Wechat" = "WeChat";
+"addPopTypeView_banKCard" = "キャッシュカード";
+
+//setView設定
+"setView_VersionCheck" = "最新バージョンです";
+"setView_CleardCache" ="キャッシュをクリアしました";
+"setView_logout" = "ログアウト";
+//applePay
+"applePay_error" = "商品の情報を取得できません";
+"applePay_checkDebug" = "ホームページのデバッグモードが有効になっていないかどうか確認してください";
+"applePay_ChargeSuccess" = "チャージ完了";
+"applePay_canBuy" ="ユーザーが購入を再開しました";
+
+//YBUserInfoViewController
+"YBUserInfoVC_BillDetail" = "収支明細";
+"YBUserInfoVC_personSet" = "個人設定";
+"YBUserInfoVC_total%@_Balance" = "総資産（%1$@）";
+"YBUserInfoVC_BindPhone" = "携帯電話";
+"YBUserInfoVC_BindEmail" = "メールアドレスをバインドする";
+//YBPersonTableViewModel
+"YBPersonTableViewMode_fansN%.1f" = "%1$.1f 万";
+//exchangeVC
+"exchangeVC_balance" ="口座残高";
+"exchangeVC_balanceAutoChange" = "自動残高変換";
+"exchangeVC_OneKeyBack" = "一括回收";
+"exchangeVC_SwitchIn" = "入り";
+"exchangeVC_SwitchOut" = "出し";
+"exchangeVC_Input_Money" = "振込金額を入力してください";
+"exchangeVC_all" = "全部";
+"exchangeVC_option" = "操作中";
+"exchangeVC_Refresh%@_Balance" = "[%1$@]残高更新"; // [JDB]残高更新
+"exchangeVC_RefreshAccountBalance" = "口座残高更新";
+"exchangeVC_curreny_title" = "通貨";
+
+"Gesture_Password" = "ジェスチャーパスワード";
+"Gesture_PasswordUnlock" = "ジェスチャーパスワードロック解除";
+"Modif_UnlockPassword" = "ジェスチャーパスワードを変更する";
+"Draw_UnlockPattern" = "ロック解除パターンを描く";
+"Draw_Original_Gesturepsd" = "オリジナルのジェスチャーパスワードを描いてください";
+"Gesture_Neglect" = "忘れる";
+"Gesture_redraw" = "少なくとも 4 点を接続してください。再描画してください";
+"Draw_UnlockPatternAgain" = "ロック解除パターンを描き直します";
+"Successfully_GestureSet" = "正常に設定されました";
+"Draw_PasswordError" = "パスワードエラーです。再描画してください";
+"LastDraw_Inconsistent" = "前の図と矛盾しています。再描画してください";
+"Turn_GesturePasscode" = "ジェスチャー パスコードをオフにする";
+"Set_GesturePasscode" = "ジェスチャー パスコードを設定する";
+"ReSet_GesturePasscode" = "ジェスチャー パスコードをリセットする";
+"Turn_GesturePasscode_close" = "ジェスチャーパスワードをオフにしてもよろしいですか？";
+"Turn_GesturePasscode_Warn" = "セキュリティーチップ：パスワードを設定して、プライバシーを守ることをお勧めします。アプリを閉じるたびに自動的にロックされます！";
+"Turn_GesturePasscode_forget" = "ジェスチャーパスワードを忘れた場合は再ログインが必要です。ログイン後は画面ロック保護が自動的にオフになります";
+"Draw_PasswordErrorNum%d" = "パスワードが間違っています。あと %1$d 回のチャンスがあります";
+"Forgot_GesturePassword" = "ジェスチャーパスワードを忘れた";
+
+
+//mineVideoVC
+"mineVideoVC_youHaveNoVideo" = "まだあなたの動画作品はありません你还没有视频作品";
+"mineVideoVC_youHaveNoVideo_tip" = "さっそく動画を撮ってアップロードしましょう～";
+//myWithdrawVC2
+"myWithdrawVC2_inputHowMany" = "金額入力";
+"myWithdrawVC2_CanWithDrawNum" = "出金可能";
+"myWithdrawVC2_limitDes" ="限度額説明";
+"myWithdrawVC2_WithDrawDesTip" = "チャージ後ゲームの売り上げがあなたのチャージ金額より多い場合のみ引き出すことができます.\n(ゲームの売り上げは3-5分ほどタイムラグがあります。しばらくお待ちください)";
+"myWithdrawVC2_UpdatingBalance" = "口座残高を更新しています";
+"myWithdrawVC2_WithDrawOver%@%f" = "金額が引き出し限度額を超えています:%1$@%2$.2f";
+"myWithdrawVC2_MaxWithDrawMoney%@%.1f" = "一回の引き出し限度額:%1$@%2$.1f";
+"myWithdrawVC2_MinWithDrawMoney%@%.1f" = "一回の引き出しの最低金額:%1$@%2$.1f";
+"myWithdrawVC2_WithDrawWaitTip" = "引き出しの申請をしました。\n迅速に処理します";
+"myWithdrawVC2_CanWithDrawMoney%.1f" = "あなたの引き出し可能限度額は:¥%1$.1f";
+
+//withdrawPopView
+"withdrawPopView_tip" = "引き出しに関する注意";
+"withdrawPopView_Error_tip_BindPhone" = "携帯電話番号を登録しないと引き出しができません";
+"withdrawPopView_goBindPhone" = "携帯電話する";
+//myWithdrawVC
+
+"myWithdrawVC_minWithDrawAmount%.2f" = "最低引き出し:¥%1$.2f";
+
+///
+"PayInsta_tenTh%.0f" = "%1$.0f万+";
+"PayInsta_Th%.0f" = "%.0f千+";
+"PayInsta_hund%.0f" = "%.0f百+";
+
+"Filter_title" = "その他";
+
+"More_title" = "もっと";
+
+"movie_pay_Purchased" = "購入済み";
+"movie_pay" = "支払う";
+"movie_nav" = "ナビゲーション";
+"movie_game_menu" = "見ながら遊ぶ";
+"movie_video_menu" = "関連動画";
+"movie_pay_vip" = "VIPでロック解除して視聴";
+"unlockremind_buyviptips1" = "この機能を使用するにはVIPにアップグレードしてください";
+"VIP_Activate_now" = "今すぐ開通";
+"movie_pay_money" = "ロック解除して視聴";
+"movie_vip_tip" = "これはVIP専用ビデオで、視聴にはVIPアクセスが必要です";
+"movie_open_vip" = "まだVIPではありません、今すぐ有効化";
+"movie_ticket_tip" = "現在、視聴券が不足しています。ベットして視聴券を獲得してください。";
+"movie_amount_tip" = "現在の残高が不足しています。すぐにチャージしてください";
+"movie_vip_pay_tip" = "これはVIP有料ビデオです、購入して視聴";
+"movie_money_pay_tip" = "これは有料ビデオです";
+"movie_money_pay_tip2" = "購入して視聴";
+"movie_money_pay_tip3" = "閲覧して視聴する";
+"movie_trying_load_tip" = "プレビューは %@ 後に終了します。フル ビデオをご覧ください";
+"movie_trying_end_tip" = "プレビューは終了しました。フル動画をご覧ください";
+"movie_money_pay_title" = "残高支払い";
+"movie_ticket_unit" = "枚";
+"movie_ticket_name" = "映画チケット";
+"movie_time_expire" = "期限間近";
+"movie_time_valid" = "永久";
+"movie_pay_title" = "映画チケットの利用をお勧めします";
+"vip_pay_title" = "VIPメンバーシップを開く";
+"vip_pay_button" = "VIPを有効にする";
+"vip_open_account" = "アカウントを開設する";
+"vip_open_title" = "充電後に起動";
+"vip_pay_ballance" = "残高で支払う";
+"vip_pay_need_amount" = "まだ補充が必要です";
+"create_menu_record" = "収入レポート";
+"create_menu_rule" = "作成ルール";
+"create_menu_upload" = "ビデオをアップロード";
+"create_total_income" = "累計収入";
+"create_manage_show" = "外部";
+"create_manage_hide" = "非表示";
+"create_nav_title" = "私の作品";
+"create_state_approved" = "公開済み";
+"create_state_pending" = "検討中";
+"create_state_rejected" = "失敗";
+"create_select_count" = "| %@ 動画が選択されました";
+"create_should_choose" = "ビデオを選択してください";
+"create_date_today" = "今日";
+"create_date_yesterday" = "昨日";
+"create_date_week" = "先週";
+"create_date_month" = "ほぼ 1 か月";
+"create_report_from" = "ビデオソース";
+"create_report_date" = "日付";
+"create_report_amount" = "収益金額";
+"create_total_amount" = "総収益";
+"video_trying_start" = "プレビュー中(クリックしてロックを解除します)";
+"video_trying_stop" = "プレビューの終了";
+"video_game_can_full" = "ゲームで全画面表示にできない";
+
+///言語切替
+"swichLanguage" = "言語設定";
+"swichNotice" = "通知設定";
+
+"curreny_unit_alert" = "%1$@ %2$@獲得できます,現在のレートは%3$@";
+"curreny_unit_alert_charge" = "%1$@ %2$@獲得できます";
+
+
+
+//liveclosepopview
+"liveclosepopview_leave" = "離れる";
+"liveclosepopview_follow_exit" = "フォローして終了";
+"liveclosepopview_title" = "迷子にならないようにフォローしましょう〜";
+"liveclosepopview_hint" = "戻ってきてほしい～";
+
+
+"WithDrawNumberTip%@" = "引き出しにはコード %1$@ の量が必要です（コードの量は宝くじとゲームの賭けの量です）";
+
+"ChargeNumberTip%@" = "直接チャージにはまだ%1$@の賭け金が必要です（賭け金は宝くじとゲームの総ベット額です）。";
+
+//签到
+"ContinuousCheckin" = "連続でチェックイン";
+"ChekinRightNow" = "すぐにチェックインする";
+
+"all_state" = "賭け一覧";
+"didAward" = "受賞";
+"notAward" = "受賞していません";
+"willAward" = "受賞する賞";
+"equalEnd" = "描画";
+"lb_resultTime" = "ー";
+"all_type" = "ゲーム一覧";
+"time_sel" = "日時変更";
+//游戏
+"game_begain" = "BET開始";
+"game_will_begain" = "近日公開";
+"game_continue_bet" = "続く";
+
+"trend" = "C\nH\nA\nR\nT";
+"trend_title" = "CHART";
+
+"Chart_Area" = "範囲";
+
+"Chart_Area_Color" = "特別な色";
+
+"Chart_Area_big_small" = "B/S";
+"Chart_Area_single_double" = "S/D";
+"Chart_Area_red_black" = "赤黒";
+
+
+"YBUserInfoVC_ExchangeRate" = "（為替レート換算）";
+"ExchangeRateVC_ExchangeRate" = "為替レート";
+"myWithdrawVC2_Account%@_Balance" ="口座残高%1$@";
+"myWithdrawVC2_Account%@_Balance1" ="口座残高%1$@:";
+"myWithdrawVC2_Account_Balance2" ="VIPPAY 残高:";
+"SearchCard_BankName" = "検索するキーワードを入力してください";
+//设置主播名片
+"ContactInfo_notEditTipsTitle" = "アンカー名刺を設定していません";
+"ContactInfo_notEditTipsMsg" = "設定しますか？";
+"ContactInfo_notEditTipsSure" = "設定に移動";
+"ContactInfo_notEditTipsCancel" = "次へ";
+//添加提现方式
+"AddWithDrawType_title" = "追加した引き出し方法を選択してください";
+"AddWithDrawType_message" = "";
+"AddWithDrawType_usdt" = "USDT";
+"AddWithDrawType_card" = "バンクカード";
+"AddWithDrawType_cancel" = "キャンセル";
+"AddProfitTip_Error" = "まだ開いていません、お楽しみに";
+//添加USDT
+"AddUSDT_title" = "USDTを追加";
+"AddUSDT_Type_title" = "転送ネットワーク";
+"AddUSDT_Address_title" = "USDTアドレス";
+"AddUSDT_ChoiseType_title" = "転送ネットワークを選択してください";
+"AddUSDT_Type_Tips" = "USDTメインネットタイプを選択していません";
+"AddUSDT_Address_Tips" = "USDTアドレスを書いていません";
+"AddUSDT_Transfor_tip" = "他の人のウォレットアドレスへの転送は回復できません。不要な損失を避けるためにウォレットアドレスを注意深く確認してください";
+"AddUSDT_Paste" = "ペースト";
+"AddUSDT_PlaceHolder" = "ウォレットアドレスを入力してください";
+//添加其他
+"AddOther_title%@" = "%1$@を追加";
+"AddOther_Address_title%@" = "%1$@アドレス";
+"AddOther_Address_Tips%@" = "%1$@アドレスを書いていません";
+///不用翻译
+"socketLivePlay_Light" = "我点亮了";//不翻译
+"socketLivePlay_Followed" = "关注了主播";//不翻译
+"Livebroadcast_backtoRoom" = "主播回来了";//不翻译
+"Livebroadcast_liveinbackgroud" = "主播离开一下，精彩不中断，不要走开哦";//不翻译
+//禁止录屏
+"Live_ProhibitScreenRecording" = "画面録画を禁止する";
+//
+"filter_belowf" = "100未満のフィルター";
+"filter_belows" = "1K未満のフィルター";
+"filter_belowt" = "1W未満のフィルター";
+///还没翻译
+"history_award" = "Win金額";
+"history_profit" = "利益";
+"history_starttime" = "開始時間";
+"history_endtime" = "終了時間";
+"history_statetitle" = "取引状況の選択";
+"history_typetitle" = "ゲームを選択";
+"history_betcontent%@%@" = "発行番号：%1$@賭け内容：%2$@";
+"history_betTitle%@" = "第%1$@回";
+
+"history_bettime%@" = "賭け時間：%1$@";
+"history_statewillaward" = "賞品なし";
+"history_statenotaward" = "勝てない";
+"history_statedidaward" = "当選";
+"history_stateequal" = "ネクタイ";
+//OpenAwardViewController
+"OpenAward_NiuNiu_BlueWin" = "蓝方胜";
+"OpenAward_NiuNiu_RedWin" = "红方胜";
+"PublicObj_blue" = "蓝方:";
+"PublicObj_red" = "红方:";
+"TimeSelect_tipError" = "開始時間は終了時間を超えることはできません";
+"PublicObj_Spade" = "黑桃";
+"PublicObj_Heart" = "红心";
+"PublicObj_Club" = "梅花";
+"PublicObj_Diamond" = "方块";
+
+"Hotpage_AddMoreCountry" = "さらに多くの国";
+"GameCenter_List" = "報告";
+"Mypage_CopyId" = "コピー";
+"LiveGame_NoBetList" = "賭け記録がない";
+"OpenAward_NiuNiu_Green" = "緑";
+
+"OpenHistory_Dragon" = "龙";
+"OpenHistory_he" = "合";
+"OpenHistory_Tiger" = "虎";
+
+
+"忘记手势密码" = "忘れ记手势密コード";
+"指纹解锁" = "指紋によるロック解除";
+"面容ID解锁" = "Face ID ロック解除";
+"点击进行指纹解锁" = "クリックして指紋でロックを解除します";
+"点击进行面容ID解锁" = "クリックしてFace IDでロックを解除します";
+
+"DramaHomeViewController_title" = "鑑賞券";
+"DramaHomeHistoryCell_history_title" = "視聴履歴";
+"DramaHomeHeaderView_latest" = "最新";
+"DramaHomeHeaderView_hot" = "人気";
+
+"DramaFavoriteViewController_title" = "お気に入り";
+"DramaFavoriteViewController_empty_favorite" = "まだお気に入りのコンテンツはありません";
+
+"DramaPortraitVideoControlView_fullScreen_title" = "フルスクリーンで視聴";
+"DramaPortraitVideoControlView_unlock_pay" = "有料で解除";
+"DramaVideoViewController_video_not_available" = "この映画はまだ公開されていません";
+"DramaFavoriteViewController_empty_follow" = "まだコンテンツをフォローしていません";
+"DramaFavoriteViewController_empty_like" = "まだコンテンツを「いいね！」していません";
+
+"DramaVideoViewController_video_buy_ticket" = "%d 枚の映画券を消費しますか？";
+"DramaAllHeaderView_pay_info" = "%dエピソードを含む有料";
+"DramaAllHeaderView_pay_info_vip" = "%d話VIP有料";
+"DramaAllHeaderView_all_episodes" = "全%d話";
+"DramaAllListCell_pay" = "支払う";
+"Hotpage_skit_entrance" = "ショートドラマの入口";
+"VIP Pay" = "VIP有料";
+"DramaAllHeaderView_paid_info" = "%d話含む";
+"play" = "再生";
+
+"Please stay tuned" = "ご期待ください";
+"like" = "好き";
+"work" = "作品";
+"Tap to live stream room" = "ライブ配信に入る";
+"Not Search Any Result" = "関連結果が見つかりませんでした";
+"short_video_favorite_unit" = "M";
+"short_video_preview" = "試聴 %@";
+"short_video_buy" = "購入";
+"short_video_preview_end" = "試聴終了";
+
+"post_video_free" = "無料";
+"post_video_ticket_name" = "視聴券";
+"post_video_other_price" = "その他の金額:";
+"post_video_other_tags" = "その他のタグ";
+"post_video_no_rule" = "動画をアップロードする権限がありません";
+"post_video_uploading" = "公開中、お待ちください......";
+"post_video_upload_wait" = "アップロードが完了するまでお待ちください";
+"post_video_upload_retry" = "動画を再アップロードしてください";
+"post_video_upload_cover_again" = "カバーを再アップロードしてください";
+
+"Live Streaming" = "ライブ中";
+"All %ld episodes, completed" = "全%ld話、完結";
+"Favorite" = "お気に入り";
+"Watch History" = "視聴履歴";
+"Serialization" = "連載中";
+"Episodes finished" = "完結";
+"Episodes updating" = "更新中";
+"Not watched" = "未視聴";
+"Episode %ld" = "第%ld話";
+"%@ people online" = "%@人オンライン";
+"follow_recommend" = "おすすめ";
+"Episodes update to" = "更新至";
+"No Prefix Episode %ld" = "%ld話";
+"Select episode" = "エピソード選択";
+
+//短视频评论
+"short_video_comment_lookingForwardYourComments" = "あなたのコメントをお待ちしています";
+"short_video_comment_leaveCommentExpressYourThoughts" = "コメントを投稿して、あなたの考えを表現しましょう";
+"short_video_comment_noMoreComments" = "これ以上コメントはありません~";
+"short_video_comment_kindWordsBringGood" = "優しい言葉は善縁を結び、悪い言葉は人を傷つけます";
+"short_video_comment_send" = "送信";
+"short_video_comment_howManyComments" = "件のコメント";
+"short_video_comment_reply" = "返信";
+"short_video_comment_expand" = "展開";
+"short_video_comment_close" = "閉じる";
+"short_video_comment_year" = "年前";
+"short_video_comment_month" = "ヶ月前";
+"short_video_comment_weekOfYear" = "週間前";
+"short_video_comment_day" = "日前";
+"short_video_comment_hour" = "時間前";
+"short_video_comment_minute" = "分前";
+"short_video_comment_justNow" = "たった今";
+//首页容器
+"home_container_recommend" = "おすすめ";
+"home_container_recommend_space" = "おすすめ";
+"home_container_skit_space" = "短   劇";
+//搜索頁
+"home_search_searchVideos" = "動画を検索";
+"home_search_all" = "すべて";
+"home_search_shortVideo" = "短編動画";
+"home_search_skit" = "短編劇";
+"home_search_longVideo" = "長編動画";
+"home_search_anchorNickname" = "配信者";
+"home_search_searchRecord" = "検索履歴";
+"home_search_youLike" = "あなたにおすすめ";
+"home_search_hotSearch" = "人気検索";
+"home_search_tenThousand" = "万";
+"home_search_thousand" = "千";
+"home_search_noRelevantResultsFound" = "関連する結果は見つかりませんでした";
+"home_search_modifySearchKeywordsAndTryAgain" = "検索キーワードを変更してもう一度お試しください";
+"home_search_search" = "検索";
+"home_search_userNickName" = "ユーザー名";
+//发布短视频
+"post_video_rules_title" = "短編動画投稿ルール";
+"post_video_desc_section1" = "動画の長さ";
+"post_video_desc_rulse1" = "動画の長さは10秒から5分までです。";
+"post_video_desc_section2" = "動画形式";
+"post_video_desc_rulse2_1" = "対応フォーマット: MP4、MOV、AVIなど。";
+"post_video_desc_rulse2_2" = "解像度は最低720p（720x1280ピクセル）。";
+"post_video_desc_rulse2_3" = "ファイルサイズは100MB以内。";
+"post_video_desc_section3" = "コンテンツガイドライン";
+"post_video_desc_rulse3_1" = "暴力、政治的発言、憎悪表現は禁止されています。";
+"post_video_desc_rulse3_2" = "他人のプライバシーを保護し、撮影された人物の同意を得てください。";
+"post_video_desc_section4" = "動画の質";
+"post_video_desc_rulse4" = "動画は鮮明で安定しており、音声は雑音がないこと。";
+"post_video_desc_section5" = "動画のタイトルと説明";
+"post_video_desc_rulse5_1" = "タイトルと説明は動画の内容を正確に反映していること。";
+"post_video_desc_rulse5_2" = "関連するタグを使用し、分類と検索を容易にする。";
+"post_video_desc_section6" = "その他の要求";
+"post_video_desc_rulse6_1" = "動画はプラットフォームの審査を経て公開されます。";
+"post_video_desc_rulse6_2" = "動画の内容に応じて適切なカテゴリを選択してください。";
+"post_video_max_tags" = "最大5つのタグ";
+//我的
+"profile_center_wallet" = "センターウォレット";
+"profile_center_myWallet" = "マイウォレット";
+"profile_center_change_unit" = "通貨の切り替え";
+//消息列表
+"message_list" = "メッセージリスト";
+"message_list_no_new_notifi" = "新しい通知はありません";
+"message_list_interactive_messages" = "インタラクティブメッセージ";
+"message_list_people_have_saved_your_comments" = "%1$@ 人があなたのコメントを保存しました";
+"message_list_reply_comment" = "コメントに返信";
+"message_list_like" = "いいね";
+"message_list_no_messages" = "メッセージはありません。控えめすぎますね～";
+"message_list_go_play_game" = "ゲームを遊びに行きましょう";
+
+// 簽到
+"Signed In" = "サインイン済み";
+"The more consecutive sign-ins, the greater the rewards" = "連続してサインインすればするほど、報酬が大きくなります!";
+"Achieved" = "達成済み";
+"Consecutive Sign-ins" = "連続サインイン";
+"Daily Sign-in" = "毎日サインイン (まいにちサインイン)";
+
+// 幸運抽獎
+"luckyDraw_title" = "ラッキードロー";
+"luckyDraw_remaining_bonus_in_the_prize_pool" = "賞金プールの残りのボーナス";
+"luckyDraw_number_of_draws_remaining" = "残りの抽選回数";
+"luckyDraw_winning_record" = "当選記録";
+"luckyDraw_bonus_rules" = "ボーナスルール";
+"luckyDraw_reset_time" = "抽選回数は%1$@にリセットされますので、早めにご利用ください";
+"luckyDraw_tips" = "下のタスクを完了して抽選回数をゲットしましょう。";
+"luckyDraw_result_tips" = "達成を続けて、幸運抽選の素敵な賞品を受け取りましょう！";
+
+"bounsRules_category_title1" = "ビッグプライズ記録";
+"bounsRules_category_title2" = "私の記録";
+
+"bounsRules_section1_title" = "ラッキードロー回数イベント";
+"bounsRules_section1_row1" = "初回チャージで1回の抽選回数をプレゼント。";
+"bounsRules_section1_row2" = "携帯番号を登録すると1回の抽選回数をプレゼント。";
+"bounsRules_section1_row3" = "3日連続ログインで1回の抽選回数をプレゼント。";
+"bounsRules_section1_row4" = "配信者にダイヤモンドを贈ると1回の抽選回数（1日1回限り）。";
+"bounsRules_section1_row5" = "1回の宝くじ購入が¥100以上で抽選回数を1回プレゼント（1日1回限り）。";
+"bounsRules_section1_row6" = "1回の即時入金が¥100以上で抽選回数を1回プレゼント（1日1回限り）。";
+"bounsRules_section2_title" = "ラッキードロールール";
+"bounsRules_section2_row1" = "賞金プールのボーナスはプレイヤーのベットから生成され、リアルタイムで更新されます。";
+"bounsRules_section2_row2" = "獲得した抽選回数は毎週日曜日の23:59にリセットされ、未使用の場合は自動的に放棄されます。";
+"bounsRules_section2_row3" = "当選金額が賞金プールのボーナスを超えた場合、残りのボーナスはすべて当選者に与えられます。";
+"bounsRules_section2_row4" = "システムの遅延により報酬を受け取れない場合は、再ログインまたはオンラインサポートにお問い合わせください。";
+"bounsRules_section2_row5" = "ラッキードローの最終解釈権はプラットフォームにあります。";
+
+"Winning_record_welcome" = "ようこそ！";
+"Winning_record_lucky" = "幸運を祈ります！";
+"Winning_record_eve" = "前日";
+"Winning_record_congratulations_your_winning_draw" = "おめでとうございます、あなたは当選しました：";
+"Winning_record_Congratulations_user_winning_draw" = "おめでとうございます、ユーザーが当選しました：";
+"Winning_record_user_name" = "ユーザー名：";
+
+"comment_replay_like_des" = "あなたのコメントにいいねしました";
+"comment_replay_like_video_des" = "あなたの動画にいいねしました";
+"comment_post_new_video" = "新しい作品を投稿しました";
+"read_all" = "すべて既読";
+
+"post_video_upload_interrupted" = "アップロード中断";
+"post_video_resume_prompt" = "再開しますか？";
+"post_video_retry" = "再アップロード";
+"ppublic_continue" = "続行";
+"ppublic_account" = "アカウント";
+"video_ticket_float" = "coupon_ticket-japan";
+
+"验证码验证超时，请重试" = "認証コードの検証がタイムアウトしました。もう一度お試しください";
+"网络连接失败，请检查网络后重试" = "ネットワーク接続に失敗しました。ネットワークを確認して再試行してください";
+"验证已取消" = "認証がキャンセルされました";
+"验证码初始化失败，请稍后重试" = "認証コードの初期化に失敗しました。後でもう一度お試しください";
+"验证码配置错误，请联系客服" = "認証コードの設定エラーです。カスタマーサービスにお問い合わせください";
+"验证结果无效，请重新验证" = "認証結果が無効です。再度認証してください";
+"验证失败，请重试" = "認証に失敗しました。もう一度お試しください";
+"验证失败" = "認証に失敗しました";
+"验证码初始化失败" = "認証コードの初期化に失敗しました";
+"降级模式验证成功" = "フォールバックモードの認証に成功しました";

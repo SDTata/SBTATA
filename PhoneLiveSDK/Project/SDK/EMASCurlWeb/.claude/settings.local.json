@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xcodebuild clean:*)",
+      "Bash(xcodebuild -list:*)",
+      "Bash(cat:*)",
+      "Bash(clang -cc1 -ast-print:*)",
+      "Bash(timeout 300 xcodebuild build:*)",
+      "Bash(xcodebuild build:*)",
+      "Bash(xcodebuild:*)",
+      "WebFetch(domain:curl.se)",
+      "Bash(timeout 120 xcodebuild build:*)",
+      "Bash(git log:*)",
+      "Bash(/tmp/EMASCurlProtocol_old.m)",
+      "Bash(/tmp/EMASCurlWebUrlSchemeHandler_old.m)",
+      "Bash(git checkout:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
