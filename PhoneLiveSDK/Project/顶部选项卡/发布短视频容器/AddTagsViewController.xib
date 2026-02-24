@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddTagsViewController">
+            <connections>
+                <outlet property="contentView" destination="PdO-eK-QGY" id="WHh-zV-hK0"/>
+                <outlet property="scrollView" destination="nsV-4p-XaA" id="DCe-98-SYA"/>
+                <outlet property="sureButton" destination="BsB-ZU-7js" id="Nxl-nR-emG"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nsV-4p-XaA">
+                    <rect key="frame" x="0.0" y="103" width="393" height="749"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PdO-eK-QGY">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
+                            <color key="backgroundColor" red="0.91372549530000002" green="0.90588235859999999" blue="0.92941176889999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.91372549530000002" green="0.90588235859999999" blue="0.92941176889999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstItem="PdO-eK-QGY" firstAttribute="centerX" secondItem="nsV-4p-XaA" secondAttribute="centerX" id="9My-LP-3xW"/>
+                        <constraint firstItem="PdO-eK-QGY" firstAttribute="top" secondItem="nsV-4p-XaA" secondAttribute="top" id="NRr-Qn-AWi"/>
+                        <constraint firstItem="PdO-eK-QGY" firstAttribute="leading" secondItem="nsV-4p-XaA" secondAttribute="leading" id="eOj-gE-AEP"/>
+                        <constraint firstAttribute="bottom" secondItem="PdO-eK-QGY" secondAttribute="bottom" id="rdS-HH-VOQ"/>
+                        <constraint firstItem="PdO-eK-QGY" firstAttribute="trailing" secondItem="nsV-4p-XaA" secondAttribute="trailing" id="wlp-k3-t0N"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="JnB-Va-LNH"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="VmI-dW-jcL"/>
+                </scrollView>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BsB-ZU-7js">
+                    <rect key="frame" x="20" y="738" width="353" height="40"/>
+                    <color key="backgroundColor" red="0.1960784314" green="0.015686275440000001" blue="0.21960783" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="WZ1-Ym-nk7"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain">
+                        <attributedString key="attributedTitle">
+                            <fragment content="确认">
+                                <attributes>
+                                    <font key="NSFont" size="16" name=".PingFangTC-Regular"/>
+                                    <font key="NSOriginalFont" metaFont="system" size="16"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                    </buttonConfiguration>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="sureAction:" destination="-1" eventType="touchUpInside" id="aer-B4-F9X"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <color key="backgroundColor" red="0.91372549530000002" green="0.90588235859999999" blue="0.92941176889999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="BsB-ZU-7js" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="5qT-Y8-V0E"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="BsB-ZU-7js" secondAttribute="bottom" constant="40" id="Jzz-TG-86V"/>
+                <constraint firstItem="nsV-4p-XaA" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="PbV-Rk-G48"/>
+                <constraint firstAttribute="bottom" secondItem="nsV-4p-XaA" secondAttribute="bottom" id="Pv2-w5-rPu"/>
+                <constraint firstItem="nsV-4p-XaA" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="44" id="TxT-9j-6Yu"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="BsB-ZU-7js" secondAttribute="trailing" constant="20" id="bGi-gK-lf4"/>
+                <constraint firstItem="nsV-4p-XaA" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="cgv-eL-GQl"/>
+            </constraints>
+            <point key="canvasLocation" x="-63" y="20"/>
+        </view>
+    </objects>
+</document>

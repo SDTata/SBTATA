@@ -1,0 +1,17 @@
+//
+//  LanguageVC.h
+//  phonelive2
+//
+//  Created by 400 on 2021/8/16.
+//  Copyright © 2021 toby. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface LanguageVC : UIViewController
+
+@end
+
+NS_ASSUME_NONNULL_END

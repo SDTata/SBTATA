@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LanguageCell" id="KGk-i7-Jjw" customClass="LanguageCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mp9-RB-qMc">
+                        <rect key="frame" x="8" y="22" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gAy-vJ-ZA6">
+                        <rect key="frame" x="276" y="5" width="32" height="34"/>
+                        <state key="selected" image="selectedLanguage.png"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Mp9-RB-qMc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="0zz-Lj-avb"/>
+                    <constraint firstItem="gAy-vJ-ZA6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="4t8-EE-MXn"/>
+                    <constraint firstItem="Mp9-RB-qMc" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="K3W-TH-buz"/>
+                    <constraint firstAttribute="trailing" secondItem="gAy-vJ-ZA6" secondAttribute="trailing" constant="12" id="OLj-sp-dKh"/>
+                    <constraint firstAttribute="bottom" secondItem="gAy-vJ-ZA6" secondAttribute="bottom" constant="5" id="YTd-zy-xmm"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="selectedButton" destination="gAy-vJ-ZA6" id="IcG-cr-qYb"/>
+                <outlet property="titleLabel" destination="Mp9-RB-qMc" id="3sA-5h-ajq"/>
+            </connections>
+            <point key="canvasLocation" x="13.043478260869566" y="83.705357142857139"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="selectedLanguage.png" width="32" height="32"/>
+    </resources>
+</document>

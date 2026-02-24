@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OpenAwardCollectionViewCell" id="gTV-IL-0wX" userLabel="OpenAwardCollectionViewCell" customClass="OpenAwardCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="403" height="71"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="403" height="71"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="0000000000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xyb-Xh-MMq">
+                        <rect key="frame" x="12" y="5" width="81.5" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="期" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Orq-KF-ObD">
+                        <rect key="frame" x="93.5" y="6" width="12.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="OW0-0l-iHd">
+                        <rect key="frame" x="12" y="23" width="300" height="43"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="43" id="M0I-Rm-Bth"/>
+                            <constraint firstAttribute="width" constant="300" id="zIT-wC-0eO"/>
+                        </constraints>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Kqo-1A-4IF">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="OW0-0l-iHd" firstAttribute="top" secondItem="Xyb-Xh-MMq" secondAttribute="bottom" constant="2" id="AHJ-RD-W8D"/>
+                <constraint firstItem="Orq-KF-ObD" firstAttribute="leading" secondItem="Xyb-Xh-MMq" secondAttribute="trailing" id="AOu-zp-VOm"/>
+                <constraint firstItem="Xyb-Xh-MMq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="J0U-HK-5IM"/>
+                <constraint firstItem="Xyb-Xh-MMq" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="12" id="boj-HV-2cT"/>
+                <constraint firstItem="OW0-0l-iHd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="12" id="pzw-Ux-xxY"/>
+                <constraint firstItem="Orq-KF-ObD" firstAttribute="centerY" secondItem="Xyb-Xh-MMq" secondAttribute="centerY" id="rNi-xz-dBL"/>
+            </constraints>
+            <size key="customSize" width="456" height="89"/>
+            <connections>
+                <outlet property="dateTitleLabel" destination="Orq-KF-ObD" id="2qQ-0k-GVL"/>
+                <outlet property="issueLabel" destination="Xyb-Xh-MMq" id="8HJ-RJ-4CW"/>
+                <outlet property="openResultCollectionView" destination="OW0-0l-iHd" id="INS-Od-vN9"/>
+            </connections>
+            <point key="canvasLocation" x="-58.399999999999999" y="134.48275862068968"/>
+        </collectionViewCell>
+    </objects>
+</document>
