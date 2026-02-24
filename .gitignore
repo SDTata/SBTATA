@@ -27,3 +27,6 @@ fastlane/test_output
 
 # 本地凭据（勿提交）
 .git-tata-remotes
+
+# 本地推送脚本（不提交到远程）
+push-to-remotes.sh
