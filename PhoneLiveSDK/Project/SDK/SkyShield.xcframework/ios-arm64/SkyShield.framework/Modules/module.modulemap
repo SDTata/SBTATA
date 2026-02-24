@@ -1,0 +1,6 @@
+framework module SkyShield {
+  umbrella header "SkyShield.h"
+  export *
+
+  module * { export * }
+}
