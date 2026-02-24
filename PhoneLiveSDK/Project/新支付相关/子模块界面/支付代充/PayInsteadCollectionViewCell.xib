@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PayInsteadCollectionViewCell" id="gTV-IL-0wX" userLabel="PayInsteadCollectionViewCell" customClass="PayInsteadCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="386" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="386" height="70"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JHd-F1-kck">
+                        <rect key="frame" x="15" y="13" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R98-PL-ned">
+                        <rect key="frame" x="15" y="23" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XQc-nA-Mer">
+                        <rect key="frame" x="17" y="15" width="9" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qz7-fl-mKr">
+                        <rect key="frame" x="247" y="0.0" width="70" height="70"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="RrP-Ic-qb0"/>
+                            <constraint firstAttribute="height" constant="70" id="jTd-p7-0FO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <inset key="titleEdgeInsets" minX="0.0" minY="35" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="27" minY="17" maxX="27" maxY="37"/>
+                        <state key="normal" image="recharge04.png">
+                            <color key="titleColor" red="0.40302181240000001" green="0.71465122699999994" blue="0.20768198369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </state>
+                        <state key="disabled" image="recharge03.png">
+                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.82681694880000001" green="0.83058469989999995" blue="0.8418879534" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ow-qo-yFs">
+                        <rect key="frame" x="316" y="0.0" width="70" height="70"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="5z8-zl-INJ"/>
+                            <constraint firstAttribute="width" constant="70" id="AkI-DX-vfH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <inset key="imageEdgeInsets" minX="27" minY="17" maxX="27" maxY="37"/>
+                        <state key="normal" image="recharge05.png">
+                            <color key="titleColor" red="0.29680967330000002" green="0.65297323470000002" blue="0.92160177229999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </state>
+                        <state key="disabled" image="recharge06.png">
+                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.82681694880000001" green="0.83058469989999995" blue="0.8418879534" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kf3-zZ-uUd">
+                        <rect key="frame" x="178" y="0.0" width="70" height="70"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="4PF-HF-PIC"/>
+                            <constraint firstAttribute="height" constant="70" id="YwG-lG-IXZ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <inset key="imageEdgeInsets" minX="27" minY="17" maxX="27" maxY="37"/>
+                        <state key="normal" image="recharge01.png">
+                            <color key="titleColor" red="0.37701240180000001" green="0.53379583360000005" blue="0.96867173910000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </state>
+                        <state key="disabled" image="recharge02.png">
+                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.82681694880000001" green="0.83058469989999995" blue="0.8418879534" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="立即联系" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Xc-th-zQR">
+                        <rect key="frame" x="186.5" y="45" width="53.5" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.37701240180000001" green="0.53379583360000005" blue="0.96867173910000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="立即联系" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCq-AF-KdH">
+                        <rect key="frame" x="255" y="45" width="54" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.40302181240000001" green="0.71465122699999994" blue="0.20768198369999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="立即联系" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3QV-Gj-H8p">
+                        <rect key="frame" x="324" y="45" width="54" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.29680967330000002" green="0.65297323470000002" blue="0.92160177229999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="qz7-fl-mKr" secondAttribute="bottom" id="3Og-h5-Otw"/>
+                <constraint firstItem="JHd-F1-kck" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="4Be-vH-72W"/>
+                <constraint firstItem="R98-PL-ned" firstAttribute="leading" secondItem="JHd-F1-kck" secondAttribute="leading" id="4Hh-RO-Gav"/>
+                <constraint firstItem="R98-PL-ned" firstAttribute="top" secondItem="JHd-F1-kck" secondAttribute="bottom" constant="10" id="4cc-6O-Pao"/>
+                <constraint firstItem="qz7-fl-mKr" firstAttribute="leading" secondItem="kf3-zZ-uUd" secondAttribute="trailing" constant="-1" id="5df-Fk-RE2"/>
+                <constraint firstItem="qz7-fl-mKr" firstAttribute="bottom" secondItem="FCq-AF-KdH" secondAttribute="bottom" constant="9" id="682-tA-5KI"/>
+                <constraint firstItem="3QV-Gj-H8p" firstAttribute="centerX" secondItem="1ow-qo-yFs" secondAttribute="centerX" id="C0U-HD-DXe"/>
+                <constraint firstItem="FCq-AF-KdH" firstAttribute="centerX" secondItem="qz7-fl-mKr" secondAttribute="centerX" id="FPY-ki-rbR"/>
+                <constraint firstItem="XQc-nA-Mer" firstAttribute="leading" secondItem="R98-PL-ned" secondAttribute="trailing" constant="2" id="JOP-Lv-tfd"/>
+                <constraint firstItem="2Xc-th-zQR" firstAttribute="centerX" secondItem="kf3-zZ-uUd" secondAttribute="centerX" id="Pds-4w-vNK"/>
+                <constraint firstItem="JHd-F1-kck" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="13" id="QZX-mF-Njl"/>
+                <constraint firstItem="1ow-qo-yFs" firstAttribute="bottom" secondItem="3QV-Gj-H8p" secondAttribute="bottom" constant="9" id="SNR-AX-wI2"/>
+                <constraint firstItem="qz7-fl-mKr" firstAttribute="leading" secondItem="kf3-zZ-uUd" secondAttribute="trailing" constant="-1" id="TnP-Ux-9Fx"/>
+                <constraint firstItem="XQc-nA-Mer" firstAttribute="centerY" secondItem="R98-PL-ned" secondAttribute="centerY" id="bCU-K4-h1h"/>
+                <constraint firstAttribute="bottom" secondItem="1ow-qo-yFs" secondAttribute="bottom" id="edK-Nq-aTc"/>
+                <constraint firstItem="kf3-zZ-uUd" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="fmh-WF-g6k"/>
+                <constraint firstAttribute="bottom" secondItem="kf3-zZ-uUd" secondAttribute="bottom" id="ijl-wY-eJW"/>
+                <constraint firstItem="1ow-qo-yFs" firstAttribute="leading" secondItem="qz7-fl-mKr" secondAttribute="trailing" constant="-1" id="khA-nO-Rlc"/>
+                <constraint firstAttribute="trailing" secondItem="1ow-qo-yFs" secondAttribute="trailing" id="tUl-FD-PyV"/>
+                <constraint firstItem="kf3-zZ-uUd" firstAttribute="bottom" secondItem="2Xc-th-zQR" secondAttribute="bottom" constant="9" id="zde-8n-UEr"/>
+            </constraints>
+            <size key="customSize" width="319" height="71"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                    <color key="value" red="0.82681694880000001" green="0.83058469989999995" blue="0.8418879534" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                    <real key="value" value="1"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="0.0"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="QQBtn" destination="kf3-zZ-uUd" id="1UM-XX-k4k"/>
+                <outlet property="QQLabel" destination="2Xc-th-zQR" id="AED-fN-qn6"/>
+                <outlet property="aliPayBtn" destination="1ow-qo-yFs" id="lpK-uh-PeB"/>
+                <outlet property="aliPayLabel" destination="3QV-Gj-H8p" id="JSB-LP-a2w"/>
+                <outlet property="edutitleLable" destination="R98-PL-ned" id="SaY-cf-wtf"/>
+                <outlet property="nickNameLabel" destination="JHd-F1-kck" id="apR-29-ciS"/>
+                <outlet property="quotaLabel" destination="XQc-nA-Mer" id="LKP-gw-fuX"/>
+                <outlet property="weChatBtn" destination="qz7-fl-mKr" id="AlG-Hk-ltg"/>
+                <outlet property="weChatLabel" destination="FCq-AF-KdH" id="8sI-Td-Zjg"/>
+            </connections>
+            <point key="canvasLocation" x="510.39999999999998" y="392.20389805097454"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="recharge01.png" width="48" height="48"/>
+        <image name="recharge02.png" width="48" height="48"/>
+        <image name="recharge03.png" width="48" height="48"/>
+        <image name="recharge04.png" width="48" height="48"/>
+        <image name="recharge05.png" width="48" height="48"/>
+        <image name="recharge06.png" width="48" height="48"/>
+    </resources>
+</document>

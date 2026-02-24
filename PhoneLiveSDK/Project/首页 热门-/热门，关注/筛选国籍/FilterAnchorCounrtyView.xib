@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FilterAnchorCounrtyView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="57"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Obx-bx-q3M">
+                    <rect key="frame" x="12" y="3" width="35" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="35" id="kTB-gH-O1Q"/>
+                        <constraint firstAttribute="height" constant="35" id="tsl-Ts-Dja"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="17.5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XnZ-lS-s9U">
+                    <rect key="frame" x="7.5" y="38" width="44" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="3qj-DD-5k6"/>
+                        <constraint firstAttribute="width" constant="44" id="xX7-gs-JGA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="66S-tp-Ayy">
+                    <rect key="frame" x="53" y="5" width="266.5" height="52"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="HkT-jH-rPb">
+                        <size key="itemSize" width="40" height="57"/>
+                        <size key="estimatedItemSize" width="40" height="57"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Or-vR-PWG">
+                    <rect key="frame" x="329.5" y="8.5" width="77.5" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="PAg-4A-FKV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="Filter" backgroundImage="moreCountry.png">
+                        <color key="titleColor" systemColor="labelColor"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="14.5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="countrySelected.png" translatesAutoresizingMaskIntoConstraints="NO" id="PYU-EX-m0N">
+                    <rect key="frame" x="11" y="55" width="37" height="5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="37" id="dUK-UE-SIu"/>
+                        <constraint firstAttribute="height" constant="5" id="xc0-0T-Xd3"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="PYU-EX-m0N" firstAttribute="top" secondItem="XnZ-lS-s9U" secondAttribute="bottom" constant="1" id="1ib-XY-LK1"/>
+                <constraint firstAttribute="trailing" secondItem="4Or-vR-PWG" secondAttribute="trailing" constant="7" id="DBW-h4-5XO"/>
+                <constraint firstItem="66S-tp-Ayy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="FHD-xs-ReT"/>
+                <constraint firstItem="Obx-bx-q3M" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-8" id="HoX-gU-vib"/>
+                <constraint firstItem="4Or-vR-PWG" firstAttribute="leading" secondItem="66S-tp-Ayy" secondAttribute="trailing" constant="10" id="LOZ-6p-44Y"/>
+                <constraint firstItem="Obx-bx-q3M" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="gFj-UF-wYM"/>
+                <constraint firstItem="4Or-vR-PWG" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="hFa-y5-Nbg"/>
+                <constraint firstItem="XnZ-lS-s9U" firstAttribute="centerX" secondItem="Obx-bx-q3M" secondAttribute="centerX" id="hgO-7l-q5l"/>
+                <constraint firstItem="66S-tp-Ayy" firstAttribute="leading" secondItem="Obx-bx-q3M" secondAttribute="trailing" constant="6" id="kMv-Lb-HXM"/>
+                <constraint firstItem="XnZ-lS-s9U" firstAttribute="top" secondItem="Obx-bx-q3M" secondAttribute="bottom" id="rv3-lM-4o7"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="66S-tp-Ayy" secondAttribute="bottom" id="xur-va-axm"/>
+                <constraint firstItem="PYU-EX-m0N" firstAttribute="centerX" secondItem="XnZ-lS-s9U" secondAttribute="centerX" id="zjW-VO-bkA"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="collectionView" destination="66S-tp-Ayy" id="ij5-by-eD7"/>
+                <outlet property="filterButton" destination="4Or-vR-PWG" id="IY8-YY-HO6"/>
+                <outlet property="selectedImgV" destination="Obx-bx-q3M" id="kY4-mC-8Ta"/>
+                <outlet property="selectedLabel" destination="XnZ-lS-s9U" id="mAd-W8-A4W"/>
+            </connections>
+            <point key="canvasLocation" x="-20.289855072463769" y="-177.12053571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="countrySelected.png" width="13" height="2.5"/>
+        <image name="moreCountry.png" width="77.5" height="41"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

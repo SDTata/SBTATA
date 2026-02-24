@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment version="4352" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LiveNotificationAlert">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bkb-pc-K64">
+                    <rect key="frame" x="30" y="138.5" width="354" height="531"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Pwt-T0-Yng">
+                            <rect key="frame" x="0.0" y="60" width="101" height="471"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </tableView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gonggao_top.png" translatesAutoresizingMaskIntoConstraints="NO" id="gbC-bn-y41">
+                            <rect key="frame" x="0.0" y="0.0" width="354" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="D68-3p-6kW"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="公告" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7VW-IX-1GN">
+                            <rect key="frame" x="154.5" y="27" width="51" height="30"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KzR-qy-baI">
+                            <rect key="frame" x="101" y="60" width="253" height="471"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <wkWebViewConfiguration key="configuration">
+                                <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                <wkPreferences key="preferences"/>
+                            </wkWebViewConfiguration>
+                        </wkWebView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="bkb-pc-K64" secondAttribute="height" multiplier="2:3" id="1Sg-wB-Em2"/>
+                        <constraint firstItem="7VW-IX-1GN" firstAttribute="centerX" secondItem="bkb-pc-K64" secondAttribute="centerX" constant="3" id="6aB-yn-xk4"/>
+                        <constraint firstItem="gbC-bn-y41" firstAttribute="top" secondItem="bkb-pc-K64" secondAttribute="top" id="QAY-nR-0Zs"/>
+                        <constraint firstItem="Pwt-T0-Yng" firstAttribute="width" secondItem="bkb-pc-K64" secondAttribute="width" multiplier="0.285311" id="Txb-iN-Tgb"/>
+                        <constraint firstItem="gbC-bn-y41" firstAttribute="leading" secondItem="bkb-pc-K64" secondAttribute="leading" id="Uik-Oe-YjB"/>
+                        <constraint firstItem="Pwt-T0-Yng" firstAttribute="top" secondItem="gbC-bn-y41" secondAttribute="bottom" id="WDt-F5-1ct"/>
+                        <constraint firstAttribute="bottom" secondItem="Pwt-T0-Yng" secondAttribute="bottom" id="bjB-Dj-fsZ"/>
+                        <constraint firstAttribute="trailing" secondItem="KzR-qy-baI" secondAttribute="trailing" id="bvs-2N-WbO"/>
+                        <constraint firstAttribute="trailing" secondItem="gbC-bn-y41" secondAttribute="trailing" id="gVn-Dd-Syr"/>
+                        <constraint firstItem="KzR-qy-baI" firstAttribute="leading" secondItem="Pwt-T0-Yng" secondAttribute="trailing" id="kMQ-Na-NHH"/>
+                        <constraint firstItem="KzR-qy-baI" firstAttribute="top" secondItem="gbC-bn-y41" secondAttribute="bottom" id="lOU-Xj-wtR"/>
+                        <constraint firstItem="Pwt-T0-Yng" firstAttribute="leading" secondItem="bkb-pc-K64" secondAttribute="leading" id="s7U-Sq-tqA"/>
+                        <constraint firstAttribute="bottom" secondItem="KzR-qy-baI" secondAttribute="bottom" id="vAk-q3-Wap"/>
+                        <constraint firstItem="7VW-IX-1GN" firstAttribute="top" secondItem="bkb-pc-K64" secondAttribute="top" constant="27" id="z04-Qk-d2U"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bhK-OQ-u5x">
+                    <rect key="frame" x="182" y="699.5" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="AB0-9W-nxx"/>
+                        <constraint firstAttribute="height" constant="50" id="HHR-uw-zxB"/>
+                    </constraints>
+                    <state key="normal" image="guanbi_111.png"/>
+                    <connections>
+                        <action selector="didClickCloseAlert:" destination="iN0-l3-epB" eventType="touchUpInside" id="hsA-44-p4q"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.30162214421901573" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="bkb-pc-K64" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="6Cb-Ee-v29"/>
+                <constraint firstItem="bkb-pc-K64" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" multiplier="0.8" constant="40" id="Ehm-9n-5mc"/>
+                <constraint firstItem="bhK-OQ-u5x" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="HVS-Hf-WVL"/>
+                <constraint firstItem="bhK-OQ-u5x" firstAttribute="top" secondItem="bkb-pc-K64" secondAttribute="bottom" constant="30" id="LUC-0i-xB1"/>
+                <constraint firstItem="bkb-pc-K64" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="aBi-0n-Hpu"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="bkb-pc-K64" secondAttribute="trailing" constant="30" id="qNh-wb-X6J"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bgView" destination="bkb-pc-K64" id="I99-dP-WBA"/>
+                <outlet property="iv_logo" destination="gbC-bn-y41" id="Nki-uz-Hz6"/>
+                <outlet property="layout_alertCenterY" destination="Ehm-9n-5mc" id="6cd-1t-6cc"/>
+                <outlet property="tb_titles" destination="Pwt-T0-Yng" id="XkN-UC-ieu"/>
+                <outlet property="text_content" destination="KzR-qy-baI" id="EQ3-s9-hAu"/>
+                <outlet property="titleLabel" destination="7VW-IX-1GN" id="Q0d-LW-He0"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="116.51785714285714"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="gonggao_top.png" width="266" height="54"/>
+        <image name="guanbi_111.png" width="34" height="34"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

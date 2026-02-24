@@ -1,0 +1,138 @@
+//
+//  MultilevelMenu.h
+//  MultilevelMenu
+//
+//  Created by gitBurning on 15/3/13.
+//  Copyright (c) 2015年 BR. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+#define kLeftWidth 108
+
+@protocol MultilevelMenuDeleaget<NSObject>
+
+@required
+- (void)multilevelMenuScrollViewDidScroll: (UIScrollView *)scrollView;
+@end
+
+@interface MultilevelMenu : UIView<UITableViewDataSource,UITableViewDelegate,UICollectionViewDelegateFlowLayout,UICollectionViewDataSource,UICollectionViewDelegate>
+
+@property(nonatomic,assign)id<MultilevelMenuDeleaget> delelgate;
+
+@property(strong,nonatomic) NSArray * allData;
+
+
+@property(copy,nonatomic,readonly) id block;
+
+/**
+ *  是否可滑动
+ */
+@property(assign,nonatomic) BOOL isRightTableCanScroll;
+/**
+ *  是否 记录滑动位置
+ */
+@property(assign,nonatomic) BOOL isRecordLastScroll;
+/**
+ *   记录滑动位置 是否需要 动画
+ */
+@property(assign,nonatomic) BOOL isRecordLastScrollAnimated;
+
+@property(assign,nonatomic,readonly) NSInteger selectIndex;
+
+/**
+ *  为了 不修改原来的，因此增加了一个属性，选中指定 行数
+ */
+@property(assign,nonatomic) NSInteger needToScorllerIndex;
+/**
+ *  颜色属性配置
+ */
+
+/**
+ *  左边背景颜色
+ */
+@property(strong,nonatomic) UIColor * leftBgColor;
+/**
+ *  左边点中文字颜色
+ */
+@property(strong,nonatomic) UIColor * leftSelectColor;
+/**
+ *  左边点中背景颜色
+ */
+@property(strong,nonatomic) UIColor * leftSelectBgColor;
+
+/**
+ *  左边未点中文字颜色
+ */
+
+@property(strong,nonatomic) UIColor * leftUnSelectColor;
+/**
+ *  左边未点中背景颜色
+ */
+@property(strong,nonatomic) UIColor * leftUnSelectBgColor;
+/**
+ *  tablew 的分割线
+ */
+@property(strong,nonatomic) UIColor * leftSeparatorColor;
+
+-(instancetype)initWithFrame:(CGRect)frame WithData:(NSArray*)data withSelectIndex:(void(^)(NSInteger left,NSInteger right,id info))selectIndex;
+- (void)reloadFrame:(CGRect)frame;
+@property(strong,nonatomic ) UITableView * leftTablew;
+//@property(strong,nonatomic ) UICollectionView * rightCollection;
+@property(strong,nonatomic ) NSMutableArray * rightCollections;
+@property(strong,nonatomic ) UITableView * rightTablew;
+-(void)reloadData;
+@end
+
+
+@interface rightMeun : NSObject
+
+/**
+ *  菜单图片名
+ */
+@property(copy,nonatomic) NSString * urlName;
+/**
+ *  选中的菜单图片名
+ */
+@property(copy,nonatomic) NSString * urlSelectName;
+/**
+ *  菜单名
+ */
+@property(copy,nonatomic) NSString * meunName;
+/**
+ *  菜单类型ID
+ */
+@property(copy,nonatomic) NSString * kindID;
+/**
+ *  菜单所属平台
+ */
+@property(copy,nonatomic) NSString * plat;
+
+/**
+ *  菜单ID
+ */
+@property(copy,nonatomic) NSString * ID;
+
+/**
+ *  下一级菜单
+ */
+@property(strong,nonatomic) NSArray * nextArray;
+
+/**
+ *  菜单层数
+ */
+@property(assign,nonatomic) NSInteger meunNumber;
+
+@property(assign,nonatomic) float offsetScorller;
+
+/**
+ *  游戏类型
+ */
+@property(copy,nonatomic) NSString * type;
+/**
+ *  是否显示名称
+ */
+@property(assign,nonatomic) BOOL show_name;
+
+
+@end
