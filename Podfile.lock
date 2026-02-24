@@ -1,0 +1,247 @@
+PODS:
+  - AFNetworking (4.0.103):
+    - AFNetworking/NSURLSession (= 4.0.103)
+    - AFNetworking/Reachability (= 4.0.103)
+    - AFNetworking/Security (= 4.0.103)
+    - AFNetworking/Serialization (= 4.0.103)
+    - AFNetworking/UIKit (= 4.0.103)
+  - AFNetworking/NSURLSession (4.0.103):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.103)
+  - AFNetworking/Security (4.0.103)
+  - AFNetworking/Serialization (4.0.103)
+  - AFNetworking/UIKit (4.0.103):
+    - AFNetworking/NSURLSession
+  - CRBoxInputView (1.1.5):
+    - Masonry
+  - DTCoreText (1.6.25):
+    - DTCoreText/Core (= 1.6.25)
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTCoreText/Core (1.6.25):
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTFoundation/Core (1.7.17)
+  - DTFoundation/DTAnimatedGIF (1.7.17)
+  - DTFoundation/DTHTMLParser (1.7.17):
+    - DTFoundation/Core
+  - DTFoundation/UIKit (1.7.17):
+    - DTFoundation/Core
+  - DZNEmptyDataSet (1.8.1)
+  - EBBannerView (1.1.2)
+  - FFAES (1.0.0)
+  - GrowingAnalytics/Compression (3.8.3):
+    - GrowingAnalytics/TrackerCore (= 3.8.3)
+  - GrowingAnalytics/Database (3.8.3):
+    - GrowingAnalytics/TrackerCore (= 3.8.3)
+  - GrowingAnalytics/DefaultServices (3.8.3):
+    - GrowingAnalytics/Compression (= 3.8.3)
+    - GrowingAnalytics/Database (= 3.8.3)
+    - GrowingAnalytics/Encryption (= 3.8.3)
+    - GrowingAnalytics/Network (= 3.8.3)
+    - GrowingAnalytics/TrackerCore (= 3.8.3)
+  - GrowingAnalytics/Encryption (3.8.3):
+    - GrowingAnalytics/TrackerCore (= 3.8.3)
+  - GrowingAnalytics/MobileDebugger (3.8.3):
+    - GrowingAnalytics/Screenshot (= 3.8.3)
+    - GrowingAnalytics/TrackerCore (= 3.8.3)
+    - GrowingAnalytics/WebSocket (= 3.8.3)
+  - GrowingAnalytics/Network (3.8.3):
+    - GrowingAnalytics/TrackerCore (= 3.8.3)
+  - GrowingAnalytics/Screenshot (3.8.3):
+    - GrowingAnalytics/TrackerCore
+  - GrowingAnalytics/Tracker (3.8.3):
+    - GrowingAnalytics/DefaultServices (= 3.8.3)
+    - GrowingAnalytics/MobileDebugger (= 3.8.3)
+    - GrowingAnalytics/TrackerCore (= 3.8.3)
+  - GrowingAnalytics/TrackerCore (3.8.3):
+    - GrowingUtils/TrackerCore (~> 1.2.3)
+  - GrowingAnalytics/WebSocket (3.8.3):
+    - GrowingAnalytics/TrackerCore (= 3.8.3)
+  - GrowingUtils/TrackerCore (1.2.3)
+  - HappyDNS (1.0.4)
+  - IQKeyboardManager (6.5.19)
+  - JKCountDownButton (1.3.0)
+  - JXPagingView (2.1.2):
+    - JXPagingView/Pager (= 2.1.2)
+    - JXPagingView/Paging (= 2.1.2)
+  - JXPagingView/Pager (2.1.2)
+  - JXPagingView/Paging (2.1.2)
+  - LEEAlert (1.8.0):
+    - LEEAlert/Privacy (= 1.8.0)
+  - LEEAlert/Privacy (1.8.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.0.0)
+  - MJExtension (3.2.4)
+  - NTESVerifyCode (3.6.7)
+  - OpenSSL-Universal (3.3.1000)
+  - Protobuf (3.17.0)
+  - Qiniu (8.7.2):
+    - HappyDNS (~> 1.0.4)
+  - RyukieSwifty (0.1.8):
+    - RyukieSwifty/CloudKit (= 0.1.8)
+    - RyukieSwifty/Core (= 0.1.8)
+    - RyukieSwifty/Foundation (= 0.1.8)
+    - RyukieSwifty/FullScreen (= 0.1.8)
+    - RyukieSwifty/Router (= 0.1.8)
+    - RyukieSwifty/ScreenShield (= 0.1.8)
+    - RyukieSwifty/SwiftyServiceProtocol (= 0.1.8)
+    - RyukieSwifty/UIKit (= 0.1.8)
+  - RyukieSwifty/CloudKit (0.1.8):
+    - RyukieSwifty/Core
+  - RyukieSwifty/Core (0.1.8)
+  - RyukieSwifty/Foundation (0.1.8):
+    - RyukieSwifty/Core
+  - RyukieSwifty/FullScreen (0.1.8):
+    - RyukieSwifty/Core
+  - RyukieSwifty/Router (0.1.8):
+    - RyukieSwifty/Core
+  - RyukieSwifty/ScreenShield (0.1.8)
+  - RyukieSwifty/SwiftyServiceProtocol (0.1.8):
+    - RyukieSwifty/Core
+  - RyukieSwifty/UIKit (0.1.8):
+    - RyukieSwifty/Core
+  - SCLAlertView-Objective-C (1.2.0)
+  - SSZipArchive (2.2.3)
+  - STPopup (1.8.7)
+  - SVGAPlayer (2.5.6):
+    - SVGAPlayer/Core (= 2.5.6)
+    - SVGAPlayer/ProtoFiles (= 2.5.6)
+  - SVGAPlayer/Core (2.5.6):
+    - SSZipArchive (>= 1.8.1)
+    - SVGAPlayer/ProtoFiles
+  - SVGAPlayer/ProtoFiles (2.5.6):
+    - Protobuf (~> 3.4)
+  - SwipeTableView (0.2.6)
+  - TZImagePickerController (3.8.8):
+    - TZImagePickerController/Basic (= 3.8.8)
+    - TZImagePickerController/Location (= 3.8.8)
+  - TZImagePickerController/Basic (3.8.8)
+  - TZImagePickerController/Location (3.8.8)
+  - UMAPM (1.9.3)
+  - UMCommon (7.4.7):
+    - UMDevice
+  - UMDevice (3.4.0)
+  - WMZDialog (1.3.2)
+  - YYCache (1.0.4)
+  - YYImage (1.1.2):
+    - YYImage/Core (= 1.1.2)
+  - YYImage/Core (1.1.2)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - AFNetworking
+  - CRBoxInputView (= 1.1.5)
+  - DTCoreText
+  - DZNEmptyDataSet
+  - EBBannerView
+  - FFAES
+  - GrowingAnalytics/Tracker
+  - IQKeyboardManager
+  - JKCountDownButton
+  - JXPagingView
+  - LEEAlert
+  - MBProgressHUD (~> 1.0.0)
+  - MJExtension
+  - NTESVerifyCode (~> 3.6.7)
+  - OpenSSL-Universal
+  - Qiniu (~> 8.7.2)
+  - RyukieSwifty
+  - SCLAlertView-Objective-C
+  - STPopup
+  - SVGAPlayer
+  - SwipeTableView
+  - TZImagePickerController
+  - UMAPM
+  - UMCommon
+  - UMDevice
+  - WMZDialog
+  - YYWebImage
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CRBoxInputView
+    - DTCoreText
+    - DTFoundation
+    - DZNEmptyDataSet
+    - EBBannerView
+    - FFAES
+    - GrowingAnalytics
+    - GrowingUtils
+    - HappyDNS
+    - IQKeyboardManager
+    - JKCountDownButton
+    - JXPagingView
+    - LEEAlert
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - NTESVerifyCode
+    - OpenSSL-Universal
+    - Protobuf
+    - Qiniu
+    - RyukieSwifty
+    - SCLAlertView-Objective-C
+    - SSZipArchive
+    - STPopup
+    - SVGAPlayer
+    - SwipeTableView
+    - TZImagePickerController
+    - UMAPM
+    - UMCommon
+    - UMDevice
+    - WMZDialog
+    - YYCache
+    - YYWebImage
+  https://github.com/ElfSundae/CocoaPods-Specs.git:
+    - AFNetworking
+    - YYImage
+
+SPEC CHECKSUMS:
+  AFNetworking: ea814dfe361694e9207776762da66af0da750b40
+  CRBoxInputView: 40aeedca17d33f7464cc3c3b7d75019ae5a9533b
+  DTCoreText: e92f4cf6b36d9d71ce4436d12cf089d74ab0596b
+  DTFoundation: 989698be00d3f19438c38a49a8ebb3f6919dcac5
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  EBBannerView: 268002f8d9d3e979cb8649cbfefd0da5ddef72b3
+  FFAES: 45d19f0e4ac9127123091e19e0831474cdb989f9
+  GrowingAnalytics: 29c425c855fc306e00045fa0f3b4debca4e49baf
+  GrowingUtils: 68aee2c96849bf9b674740503da30c2da468e79d
+  HappyDNS: aefbd28cdcda93cffac64013dfe3342a2f87ed0a
+  IQKeyboardManager: c8665b3396bd0b79402b4c573eac345a31c7d485
+  JKCountDownButton: 3b557e75d23e7243bb63c8130e6d12d8510468dd
+  JXPagingView: 90924b364a2ff7e94db534fad1fa50925ff69ee4
+  LEEAlert: 20b46f143287d749ec3e718059e064c175932807
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJExtension: 88e0900751b6cac8de1cf724ca9838a0b28d5acb
+  NTESVerifyCode: 3b4dc542427905f7c876f293076012a5ae9735bc
+  OpenSSL-Universal: 57f92a826947ee3183556bf5e22d7dff8d55f834
+  Protobuf: 7327d4444215b5f18e560a97f879ff5503c4581c
+  Qiniu: 49816d7216ff3ac839d41f66673739c2f7d9a8b3
+  RyukieSwifty: 1eb8298e53bb703005e5e876a935b9e65cd39152
+  SCLAlertView-Objective-C: 84f12f66d779dadad7f293e5e8b7697ba4254ee0
+  SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
+  STPopup: a9045557bc48a0df51fbb7bf0544447c5fe84d34
+  SVGAPlayer: f3b3792ae66f7cb3f944ae373a40864db9a04331
+  SwipeTableView: 67d8a2e6e18bd38c188fd4fabda0b278eaa08d2f
+  TZImagePickerController: d084a7b97c82d387e7669dd86dc9a9057500aacf
+  UMAPM: a52ef6d5be72dd11591b917d96df97627970dae6
+  UMCommon: 8b4cd0423297c39bca6eea1ec896558b40e5bcf7
+  UMDevice: dcdf7ec167387837559d149fbc7d793d984faf82
+  WMZDialog: 03930689618365aba6b2ecae97c96bcbba69f552
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: e683f89b72c42d7e246a85eebdc7f7472256cc55
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+
+PODFILE CHECKSUM: aeb934ccc7f5d70ac61f52ac779526132b8f33a0
+
+COCOAPODS: 1.16.2

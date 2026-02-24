@@ -1,0 +1,10 @@
+//////////////////////////////////////////下面需要翻译中文文字/////////////////////////////////////////
+NSCameraUsageDescription = "Akses kamera Anda, memungkinkan Anda untuk memulai streaming langsung dan merekam video";
+NSLocationWhenInUseUsageDescription = "Kunjungi lokasi Anda untuk mengizinkan akses ke siaran langsung dan video lokal";
+NSMicrophoneUsageDescription = "Akses mikrofon Anda, memungkinkan Anda merekam suara";
+NSPhotoLibraryAddUsageDescription = "Baca album foto Anda, memungkinkan konten album foto diunggah ke server";
+NSPhotoLibraryUsageDescription = "Akses ke album foto Anda, memungkinkan Anda untuk menyimpan video di album foto";
+NSUserTrackingUsageDescription = "Kami perlu menggunakan izin pelacakan iklan Anda untuk memastikan penggunaan normal";
+NSBluetoothAlwaysUsageDescription = "Aplikasi kami menggunakan Bluetooth untuk menghubungkan perangkat";
+NSFaceIDUsageDescription = "Izinkan akses ke FaceID perangkat";
+

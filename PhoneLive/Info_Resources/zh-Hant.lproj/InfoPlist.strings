@@ -1,0 +1,10 @@
+//////////////////////////////////////////下面需要翻譯中文文字/////////////////////////////////////////
+NSCameraUsageDescription = "訪問您的相機，允許可以開啟直播和錄製視頻";
+NSLocationWhenInUseUsageDescription = "訪問您的位置，允許可以獲取當地的直播和視頻";
+NSMicrophoneUsageDescription = "訪問您的麥克風，允許可以錄製聲音";
+NSPhotoLibraryAddUsageDescription = "讀取您的相冊，允許可以把相冊的內容上傳到服務器";
+NSPhotoLibraryUsageDescription = "訪問您的相冊,允許可以把視頻保存在相冊";
+NSUserTrackingUsageDescription = "我們需要使用您的廣告追踪權限保證正常使用";
+NSBluetoothAlwaysUsageDescription = "我們的應用程式使用藍牙來連接裝置";
+NSFaceIDUsageDescription = "允許訪問設備FaceID";
+

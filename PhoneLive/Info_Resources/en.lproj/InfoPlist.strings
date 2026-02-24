@@ -1,0 +1,9 @@
+NSCameraUsageDescription = "Access Your Camera, allow to start live broadcast and record video";
+NSLocationWhenInUseUsageDescription = "Visit your location, allow to get local live broadcasts and videos";
+NSMicrophoneUsageDescription = "Access to your microphone, allow to voice recording";
+NSPhotoLibraryAddUsageDescription = "Read your album, allowto upload the contents of the album to the server";
+NSPhotoLibraryUsageDescription = "Access to your album, allow to save the video in the album";
+NSUserTrackingUsageDescription = "We need to use your ad tracking permission to ensure normal use";
+NSBluetoothAlwaysUsageDescription = "Our app uses Bluetooth to connect devices";
+NSFaceIDUsageDescription = "Allow access to device FaceID";
+

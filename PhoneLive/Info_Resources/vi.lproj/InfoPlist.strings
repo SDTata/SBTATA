@@ -1,0 +1,10 @@
+//////////////////////////////////////////下面需要翻译中文文字/////////////////////////////////////////
+NSCameraUsageDescription = "Truy cập máy ảnh của bạn, cho phép bạn bắt đầu phát trực tiếp và quay video";
+NSLocationWhenInUseUsageDescription = "Ghé thăm vị trí của bạn để cho phép truy cập vào các chương trình phát sóng và video trực tiếp tại địa phương";
+NSMicrophoneUsageDescription = "Truy cập micrô của bạn, cho phép bạn ghi lại âm thanh";
+NSPhotoLibraryAddUsageDescription = "Đọc anbom của bạn, cho phép bạn tải nội dung của anbom lên máy chủ";
+NSPhotoLibraryUsageDescription = "Truy cập album ảnh của bạn, cho phép bạn lưu video vào album ảnh";
+NSUserTrackingUsageDescription = "Chúng tôi cần sử dụng quyền theo dõi quảng cáo của bạn để đảm bảo sử dụng bình thường";
+NSBluetoothAlwaysUsageDescription = "Ứng dụng của chúng tôi sử dụng Bluetooth để kết nối thiết bị";
+NSFaceIDUsageDescription = "Cho phép truy cập vào FaceID của thiết bị";
+

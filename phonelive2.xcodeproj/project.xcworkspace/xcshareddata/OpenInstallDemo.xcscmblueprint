@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0B391149C42960E03F13489CDEFD5BF22A53B4EC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2FBA2D66EE2C6B0632F08666A37D160EDC8B087C" : 0,
+    "0B391149C42960E03F13489CDEFD5BF22A53B4EC" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DD7085DF-12B4-41A2-8CF9-D629DE757AD9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2FBA2D66EE2C6B0632F08666A37D160EDC8B087C" : "..\/Documents\/APP-Work\/OpenInstallSDK",
+    "0B391149C42960E03F13489CDEFD5BF22A53B4EC" : "OpenInstallDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "OpenInstallDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "OpenInstallDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/silence_sky\/MagicInstall.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0B391149C42960E03F13489CDEFD5BF22A53B4EC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/silence_sky\/DI_SDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2FBA2D66EE2C6B0632F08666A37D160EDC8B087C"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+//////////////////////////////////////////下面需要翻译中文文字/////////////////////////////////////////
+NSCameraUsageDescription = "カメラにアクセスして、ライブ配信とビデオ録画を許可する";
+NSLocationWhenInUseUsageDescription = "位置情報にアクセスして、近くの人のライブ配信や動画の視聴を許可する";
+NSMicrophoneUsageDescription = "マイクにアクセスして、録音を許可する";
+NSPhotoLibraryAddUsageDescription = "アルバムを読み込み、アルバムの画像をサーバーにアップロードすることを許可する";
+NSPhotoLibraryUsageDescription = "アルバムにアクセスして、動画のアルバムへの保存を許可する";
+NSUserTrackingUsageDescription = "正常に使用するためにアクティビティの追跡の許可を求めています";
+NSBluetoothAlwaysUsageDescription = "アプリは Bluetooth を使用してデバイスを接続します";
+NSFaceIDUsageDescription = "デバイスのFaceIDアクセスを許可する";
+
