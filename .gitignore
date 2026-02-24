@@ -31,6 +31,4 @@ fastlane/test_output
 # 本地推送脚本（不提交到远程）
 push-to-remotes.sh
 
-# 超 100MB 单文件（GitLab/GitHub 限制），需本地保留或使用 Git LFS
-PhoneLiveSDK/Project/IJKMediaFrameWork/libavcodec.xcframework/**/libavcodec.a
-PhoneLiveSDK/Project/SDK/IJKMediaFrameWork/libavcodec.xcframework/**/libavcodec.a
+# 超 100MB 单文件已用 Git LFS 跟踪，不再忽略
