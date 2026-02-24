@@ -1,0 +1,1629 @@
+/*
+  Info.strings
+  yunbaolive
+
+  Created by IOS1 on 2019/2/26.
+  Copyright © 2019 cat. All rights reserved.
+*/
+
+//连尾下注翻译需要特别修复 后台
+// 蓝方胜 红方胜 后台数据需要匹配
+//"GameListVC_lotteryTitle" = "彩票"; //containsString 特殊处理
+//"socketLivePlay_getConatct" = "收到主播名片："; // stringByReplacingOccurrencesOfString
+
+//"h5game_submit_successfully" = "提交成功"; //isEqualToString
+//"h5game_application_progress" = "申请进度"; //isEqualToString
+//"h5game_My_family_tree" = "我的家族"; //isEqualToString
+
+//图片不需要翻译文字。
+"public_kefuIcon" = "fan_ic_kefu"; //图片
+"public_fans_follow_Icon" = "fan_fans_follow"; //图片
+"public_fans_followed_Icon" = "fan_fans_followed"; //图片
+//Hotpage
+"Hotpage_zxggIcon" = "fan_img_zxgg";//图片
+//FirstInvestAlert
+"FirstInvestAlert_GoCharge_BT" = "fan_charge_gift"; //图片
+"FirstInvestAlert_ChargeBgImgV" = "fan_charge_gift_bg";//图片
+//RotaionRecordVC
+"RotaionRecordVC_recordAll_N" = "fan_dajl_n";//图片
+"RotaionRecordVC_recordAll_S" = "fan_djjl_s";//图片
+"RotaionRecordVC_recordMy_N"  = "fan_wdjl_n";//图片
+"RotaionRecordVC_recordMy_S"  = "fan_wdjl_s";//图片
+//RotationDescVC
+"RotationDescVC_ImgBg" = "fan_jcgzbg";//图片
+
+//RotationResultVC
+"RotationResultVC_bgImgV" = "fan_zjresultbg";//图片
+//RotationVC
+"RotationVC_topTitleImgV" = "fan_jczjzz"; //图片
+"RotationVC_giftRecordButton" = "fan_zjjl"; //图片
+"RotationVC_giftRuleButton" = "fan_jcgz";//图片
+//TYRotaryView
+"TYRotaryView_jcdjcj" = "fan_jcdjcj"; //图片
+
+//RotationNothingVC
+"RotationNothingVC_Nothing" = "fan_rotaionResultNothing";//图片
+"RotationNothingVC_Confirm" = "fan_zjresultsure";
+//LotteryBarrageView
+"LotteryBarrageView_daxianshenshou" = "fan_daxianshenshou";//图片
+"LotteryBarrageView_yimingjinren" = "fan_yimingjinren";//图片
+"LotteryBarrageView_shouqinitian" = "fan_shouqinitian";//图片
+//guardListCell
+"guardListCell_guard_low" = "fan_guard_low";//图片
+"guardListCell_guard_heig" = "fan_guard_heig";//图片
+//guardShowView
+"guardShowView_GuardStar" ="fan_guard_star";//图片
+"guardShowView_GuardEmpty" = "fan_GuardEmpty";//图片
+
+//searchVC
+"searchVC_empty" = "fan_search_empty";//图片
+//giftCell
+"giftCell_haoIcon" = "fan_gift_rich";//图片
+"giftCell_hotIcon" = "fan_gift_hot";//图片
+"giftCell_guardIcon" = "fan_gift_guard";//图片
+//chatModel
+"chatModel_chat_shou" = "fan_chat_shou_month";//图片
+"chatModel_chat_system" = "fan_chat_system";//图片
+"chatModel_chat_follow_game" = "fan_chat_follow_game";//图片
+"chatModel_chat_shou_year" = "fan_chat_shou_year";//图片
+"chatModel_chat_win" = "fan_chat_win";//图片
+"chatModel_chat_follow_bet" = "fan_chat_follow_bet";//图片
+"chatModel_chat_liang" = "fan_chat_liang";//图片
+"chatModel_chat_admin" = "fan_chat_admin";//图片
+"chatModel_chat_dividend" = "fan_chat_dividend";//图片
+"chatModel_chat_translate" = "fan_translate_btn";//图片
+
+//redBagView
+"redBagView_DelayTimeIcon" = "fan_DelayTimeIcon"; //图片
+"redBagView_rightNowIcon" = "fan_rightNowIcon";  //图片
+//LiveContactView
+"LiveContactView_ContactGetIcon" = "fan_anchor_get"; //图片'
+
+//YBSetListCell
+"YBSetListCell_updateBtnIcon" = "fan_btn_gx";//图片
+//OpenAwardViewController
+"OpenAwardVC_RightWin"="fan_nn_red_win";//图片
+"OpenAwardVC_LeftWin" = "fan_nn_blue_win";//图片
+//GameListViewController
+"GameListVC_txjl" = "fan_icon_txjl";//图片
+//HotCollectionViewCell
+"HotCollectionViewCell_Nomal_Room" = "fan_live_normal";//图片
+"HotCollectionViewCell_PWD_Room" = "fan_live_password";//图片
+"HotCollectionViewCell_Pay_Room" = "fan_live_pay";//图片
+"HotCollectionViewCell_Time_Room" = "fan_live_timer";//图片
+"video_ticket_float" = "coupon_ticket-fanti";
+
+
+
+"copyID" = "fan_copyID";
+"docoasessssimage" = "fan_docoasessssimage.jpg";
+"LotteryAwardVC_lottery_reward_bgImg" = "fan_lottery_reward";
+"home_tgzq" = "fan_home_tgzq";
+"img_zwsj" = "fan_img_zwsj";
+"liveShare_" = "fan_liveShare_";
+"logFirst_成功" = "fan_logFirst_success";
+"logFirst_headerImg" = "fan_logFirst_headerImg";
+"bjl_title_player_img" = "bjl_title_ft_player";
+"bjl_title_banker_img" = "bjl_title_ft_banker";
+
+"lh_title_dragon_img" = "lh_title_fan_dragon";
+"lh_title_tiger_img" = "lh_title_fan_tiger";
+
+//////////////////////////////////////////下面需要翻譯中文文字/////////////////////////////////////////
+NSCameraUsageDescription = "訪問您的相機，允許可以開啟直播和錄製視頻";
+NSLocationWhenInUseUsageDescription = "訪問您的位置，允許可以獲取當地的直播和視頻";
+NSMicrophoneUsageDescription = "訪問您的麥克風，允許可以錄製聲音";
+NSPhotoLibraryAddUsageDescription = "讀取您的相冊，允許可以把相冊的內容上傳到服務器";
+NSPhotoLibraryUsageDescription = "訪問您的相冊,允許可以把視頻保存在相冊";
+NSUserTrackingUsageDescription = "我們需要使用您的廣告追踪權限保證正常使用";
+NSBluetoothAlwaysUsageDescription = "我們的應用程式使用藍牙來連接裝置";
+NSFaceIDUsageDescription = "允許訪問設備FaceID";
+
+//系統語言
+"zh-Hans"  = "中文简体";
+"zh-Hant"  = "中文繁體";
+"en" = "English";
+"ja" = "日本語";
+"vi" = "Tiếng Việt";
+"id" = "Bahasa Indonesia";
+
+//啟動app /這個小部分可以強制翻譯
+"activity_login_connectkefu1" = "聯繫客服";
+"launchAppP_islauching" = "正在啟動，請稍後";
+"launchAppP_logscopy" = "複製日誌";
+"launchAppP_domainCheckingLine2" = "嘗試獲取線路2";
+"launchAppP_LineReadyGet" = "開始請求線路";
+"launchAppP_Line2ErrorMoretime" = "線路2獲取多次失敗超時";
+"launchAppP_Line2timeOutCantGet" = "線路2超時,無法獲取";
+"launchAppP_Line2SuccessBack" = "線路2測速域名成功";
+"launchAppP_Line2DomainError" = "線路2測速失敗";
+"launchAppP_Line2AnalyseLocation"  = "開始獲取地理信息";
+"launchAppP_LocationHaveCache" = "地理信息緩存存在";
+"launchAppP_Line2AnalyseBegain" = "開始分析線路2";
+"launchAppP_Line2SuccessAnalyseError" = "線路2返回成功，解析失敗";
+"launchAppP_readyCheck" = "準備檢測";
+"launchAppP_noNetwork" = "暫無網絡,請檢查網絡連接";
+"launchAppP_Line1timeOutCantGet" = "線路1超時,無法獲取";
+"launchAppP_domainCheckingError" = "域名測速失敗,重新開始";
+"launchAppP_readyDomainChecking" = "開始執行測速";
+"launchAppP_domainCheckEnd" = "測速結束";
+"launchAppP_Line1DomainError" = "線路1測速域名失敗";
+"launchAppP_Line2SuccessGetCallback" = "線路2線路返回成功";
+"launchAppP_Line1SuccessBack" = "線路1測速域名成功";
+"launchAppP_domainCheckingRetry" = "重新開始嘗試檢測";
+"launchAppP_domainCheckingSpeedReady"="開始準備測速";
+"launchAppP_AnalyseSpeedSuccessReady"="測速成功了，開始檢測";
+"launchAppP_Line2AnalyseLocationSuccess"="地理信息查詢成功";
+
+"Illegal_request"="非法請求";
+
+//公共參數
+"publictool_copy_success" = "複製成功";
+"public_warningAlert" = "提示";
+"publictool_copy" = "複製";
+"publictool_sure" = "確定";
+"public_cancel" = "取消";
+"public_manage" = "管理";
+"public_timeFormat1" = "YYYY-MM-dd HH:mm";
+"public_networkError" = "網絡異常，請稍後";
+"public_close" = "關閉";
+"public_retryAgain" = "重試";
+"public_back" = "返回";
+"public_systemMsgTitle" = "系統公告";
+"public_noEmpty" = "暫無數據";
+"public_loadMore_loading"= "數據加載中...";
+"public_loadMore_noMore" = "沒有更多了哦~";
+"Bet_Charge_Title" = "充值";
+"public_WithDraw" = "提現";
+"public_WithDraw_creator" = "創作收益";
+"MaxMoney" = "最大";
+
+"public_errorReson" = "出錯了";
+"public_fans" = "粉絲";
+"public_liang" = "靚";
+"public_itemMsg" = "條";
+"public_Save" = "保存";
+"public_Day" = "天";
+"public_like" = "獲讚";
+//登錄頁面
+
+"version_update" = "版本更新";
+"version_updateNow" = "更新";
+"version_newversion_title" = "發現新版本";
+"version_newversion_now" = "已經是最新版本";
+
+
+"loginActivity_switchstandbyline" = "正在開啟備用線路";
+"loginActivity_switchdefaltline" = "正在切換到默認線路";
+"loginActivity_switchLinesuccess" = "線路切換完畢";
+"loginActivity_logsCopySuccess" = "日誌複製成功";
+"loginActivity_sendmsgcode" = "發送驗證碼";
+"loginActivity_login_ing" = "登錄中...";
+"loginActivity_sendingcodewarning" = "發送驗證碼中，請不要重複點擊";
+"loginActivity_sendingcodetimeoutretry" = "發送超時，請重新發送";
+"loginActivity_reg_input_phone" = "請輸入您的手機號";
+"loginActivity_sendingcode" = "正在發送...";
+"loginActivity_resend" = "重新發送";
+"loginActivity_sendsuccess" = "發送成功";
+"loginActivity_senderrorretry" = "發送失敗，請稍後重試!";
+"loginActivity_login_input_phone" = "請輸入手機號碼";
+"loginActivity_login_input_email" = "請輸入電子郵件";
+"loginActivity_login_input_userName" = "請輸入使用者名稱";
+"loginActivity_login_input_pwd" = "請輸入驗證碼";
+"loginActivity_login_warning" = "正在登陸，請不要重複點擊";
+"loginActivity_login_error" = "登錄失敗，請檢查網絡連接";
+
+"activity_login_phoneLogin" = "手機號登錄";
+"activity_login_emailLogin" = "電子郵件登入";
+"activity_login_userName" = "用戶名登錄";
+"activity_login_guestLogin" = "遊客登錄";
+"activity_login_privateServer" = "登錄註冊代表您同意《用戶註冊服務協議》、《隱私政策》";
+"activity_login_country_region" = "國家/地區";
+"activity_login_country_region1" = "國家和地區";
+
+"activity_login_inputPhoneNum" = "請輸入手機號";
+"activity_login_inputEmail" = "請輸入電子郵件";
+"activity_login_inputcode" = "驗證碼";
+"activity_login_inputPassword" = "密碼";
+"activity_login_login" = "登錄";
+"activity_login_loginAndRegister" = "登錄/註冊";
+"activity_login_connectkefu" = "聯繫客服";
+"activity_charge_connectkefu" = "遇到問題嗎？";
+"activity_login_loginproblem" = "登錄/註冊遇到問題？";
+"activity_login_standbyline" = "備用線路:";
+"activity_login_versionTitle" = "版本號";
+"login_tip_2" = "服務和隱私條款";
+"login_phone_error" = "請輸入正確的手機號碼";
+"login_email_error" = "請輸入正確的電子郵件";
+"activity_login_changeLoginMethod" = "切換登錄方式";
+
+//綁定手機號
+"activity_bind_phone_number_bindphonetitle" = "綁定您的手機號";
+"activity_bind_phone_number_bindphonesubtitle" = "為了方便您存取款 請綁定手機號";
+"activity_bind_phone_number_phone" = "手機";
+"activity_bind_phone_number_Login" = "，是否直接登入？";
+"activity_bind_phone_number_bindEmailTitle" = "綁定您的電子郵件";
+"activity_bind_phone_number_bindEmailSubtitle" = "為了方便您存取款，請綁定電子郵件";
+"activity_bind_phone_number_Email" = "電子郵件";
+
+//TaskVC
+"taskTitleString" = "任務大廳";
+"taskEmptyString" = "暫時沒有活動";
+"taskgofinish" = "去完成";
+"taskfinished" = "已完成";
+"tasktoget" = "領取";
+"task_time" = "時間";
+"task_reward_title" = "獎勵中心";
+"task_reward_bet" = "打碼";
+"task_reward_level" = "關卡";
+"task_reward_backwater" = "即時返水";
+"task_reward_backwater_rate" = "返水比例";
+"task_reward_backwater_amount" = "消費或有效投注金額";
+"task_reward_backwater_limit" = "返水上限";
+"task_reward_backwater_about" = "功能簡介";
+"task_reward_draw_success" = "領取成功";
+"task_reward_sign_success" = "簽到成功";
+"task_reward_backwater_tip1" = "即時返水是根據玩家訂單統計的即時返利機制。玩家可以在滿足條件時立即領取返水金額，享受更多優恵和福利。";
+"task_reward_backwater_tip2" = "\n\n1. 計算方式";
+"task_reward_backwater_tip3" = "\n     返水金額是根據已結算的訂單進行統計和計算。";
+"task_reward_backwater_tip4" = "\n2. 領取方式";
+"task_reward_backwater_tip5" = "\n     50%的金額加到餘額，50%的金額分成3份，每4小時可領取一份。";
+"task_reward_backwater_tip6" = "\n3. 領取間隔";
+"task_reward_backwater_tip7" = "\n     每次領取間隔為20分鐘。";
+"task_reward_backwater_tip8" = "\n4. 返水比例";
+"task_reward_backwater_tip9" = "\n     返水比例與王者等級、遊戲類型相關。";
+"task_reward_alert_tip" = "恭喜取得";
+"task_reward_alert_title" = "獎勵";
+"task_reward_alert_success" = "您已成功領取獎勵";
+"skit_home_record" = "觀看記錄";
+
+"livetaskTitleString" = "主播任務";
+
+//PayWaitConfirmViewController
+
+"pay_wait_page_back" = "返回首頁";
+"pay_wait_page_des" ="財務正在核對\n3～5分鐘內未到賬，請聯繫客服";
+
+//PayChannelViewController
+"PayChanne_title" = "支付渠道";
+
+//PayReqViewController
+
+"PayReq_chargeNow" = "立即充值";
+"PayReq_warning"="重要提示：支付渠道將不定期進行更換，入款前請查看並確定最新賬戶再進行匯款。";
+
+//RechargePopView
+"RechargePop_Warning"="充值提示";
+"RechargePop_bindPhoneTitle"="為了賬戶安全，請綁定手機號！";
+"RechargePop_bindPhone"="綁定手機號";
+"RechargePop_ChargeContinue"="繼續充值";
+
+//PayInsteadViewController
+"PayInstead_accountTitle"="您的充值賬號：";
+"PayInstead_tipwarning"="我司入款銀行卡不定期更換，請勿保存銀行卡號轉賬\n存款請進入【銀行卡轉賬】頁面複製最新的卡號轉賬";
+
+
+//PayInsteadCollectionViewCell
+"PayInsteadCell_installQQ"="請先安裝手機QQ";
+"PayInsteadCell_desTitle"="說明";
+"PayInsteadCell_desQQDetail"="\n代理QQ號已復制\n請前往QQ添加代理完成充值\n點擊確定自動跳轉\n";
+"PayInsteadCell_installWechat"="請先安裝手機微信";
+"PayInsteadCell_desWechatDetail"="\n代理微信號已復制\n請前往微信添加代理完成充值\n點擊確定自動跳轉\n";
+"PayInsteadCell_installAlipay" = "請先安裝手機支付寶";
+"PayInsteadCell_desAlipayDetail" = "\n代理支付寶號已復制\n請前往支付寶添加代理完成充值\n點擊確定自動跳轉\n";
+"PayInsteadCell_canPayamount"="可用額度：";
+"PayInsteadCell_contactNow"="立即聯繫";
+
+//PayAmountViewController
+"PayAmount_Range_%@%@_%@%@" = "可充值區間%1$@%2$@-%3$@%4$@";
+
+"PayAmount_giftRule1_%@%.1f_%@%.1f_%@%.1f" = "每充值%1$@%2$.1f送%3$@%4$.1f 最高獎勵%5$@%6$.1f";
+"PayAmount_giftRule2_%.2f_%@%.1f"="充值獎勵%1$.2f%% 最高獎勵%2$@%3$.1f";
+
+"PayAmount_giftRule3_%@%@_%@%@" = "每充值%1$@%2$@送%3$@%4$@";
+
+
+"PayAmount_giftRule3%@%@"="您將獲贈%1$@%2$@";
+"PayAmount_chargeTitle" = "充值金額";
+"PayAmount_input_charge_amount" = "請輸入充值金額";
+
+//PayTransferViewController
+"Transfer_nameTitle" = "匯款姓名";
+"Transfer_leaveMsg" = "匯款留言";
+"Transfer_nameplaceholder" = "請輸入您的匯款姓名";
+"Transfer_optionalplaceholder" = "選填";
+
+//PayTransferCollectionViewCell
+"Transfer_bankNumberTitle" = "銀行卡號";
+"Transfer_bankUserNameTitle" = "收款名稱";
+"Transfer_bankNameTitle" = "開戶銀行";
+"Transfer_bankPlaceTitle" = "開戶網點";
+
+//PayViewController
+"PayVC_Title"= "充值中心";
+"PayVC_AlertDestitle"="重要說明";
+"PayVC_AlertImportDestitle"="重要提示";
+"PayVC_AlertImportDetail" = "\n請進行轉賬後再提交訂單\n\n";
+"PayVC_finishedtransfer" = "已完成轉賬";
+"PayVC_noTransfer" = "未轉賬";
+"PayVC_OrderError" = "提交訂單失敗，請稍後重試";
+"PayVC_TransferResultTitle" = "\n支付結果\n\n";
+"PayVC_PaySuccess" = "支付成功";
+"PayVC_PayError" = "支付失敗";
+"PayVC_BalanceTitle" = "我的餘額";
+"PayVC_Record" = "記錄";
+"PayVC_ChargeAmount" = "直充額度";
+"PayVC_PwdAlertTitle" = "錢包資金密碼";
+"PayVC_PwdAlertTip" = "請輸入您的錢包資金密碼";
+
+"chargeMoney2" = "存款金額";
+
+
+//BetOptionCollectionViewCell2
+"BetOption2_errorAlert" = "暫不支持的彩種請更新最新版本";
+
+//OpenAwardCollectionViewCell
+"OpenAward_dateTitle" = "期";
+
+//CommonCollectionViewController2
+"CommonCollectionVC2_selected %ld Warning" ="最多選擇%1$d個號碼~";
+
+//CommonPageViewController
+"CommonPageVC_notitle" = "無標題";
+
+//LobbyBetConfirmCollectionViewCell
+
+"LobbyBetCell_Unit_Count" = "注";
+"LobbyBetCell_double_total"="%1$@倍  合";
+
+"LobbyBetCell_double_total11"="注  合";
+"public_rule" = "規則";
+//LobbyBetConfirmViewController
+
+"LobbyBet_name%@_date%@_Alert" = "%1$@-期號已更新為%2$@";
+"LobbyBet_name%@_date%@_second%@timeTi" = "%1$@-第%2$@期 距封盤:%3$@";
+"LobbyBet_name%@_date%@_endbet" = "%1$@-第%2$@期 已封盤";
+"LobbyBet_name%@_date%@_betOpening" = "%1$@-第%2$@期 開獎中";
+"LobbyBet_selecte_Warning" = "請至少選擇一項投注";
+"LobbyBet_changeBet" = "修改單註籌碼";
+"LobbyBet_MinMoneyBet%@" = "最小投注為1.0%1$@";
+"LobbyBet_RangeBetMoney" = "自定義範圍";
+"LobbyBet_ClearAll" = "清空";
+"LobbyBet_betContent" = "投注內容";
+"LobbyBet_DeleteTip" = "這是最後一個了，不能全刪了哈~";
+"LobbyBetConfirm_title" = "確認投注";
+"LobbyBetConfirm_balance" = "餘額";
+
+//LobbyLotteryVC
+"LobbyLotteryVC_UpdateDate" ="當前期號已更新為";
+"LobbyLotteryVC_UpdateError" = "獲取彩票信息失敗了哦😭";
+
+"LobbyLotteryVC_selectedCount%@_total%@%@_profit%@%@" = "已選%1$@注，共計%2$@%3$@，單註預期可獲%4$@%5$@";
+"LobbyLotteryVC2_selectedCount%@_total%@%@_profit1%@_profit2%@%@" = "已選%1$@注，共計%2$@%3$@，單註預期可獲%4$@~%5$@%6$@";
+
+//拆分上面字符串作為富文本文字染色
+"LobbyLotteryVC_selectedCount1" = "已選";
+"LobbyLotteryVC_selectedCount2" = "注，共計";
+"LobbyLotteryVC_selectedCount3%@" = "%1$@，單註預期可獲";
+
+"LobbyLotteryVC3_selectedCount%ld_scale%ld_profit%.1f%@" = "共%1$ld注%2$ld倍，預期可獲得%3$.1f%4$@";
+"LobbyLotteryVC_betEnd" = "封盤中";
+"LobbyLotteryVC_betOpen" = "開獎中";
+"LobbyLotteryVC_Stay_tuned_for" = "敬請期待~";
+"LobbyLotteryVC_betHistory" = "投注歷史";
+"LobbyLotteryVC_betExplain" = "玩法說明";
+"LobbyLotteryVC_Bleuberi" = "藍莓";
+"LobbyLotteryVC_Lemon" = "檸檬";
+"LobbyLotteryVC_Ceri" = "櫻桃";
+"lobby_big" = "大";
+"lobby_small" = "小";
+"lobby_single" = "單";
+"lobby_double" = "雙";
+"points" = "點";
+
+"lottery_trend_xiao" = "小";
+"lottery_trend_da" = "大";
+"lottery_trend_dan" = "單";
+"lottery_trend_shuang" = "雙";
+"lottery_trend_long" = "龍";
+"lottery_trend_hu" = "虎";
+"lottery_trend_hong" = "紅";
+"lottery_trend_hei" = "黑";
+"lottery_trend_lan" = "藍";
+"lottery_trend_lv" = "綠";
+"lottery_trend_xian" = "閒";
+"lottery_trend_zhuang" = "莊";
+"lottery_trend_ning" = "檸";
+"lottery_trend_ying" = "櫻";
+
+"LobbyLotteryVC_bet_balance_Error" = "您的餘額小於最小下注哦";
+"LobbyLotteryVC_bet_endBet" = "本期封盤中 暫時無法投注";
+"LobbyLotteryVC_betEmptySelecte" = "您還沒有添加過注單哦";
+"LobbyLotteryVC_NoBalance" = "餘額不足";
+"LobbyLotteryVC_NoBalanceDetailDes" = "您的餘額不足本次投注哦";
+"LobbyLotteryVC_titleBet" = "大廳彩票";
+
+
+"LobbyLotteryVC_DateNow%@" = "第 %1$@ 期";
+//期數字符拆分
+"LobbyLotteryVC_DateNow1" = "第";
+"LobbyLotteryVC_DateNow2" = "期";
+
+
+
+"LobbyLotteryVC_DateBetingNow%@" = "距第 %1$@ 期截止";
+//期數字符拆分
+"LobbyLotteryVC_DateBetingNow1" = "距第";
+"LobbyLotteryVC_DateBetingNow2" = "期截止";
+"LobbyLotteryVC_moreBtn" = "更多";
+"LobbyLotteryVC_deviceRandomBtn" = "機選";
+"LobbyLotteryVC_BetRecord" = "投註記錄";
+"LobbyLotteryVC_betAll" = "梭哈";
+"LobbyLotteryVC_betMin" = "最小下注";
+"LobbyLotteryVC_Bet" = "投注";
+"LobbyLotteryVC_BetAddChoise" = "加入註單";
+"LobbyLotteryVC_GoToBet" = "去下注";
+"LobbyLotteryVC_total" = "總計:";
+"menu_lottery_result" = "開獎紀錄";
+
+//LobbyOpenHistoryViewController
+"LobbyOpenHistory_periods" = "期數";
+
+"LobbyOpenHistory_Type_Number" = "號碼";
+"LobbyOpenHistory_Type_Size" = "大小";
+"LobbyOpenHistory_Type_SingleDouble" = "單雙";
+"LobbyOpenHistory_Type_WinnerDragonTiger" = "冠亞龍虎";
+"LobbyOpenHistory_Type_total" = "總和";
+"LobbyOpenHistory_Type_Tema" = "特碼";
+
+
+"OpenAward_NiuNiu_Red" = "紅";
+"OpenAward_NiuNiu_Blue" = "藍";
+
+//OpenHistoryViewController
+"OpenHistory_titleBetHistory" = "開獎歷史";
+"OpenHistory_DateNow%@" = "第%1$@期";
+
+
+//BetConfirmCollectionViewCell
+
+"BetCell_double"="倍";
+"BetCell_double1"="1倍";
+"BetCell_double2"="2倍";
+"BetCell_double5"="5倍";
+"BetCell_double10"="10倍";
+"BetCell_double20"="20倍";
+
+"BetCell_remove"="刪除";
+
+//ChipSwitchViewController
+"ChipSwitch_currentChip_title" = "當前籌碼";
+"ChipSwitch_input_custom_chip" = "輸入自定義籌碼";
+"ChipSwitch_settitle" = "設置籌碼";
+"ChipSwitch_ChangeChip_title" = "【修改籌碼】";
+
+//LotteryBetViewController_NN
+"LotteryBetVC_NN_TimeTitle" = "截止:";
+
+//LotteryBetViewController
+"LotteryBetVC_TimeTitle" = "本期截止:";
+
+//GameListViewController
+"GameListVC_UnknowGamePlat" = "未知的遊戲平台";
+
+"GameListVC_lotteryTitle" = "彩票"; //containsString 特殊處理
+"GameListVC_GameCenter_title" = "遊戲中心";
+
+//h5game
+"h5game_Amount_Conversion" = "額度轉換";
+"h5game_submit_successfully" = "提交成功"; //isEqualToString
+"h5game_application_progress" = "申請進度"; //isEqualToString
+"h5game_My_family_tree" = "我的家族"; //isEqualToString
+
+//XHLaunchAdButton
+"XHLaunchAdButton_titleSkip" = "跳過";
+
+//MsgSysVC
+"MsgSysVC_systemMsg" = "系統消息";
+"MsgSysVC_noMoremsg" = "暫無收到消息";
+"MsgSysVC_allRead" = "全部已讀";
+
+
+//GameToolClass
+"GameToolClass_switchMoneyType" = "正在轉換餘額..";
+"GameToolClass_switchMoneyTypeSuccess" = "轉換成功";
+"GameToolClass_EnterGame" = "正在進入..";
+"GameToolClass_EnterGameReson" = "進入異常";
+"GameToolClass_EnterGameError" ="進入遊戲失敗";
+"GameToolClass_gameName%@_balance%@" = "當前[%1$@]餘額:￥%2$@\n祝您遊戲愉快.\n如需充值，可返回直播主界面或懸浮按鈕中進行充值。";
+
+//YBToolClass
+"YBToolClass_timeFormat_Hour%02ld_Min%02ld_Second%02ld" = "%1$02ld小時%2$02d分%3$02d秒";
+"YBToolClass_timeFormat_Min%02ld_Second%02ld" = "%1$02d分%2$02d秒";
+"YBToolClass_timeFormat_Second%02ld" = "%1$02d秒";
+
+//homepageController
+"homepageController_attention" = "關注";
+"homepageController_live" = "直播";
+"homepageController_game" = "遊戲";
+"homepageController_Rich_list" = "富豪榜";
+
+//ZYTabBar
+"ZYTabBar_open_live" = "開播";
+"ZYTabBar_Box" = "寶箱";
+
+//ZYTabBarController
+"ZYTabBarC_HomePage" = "首頁";
+"ZYTabBarC_MePage" = "我的";
+
+//EnterLivePlay
+"EnterLivePlay_enterWinnerRoom" = "是否前往該直播間\n沾沾財氣";
+"EnterLivePlay_enterRoom" = "前往";
+"EnterLivePlay_pwdRoomWarning" = "該房間為密碼房間";
+"EnterLivePlay_input_pwd" = "請輸入密碼";
+"EnterLivePlay_pwd_error" = "密碼錯誤";
+
+//AttentionHeader
+"AttentionHeader_myAttention" = "我的關注";
+"AttentionHeader_Popular_Hot" = "熱門推薦";
+"AttentionHeader_No_Attention" = "暫無關注";
+"AttentionHeader_No_Hot" = "暫無熱點";
+
+//GamesController
+"GamesVC_NoGameAnchor" = "暫時沒有遊戲主播哦～";
+"GamesVC_SeeOthersGameAnchor" = "趕快去看看其他主播的直播吧～";
+
+//GamesHeader
+"GamesHeader_Game_Recommend" = "遊戲推薦";
+"GamesHeader_isHit" = "正在熱映";
+
+//Hotpage
+"Hotpage_leftAddMore" = "左滑更多";
+"Hotpage_my_expand" = "我的推廣";
+"Hotpage_Hot" = "熱門";
+
+//classVC
+"classVC_noAnchorLive" = "暫時沒有主播開播";
+"classVC_goToOthersAnchorLive" = "趕快去其他頻道逛逛吧～";
+//LiveNotificationAlert
+"LiveNotif_AlertTitle" = "公告";
+
+
+//RankCell
+"RankCell_FollowButton" = "關注";
+"RankCell_Title_scroe%@" = "落後%1$@";
+//RankVC
+"RankVC_FollowMeError" = "不能關注自己";
+"RankVC_Empty" = "暫時空缺";
+"RankVC_profit_list" = "收益榜";
+"RankVC_contribution_list" = "貢獻榜";
+"RankVC_List_of_day" = "日榜";
+"RankVC_Yesterday_the_list" = "昨日榜";
+"RankVC_List_of_Week" = "周榜";
+"RankVC_List_of_Month" = "月榜";
+//RotationVC
+"RotationVC_remaining_lottery_times" = "剩餘抽獎次數：";
+"RotationVC_giftPoolTitle" = "獎金池剩餘獎金";
+
+//RotationResultVC
+"RotationResultVC_ResultContent" = "恭喜你成功獲得";
+//jubaoVC
+"jubaoVC_headerLabel" = "   選擇舉報的理由";
+"jubaoVC_Option_title" = "更多詳細信息請在說明框中描述（選填）";
+"jubaoVC_submit" = "提交";
+"jubaoVC_reason_title"="請選擇舉報理由";
+"jubaoVC_success" = "舉報成功";
+"jubaoVC_title" = "舉報";
+
+//LotteryBarrageView
+"LotteryBarrageView_clickTitle" = "點擊跟注";
+"LotteryBarrageView_name%@_type%@_way%@_money%@%@" = "<font color=\"#72f3e1\">%1$@</font><font color=\"#ffffff\">在</font><font color=\"#fff292\">%2$@</font><font color=\"#ffffff\">投注玩法</font><font color=\"#fff292\">%3$@</font><font color=\"#ffffff\">贏得</font><font color=\"#f9d347\">%4$@</font><font color=\"#ffffff\">%5$@。</font>";
+
+"LotteryCenterBarrageView_name%@_type%@_money%@%@" = "<font color=\"#72f3e1\">%1$@</font><font color=\"#ffffff\">在</font><font color=\"#fff292\">%2$@</font><font color=\"#ffffff\">贏得</font><font color=\"#f9d347\">%3$@</font><font color=\"#ffffff\">%4$@。</font>";
+
+//LotteryAwardVController
+"LotteryAwardVC%@%@" = "中獎 %1$@ %2$@";
+"LotteryAwardVC_close" = "點擊任意處關閉";
+
+
+//TopTodayView
+"TopTodayView_update_time_title" = "最後更新：";
+"TopTodayView_LevelAlert_title" = "距離上一名還差";
+"TopTodayView_title" = "日 榜";
+"TopTodayView_SendGift" = "送禮";
+"Top rank" = "榜首";
+
+//guardShowView
+"guardShowView_guardUntilTime" = "您是當前主播的月守護\n守護日期截止到";
+"guardShowView_RenewGuard" = "續費守護";
+"guardShowView_OpenGuard" = "開通守護";
+"guardShowView_OpenGuardAlert" ="快去為喜歡的主播開通守護吧";
+"guardShowView_NoGuard" = "你還沒有守護哦";
+"guardShowView_BeFirstGuard" = "成為TA的第一個守護";
+"guardShowView_ThisWeekGuard" = "本週貢獻";
+"guardShowView_OpenNow" = "立即開通";
+
+//shouhuView
+"shouhuView_guardTime" = "選擇守護時長";
+"shouhuView_guardrights" = "守護特權";
+"shouhuView_MyBalance" = "我的";
+"shouhuView_GuardMonthDes" = "您當前為主播的月守護，開通年守護將覆蓋您的月守護剩餘時長，是否開通？";
+"shouhuView_GuardYearDes" = "您當前為主播的年守護\n無法開通7天/月守護";
+"shouhuView_You_will_coast" = "您將花費";
+"shouhuView_Guard7Days" = "為主播開通7天守護";
+"shouhuView_GuardMonthDays" = "為主播開通月守護";
+"shouhuView_GuardOneYear" = "為主播開通年守護";
+
+//upmessageInfo
+"upmessageInfo_content" = "涉嫌傳播淫穢色情信息";
+"upmessageInfo_report" = "舉報";
+"upmessageInfo_sended" = "送出";
+"upmessageInfo_income" = "收入";
+"upmessageInfo_ten_thousand" = "萬";
+"upmessageInfo_on_Mars" = "好像在火星";
+"upmessageInfo_followed" = "已關注";
+"upmessageInfo_kick" = "踢人";
+"upmessageInfo_silent" = "禁言";
+"upmessageInfo_set_management" = "設為管理";
+"upmessageInfo_cancel_management" = "取消管理";
+
+"upmessageInfo_management_list" = "管理員列表";
+"upmessageInfo_close_live" = "關閉直播";
+"upmessageInfo_disable_live" = "禁用直播";
+"upmessageInfo_add_the_impression+" = "+ 添加印象";
+"upmessageInfo_add_the_impression" = "添加印象"; //contains
+"upmessageInfo_Send_a_card" = "發送名片";
+"upmessageInfo_HomeTitle" = "主頁";
+
+//searchVC
+"searchVC_input_name_id" = "請輸入您要搜索的暱稱或ID";
+
+//setViewM
+"setViewM_guardTitle" = "守護 虛位以待>";
+"setViewM_Top_list" = "實時榜單>";
+"setViewM_Guard" = "守護";
+"setViewM_People" = "人";
+"setViewM_Guardians" = "守護";
+"setViewM_GuardiansP" = "人";
+
+//liwuview
+"liwuview_sendGift" = "發送禮物";
+"liwuview_SendButton" = "贈送";
+"liwuview_YearGift" = "年守護專屬禮物";
+"liwuview_sendSuccess" = "贈送成功";
+"liwuview_Bursts" = "連發";
+"Give the streamer a small gift" = "贈送主播一個小禮物吧";
+"RC toy" = "遙控玩具";
+"Issue command" = "下達指令";
+
+//coastselectview
+"coastselectview_minue" = "分鐘";
+"coastselectview_coast_money" = "收費金額";
+"coastselectview_Choose_to_charge_for" = "選擇收費";
+
+//redBagView
+"redBagView_redbagTitle" = "直播間紅包";
+"redBagView_sendRedBag" = "給當前直播間觀眾發紅包";
+"redBagView_LuckyRedBag" = "拼手氣紅包";
+"redBagView_average" = "平均紅包";
+"redBagView_total_money" = "總金額";
+"redBagView_amount" = "數量";
+//"redBagView_Congratulations" = "恭喜發財，大吉大利";
+"redBagView_sendRedBagTitle" = "發紅包";
+"redBagView_peerMoney" = "單個金額";
+"redBagView_input_redbag_money" = "請輸入紅包金額";
+"redBagView_input_redbag_amount" = "請輸入紅包數量";
+
+//redDetails
+"redDetails_whoRedBag" = "的紅包";
+"redDetails_no_get" = "未搶到";
+"redDetails_get_to_me" = "已存入";
+"redDetails_already_got" = "已領取";
+"redDetails_peer_amount" = "個";
+"redDetails_total" = "共";
+//redListCell
+"redListCell_delayRedBag" = "派發了一個延遲紅包";
+"redListCell_nowRedBag" = "派發了一個即時紅包";
+"redListCell_GetNow" = "搶";
+//redListView
+"redListView_redBag" = "紅包";
+"redListView_timeEndCanGet" = "倒計時結束後可搶";
+"redListView_ShowDetailRedBagGot" = "查看領取詳情》";
+"redListView_redBagOver" = "手慢了，紅包派完了";
+"redListView_congratulations" = "恭喜你!";
+"redListView_GotBag" = "搶到";
+"redListView_Who" = "派發的";
+//continueGift
+"continueGift_continue" = "連送";
+
+//exoensiveGifGiftV
+"exoensiveGifGiftV_giveOne" = "送了一個";
+
+//shipAction
+"shipAction_shipSend" = "贈送了豪華遊輪";
+//adminLists
+"adminLists_currentManager" = "當前管理員";
+"adminLists_Alert" = "溫馨提示";
+"adminLists_ifCancel" = "是否確定取消";
+"adminLists_managerRule" = "的管理員身份";
+"adminLists_No" = "不了";
+//lastview
+"lastview_endLive" = "直播結束";
+
+
+//bottombuttonv
+"bottombuttonv_flash" = "閃光燈";
+"bottombuttonv_timing" = "計時";
+"bottombuttonv_tickets" = "門票";
+"bottombuttonv_beauty" = "美顏";
+"bottombuttonv_flip" = "翻轉";
+"bottombuttonv_music" = "伴奏";
+"bottombuttonv_share" = "分享";
+"bottombuttonv_redBag" = "紅包";
+"bottombuttonv_toy" = "跳蛋";
+"bottombuttonv_order" = "指令";
+//musicView
+"musicView_downloading" = "下載中";
+"musicView_choise" = "選擇";
+"musicView_donwload" = "下載";
+//PresentView
+"PresentView_send" = "送了";
+
+//nuserLoginAnimation
+"nuserLoginAnimation_enter_room" = "進入了直播間";
+
+//fenXiangView
+"fenXiangView_shareTo" = "分享至";
+"fenXiangView_have_%@_fans_coming" = "TA有%1$@粉絲，快來圍觀呀!";
+"fenXiangView_%@_in_here%@_share" = "“%1$@“也在%2$@～點擊查看TA的故事～";
+"fenXiangView_ShareSuccess" = "分享成功";
+"fenXiangView_ShareError" = "分享失敗";
+
+//liveclosepopview
+"liveclosepopview_leave" = "離開";
+"liveclosepopview_follow_exit" = "關註並退出";
+"liveclosepopview_title" = "關註主播不迷路~";
+"liveclosepopview_hint" = "要回來喲~";
+
+//Livebroadcast
+"Livebroadcast_live_cover" = "直播封面";
+"Livebroadcast_live_title" = "直播標題";
+"Livebroadcast_live_title_tip" = "給直播寫個標題吧";
+"Livebroadcast_choise_lottery_type" = "選擇直播間彩種";
+"Livebroadcast_push_card" = "推送名片：";
+"Livebroadcast_Nopush_card" = "不推送";
+"Livebroadcast_begain_live" = "開始直播";
+"Livebroadcast_OBS_live" = "OBS推流直播";
+"Livebroadcast_room_type" = "房間類型";
+"Livebroadcast_choise_price" = "選擇價格";
+"Livebroadcast_room_type_nomal" = "普通";
+"Livebroadcast_room_type_pwd" = "密碼";
+"Livebroadcast_room_type_tickets" = "門票";
+"Livebroadcast_room_type_time" = "計時";
+"Livebroadcast_room" = "房間";
+"Livebroadcast_please_set_room_pwd" = "請設置房間密碼";
+"Livebroadcast_please_enter_right_pwd" = "請輸入正確的密碼";
+"Livebroadcast_please_set_ticket_price" = "請設置房間門票價格";
+"Livebroadcast_please_enterPrice" = "請輸入價格";
+"Livebroadcast_please_rightTicket_price" = "請輸入正確的門票價格";
+"Livebroadcast_no_open" = "該版本暫未開放";
+"Livebroadcast_Choise_live_type" = "請選擇頻道";
+"Livebroadcast_private_rule_no" = "權限受阻";
+"Livebroadcast_please_open_camera_private" = "請在設置中開啟相機權限";
+"Livebroadcast_please_open_mic_private" = "請在設置中開啟麥克風權限";
+"Livebroadcast_please_choise_uploadWay" = "選擇上傳方式";
+"Livebroadcast_Alumb" = "相冊";
+"Livebroadcast_Camera" = "拍照";
+"Livebroadcast_Change_Cover" = "更換封面";
+"Livebroadcast_Live_End" = "直播已結束";
+"Livebroadcast_LiveTimes" = "直播時長";
+"Livebroadcast_harvest" = "收穫";
+"Livebroadcast_watchNumbers" = "觀看人數";
+"Livebroadcast_LiveMsgs" = "直播間消息";
+"Livebroadcast_LiveSend%d_gift%@" = "送了%1$d個%2$@";
+"Livebroadcast_lotteryDisable" = "已停售";
+"Livebroadcast_liveEnd" = "確定退出直播嗎";
+"Livebroadcast_haveNewMsgs" = "有新消息";
+"Livebroadcast_SayHi" = "和大家說些什麼";
+"Livebroadcast_SaySomething" = "撩TA一下...";
+"Livebroadcast_OnlyMsgs" = "僅聊天";
+"Livebroadcast_switchRoom_cannot" = "您已切換過房間類型,無法切換";
+"Livebroadcast_switchRoom_cannot1" = "只有普通房間才能進行房間切換";
+"Livebroadcast_Input_word_limit50" = "字數最多50字";
+"Livebroadcast_Login_other_device" = "當前賬號已在其他設備登錄";
+"Livebroadcast_Open_msg_notifys" = "開啟大喇叭";
+"Livebroadcast_No_lyrics" = "暫無歌詞";
+"Livebroadcast_end" = "結束";
+"live_close_adv" = "已關閉遊戲彈幕";
+"live_open_adv" = "已開啟遊戲彈幕";
+"live_toy_close" = "未連接";
+"live_toy_open" = "已連接";
+"live_order_list" = "指令列表";
+"live_more_surprise" = "更多驚喜";
+"Livebroadcast_title_server" = "伺服器";
+"Livebroadcast_title_stream" = "串流金鑰";
+"Livebroadcast_title_start_stream" = "開始直播";
+"Livebroadcast_title_start_stream_info" = "當您開始推流後，極客點擊下方的\"開始直播\"按鈕。";
+"Livebroadcast_title_OBS_stream_info" = "若要使用其他應用程式進行直播推流\n請在應用程式中輸入以下\n伺服器網址和推流金鑰。";
+"Livebroadcast_order_select_all" = "全選";
+"Livebroadcast_order_confirm" = "確認";
+"Livebroadcast_toy_unconnect" = "設備未連接";
+"Livebroadcast_order_unselect" = "請在指令列表中選擇指令";
+"Livebroadcast_error_toyDisconnect" = "已斷開連接->跳蛋模式（未連接）跳蛋模式狀態開關顯示關閉";
+"Livebroadcast_room_need_charge" = "本房間為收費房間，需支付";
+
+"RemoteInterfaceView_in_queue" = "當前排隊中";
+"RemoteInterfaceView_remote_user" = "操控人";
+"RemoteInterfaceView_remain_time" = "剩餘執行時長";
+"RemoteInterfaceView_toy_connect" = "主播已就緒";
+"RemoteInterfaceView_wait_you_control" = "等你來操控";
+"RemoteInterfaceView_order_name" = "指令";
+"RemoteInterfaceView_control_and_order" = "遙控&指令";
+"RemoteInterfaceView_toy_title" = "跳蛋隊列";
+"RemoteInterfaceView_order_title" = "指令隊列";
+"RemoteInterfaceView_cmd_name" = "指令名稱";
+"RemoteInterfaceView_cmd_time" = "時長(秒)";
+"RemoteInterfaceView_cmd_price" = "價格";
+"RemoteInterfaceView_cmd_delete" = "刪除";
+"RemoteInterfaceView_cmd_edit" = "修改";
+"RemoteInterfaceView_cmd_confirm" = "確定";
+"RemoteInterfaceView_cmd_input_name" = "請輸入指令名稱";
+"RemoteInterfaceView_cmd_input_time" = "請輸入時長";
+
+"SearchToyVC_title_name" = "Lovense";
+"SearchToyVC_bluetooth_connected" = "藍牙: 🔵";
+"SearchToyVC_bluetooth_disconnect" = "蓝牙: ⚪️";
+"SearchToyVC_no_connected_text" = "未連接 ❌";
+"SearchToyVC_connected_text" = "已連接 ✅";
+"SearchToyVC_searching_toy" = "搜索Lovense";
+"SearchToyVC_stop_search_toy" = "停止搜索Lovense";
+"SearchToyVC_clear_all_toy" = "清除所有Lovense";
+"SearchToyVC_star_connecting_toy" = "開始連接Lovense";
+"SearchToyVC_have_no_found_toy" = "未找到Lovense";
+"SearchToyVC_connected_toy" = "已連接Lovense";
+"SearchToyVC_connect_fail" = "連接失敗";
+"SearchToyVC_search" = "搜索";
+"SearchToyVC_stop_search" = "停止搜索";
+
+"ToyDetailVC_toy_control" = "Lovense控制";
+"ToyDetailVC_battery" = "電池";
+"ToyDetailVC_device_type" = "設備類型";
+"ToyDetailVC_version" = "版本";
+"ToyDetailVC_disconnect" = "斷開連接";
+"ToyDetailVC_all_toy_command" = "所有Lovense命令";
+"ToyDetailVC_vibration" = "振動";
+"ToyDetailVC_quick_flash" = "快速閃燈";
+"ToyDetailVC_preset" = "預設";
+"ToyDetailVC_nora_rotation" = "Nora 旋轉";
+"ToyDetailVC_nora_rotation_anti_clockwise" = "Nora 逆時針旋轉";
+"ToyDetailVC_nora_rotation_change" = "Nora 旋轉變更";
+"ToyDetailVC_turn_off_AID_light" = "關閉輔助燈";
+"ToyDetailVC_turn_on_AID_light" = "打開輔助燈";
+"ToyDetailVC_get_AID_light_status" = "獲取輔助燈狀態";
+"ToyDetailVC_turn_off_light" = "關閉燈光";
+"ToyDetailVC_turn_on_light" = "打開燈光";
+"ToyDetailVC_start_tracking_movement" = "開始追蹤動作";
+"ToyDetailVC_stop_tracking_movement" = "停止追蹤動作";
+"ToyDetailVC_max_air_in" = "最大空氣輸入量";
+"ToyDetailVC_max_air_out" = "最大空氣輸出量";
+"ToyDetailVC_max_air_auto" = "自動最大風量";
+"ToyDetailVC_device_info" = "設備資訊";
+"ToyDetailVC_movement" = "移動";
+
+"RemoteControllerCell_second" = "秒";
+
+"Livebroadcast_mic_volum_number" = "麥克風音量";
+"Livebroadcast_micBg_volum_number" = "背景音樂音量";
+"Livebroadcast_name%@_BetType%@_betMoney%@%@" = "<font color=\"#ffffff\">%1$@</font><font color=\"#ffffff\">在</font><font color=\"#fff292\">%2$@</font><font color=\"#ffffff\">中,下注了</font><font color=\"#fff292\">%3$@</font><font color=\"#ffffff\">%4$@。</font>";
+
+"Livebroadcast_Congratulations_Name%@_game%@" = "<font color=\"#ffffff\">恭喜</font><font color=\"#ffffff\">%1$@</font><font color=\"#ffffff\">在</font><font color=\"#fff292\">%2$@</font><font color=\"#ffffff\">中獎了</font>";
+
+"Livebroadcast_shareMoney_fromName%@_lotteryName%@_money%@_%@" = "<font color=\"#ffffff\">恭喜</font><font color=\"#ffffff\">獲得</font><font color=\"#fff292\">%1$@</font><font color=\"#ffffff\">在</font></font><font color=\"#fff292\">%2$@</font><font color=\"#ffffff\">的彩金分紅<font color=\"#fff292\">%3$@</font>%4$@</font>";
+"Livebroadcast_LiveAnchor" = "主播";
+
+//LivePlay
+"LivePlay_KickedRoom" = "你已被踢出房間";
+"LivePlay_sayTimeOver" = "發言次數已用完";
+"LivePlay_sayTimes%ld" = "剩餘%1$ld次發言";
+"LivePlay_SaidMoreQuikly" = "發送過於頻繁，請1分鐘後重試";
+"LivePlay_SayRule%d" = "等級小於%1$d級，無法發言\n充值送禮即可升級解鎖發言";
+"LivePlay_GoCharge" = "去充值";
+"LivePlay_GoSendGifts" = "去送禮";
+"LivePlay_RommSwitchTime_%@%@Price" = "該房間已切換為計時房間，%1$@%2$@/分鐘，是否繼續";
+"LivePlay_RommSwitchTicket_%@%@Price" = "該房間已切換為門票房間，需支付%1$@%2$@，是否繼續";
+"LivePlay_No" = "否";
+"LivePlay_YES" = "是";
+"LivePlay_BalanceNot" = "您當前餘額不足無法觀看";
+
+//LiveContactView
+"LiveContactView_ConatctTitle1" = "備註用戶暱稱快速通過";
+"LiveContactView_ConatctTitle2" = "獲取名片進度";
+"LiveContactView_ConatctTitle3" = "贈送禮物達到要求即可獲取";
+"LiveContactView_ConatctTitle4" = "1.添加時請備註暱稱避免主播無法區分";
+"LiveContactView_ConatctTitle5" = "2.聯繫方式如有虛假可通過客服投訴";
+"LiveContactView_WhoName%@" = "%1$@的名片";
+"LiveContactView_NoCard" = "主播未設置名片";
+"LiveContactView_NotEnoughGifts" = "您的消費還未達標";
+"LiveContactView_GetError" = "名片獲取失敗";
+"socketLivePlay_getConatct" = "收到主播名片："; // stringByReplacingOccurrencesOfString
+"socketLivePlay_getCard" = "收到主播名片";
+"socketLivePlay_Anchor_Card" = "主播名片";
+//fansViewController
+"fansViewController_noFans" = "你還沒有粉絲";
+"fansViewController_noFansTip" = "完善個人信息會讓更多的人關注到你～";
+
+//attrViewController
+"attrViewController_noFolllow" = "你還沒有關注任何人";
+"attrViewController_noFolllowTip" = "趕快去關注自己感興趣的人吧～";
+//personLiveCell
+"personLiveCell_numberTip" = "人看過";
+//otherUserMsgVC
+"otherUserMsgVC_block" = "拉黑";
+"otherUserMsgVC_blocked" = "已拉黑";
+"otherUserMsgVC_unblocked"="已解除拉黑";
+"otherUserMsgVC_impressed" = "主播印象";
+"otherUserMsgVC_GuardTop" = "守護榜";
+"otherUserMsgVC_Video" = "視頻";
+"otherUserMsgVC_no_work" = "暫無作品";
+"otherUserMsgVC_no_like" = "暫無喜歡";
+"otherUserMsgVC_no_live" = "暫無直播";
+
+//EditContactInfo
+"EditContactInfo_editMyConatct" = "修改我的名片";
+"EditContactInfo_Empty" = "未填寫";
+"EditContactInfo_inputTip" = "最多輸入20個字\n例如：主播微信:123456";
+"EditContactInfo_InputLimit" = "字數超出限制";
+//EditNiceName
+"EditNiceName_NameEdit" = "修改暱稱";
+"EditNiceName_FreeTip" = "本次為首次修改,修改免費.";
+"EditNiceName_coast%@_%@" =  "本次修改需要花費%1$@%2$@.";
+"EditNiceName_nameLimitlenth" = "暱稱最多8個字";
+"EditNiceName_ChangeCoastTip_%@%@" = "每次需花費%1$@%2$@(首次修改免費).";
+//EditSignature
+"EditSignature_signature" = "修改簽名";
+"EditSignature_signatureLimit" = "最多輸入20個字";
+//InfoEdit1TableViewCell
+"InfoEdit1TableViewCell_Avatar" = "頭像";
+//myInfoEdit
+"myInfoEdit_nickName" = "暱稱";
+"myInfoEdit_phoneNum" = "手機號";
+"myInfoEdit_email" = "電子郵件";
+"myInfoEdit_signature" = "簽名";
+"myInfoEdit_MyCard" = "我的名片";
+"myInfoEdit_BirthDay" = "生日";
+"myInfoEdit_Sex" = "性別";
+"myInfoEdit_My_Impressed" = "我的主播印象";
+"myInfoEdit_EditInfo" = "編輯資料";
+"myInfoEdit_Man"="男";
+"myInfoEdit_Woman"="女";
+"myInfoEdit_Uploading" = "正在上傳";
+"myInfoEdit_Upload_Error" = "上傳失敗";
+//sexCell
+"sexCell_Sexy" = "性別";
+//impressVC
+"impressVC_anchorImpressed_choise" = "請你選擇你對主播的印象";
+"impressVC_MyImpressed" = "你收到的主播印象";
+"impressVC_NoImpressed" = "你暫時還沒有收到主播印象";
+"impressVC_Choise_limitNum" = "最多選擇三項";
+"impressVC_Choise_min_tip" = "最少選擇一項";
+
+//socketLivePlay
+"socketLivePlay_who%@_Guard" = "%1$@ 守護了主播";
+"socketLivePlay_whoGuard" = "守護了主播";
+"socketLivePlay_Who%@_time%@" = "%1$@被禁言%2$@";
+"socketLivePlay_DisableSendMsgSuccess" = "禁言成功";
+"socketLivePlay_Kick%@Room" = "%1$@被踢出房間";
+"socketLivePlay_KickSuccess"= "踢人成功";
+"socketLivePlay_SendRedbag" = "在直播間發紅包啦！快去搶哦～";
+//socketLive
+"socketLive_closeManagerSuceess" = "取消管理員成功";
+"socketLive_setManagerSuceess" = "設置管理員成功";
+"socketLive_CloseLive" = "直播關閉";
+"socketLive_droppedLive" = "涉嫌違規，被下播";
+"socketLive_silenced" = "你已被禁言";
+"socketLive_BecloseManager" = "被取消管理員";
+"socketLive_BeManager" = "被設為管理員";
+//AppDelegate
+"AppDelegate_oldVersion" = "使用舊版";
+"AppDelegate_GoUpdate" = "前往更新";
+"AppDelegate_Information_maintain" = "維護信息";
+"AppDelegate_Living" = "正在直播中，無法退出";
+"AppDelegate_ifCancelLiveRoom" = "是否退出直播間";
+
+
+//VIPVC
+"VIPVC_title" = "王者俸祿";
+"VIPVC_KingLeve%@_title" = "王者v%1$@";
+"VIPVC_KingLeveCurrent%@" = "當前王者等級:VIP%1$@";
+"VIPVC_Charge%@_UpKingLeve%ld" = "還差%1$@充值升級到王者V%2$ld";
+"VIPVC_KingLeve%@_Rights" = "尊貴的王者V%1$@會員，您可以享受以下權益";
+"VIPVC_Can'tGet" = "不可領取";
+"VIPVC_NextTime%@" = "下次:%1$@";
+"VIPVC_KingRights" = "王者特權";
+"VIPVC_KingDetailRule" = "王者詳情";
+"VIPVC_KingRuleLevel" = "王者級別";
+"VIPVC_KingRuleChargeRange" = "總充值\n範圍";
+"VIPVC_KingRuleUpHandsel" = "晉級彩金";
+"VIPVC_KingRuleWeekSalary" = "週俸祿";
+"VIPVC_King" = "王者";
+"VIPVC_Current_Level" = "當前等級";
+
+"kingsalary_kinglevel" = "王者等級";
+"kingsalary_totalrecharge" = "總充值";
+"kingsalary_promotionbonus" = "晉級獎金";
+"monthfenglu" = "月俸祿";
+"view_wangzhevipdes_zhou_fenglu" = "週俸祿";
+
+"PostVideo_title" = "發布短視頻";
+"PostVideo_sub_title1" = "視頻標題";
+"PostVideo_sub_title2" = "添加視頻標題";
+"PostVideo_sub_title3" = "添加視頻";
+"PostVideo_sub_title3_1" = "更换视频";
+"PostVideo_sub_title4" = "添加視頻封面(可選)";
+"PostVideo_sub_title4_1" = "替换视频封面";
+"PostVideo_sub_title5" = "添加視頻標籤";
+"PostVideo_chooseTag" = "請選擇標籤";
+"PostVideo_sub_title6" = "發布";
+
+"PostVideo_sub_wait_video" = "等待影片上傳";
+"PostVideo_sub_wait_cover" = "等待封面上傳";
+
+"PostVideo_sub_upload_video_success" = "影片上傳成功，快去發布吧！";
+"PostVideo_sub_upload_video_error" = "影片上傳失敗，請重新選擇";
+
+"PostVideo_sub_title_cancel" = "是否取消正在上傳的影片?";
+"PostVideo_cancel_upload" = "取消上傳";
+"PostVideo_continue_upload" = "繼續上傳";
+
+
+//BillVC
+"BillVC_consumeDetail" = "消費明細";
+"BillVC_inComeDetail" = "收入明細";
+"BillVC_consumeToday_%@%@" = "今日消費%1$@%2$@";
+"BillVC_incomeToday_%@%@" = "今日收入%1$@%2$@";
+"BillVC_DateFormat" = "MM月dd日";
+"BillVC_DateChoiseTitle" = "最近7日";
+"BillVC_Month" = "月";
+"BillVC_Days" = "日";
+"BillVC_Anthor_name" = "主播名稱";
+
+//myRechargeCoinVC
+"myRechargeCoinVC_Promotion%@_tile" = "推廣收益%1$@";
+"myRechargeCoinVC_Charge%@_num" = "輸入要充入的%1$@數";
+"myRechargeCoinVC_CanHaveHowMuch" = "可到賬";
+"myRechargeCoinVC_symbol%@" = "%1$@¥";
+"myRechargeCoinVC_OptionSuccess" = "操作成功";
+"myRechargeCoinVC_OptionError" = "操作失敗";
+"myRechargeCoinVC_ChargeIn" = "充入";
+
+//market
+"market_member" = "會員";
+"market_liangNum" = "靚號";
+"market_mount" = "坐騎";
+
+//myProfitVC
+"myProfitVC_WithDrawRecord" = "提現記錄";
+"myProfitVC_WithDrawMoneyChoise" = "提現金額";
+
+"myProfitVC_totalNum%@" = "總%1$@數";
+"myProfitVC_WithDrawTotal%@" = "可提取%1$@數";
+"myProfitVC_WithDraw_input%@" = "輸入要提取的%1$@數";
+"myProfitVC_To_account_num" = "可到賬金額";
+"myProfitVC_choise_withDraw_account" = "請選擇提現賬戶";
+"myProfitVC_withDraw_now" = "立即提現";
+"myProfitVC_NoWithDrawError" ="未選擇提現方式";
+
+//profit2
+"profit2_input_withDraw_money" = "請輸入提現金額";
+"profit2_input_money" = "請輸入金額";
+"profit2_withDraw_account" = "提現賬戶";
+"profit2_add" = "添加";
+"profit2_NoAddAccount" = "您當前還沒有設置提現賬戶";
+"profit2_if_delete_account" = "是否確定刪除此提現賬號？";
+//AddCardViewController
+"AddCard_title" = "綁定銀行卡";
+"AddCard_CardUserName" = "請輸入真實姓名";
+"AddCard_CardNum" = "請輸入銀行卡號";
+"AddCard_CardBankName" = "請選擇開戶銀行";
+"AddCard_CardCity" ="請選擇辦理區域";
+"AddCard_CardAddress" = "請輸入開戶網點";
+"AddCard_ChoiseBank" = "請選擇銀行";
+"AddCard_ChoiseBankCity" = "請選擇辦理區域";
+"AddCard_CurrencyType" = "請選擇貨幣類型";
+"AddCard_Transfor_tip" = "轉入他人卡號將無法追回，請仔細核對卡號，避免造成不必要的損失";
+"AddCard_Transfor_tip1" = "請認真填寫賬戶信息，以免提現不能正常到賬（最多只能添加5個賬戶，銀行卡請輸入開戶信息）";
+"AddCard_CardUserName_title" = "真實姓名";
+"AddCard_BankNum_title" = "銀行卡號";
+"AddCard_CardBankName_title" = "開戶銀行";
+"AddCard_ChoiseBankCity_title" = "開戶區域";
+"AddCard_CardAddress_title" = "開戶網點";
+"AddCard_CurrencyType_title" = "貨幣類型";
+"SearchCard_BankName" = "請輸入搜索關鍵字";
+
+//LiveNodeTableViewCell
+"LiveNodeTableViewCell_peopleNumberTitle" = "人看過直播";
+//LiveNodeViewController
+
+"LiveNodeVC_Record_title" = "直播記錄";
+"LiveNodeVC_HaveNoLive" = "你最近沒有開過直播";
+"LiveNodeVC_HaveNoLive_tip" = "趕快去開場直播體驗一下吧～";
+
+//myPopularizeVC
+"myPopularizeVC_Charge_title" = "充入賬戶";
+"myPopularizeVC_invite%d" = "邀請%1$d人";
+"myPopularizeVC_Charge%d_%@" = "充值%@%2$@";
+"myPopularizeVC_WithDrawSuccess" = "提現成功";
+"myPopularizeVC_WithDraw_Applying" = "申請提現中";
+"myPopularizeVC_copy_link" = "複製推廣鏈接";
+"myPopularizeVC_DetailPopularize" = "----您的收益明細----";
+
+//addPopTypeView
+"addPopTypeView_addAccount" = "添加提現賬戶";
+"addPopTypeView_AddAccountType" = "賬戶類型";
+"addPopTypeView_alipay" = "支付寶";
+"addPopTypeView_input_aplipayAccount" = "請輸入支付寶賬號";
+"addPopTypeView_input_aplipayName" = "請輸入支付寶賬號姓名";
+"addPopTypeView_input_WechatAccount" = "請輸入微信賬號";
+
+"addPopTypeView_input_bankName" = "請輸入銀行名稱";
+"addPopTypeView_input_bankNum" = "請輸入銀行卡賬號";
+"addPopTypeView_input_bankUserName" = "請輸入持卡人姓名";
+"addPopTypeView_Wechat" = "微信";
+"addPopTypeView_banKCard" = "銀行卡";
+
+//setView設置
+"setView_VersionCheck" = "當前已是最新版本";
+"setView_CleardCache" ="緩存已清除";
+"setView_logout" = "退出登錄";
+//applePay
+"applePay_error" = "無法獲取商品信息";
+"applePay_checkDebug" = "請查看網站是否開啟了調試模式";
+"applePay_ChargeSuccess" = "充值成功";
+"applePay_canBuy" ="用戶已恢復購買";
+
+//YBUserInfoViewController
+"YBUserInfoVC_BillDetail" = "收支明細";
+"YBUserInfoVC_personSet" = "個人設置";
+"YBUserInfoVC_total%@_Balance" = "總資產（%1$@）";
+"YBUserInfoVC_BindPhone" = "綁定手機";
+"YBUserInfoVC_BindEmail" = "綁定電子郵件";
+"YBUserInfoVC_ExchangeRate" = "（匯率切換）";
+//YBPersonTableViewModel
+"YBPersonTableViewMode_fansN%.1f" = "%1$.1f 萬";
+//ExchangeRateViewController
+"ExchangeRateVC_ExchangeRate" = "匯率";
+//exchangeVC
+"exchangeVC_balance" ="賬戶餘額";
+"exchangeVC_balanceAutoChange" = "自動餘額轉換";
+"exchangeVC_OneKeyBack" = "一鍵歸集";
+"exchangeVC_SwitchIn" = "轉入";
+"exchangeVC_SwitchOut" = "轉出";
+"exchangeVC_Input_Money" = "請輸入轉入金額";
+"exchangeVC_all" = "全部";
+"exchangeVC_option" = "正在操作";
+"exchangeVC_Refresh%@_Balance" = "[%1$@]刷新余額"; // [JDB]刷新余額
+"exchangeVC_RefreshAccountBalance" = "刷新賬號餘額";
+"exchangeVC_curreny_title" = "幣種";
+
+
+"Gesture_Password" = "手勢密碼";
+"Gesture_PasswordUnlock" = "手勢密碼解鎖";
+"Modif_UnlockPassword" = "修改手勢密碼";
+"Draw_UnlockPattern" = "繪製解鎖圖案";
+"Draw_Original_Gesturepsd" = "請繪製原手勢密碼";
+"Gesture_Neglect" = "忽略";
+"Gesture_redraw" = "至少連接4個點，請重新繪製";
+"Draw_UnlockPatternAgain" = "再次繪製解鎖圖案";
+"Successfully_GestureSet" = "設置成功";
+"Draw_PasswordError" = "密碼錯誤，請重新繪製";
+"LastDraw_Inconsistent" = "與上一次繪製不一致，請重新繪製";
+"Turn_GesturePasscode" = "關閉手勢密碼";
+"Set_GesturePasscode" = "設置手勢密碼";
+"ReSet_GesturePasscode" = "重置手势密碼";
+"Turn_GesturePasscode_close" = "確定要關閉手势密碼嗎？";
+"Turn_GesturePasscode_Warn" = "安全提示: 建議設置密碼，深度保護您的隱私，每次離開產品，將自動鎖定！";
+"Turn_GesturePasscode_forget" = "忘記手势密碼需要重新登錄，登錄後鎖屏保護自動關閉";
+"Draw_PasswordErrorNum%d" = "密碼錯誤，還剩%1$d次機會";
+"Forgot_GesturePassword" = "忘記手勢密碼";
+
+//mineVideoVC
+"myWithdrawVC2_Account%@_Balance" ="賬戶餘額%1$@";
+"myWithdrawVC2_Account%@_Balance1" ="賬戶餘額%1$@:";
+"myWithdrawVC2_Account_Balance2" ="VIPPAY餘額:";
+"mineVideoVC_youHaveNoVideo" = "你還沒有視頻作品";
+"mineVideoVC_youHaveNoVideo_tip" = "趕快去拍攝上傳吧～";
+//myWithdrawVC2
+"myWithdrawVC2_inputHowMany" = "輸入要提現金額";
+"myWithdrawVC2_CanWithDrawNum" = "可提現額度";
+"myWithdrawVC2_limitDes" ="額度說明";
+"myWithdrawVC2_WithDrawDesTip" = "充值後，遊戲流水需大於您的充值金額才可提現.\n(遊戲流水有3-5分鐘延遲，請耐心等待)";
+"myWithdrawVC2_UpdatingBalance" = "正在刷新賬號餘額";
+"myWithdrawVC2_WithDrawOver%@%f" = "金額超過提現額度:%1$@%2$.2f";
+"myWithdrawVC2_MaxWithDrawMoney%@%.1f" = "單筆最大提現金額:%1$@%2$.1f";
+"myWithdrawVC2_MinWithDrawMoney%@%.1f" = "單筆最小提現金額:%1$@%2$.1f";
+"myWithdrawVC2_WithDrawWaitTip" = "您的提現申請提交成功\n我們將盡快為您處理";
+"myWithdrawVC2_CanWithDrawMoney%.1f" = "您的可提現額度為:¥%1$.1f";
+
+//withdrawPopView
+"withdrawPopView_tip" = "提現提示";
+"withdrawPopView_Error_tip_BindPhone" = "先綁定手機號才可以提現喔";
+"withdrawPopView_goBindPhone" = "去綁定";
+//myWithdrawVC
+
+"myWithdrawVC_minWithDrawAmount%.2f" = "最小提現:¥%1$.2f";
+
+///
+"PayInsta_tenTh%.0f" = "%1$.0f萬+";
+"PayInsta_Th%.0f" = "%.0f千+";
+"PayInsta_hund%.0f" = "%.0f百+";
+
+
+"Filter_title" = "更多";
+"More_title" = "更多";
+
+"movie_pay_Purchased" = "已購";
+"movie_pay" = "付費";
+"movie_nav" = "導航";
+"movie_game_menu" = "邊看邊玩";
+"movie_video_menu" = "相關視頻";
+"movie_pay_vip" = "VIP解鎖觀看";
+"unlockremind_buyviptips1" = "開通VIP使用此功能";
+"VIP_Activate_now" = "立即開通";
+"movie_pay_money" = "解鎖觀看";
+"movie_vip_tip" = "這是VIP專屬視頻，需開通VIP觀看";
+"movie_open_vip" = "您還不是VIP，立即開通";
+"movie_ticket_tip" = "目前觀影券不足，打碼取得觀影券";
+"movie_amount_tip" = "當前餘額不足，立即儲值";
+"movie_vip_pay_tip" = "這是VIP付費視頻，購買後可看";
+"movie_money_pay_tip" = "這是付費視頻";
+"movie_money_pay_tip2" = "購買後可看";
+"movie_money_pay_tip3" = "進行瀏覽觀看";
+"movie_trying_load_tip" = "試看%@後結束,觀看完整影片請";
+"movie_trying_end_tip" = "試看結束,觀看完整影片請";
+"movie_money_pay_title" = "餘額付費";
+"movie_ticket_unit" = "張";
+"movie_ticket_name" = "觀影券";
+"movie_time_expire" = "即將過期";
+"movie_time_valid" = "永久有效";
+"movie_pay_title" = "建議您使用觀影券";
+"vip_pay_title" = "開通VIP會員";
+"vip_pay_button" = "開通VIP";
+"vip_open_account" = "開通帳號";
+"vip_open_title" = "儲值後開通";
+"vip_pay_ballance" = "使用餘額支付";
+"vip_pay_need_amount" = "還需儲值";
+"create_menu_record" = "收益報表";
+"create_menu_rule" = "創作規則";
+"create_menu_upload" = "上傳影片";
+"create_total_income" = "累計收益";
+"create_manage_show" = "對外";
+"create_manage_hide" = "隱藏";
+"create_nav_title" = "我的創作";
+"create_state_approved" = "已發佈";
+"create_state_pending" = "審核中";
+"create_state_rejected" = "未通過";
+"create_select_count" = "| 已選取 %@ 個影片";
+"create_should_choose" = "請選擇影片";
+"create_date_today" = "今日";
+"create_date_yesterday" = "昨天";
+"create_date_week" = "近一週";
+"create_date_month" = "近一月";
+"create_report_from" = "影片來源";
+"create_report_date" = "日期";
+"create_report_amount" = "收益金額";
+"create_total_amount" = "總收益";
+"video_trying_start" = "試看中(點擊解鎖)";
+"video_trying_stop" = "試看結束";
+"video_game_can_full" = "遊戲中無法全螢幕";
+
+///語言切換
+"swichLanguage" = "語言設置";
+"swichNotice" = "通知設定";
+
+"curreny_unit_alert" = "您可以獲得%1$@ %2$@,當前匯率%3$@";
+"curreny_unit_alert_charge" = "您可以獲得%1$@ %2$@";
+
+"WithDrawNumberTip%@" = "提現還需打碼量 %1$@ (打碼量為彩票與遊戲下注量)";
+"ChargeNumberTip%@" = "直充還需打碼量 %1$@ (打碼量為彩票與遊戲下注總額)。";
+
+"ContinuousCheckin" = "已連續簽到";
+"ChekinRightNow" = "立即簽到";
+
+//历史记录
+"all_state" = "全部状态";
+"didAward" = "已中奖";
+"notAward" = "未中奖";
+"willAward" = "待中奖";
+"equalEnd" = "和局";
+"lb_resultTime" = "至";
+"all_type" = "全部類型";
+"time_sel" = "時間篩選";
+//游戏
+"game_begain" = "開始投注";
+"game_will_begain" = "即將開始";
+"game_continue_bet" = "續投";
+//走势图
+"trend" = "走\n勢\n圖";
+"trend_title" = "走勢圖";
+"Chart_Area" = "區段";
+"Chart_Area_Color" = "波色";
+
+"Chart_Area_big_small" = "大小";
+"Chart_Area_single_double" = "单双";
+"Chart_Area_red_black" = "紅黑";
+
+
+//设置主播名片
+"ContactInfo_notEditTipsTitle" = "您還未設置主播名片";
+"ContactInfo_notEditTipsMsg" = "是否去設置？";
+"ContactInfo_notEditTipsSure" = "去設置";
+"ContactInfo_notEditTipsCancel" = "不必了";
+//添加提现方式
+"AddWithDrawType_title" = "請選擇添加的提現方式";
+"AddWithDrawType_message" = "";
+"AddWithDrawType_usdt" = "USDT";
+"AddWithDrawType_card" = "銀行卡";
+"AddWithDrawType_cancel" = "取消";
+"AddProfitTip_Error" = "暫未開放，敬請期待";
+//添加USDT
+"AddUSDT_title" = "添加USDT";
+"AddUSDT_Type_title" = "轉賬網絡";
+"AddUSDT_Address_title" = "USDT地址";
+"AddUSDT_ChoiseType_title" = "請選擇轉賬網絡";
+"AddUSDT_Type_Tips" = "您還未選擇USDT主網類型";
+"AddUSDT_Address_Tips" = "您還未編寫USDT地址";
+"AddUSDT_Transfor_tip" = "轉入他人錢包地址將無法追回，請仔細核對錢包地址，避免造成不必要的損失";
+"AddUSDT_Paste" = "粘貼";
+"AddUSDT_PlaceHolder" = "請輸入錢包地址";
+//添加其他
+"AddOther_title%@" = "添加%1$@";
+"AddOther_Address_title%@" = "%1$@地址";
+"AddOther_Address_Tips%@" = "您還未編寫%1$@地址";
+//禁止录屏
+"Live_ProhibitScreenRecording" = "禁止錄屏";
+///直播间弹幕过滤
+"filter_belowf" = "過濾100以下";
+"filter_belows" = "過濾1K以下";
+"filter_belowt" = "過濾1W以下";
+///不用翻译
+"socketLivePlay_Light" = "我点亮了";//不翻译
+"socketLivePlay_Followed" = "关注了主播";//不翻译
+"Livebroadcast_backtoRoom" = "主播回来了";//不翻译
+"Livebroadcast_liveinbackgroud" = "主播离开一下，精彩不中断，不要走开哦";//不翻译
+//OpenAwardViewController
+"OpenAward_NiuNiu_BlueWin" = "蓝方胜";
+"OpenAward_NiuNiu_RedWin" = "红方胜";
+"PublicObj_blue" = "蓝方:";
+"PublicObj_red" = "红方:";
+///还没翻译
+"history_award" = "中獎";
+"history_profit" = "盈利";
+"history_starttime" = "開始時間";
+"history_endtime" = "結束時間";
+"history_statetitle" = "選擇交易狀態";
+"history_typetitle" = "選擇彩種類型";
+"history_betcontent%@%@" = "期號：%1$@ 投注內容：%2$@";
+"history_betTitle%@" = "第%1$@期";
+"history_bettime%@" = "投注時間：%1$@";
+"history_statewillaward" = "未開獎";
+"history_statenotaward" = "未中獎";
+"history_statedidaward" = "中獎";
+"history_stateequal" = "和局";
+"TimeSelect_tipError" = "開始時間不能大於結束時間";
+
+"PublicObj_Spade" = "黑桃";
+"PublicObj_Heart" = "红心";
+"PublicObj_Club" = "梅花";
+"PublicObj_Diamond" = "方块";
+"OpenAward_NiuNiu_Green" = "綠";
+
+
+"Hotpage_AddMoreCountry" = "更多国家";
+"GameCenter_List" = "報表";
+"Mypage_CopyId" = "點擊復製";
+"LiveGame_NoBetList" = "沒有投註記錄";
+
+"OpenHistory_Dragon" = "龙";
+"OpenHistory_he" = "合";
+"OpenHistory_Tiger" = "虎";
+
+"忘记手势密码" = "忘記手勢密碼";
+"指纹解锁" = "指紋解鎖";
+"面容ID解锁" = "面容ID解鎖";
+"点击进行指纹解锁" = "點擊進行指紋解鎖";
+"点击进行面容ID解锁" = "點擊進行面容ID解鎖";
+
+"DramaHomeViewController_title" = "觀影卷";
+"DramaHomeHistoryCell_history_title" = "觀看歷史";
+"DramaHomeHeaderView_latest" = "最新";
+"DramaHomeHeaderView_hot" = "熱門";
+
+"DramaFavoriteViewController_title" = "收藏夾";
+"DramaFavoriteViewController_empty_favorite" = "您還沒有收藏任何內容";
+"DramaFavoriteViewController_empty_like" = "您還沒有收藏任何內容";
+
+
+"DramaPortraitVideoControlView_fullScreen_title" = "全螢幕觀看";
+"DramaPortraitVideoControlView_unlock_pay" = "付費解鎖";
+"DramaVideoViewController_video_not_available" = "該影片還未上架";
+"DramaFavoriteViewController_empty_follow" = "您還沒有關注任何內容";
+"DramaFavoriteViewController_empty_like" = "您還沒有喜歡任何內容";
+
+"DramaVideoViewController_video_buy_ticket" = "是否消耗 %d 張觀影券購買?";
+"DramaAllHeaderView_pay_info" = "含%d集付費";
+"DramaAllHeaderView_pay_info_vip" = "含%d集VIP付費";
+"DramaAllHeaderView_all_episodes" = "%d集全";
+"DramaAllListCell_pay" = "付費";
+"Hotpage_skit_entrance" = "短劇入口";
+"VIP Pay" = "VIP付費";
+"DramaAllHeaderView_paid_info" = "含%d集";
+"play" = "播放";
+
+"Please stay tuned" = "敬請期待";
+"like" = "喜歡";
+"work" = "作品";
+"Tap to live stream room" = "點擊進入直播間";
+"Not Search Any Result" = "未搜索到相關結果";
+"short_video_favorite_unit" = "萬";
+"short_video_preview" = "試看 %@";
+"short_video_buy" = "購買";
+"short_video_preview_end" = "試看結束";
+
+"post_video_free" = "免費";
+"post_video_ticket_name" = "觀影劵";
+"post_video_other_price" = "其他金額:";
+"post_video_other_tags" = "其他標籤";
+"post_video_no_rule" = "您還沒有權限上傳視頻";
+"post_video_uploading" = "發布中，請稍後...";
+"post_video_upload_wait" = "請等待上傳完成";
+"post_video_upload_retry" = "請重新上傳視頻";
+"post_video_upload_cover_again" = "請重新上傳封面";
+
+"Live Streaming" = "直播中";
+"All %ld episodes, completed" = "全%ld集，已完結";
+"Favorite" = "收藏";
+"Watch History" = "觀看紀錄";
+"Serialization" = "連載中";
+"Episodes finished" = "已完結";
+"Episodes updating" = "更新中";
+"Not watched" = "未觀看";
+"Episode %ld" = "第%ld集";
+"%@ people online" = "%@人在線";
+"follow_recommend" = "推薦關注";
+"Episodes update to" = "更新至";
+"No Prefix Episode %ld" = "%ld集";
+"Select episode" = "選集";
+
+//短視頻評論
+"short_video_comment_lookingForwardYourComments" = "期待你的評論";
+"short_video_comment_leaveCommentExpressYourThoughts" = "發條評論表達你的想法吧";
+"short_video_comment_noMoreComments" = "沒有更多評論了~";
+"short_video_comment_kindWordsBringGood" = "善語結善緣，惡語傷人心";
+"short_video_comment_send" = "發送";
+"short_video_comment_howManyComments" = "條評論";
+"short_video_comment_reply" = "回復";
+"short_video_comment_expand" = "展開";
+"short_video_comment_close" = "收起";
+"short_video_comment_year" = "年前";
+"short_video_comment_month" = "月前";
+"short_video_comment_weekOfYear" = "周前";
+"short_video_comment_day" = "天前";
+"short_video_comment_hour" = "小時前";
+"short_video_comment_minute" = "分鐘前";
+"short_video_comment_justNow" = "剛剛";
+//首頁容器
+"home_container_recommend" = "推薦";
+"home_container_recommend_space" = "推   薦";//要三個半形空白鍵
+"home_container_skit_space" = "短   劇";
+//搜索頁
+"home_search_searchVideos" = "搜索視頻";
+"home_search_all" = "全部";
+"home_search_shortVideo" = "短視頻";
+"home_search_skit" = "短劇";
+"home_search_longVideo" = "長視頻";
+"home_search_anchorNickname" = "主播";
+"home_search_searchRecord" = "搜索歷史";
+"home_search_youLike" = "猜你喜歡";
+"home_search_hotSearch" = "熱搜榜";
+"home_search_tenThousand" = "萬";
+"home_search_thousand" = "千";
+"home_search_noRelevantResultsFound" = "未搜索到相關結果";
+"home_search_modifySearchKeywordsAndTryAgain" = "建議您修改搜索關鍵詞後重新再試";
+"home_search_search" = "搜索";
+"home_search_userNickName" = "用戶暱稱";
+//發佈短視頻
+"post_video_rules_title" = "短視頻發佈規則";
+"post_video_desc_section1" = "視頻時長";
+"post_video_desc_rulse1" = "視頻長度應在10秒至5分鐘之間。";
+"post_video_desc_section2" = "視頻格式";
+"post_video_desc_rulse2_1" = "支持的文件格式：MP4、MOV、AVI等。";
+"post_video_desc_rulse2_2" = "分辨率至少為720p（720x1280像素）。";
+"post_video_desc_rulse2_3" = "文件大小不超過100MB。";
+"post_video_desc_section3" = "內容規範";
+"post_video_desc_rulse3_1" = "嚴禁暴力、涉政、仇恨言論等內容。";
+"post_video_desc_rulse3_2" = "保護他人隱私，需獲得被拍對象的同意。";
+"post_video_desc_section4" = "視頻質量";
+"post_video_desc_rulse4" = "視頻應清晰穩定，音頻清晰無雜音。";
+"post_video_desc_section5" = "視頻標題和描述";
+"post_video_desc_rulse5_1" = "標題和描述應準確反映視頻內容。";
+"post_video_desc_rulse5_2" = "使用相關標籤以便分類和搜索。";
+"post_video_desc_section6" = "其他要求";
+"post_video_desc_rulse6_1" = "視頻經過平台審核後才可能公開展示。";
+"post_video_desc_rulse6_2" = "根據視頻內容選擇適當的分類來發佈視頻。";
+"post_video_max_tags" = "最多五個標籤";
+//我的
+"profile_center_wallet" = "中心錢包";
+"profile_center_myWallet" = "我的錢包";
+"profile_center_change_unit" = "切換幣種";
+//消息列表
+"message_list" = "消息列表";
+"message_list_no_new_notifi" = "沒有新通知";
+"message_list_interactive_messages" = "互動消息";
+"message_list_people_have_saved_your_comments" = "%1$@ 人攢了你的評論";
+"message_list_reply_comment" = "回復評論";
+"message_list_like" = "讚";
+"message_list_no_messages" = "暫無消息，太低調了～";
+"message_list_go_play_game" = "先去玩個遊戲吧";
+
+// 簽到
+"Signed In" = "已簽到";
+"The more consecutive sign-ins, the greater the rewards" = "連續簽到越多，獎勵越大!";
+"Achieved" = "已達成";
+"Consecutive Sign-ins" = "連簽";
+"Daily Sign-in" = "每日簽到";
+
+// 幸運抽獎
+"luckyDraw_title" = "幸運抽獎";
+"luckyDraw_remaining_bonus_in_the_prize_pool" = "獎池剩餘獎金";
+"luckyDraw_number_of_draws_remaining" = "剩餘抽獎次數";
+"luckyDraw_winning_record" = "中獎紀錄";
+"luckyDraw_bonus_rules" = "獎勵規則";
+"luckyDraw_reset_time" = "您抽獎次數將於%1$@重置，請盡快使用";
+"luckyDraw_tips" = "快去完成下方任務，獲得抽獎次數吧。";
+"luckyDraw_result_tips" = "持續達標，幸運抽獎好禮領不完！";
+
+"bounsRules_category_title1" = "大獎記錄";
+"bounsRules_category_title2" = "我的記錄";
+
+"bounsRules_section1_title" = "幸運抽獎次數活動";
+"bounsRules_section1_row1" = "首次充值即可贈送一次抽獎次數。";
+"bounsRules_section1_row2" = "綁定手機號碼贈送一次抽獎次數。";
+"bounsRules_section1_row3" = "連續三天登錄贈送一次抽獎次數。";
+"bounsRules_section1_row4" = "打賞主播超過鑽石贈送一次抽獎機會（單日不可疊加）";
+"bounsRules_section1_row5" = "單次彩票投注超過¥100贈送一次抽獎次數（單日不可疊加）";
+"bounsRules_section1_row6" = "單次免提直充入款超過¥100贈送一次抽獎次數（單日不可疊加）";
+"bounsRules_section2_title" = "幸運抽獎規則";
+"bounsRules_section2_row1" = "獎金池中的獎金由玩家投注產生，獎金池中的獎金實時更新。";
+"bounsRules_section2_row2" = "獲贈抽獎次數每周日23:59清零，若是本週未參與抽獎視為自動放棄。";
+"bounsRules_section2_row3" = "當中獎金額大於獎金池中的獎金時，剩餘獎金池獎金全部歸中獎者所有。";
+"bounsRules_section2_row4" = "若因系統延遲導致末能及時收到獎勵，請重新登錄或聯繫在線客服。";
+"bounsRules_section2_row5" = "幸運抽獎活動玩法，規則最終解釋權歸平台所有。";
+
+"Winning_record_welcome" = "歡迎您的加入～";
+"Winning_record_lucky" = "祝您幸運中獎喔";
+"Winning_record_eve" = "前日";
+"Winning_record_congratulations_your_winning_draw" = "恭喜您抽中：";
+"Winning_record_Congratulations_user_winning_draw" = "恭喜用戶抽中：";
+"Winning_record_user_name" = "用戶名：";
+
+"comment_replay_like_des" = "讚了你的評論";
+"comment_replay_like_video_des" = "讚了你的视频";
+"comment_post_new_video" = "發佈了新的作品";
+"read_all" = "全部已讀";
+
+"post_video_upload_interrupted" = "上傳中斷";
+"post_video_resume_prompt" = "是否續傳？";
+"post_video_retry" = "重新上傳";
+"ppublic_continue" = "繼續";
+"ppublic_account" = "帳號";
+
+"验证码验证超时，请重试" = "驗證碼驗證超時，請重試";
+"网络连接失败，请检查网络后重试" = "網路連接失敗，請檢查網路後重試";
+"验证已取消" = "驗證已取消";
+"验证码初始化失败，请稍后重试" = "驗證碼初始化失敗，請稍後重試";
+"验证码配置错误，请联系客服" = "驗證碼配置錯誤，請聯繫客服";
+"验证结果无效，请重新验证" = "驗證結果無效，請重新驗證";
+"验证失败，请重试" = "驗證失敗，請重試";
+"验证失败" = "驗證失敗";
+"验证码初始化失败" = "驗證碼初始化失敗";
+"降级模式验证成功" = "降級模式驗證成功";

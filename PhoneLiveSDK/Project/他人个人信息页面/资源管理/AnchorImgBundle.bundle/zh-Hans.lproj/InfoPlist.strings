@@ -1,0 +1,1653 @@
+/* 
+  Info.strings
+  yunbaolive
+
+  Created by IOS1 on 2019/2/26.
+  Copyright © 2019 cat. All rights reserved.
+*/
+
+//连尾下注翻译需要特别修复 后台
+// 蓝方胜 红方胜 后台数据需要匹配
+//"GameListVC_lotteryTitle" = "彩票"; //containsString 特殊处理
+//"socketLivePlay_getConatct" = "收到主播名片："; // stringByReplacingOccurrencesOfString
+
+//"h5game_submit_successfully" = "提交成功"; //isEqualToString
+//"h5game_application_progress" = "申请进度"; //isEqualToString
+//"h5game_My_family_tree" = "我的家族"; //isEqualToString
+
+//图片不需要翻译文字。
+"public_kefuIcon" = "ic_kefu"; //图片
+"public_fans_follow_Icon" = "fans_follow"; //图片
+"public_fans_followed_Icon" = "fans_followed"; //图片
+//Hotpage
+"Hotpage_zxggIcon" = "img_zxgg";//图片
+//FirstInvestAlert
+"FirstInvestAlert_GoCharge_BT" = "charge_gift"; //图片
+"FirstInvestAlert_ChargeBgImgV" = "charge_gift_bg";//图片
+//RotaionRecordVC
+"RotaionRecordVC_recordAll_N" = "dajl_n";//图片
+"RotaionRecordVC_recordAll_S" = "djjl_s";//图片
+"RotaionRecordVC_recordMy_N"  = "wdjl_n";//图片
+"RotaionRecordVC_recordMy_S"  = "wdjl_s";//图片
+//RotationDescVC
+"RotationDescVC_ImgBg" = "jcgzbg";//图片
+
+//RotationResultVC
+"RotationResultVC_bgImgV" = "zjresultbg";//图片
+//RotationVC
+"RotationVC_topTitleImgV" = "jczjzz"; //图片
+"RotationVC_giftRecordButton" = "zjjl"; //图片
+"RotationVC_giftRuleButton" = "jcgz";//图片
+//TYRotaryView
+"TYRotaryView_jcdjcj" = "jcdjcj"; //图片
+
+//RotationNothingVC
+"RotationNothingVC_Nothing" = "rotaionResultNothing";//图片
+"RotationNothingVC_Confirm" = "zjresultsure";
+//LotteryBarrageView
+"LotteryBarrageView_daxianshenshou" = "daxianshenshou";//图片
+"LotteryBarrageView_yimingjinren" = "yimingjinren";//图片
+"LotteryBarrageView_shouqinitian" = "shouqinitian";//图片
+//guardListCell
+"guardListCell_guard_low" = "guard_low";//图片
+"guardListCell_guard_heig" = "guard_heig";//图片
+//guardShowView
+"guardShowView_GuardStar" ="guard_star";//图片
+"guardShowView_GuardEmpty" = "GuardEmpty";//图片
+
+//searchVC
+"searchVC_empty" = "searchVC_empty";//图片
+//giftCell
+"giftCell_haoIcon" = "gift_rich";//图片
+"giftCell_hotIcon" = "gift_hot";//图片
+"giftCell_guardIcon" = "gift_guard";//图片
+//chatModel
+"chatModel_chat_shou" = "chat_shou_month";//图片
+"chatModel_chat_system" = "chat_system";//图片
+"chatModel_chat_follow_game" = "chat_follow_game";//图片
+"chatModel_chat_shou_year" = "chat_shou_year";//图片
+"chatModel_chat_win" = "chat_win";//图片
+"chatModel_chat_follow_bet" = "chat_follow_bet";//图片
+"chatModel_chat_liang" = "chat_liang";//图片
+"chatModel_chat_admin" = "chat_admin";//图片
+"chatModel_chat_dividend" = "chat_dividend";//图片
+"chatModel_chat_translate" = "translate_btn";//图片
+//redBagView
+"redBagView_DelayTimeIcon" = "DelayTimeIcon"; //图片
+"redBagView_rightNowIcon" = "rightNowIcon";  //图片
+//LiveContactView
+"LiveContactView_ContactGetIcon" = "anchor_get"; //图片'
+
+//YBSetListCell
+"YBSetListCell_updateBtnIcon" = "btn_gx";//图片
+//OpenAwardViewController
+"OpenAwardVC_RightWin"="nn_red_win";//图片
+"OpenAwardVC_LeftWin" = "nn_blue_win";//图片
+//GameListViewController
+"GameListVC_txjl" = "icon_txjl";//图片
+//HotCollectionViewCell
+"HotCollectionViewCell_Nomal_Room" = "live_normal";//图片
+"HotCollectionViewCell_PWD_Room" = "live_password";//图片
+"HotCollectionViewCell_Pay_Room" = "live_pay";//图片
+"HotCollectionViewCell_Time_Room" = "live_timer";//图片
+"copyID" = "copyID";
+"docoasessssimage" = "docoasessssimage.jpg";
+"LotteryAwardVC_lottery_reward_bgImg" = "lottery_reward";
+"home_tgzq" = "home_tgzq";
+"img_zwsj" = "img_zwsj";
+"liveShare_" = "liveShare_";
+"logFirst_成功" = "logFirst_success";
+"logFirst_headerImg" = "logFirst_headerImg";
+"bjl_title_player_img" = "bjl_title_jt_player";
+"bjl_title_banker_img" = "bjl_title_jt_banker";
+
+"lh_title_dragon_img" = "lh_title_jan_dragon";
+"lh_title_tiger_img" = "lh_title_jan_tiger";
+
+//////////////////////////////////////////下面需要翻译中文文字/////////////////////////////////////////
+NSCameraUsageDescription = "访问您的相机，允许可以开启直播和录制视频";
+NSLocationWhenInUseUsageDescription = "访问您的位置，允许可以获取当地的直播和视频";
+NSMicrophoneUsageDescription = "访问您的麦克风，允许可以录制声音";
+NSPhotoLibraryAddUsageDescription = "读取您的相册，允许可以把相册的内容上传到服务器";
+NSPhotoLibraryUsageDescription = "访问您的相册,允许可以把视频保存在相册";
+NSUserTrackingUsageDescription = "我们需要使用您的广告追踪权限保证正常使用";
+NSBluetoothAlwaysUsageDescription = "我们需要访问您的蓝牙";
+NSFaceIDUsageDescription = "允许访问设备FaceID";
+
+//启动app /这个小部分可以强制翻译
+"activity_login_connectkefu" = "联系客服";
+"launchAppP_islauching" = "正在启动，请稍后";
+"launchAppP_logscopy" = "复制日志";
+"launchAppP_domainCheckingLine2" = "尝试获取线路2";
+"launchAppP_LineReadyGet" = "开始请求线路";
+"launchAppP_Line2ErrorMoretime" = "线路2获取多次失败超时";
+"launchAppP_Line2timeOutCantGet" = "线路2超时,无法获取";
+"launchAppP_Line2SuccessBack" = "线路2测速域名成功";
+"launchAppP_Line2DomainError" = "线路2测速失败";
+"launchAppP_Line2AnalyseLocation"  = "开始获取地理信息";
+"launchAppP_LocationHaveCache" = "地理信息缓存存在";
+"launchAppP_Line2AnalyseBegain" = "开始分析线路2";
+"launchAppP_Line2SuccessAnalyseError" = "线路2返回成功，解析失败";
+"launchAppP_readyCheck" = "准备检测";
+"launchAppP_noNetwork" = "暂无网络,请检查网络连接";
+"launchAppP_Line1timeOutCantGet" = "线路1超时,无法获取";
+"launchAppP_domainCheckingError" = "域名测速失败,重新开始";
+"launchAppP_readyDomainChecking" = "开始执行测速";
+"launchAppP_domainCheckEnd" = "测速结束";
+"launchAppP_Line1DomainError" = "线路1测速域名失败";
+"launchAppP_Line2SuccessGetCallback" = "线路2线路返回成功";
+"launchAppP_Line1SuccessBack" = "线路1测速域名成功";
+"launchAppP_domainCheckingRetry" = "重新开始尝试检测";
+"launchAppP_domainCheckingSpeedReady"="开始准备测速";
+"launchAppP_AnalyseSpeedSuccessReady"="测速成功了，开始检测";
+"launchAppP_Line2AnalyseLocationSuccess"="地理信息查询成功";
+
+
+"Illegal_request"="非法请求";
+//系统语言
+"zh-Hans"  = "中文简体";
+"zh-Hant"  = "中文繁體";
+"en" = "English";
+"ja" = "日本語";
+"vi" = "Tiếng Việt";
+"id" = "Bahasa Indonesia";
+//公共参数
+"publictool_copy_success" = "复制成功";
+"public_warningAlert" = "提示";
+"publictool_copy" = "复制";
+"publictool_sure" = "确定";
+"public_cancel" = "取消";
+"public_manage" = "管理";
+"public_timeFormat1" = "YYYY-MM-dd HH:mm";
+"public_networkError" = "网络异常，请稍后";
+"public_close" = "关闭";
+"public_retryAgain" = "重试";
+"public_back" = "返回";
+"public_systemMsgTitle" = "系统公告";
+"public_noEmpty" = "暂无数据";
+"public_loadMore_loading"= "数据加载中...";
+"public_loadMore_noMore" = "没有更多了哦~";
+"Bet_Charge_Title" = "充值";
+"public_WithDraw" = "提现";
+"public_WithDraw_creator" = "创作收益";
+
+"public_errorReson" = "出错了";
+"public_fans" = "粉丝";
+"public_liang" = "靓";
+"public_itemMsg" = "条";
+"public_Save" = "保存";
+"public_Day" = "天";
+"public_like" = "获赞";
+//登录页面
+
+"version_update" = "版本更新";
+
+
+"version_updateNow" = "更新";
+"version_newversion_title" = "发现新版本";
+"version_newversion_now" = "已经是最新版本";
+
+"loginActivity_switchstandbyline" = "正在开启备用线路";
+"loginActivity_switchdefaltline" = "正在切换到默认线路";
+"loginActivity_switchLinesuccess" = "线路切换完毕";
+"loginActivity_logsCopySuccess" = "日志复制成功";
+"loginActivity_sendmsgcode" = "发送验证码";
+"loginActivity_login_ing" = "登录中...";
+"loginActivity_sendingcodewarning" = "发送验证码中，请不要重复点击";
+"loginActivity_sendingcodetimeoutretry" = "发送超时，请重新发送";
+"loginActivity_reg_input_phone" = "请输入您的手机号";
+"loginActivity_sendingcode" = "正在发送...";
+"loginActivity_resend" = "重新发送";
+"loginActivity_sendsuccess" = "发送成功";
+"loginActivity_senderrorretry" = "发送失败，请稍后重试!";
+"loginActivity_login_input_phone" = "请输入手机号码";
+"loginActivity_login_input_email" = "请输入邮箱";
+"loginActivity_login_input_userName" = "请输入用户名";
+"loginActivity_login_input_pwd" = "请输入验证码";
+"loginActivity_login_warning" = "正在登陆，请不要重复点击";
+"loginActivity_login_error" = "登录失败，请检查网络连接";
+
+"activity_login_phoneLogin" = "手机号登录";
+"activity_login_emailLogin" = "邮箱登录";
+"activity_login_userName" = "用户名登陆";
+"activity_login_guestLogin" = "游客登录";
+"activity_login_privateServer" = "登录注册代表您同意《用户注册服务协议》、《隐私政策》";
+"activity_login_country_region" = "国家/地区";
+"activity_login_country_region1" = "国家和地区";
+
+"activity_login_inputPhoneNum" = "请输入手机号";
+"activity_login_inputEmail" = "请输入邮箱";
+"activity_login_inputcode" = "验证码";
+"activity_login_inputPassword" = "密码";
+"activity_login_login" = "登录";
+"activity_login_loginAndRegister" = "登陆/注册";
+"activity_login_connectkefu" = "联系客服";
+"activity_login_connectkefu1" = "联系客服";
+"activity_charge_connectkefu" = "遇到问题？";
+"activity_login_loginproblem" = "登录/注册遇到问题？";
+"activity_login_standbyline" = "备用线路:";
+"activity_login_versionTitle" = "版本号";
+"login_tip_2" = "服务和隐私条款";
+"login_phone_error" = "请输入正确的手机号码";
+"login_email_error" = "请输入正确的邮箱";
+"activity_login_changeLoginMethod" = "切换登录方式";
+
+//绑定手机号
+"activity_bind_phone_number_bindphonetitle" = "绑定您的手机号";
+"activity_bind_phone_number_bindphonesubtitle" = "为了方便您存取款 请绑定手机号";
+"activity_bind_phone_number_phone" = "手机";
+"activity_bind_phone_number_Login" = "，是否直接登录？";
+"activity_bind_phone_number_bindEmailTitle" = "绑定您的邮箱";
+"activity_bind_phone_number_bindEmailSubtitle" = "为了方便您存取款 请绑定邮箱";
+"activity_bind_phone_number_Email" = "邮箱";
+
+
+//TaskVC
+"taskTitleString" = "任务大厅";
+"taskEmptyString" = "暂时没有活动";
+"taskgofinish" = "去完成";
+"taskfinished" = "已完成";
+"tasktoget" = "领取";
+"task_time" = "时间";
+"task_reward_title" = "奖励中心";
+"task_reward_bet" = "打码";
+"task_reward_level" = "关卡";
+"task_reward_backwater" = "实时返水";
+"task_reward_backwater_rate" = "返水比例";
+"task_reward_backwater_amount" = "消费或有效投注金额";
+"task_reward_backwater_limit" = "返水上限";
+"task_reward_backwater_about" = "功能简介";
+"task_reward_draw_success" = "领取成功";
+"task_reward_sign_success" = "签到成功";
+"task_reward_backwater_tip1" = "实时返水是根据玩家订单統计的即时返利机制。玩家可以在满足条件时立即领取返水金额，享受更多优恵和福利。";
+"task_reward_backwater_tip2" = "\n\n1. 计算方式";
+"task_reward_backwater_tip3" = "\n     返水金额基于已结算的订单进行统计和计算。";
+"task_reward_backwater_tip4" = "\n2. 领取方式";
+"task_reward_backwater_tip5" = "\n     50%的金额添加到余额，50%的金额分成3份，每4小时可领取一份。";
+"task_reward_backwater_tip6" = "\n3. 领取间隔";
+"task_reward_backwater_tip7" = "\n     每次领取间隔为20分钟。";
+"task_reward_backwater_tip8" = "\n4. 返水比例";
+"task_reward_backwater_tip9" = "\n     返水比例与王者等級、游戏类型相关。";
+"task_reward_alert_tip" = "恭喜获得";
+"task_reward_alert_title" = "奖励";
+"task_reward_alert_success" = "您已成功领取奖励";
+"skit_home_record" = "观看记录";
+
+"livetaskTitleString" = "主播任务";
+
+//PayWaitConfirmViewController
+
+"pay_wait_page_back" = "返回首页";
+"pay_wait_page_des" ="财务正在核对\n3～5分钟内未到账，请联系客服";
+
+//PayChannelViewController
+"PayChanne_title" = "支付渠道";
+
+//PayReqViewController
+
+"PayReq_chargeNow" = "立即充值";
+"PayReq_warning"="重要提示：支付渠道将不定期进行更换，入款前请查看并确定最新账户再进行汇款。";
+
+//RechargePopView
+"RechargePop_Warning"="充值提示";
+"RechargePop_bindPhoneTitle"="为了账户安全，请绑定手机号！";
+"RechargePop_bindPhone"="绑定手机号";
+"RechargePop_ChargeContinue"="继续充值";
+
+//PayInsteadViewController
+"PayInstead_accountTitle"="您的充值账号：";
+"PayInstead_tipwarning"="我司入款银行卡不定期更换，请勿保存银行卡号转账\n存款请进入【银行卡转账】页面复制最新的卡号转账";
+
+
+//PayInsteadCollectionViewCell
+"PayInsteadCell_installQQ"="请先安装手机QQ";
+"PayInsteadCell_desTitle"="说明";
+"PayInsteadCell_desQQDetail"="\n代理QQ号已复制\n请前往QQ添加代理完成充值\n点击确定自动跳转\n";
+"PayInsteadCell_installWechat"="请先安装手机微信";
+"PayInsteadCell_desWechatDetail"="\n代理微信号已复制\n请前往微信添加代理完成充值\n点击确定自动跳转\n";
+"PayInsteadCell_installAlipay" = "请先安装手机支付宝";
+"PayInsteadCell_desAlipayDetail" = "\n代理支付宝号已复制\n请前往支付宝添加代理完成充值\n点击确定自动跳转\n";
+"PayInsteadCell_canPayamount"="可用额度：";
+"PayInsteadCell_contactNow"="立即联系";
+
+//PayAmountViewController
+"PayAmount_Range_%@%@_%@%@" = "可充值区间%1$@%2$@-%3$@%4$@";
+
+"PayAmount_giftRule1_%@%.1f_%@%.1f_%@%.1f" = "每充值%1$@%2$.1f送%3$@%4$.1f 最高奖励%5$@%6$.1f";
+"PayAmount_giftRule2_%.2f_%@%.1f"="充值奖励%1$.2f%% 最高奖励%2$@%3$.1f";
+
+"PayAmount_giftRule3_%@%@_%@%@" = "每充值%1$@%2$@送%3$@%4$@";
+
+
+
+"PayAmount_giftRule3%@%@"="您将获赠%1$@%2$@";
+
+"PayAmount_chargeTitle" = "充值金额";
+"PayAmount_input_charge_amount" = "请输入充值金额";
+
+//PayTransferViewController
+"Transfer_nameTitle" = "汇款姓名";
+"Transfer_leaveMsg" = "汇款留言";
+"Transfer_nameplaceholder" = "请输入您的汇款姓名";
+"Transfer_optionalplaceholder" = "选填";
+
+//PayTransferCollectionViewCell
+"Transfer_bankNumberTitle" = "银行卡号";
+"Transfer_bankUserNameTitle" = "收款名称";
+"Transfer_bankNameTitle" = "开户银行";
+"Transfer_bankPlaceTitle" = "开户网点";
+
+//PayViewController
+"PayVC_Title"= "充值中心";
+"PayVC_AlertDestitle"="重要说明";
+"PayVC_AlertImportDestitle"="重要提示";
+"PayVC_AlertImportDetail" = "\n请进行转账后再提交订单\n\n";
+"PayVC_finishedtransfer" = "已完成转账";
+"PayVC_noTransfer" = "未转账";
+"PayVC_OrderError" = "提交订单失败，请稍后重试";
+"PayVC_TransferResultTitle" = "\n支付结果\n\n";
+"PayVC_PaySuccess" = "支付成功";
+"PayVC_PayError" = "支付失败";
+"PayVC_BalanceTitle" = "我的余额";
+"PayVC_Record" = "记录";
+"PayVC_ChargeAmount" = "直充额度";
+"PayVC_PwdAlertTitle" = "钱包资金密码";
+"PayVC_PwdAlertTip" = "请输入您的钱包资金密码";
+
+"chargeMoney2" = "存款金额";
+
+//BetOptionCollectionViewCell2
+"BetOption2_errorAlert" = "暂不支持的彩种请更新最新版本";
+
+//OpenAwardCollectionViewCell
+"OpenAward_dateTitle" = "期";
+
+//CommonCollectionViewController2
+"CommonCollectionVC2_selected %ld Warning" ="最多选择%1$d个号码~";
+
+//CommonPageViewController
+"CommonPageVC_notitle" = "无标题";
+
+//LobbyBetConfirmCollectionViewCell
+
+"LobbyBetCell_Unit_Count" = "注";
+"LobbyBetCell_double_total"="%1$@倍  合";
+
+"LobbyBetCell_double_total11"="注  合";
+
+//LobbyBetConfirmViewController
+
+"LobbyBet_name%@_date%@_Alert" = "%1$@-期号已更新为%2$@";
+"LobbyBet_name%@_date%@_second%@timeTi" = "%1$@-第%2$@期 距封盘:%3$@";
+"LobbyBet_name%@_date%@_endbet" = "%1$@-第%2$@期 已封盘";
+"LobbyBet_name%@_date%@_betOpening" = "%1$@-第%2$@期 开奖中";
+"LobbyBet_selecte_Warning" = "请至少选择一项投注";
+"LobbyBet_changeBet" = "修改单注筹码";
+"LobbyBet_MinMoneyBet%@" = "最小投注为1.0%1$@";
+"LobbyBet_RangeBetMoney" = "自定义范围";
+"LobbyBet_ClearAll" = "清空";
+"LobbyBet_betContent" = "投注内容";
+"LobbyBet_DeleteTip" = "这是最后一个了，不能全删了哈~";
+"LobbyBetConfirm_title" = "确认投注";
+"LobbyBetConfirm_balance" = "余额";
+
+//LobbyLotteryVC
+"LobbyLotteryVC_UpdateDate" ="当前期号已更新为";
+"LobbyLotteryVC_UpdateError" = "获取彩票信息失败了哦😭";
+
+"LobbyLotteryVC_selectedCount%@_total%@%@_profit%@%@" = "已选%1$@注，共计%2$@%3$@，单注预期可获%4$@%5$@";
+"LobbyLotteryVC2_selectedCount%@_total%@%@_profit1%@_profit2%@%@" = "已选%1$@注，共计%2$@%3$@，单注预期可获%4$@~%5$@%6$@";
+
+//拆分上面字符串作为富文本文字染色
+"LobbyLotteryVC_selectedCount1" = "已选";
+"LobbyLotteryVC_selectedCount2" = "注，共计";
+"LobbyLotteryVC_selectedCount3%@" = "%1$@，单注预期可获";
+
+"LobbyLotteryVC3_selectedCount%ld_scale%ld_profit%.1f%@" = "共%1$ld注%2$ld倍，预期可获得%3$.1f%4$@";
+"LobbyLotteryVC_betEnd" = "封盘中";
+"LobbyLotteryVC_betOpen" = "开奖中";
+"LobbyLotteryVC_Stay_tuned_for" = "敬请期待~";
+"LobbyLotteryVC_betHistory" = "投注历史";
+"LobbyLotteryVC_betExplain" = "玩法说明";
+
+"LobbyLotteryVC_Bleuberi" = "蓝莓";
+"LobbyLotteryVC_Lemon" = "柠檬";
+"LobbyLotteryVC_Ceri" = "樱桃";
+"lobby_big" = "大";
+"lobby_small" = "小";
+"lobby_single" = "单";
+"lobby_double" = "双";
+"points" = "点";
+
+"lottery_trend_xiao" = "小";
+"lottery_trend_da" = "大";
+"lottery_trend_dan" = "单";
+"lottery_trend_shuang" = "双";
+"lottery_trend_long" = "龙";
+"lottery_trend_hu" = "虎";
+"lottery_trend_hong" = "红";
+"lottery_trend_hei" = "黑";
+"lottery_trend_lan" = "蓝";
+"lottery_trend_lv" = "绿";
+"lottery_trend_xian" = "闲";
+"lottery_trend_zhuang" = "庄";
+"lottery_trend_ning" = "柠";
+"lottery_trend_ying" = "樱";
+
+"LobbyLotteryVC_bet_balance_Error" = "您的余额小于最小下注哦";
+"LobbyLotteryVC_bet_endBet" = "本期封盘中 暂时无法投注";
+"LobbyLotteryVC_betEmptySelecte" = "您还没有添加过注单哦";
+"LobbyLotteryVC_NoBalance" = "余额不足";
+"LobbyLotteryVC_NoBalanceDetailDes" = "您的余额不足本次投注哦";
+"LobbyLotteryVC_titleBet" = "大厅彩票";
+
+
+"LobbyLotteryVC_DateNow%@" = "第 %1$@ 期";
+//期数字符拆分
+"LobbyLotteryVC_DateNow1" = "第";
+"LobbyLotteryVC_DateNow2" = "期";
+
+
+
+"LobbyLotteryVC_DateBetingNow%@" = "距第 %1$@ 期截止";
+//期数字符拆分
+"LobbyLotteryVC_DateBetingNow1" = "距第";
+"LobbyLotteryVC_DateBetingNow2" = "期截止";
+"LobbyLotteryVC_moreBtn" = "更多";
+"LobbyLotteryVC_deviceRandomBtn" = "机选";
+"LobbyLotteryVC_BetRecord" = "投注记录";
+"LobbyLotteryVC_betAll" = "梭哈";
+"LobbyLotteryVC_betMin" = "最小下注";
+"LobbyLotteryVC_Bet" = "投注";
+"LobbyLotteryVC_BetAddChoise" = "加入注单";
+"LobbyLotteryVC_GoToBet" = "去下注";
+"LobbyLotteryVC_total" = "总计:";
+
+"menu_lottery_result" = "开奖记录";
+
+
+//LobbyOpenHistoryViewController
+"LobbyOpenHistory_periods" = "期数";
+
+"LobbyOpenHistory_Type_Number" = "号码";
+"LobbyOpenHistory_Type_Size" = "大小";
+"LobbyOpenHistory_Type_SingleDouble" = "单双";
+"LobbyOpenHistory_Type_WinnerDragonTiger" = "冠亚龙虎";
+"LobbyOpenHistory_Type_total" = "总和";
+"LobbyOpenHistory_Type_Tema" = "特码";
+
+
+
+"OpenAward_NiuNiu_Red" = "红";
+"OpenAward_NiuNiu_Blue" = "蓝";
+"OpenAward_NiuNiu_Green" = "绿";
+
+//OpenHistoryViewController
+"OpenHistory_titleBetHistory" = "开奖历史";
+"OpenHistory_DateNow%@" = "第%1$@期";
+
+
+//BetConfirmCollectionViewCell
+
+"BetCell_double"="倍";
+"BetCell_double1"="1倍";
+"BetCell_double2"="2倍";
+"BetCell_double5"="5倍";
+"BetCell_double10"="10倍";
+"BetCell_double20"="20倍";
+
+"BetCell_remove"="删除";
+
+//ChipSwitchViewController
+"ChipSwitch_currentChip_title" = "当前筹码";
+"ChipSwitch_input_custom_chip" = "输入自定义筹码";
+"ChipSwitch_settitle" = "设置筹码";
+"ChipSwitch_ChangeChip_title" = "【修改筹码】";
+
+//LotteryBetViewController_NN
+"LotteryBetVC_NN_TimeTitle" = "截止:";
+
+//LotteryBetViewController
+"LotteryBetVC_TimeTitle" = "本期截止:";
+
+//GameListViewController
+"GameListVC_UnknowGamePlat" = "未知的游戏平台";
+
+"GameListVC_lotteryTitle" = "彩票"; //containsString 特殊处理
+"GameListVC_GameCenter_title" = "游戏中心";
+
+//h5game
+"h5game_Amount_Conversion" = "额度转换";
+"h5game_submit_successfully" = "提交成功"; //isEqualToString
+"h5game_application_progress" = "申请进度"; //isEqualToString
+"h5game_My_family_tree" = "我的家族"; //isEqualToString
+
+//XHLaunchAdButton
+"XHLaunchAdButton_titleSkip" = "跳过";
+
+//MsgSysVC
+"MsgSysVC_systemMsg" = "系统消息";
+"MsgSysVC_noMoremsg" = "暂无收到消息";
+"MsgSysVC_allRead" = "全部已读";
+
+//PublicObj
+
+
+
+//GameToolClass
+"GameToolClass_switchMoneyType" = "正在转换余额..";
+"GameToolClass_switchMoneyTypeSuccess" = "转换成功";
+"GameToolClass_EnterGame" = "正在进入..";
+"GameToolClass_EnterGameReson" = "进入异常";
+"GameToolClass_EnterGameError" ="进入游戏失败";
+"GameToolClass_gameName%@_balance%@" = "当前[%1$@]余额:￥%2$@\n祝您游戏愉快.\n如需充值，可返回直播主界面或悬浮按钮中进行充值。";
+
+//YBToolClass
+"YBToolClass_timeFormat_Hour%02ld_Min%02ld_Second%02ld" = "%1$02ld小时%2$02d分%3$02d秒";
+"YBToolClass_timeFormat_Min%02ld_Second%02ld" = "%1$02d分%2$02d秒";
+"YBToolClass_timeFormat_Second%02ld" = "%1$02d秒";
+
+//homepageController
+"homepageController_attention" = "关注";
+"homepageController_live" = "直播";
+"homepageController_game" = "游戏";
+"homepageController_Rich_list" = "富豪榜";
+
+//ZYTabBar
+"ZYTabBar_open_live" = "开播";
+"ZYTabBar_Box" = "宝箱";
+
+//ZYTabBarController
+"ZYTabBarC_HomePage" = "首页";
+"ZYTabBarC_MePage" = "我的";
+
+//EnterLivePlay
+"EnterLivePlay_enterWinnerRoom" = "是否前往该直播间\n沾沾财气";
+"EnterLivePlay_enterRoom" = "前往";
+"EnterLivePlay_pwdRoomWarning" = "该房间为密码房间";
+"EnterLivePlay_input_pwd" = "请输入密码";
+"EnterLivePlay_pwd_error" = "密码错误";
+
+//AttentionHeader
+"AttentionHeader_myAttention" = "我的关注";
+"AttentionHeader_Popular_Hot" = "热门推荐";
+"AttentionHeader_No_Attention" = "暂无关注";
+"AttentionHeader_No_Hot" = "暂无热点";
+
+//GamesController
+"GamesVC_NoGameAnchor" = "暂时没有游戏主播哦～";
+"GamesVC_SeeOthersGameAnchor" = "赶快去看看其他主播的直播吧～";
+
+//GamesHeader
+"GamesHeader_Game_Recommend" = "游戏推荐";
+"GamesHeader_isHit" = "正在热映";
+
+//Hotpage
+"Hotpage_leftAddMore" = "左滑更多";
+"Hotpage_my_expand" = "我的推广";
+"Hotpage_Hot" = "热门";
+
+//classVC
+"classVC_noAnchorLive" = "暂时没有主播开播";
+"classVC_goToOthersAnchorLive" = "赶快去其他频道逛逛吧～";
+//LiveNotificationAlert
+"LiveNotif_AlertTitle" = "公告";
+
+
+//RankCell
+"RankCell_FollowButton" = "关注";
+"RankCell_Title_scroe%@" = "落后%1$@";
+
+
+//RankVC
+"RankVC_FollowMeError" = "不能关注自己";
+"RankVC_Empty" = "暂时空缺";
+"RankVC_profit_list" = "收益榜";
+"RankVC_contribution_list" = "贡献榜";
+"RankVC_List_of_day" = "日榜";
+"RankVC_Yesterday_the_list" = "昨日榜";
+"RankVC_List_of_Week" = "周榜";
+"RankVC_List_of_Month" = "月榜";
+//RotationVC
+"RotationVC_remaining_lottery_times" = "剩余抽奖次数：";
+"RotationVC_giftPoolTitle" = "奖金池剩余奖金";
+
+//RotationResultVC
+"RotationResultVC_ResultContent" = "恭喜你成功获得";
+//jubaoVC
+"jubaoVC_headerLabel" = "   选择举报的理由";
+"jubaoVC_Option_title" = "更多详细信息请在说明框中描述（选填）";
+"jubaoVC_submit" = "提交";
+"jubaoVC_reason_title"="请选择举报理由";
+"jubaoVC_success" = "举报成功";
+"jubaoVC_title" = "举报";
+
+//LotteryBarrageView
+"LotteryBarrageView_clickTitle" = "点击跟注";
+"LotteryBarrageView_name%@_type%@_way%@_money%@%@" = "<font color=\"#72f3e1\">%1$@</font><font color=\"#ffffff\">在</font><font color=\"#fff292\">%2$@</font><font color=\"#ffffff\">投注玩法</font><font color=\"#fff292\">%3$@</font><font color=\"#ffffff\">赢得</font><font color=\"#f9d347\">%4$@</font><font color=\"#ffffff\">%5$@。</font>";
+
+"LotteryCenterBarrageView_name%@_type%@_money%@%@" = "<font color=\"#72f3e1\">%1$@</font><font color=\"#ffffff\">在</font><font color=\"#fff292\">%2$@</font><font color=\"#ffffff\">赢得</font><font color=\"#f9d347\">%3$@</font><font color=\"#ffffff\">%4$@。</font>";
+
+
+//LotteryAwardVController
+"LotteryAwardVC%@%@" = "中奖 %1$@ %2$@";
+"LotteryAwardVC_close" = "点击任意处关闭";
+
+
+//TopTodayView
+"TopTodayView_update_time_title" = "最后更新：";
+"TopTodayView_LevelAlert_title" = "距离上一名还差";
+"TopTodayView_title" = "日 榜";
+"TopTodayView_SendGift" = "送礼";
+"Top rank" = "榜首";
+
+//guardShowView
+"guardShowView_guardUntilTime" = "您是当前主播的月守护\n守护日期截止到";
+"guardShowView_RenewGuard" = "续费守护";
+"guardShowView_OpenGuard" = "开通守护";
+"guardShowView_OpenGuardAlert" ="快去为喜欢的主播开通守护吧";
+"guardShowView_NoGuard" = "你还没有守护哦";
+"guardShowView_BeFirstGuard" = "成为TA的第一个守护";
+"guardShowView_ThisWeekGuard" = "本周贡献";
+"guardShowView_OpenNow" = "立即开通";
+
+//shouhuView
+"shouhuView_guardTime" = "选择守护时长";
+"shouhuView_guardrights" = "守护特权";
+"shouhuView_MyBalance" = "我的";
+"shouhuView_GuardMonthDes" = "您当前为主播的月守护，开通年守护将覆盖您的月守护剩余时长，是否开通？";
+"shouhuView_GuardYearDes" = "您当前为主播的年守护\n无法开通7天/月守护";
+"shouhuView_You_will_coast" = "您将花费";
+"shouhuView_Guard7Days" = "为主播开通7天守护";
+"shouhuView_GuardMonthDays" = "为主播开通月守护";
+"shouhuView_GuardOneYear" = "为主播开通年守护";
+
+//upmessageInfo
+"upmessageInfo_content" = "涉嫌传播淫秽色情信息";
+"upmessageInfo_report" = "举报";
+"upmessageInfo_sended" = "送出";
+"upmessageInfo_income" = "收入";
+"upmessageInfo_ten_thousand" = "万";
+"upmessageInfo_on_Mars" = "好像在火星";
+"upmessageInfo_followed" = "已关注";
+"upmessageInfo_kick" = "踢人";
+"upmessageInfo_silent" = "禁言";
+"upmessageInfo_set_management" = "设为管理";
+"upmessageInfo_cancel_management" = "取消管理";
+
+"upmessageInfo_management_list" = "管理员列表";
+"upmessageInfo_close_live" = "关闭直播";
+"upmessageInfo_disable_live" = "禁用直播";
+"upmessageInfo_add_the_impression+" = "+ 添加印象";
+"upmessageInfo_add_the_impression" = "添加印象"; //contains
+"upmessageInfo_Send_a_card" = "发送名片";
+"upmessageInfo_HomeTitle" = "主页";
+
+//searchVC
+"searchVC_input_name_id" = "请输入您要搜索的昵称或ID";
+
+//setViewM
+"setViewM_guardTitle" = "守护 虚位以待>";
+"setViewM_Top_list" = "实时榜单>";
+"setViewM_Guard" = "守护";
+"setViewM_People" = "人";
+"setViewM_Guardians" = "守护";
+"setViewM_GuardiansP" = "人";
+
+//liwuview
+"liwuview_sendGift" = "发送礼物";
+"liwuview_SendButton" = "赠送";
+"liwuview_YearGift" = "年守护专属礼物";
+"liwuview_sendSuccess" = "赠送成功";
+"liwuview_Bursts" = "连发";
+"Give the streamer a small gift" = "赠送主播一个小礼物吧";
+"RC toy" = "遥控玩具";
+"Issue command" = "下达指令";
+
+//coastselectview
+"coastselectview_minue" = "分钟";
+"coastselectview_coast_money" = "收费金额";
+"coastselectview_Choose_to_charge_for" = "选择收费";
+
+//redBagView
+"redBagView_redbagTitle" = "直播间红包";
+"redBagView_sendRedBag" = "给当前直播间观众发红包";
+"redBagView_LuckyRedBag" = "拼手气红包";
+"redBagView_average" = "平均红包";
+"redBagView_total_money" = "总金额";
+"redBagView_amount" = "数量";
+//"redBagView_Congratulations" = "恭喜发财，大吉大利";
+"redBagView_sendRedBagTitle" = "发红包";
+"redBagView_peerMoney" = "单个金额";
+"redBagView_input_redbag_money" = "请输入红包金额";
+"redBagView_input_redbag_amount" = "请输入红包数量";
+
+//redDetails
+"redDetails_whoRedBag" = "的红包";
+"redDetails_no_get" = "未抢到";
+"redDetails_get_to_me" = "已存入";
+"redDetails_already_got" = "已领取";
+"redDetails_peer_amount" = "个";
+"redDetails_total" = "共";
+//redListCell
+"redListCell_delayRedBag" = "派发了一个延迟红包";
+"redListCell_nowRedBag" = "派发了一个即时红包";
+"redListCell_GetNow" = "抢";
+//redListView
+"redListView_redBag" = "红包";
+"redListView_timeEndCanGet" = "倒计时结束后可抢";
+"redListView_ShowDetailRedBagGot" = "查看领取详情》";
+"redListView_redBagOver" = "手慢了，红包派完了";
+"redListView_congratulations" = "恭喜你!";
+"redListView_GotBag" = "抢到";
+"redListView_Who" = "派发的";
+//continueGift
+"continueGift_continue" = "连送";
+
+//exoensiveGifGiftV
+"exoensiveGifGiftV_giveOne" = "送了一个";
+
+//shipAction
+"shipAction_shipSend" = "赠送了豪华游轮";
+//adminLists
+"adminLists_currentManager" = "当前管理员";
+"adminLists_Alert" = "温馨提示";
+"adminLists_ifCancel" = "是否确定取消";
+"adminLists_managerRule" = "的管理员身份";
+"adminLists_No" = "不了";
+//lastview
+"lastview_endLive" = "直播结束";
+
+
+//bottombuttonv
+"bottombuttonv_flash" = "闪光灯";
+"bottombuttonv_timing" = "计时";
+"bottombuttonv_tickets" = "门票";
+"bottombuttonv_beauty" = "美颜";
+"bottombuttonv_flip" = "翻转";
+"bottombuttonv_music" = "伴奏";
+"bottombuttonv_share" = "分享";
+"bottombuttonv_redBag" = "红包";
+"bottombuttonv_toy" = "跳蛋";
+"bottombuttonv_order" = "指令";
+//musicView
+"musicView_downloading" = "下载中";
+"musicView_choise" = "选择";
+"musicView_donwload" = "下载";
+//PresentView
+"PresentView_send" = "送了";
+
+//nuserLoginAnimation
+"nuserLoginAnimation_enter_room" = "进入了直播间";
+
+//fenXiangView
+"fenXiangView_shareTo" = "分享至";
+"fenXiangView_have_%@_fans_coming" = "TA有%1$@粉丝，快来围观呀!";
+"fenXiangView_%@_in_here%@_share" = "“%1$@“也在%2$@～点击查看TA的故事～";
+"fenXiangView_ShareSuccess" = "分享成功";
+"fenXiangView_ShareError" = "分享失败";
+
+//liveclosepopview
+"liveclosepopview_leave" = "离开";
+"liveclosepopview_follow_exit" = "关注并退出";
+"liveclosepopview_title" = "关注主播不迷路~";
+"liveclosepopview_hint" = "要回来哟~";
+
+//Livebroadcast
+"Livebroadcast_live_cover" = "直播封面";
+"Livebroadcast_live_title" = "直播标题";
+"Livebroadcast_live_title_tip" = "给直播写个标题吧";
+"Livebroadcast_choise_lottery_type" = "选择直播间彩种";
+"Livebroadcast_push_card" = "推送名片：";
+"Livebroadcast_Nopush_card" = "不推送";
+"Livebroadcast_begain_live" = "开始直播";
+"Livebroadcast_OBS_live" = "OBS推流直播";
+"Livebroadcast_room_type" = "房间类型";
+"Livebroadcast_choise_price" = "选择价格";
+"Livebroadcast_room_type_nomal" = "普通";
+"Livebroadcast_room_type_pwd" = "密码";
+"Livebroadcast_room_type_tickets" = "门票";
+"Livebroadcast_room_type_time" = "计时";
+"Livebroadcast_room" = "房间";
+"Livebroadcast_please_set_room_pwd" = "请设置房间密码";
+"Livebroadcast_please_enter_right_pwd" = "请输入正确的密码";
+"Livebroadcast_please_set_ticket_price" = "请设置房间门票价格";
+"Livebroadcast_please_enterPrice" = "请输入价格";
+"Livebroadcast_please_rightTicket_price" = "请输入正确的门票价格";
+"Livebroadcast_no_open" = "该版本暂未开放";
+"Livebroadcast_Choise_live_type" = "请选择频道";
+"Livebroadcast_private_rule_no" = "权限受阻";
+"Livebroadcast_please_open_camera_private" = "请在设置中开启相机权限";
+"Livebroadcast_please_open_mic_private" = "请在设置中开启麦克风权限";
+"Livebroadcast_please_choise_uploadWay" = "选择上传方式";
+"Livebroadcast_Alumb" = "相册";
+"Livebroadcast_Camera" = "拍照";
+"Livebroadcast_Change_Cover" = "更换封面";
+"Livebroadcast_Live_End" = "直播已结束";
+"Livebroadcast_LiveTimes" = "直播时长";
+"Livebroadcast_harvest" = "收获";
+"Livebroadcast_watchNumbers" = "观看人数";
+"Livebroadcast_LiveMsgs" = "直播间消息";
+"Livebroadcast_LiveSend%d_gift%@" = "送了%1$d个%2$@";
+"Livebroadcast_lotteryDisable" = "已停售";
+"Livebroadcast_liveEnd" = "确定退出直播吗";
+"Livebroadcast_haveNewMsgs" = "有新消息";
+"Livebroadcast_SayHi" = "和大家说些什么";
+"Livebroadcast_SaySomething" = "撩TA一下...";
+"Livebroadcast_OnlyMsgs" = "仅聊天";
+"Livebroadcast_switchRoom_cannot" = "您已切换过房间类型,无法切换";
+"Livebroadcast_switchRoom_cannot1" = "只有普通房间才能进行房间切换";
+"Livebroadcast_Input_word_limit50" = "字数最多50字";
+"Livebroadcast_Login_other_device" = "当前账号已在其他设备登录";
+"Livebroadcast_Open_msg_notifys" = "开启大喇叭";
+"Livebroadcast_No_lyrics" = "暂无歌词";
+"Livebroadcast_end" = "结束";
+"live_close_adv" = "已关闭游戏弹幕";
+"live_open_adv" = "已开启游戏弹幕";
+"live_toy_close" = "未连接";
+"live_toy_open" = "已连接";
+"live_order_list" = "指令列表";
+"live_more_surprise" = "更多惊喜";
+"Livebroadcast_title_server" = "服务器";
+"Livebroadcast_title_stream" = "推流码";
+"Livebroadcast_title_start_stream" = "开始直播";
+"Livebroadcast_title_start_stream_info" = "当您开始推流后，极客点击下方的\"开始直播\"按钮。";
+"Livebroadcast_title_OBS_stream_info" = "要使用其他应用程序进行直播推流\n请在应用程序中输入下述\n服务器网址和推流密钥";
+"Livebroadcast_order_select_all" = "全选";
+"Livebroadcast_order_confirm" = "确认";
+"Livebroadcast_toy_unconnect" = "设备未链接";
+"Livebroadcast_order_unselect" = "请在指令列表选择指令";
+"Livebroadcast_error_toyDisconnect" = "已断开连接->跳蛋模式(未连接)跳蛋模式状态开关显示关闭";
+"Livebroadcast_room_need_charge" = "本房间为收费房间，需支付";
+
+"RemoteInterfaceView_in_queue" = "当前排队中";
+"RemoteInterfaceView_remote_user" = "操控人";
+"RemoteInterfaceView_remain_time" = "剩余执行时长";
+"RemoteInterfaceView_toy_connect" = "主播已就绪";
+"RemoteInterfaceView_wait_you_control" = "等你來操控";
+"RemoteInterfaceView_order_name" = "指令";
+"RemoteInterfaceView_control_and_order" = "遥控&指令";
+"RemoteInterfaceView_toy_title" = "跳蛋队列";
+"RemoteInterfaceView_order_title" = "指令队列";
+"RemoteInterfaceView_cmd_name" = "指令名称";
+"RemoteInterfaceView_cmd_time" = "时长(秒)";
+"RemoteInterfaceView_cmd_price" = "价格";
+"RemoteInterfaceView_cmd_delete" = "删除";
+"RemoteInterfaceView_cmd_edit" = "修改";
+"RemoteInterfaceView_cmd_confirm" = "确定";
+"RemoteInterfaceView_cmd_input_name" = "请输入指令名称";
+"RemoteInterfaceView_cmd_input_time" = "请输入时长";
+
+"SearchToyVC_title_name" = "Lovense";
+"SearchToyVC_bluetooth_connected" = "蓝牙: 🔵";
+"SearchToyVC_bluetooth_disconnect" = "蓝牙: ⚪️";
+"SearchToyVC_no_connected_text" = "未连接 ❌";
+"SearchToyVC_connected_text" = "已连接 ✅";
+"SearchToyVC_searching_toy" = "搜索Lovense";
+"SearchToyVC_stop_search_toy" = "停止搜索Lovense";
+"SearchToyVC_clear_all_toy" = "清除所有Lovense";
+"SearchToyVC_star_connecting_toy" = "开始连接Lovense";
+"SearchToyVC_have_no_found_toy" = "未找到Lovense";
+"SearchToyVC_connected_toy" = "已连接Lovense";
+"SearchToyVC_connect_fail" = "连接失败";
+"SearchToyVC_search" = "搜索";
+"SearchToyVC_stop_search" = "停止搜索";
+
+"ToyDetailVC_toy_control" = "Lovense控制";
+"ToyDetailVC_battery" = "电池";
+"ToyDetailVC_device_type" = "设备类型";
+"ToyDetailVC_version" = "版本";
+"ToyDetailVC_disconnect" = "断开连接";
+"ToyDetailVC_all_toy_command" = "所有Lovense命令";
+"ToyDetailVC_vibration" = "振动";
+"ToyDetailVC_quick_flash" = "快速闪灯";
+"ToyDetailVC_preset" = "默认";
+"ToyDetailVC_nora_rotation" = "Nora 旋转";
+"ToyDetailVC_nora_rotation_anti_clockwise" = "Nora 逆时针旋转";
+"ToyDetailVC_nora_rotation_change" = "Nora 旋转变更";
+"ToyDetailVC_turn_off_AID_light" = "关闭辅助灯";
+"ToyDetailVC_turn_on_AID_light" = "打开辅助灯";
+"ToyDetailVC_get_AID_light_status" = "获取辅助灯状态";
+"ToyDetailVC_turn_off_light" = "关闭灯光";
+"ToyDetailVC_turn_on_light" = "打开灯光";
+"ToyDetailVC_start_tracking_movement" = "开始追踪动作";
+"ToyDetailVC_stop_tracking_movement" = "停止追踪动作";
+"ToyDetailVC_max_air_in" = "最大空气输入量";
+"ToyDetailVC_max_air_out" = "最大空气输出量";
+"ToyDetailVC_max_air_auto" = "自动最大风量";
+"ToyDetailVC_device_info" = "设备信息";
+"ToyDetailVC_movement" = "移动";
+"MaxMoney" = "最大";
+
+"RemoteControllerCell_second" = "秒";
+
+"Livebroadcast_mic_volum_number" = "麦克风音量";
+"Livebroadcast_micBg_volum_number" = "背景音乐音量";
+"Livebroadcast_name%@_BetType%@_betMoney%@%@" = "<font color=\"#ffffff\">%1$@</font><font color=\"#ffffff\">在</font><font color=\"#fff292\">%2$@</font><font color=\"#ffffff\">中,下注了</font><font color=\"#fff292\">%3$@</font><font color=\"#ffffff\">%4$@。</font>";
+
+"Livebroadcast_Congratulations_Name%@_game%@" = "<font color=\"#ffffff\">恭喜</font><font color=\"#ffffff\">%1$@</font><font color=\"#ffffff\">在</font><font color=\"#fff292\">%2$@</font><font color=\"#ffffff\">中奖了</font>";
+
+"Livebroadcast_shareMoney_fromName%@_lotteryName%@_money%@_%@" = "<font color=\"#ffffff\">恭喜</font><font color=\"#ffffff\">获得</font><font color=\"#fff292\">%1$@</font><font color=\"#ffffff\">在</font></font><font color=\"#fff292\">%2$@</font><font color=\"#ffffff\">的彩金分红<font color=\"#fff292\">%3$@</font>%4$@</font>";
+"Livebroadcast_LiveAnchor" = "主播";
+
+//LivePlay
+"LivePlay_KickedRoom" = "你已被踢出房间";
+"LivePlay_sayTimeOver" = "发言次数已用完";
+"LivePlay_sayTimes%ld" = "剩余%1$ld次发言";
+"LivePlay_SaidMoreQuikly" = "发送过于频繁，请1分钟后重试";
+"LivePlay_SayRule%d" = "等级小于%1$d级，无法发言\n充值送礼即可升级解锁发言";
+"LivePlay_GoCharge" = "去充值";
+"LivePlay_GoSendGifts" = "去送礼";
+"LivePlay_RommSwitchTime_%@%@Price" = "该房间已切换为计时房间，%1$@%2$@/分钟，是否继续";
+"LivePlay_RommSwitchTicket_%@%@Price" = "该房间已切换为门票房间，需支付%1$@%2$@，是否继续";
+"LivePlay_No" = "否";
+"LivePlay_YES" = "是";
+"LivePlay_BalanceNot" = "您当前余额不足无法观看";
+
+//LiveContactView
+"LiveContactView_ConatctTitle1" = "备注用户昵称快速通过";
+"LiveContactView_ConatctTitle2" = "获取名片进度";
+"LiveContactView_ConatctTitle3" = "赠送礼物达到要求即可获取";
+"LiveContactView_ConatctTitle4" = "1.添加时请备注昵称避免主播无法区分";
+"LiveContactView_ConatctTitle5" = "2.联系方式如有虚假可通过客服投诉";
+"LiveContactView_WhoName%@" = "%1$@的名片";
+"LiveContactView_NoCard" = "主播未设置名片";
+"LiveContactView_NotEnoughGifts" = "您的消费还未达标";
+"LiveContactView_GetError" = "名片获取失败";
+"socketLivePlay_getConatct" = "收到主播名片："; // stringByReplacingOccurrencesOfString
+"socketLivePlay_getCard" = "收到主播名片";
+"socketLivePlay_Anchor_Card" = "主播名片";
+//fansViewController
+"fansViewController_noFans" = "你还没有粉丝";
+"fansViewController_noFansTip" = "完善个人信息会让更多的人关注到你～";
+
+//attrViewController
+"attrViewController_noFolllow" = "你还没有关注任何人";
+"attrViewController_noFolllowTip" = "赶快去关注自己感兴趣的人吧～";
+//personLiveCell
+"personLiveCell_numberTip" = "人看过";
+//otherUserMsgVC
+"otherUserMsgVC_block" = "拉黑";
+"otherUserMsgVC_blocked" = "已拉黑";
+"otherUserMsgVC_unblocked"="已解除拉黑";
+"otherUserMsgVC_impressed" = "主播印象";
+"otherUserMsgVC_GuardTop" = "守护榜";
+"otherUserMsgVC_Video" = "视频";
+"otherUserMsgVC_no_work" = "暂无作品";
+"otherUserMsgVC_no_like" = "暂无喜欢";
+"otherUserMsgVC_no_live" = "暂无直播";
+
+//EditContactInfo
+"EditContactInfo_editMyConatct" = "修改我的名片";
+"EditContactInfo_Empty" = "未填写";
+"EditContactInfo_inputTip" = "最多输入20个字\n例如：主播微信:123456";
+"EditContactInfo_InputLimit" = "字数超出限制";
+//EditNiceName
+"EditNiceName_NameEdit" = "修改昵称";
+"EditNiceName_FreeTip" = "本次为首次修改,修改免费.";
+"EditNiceName_coast%@_%@" =  "本次修改需要花费%1$@%2$@.";
+"EditNiceName_nameLimitlenth" = "昵称最多8个字";
+"EditNiceName_ChangeCoastTip_%@%@" = "每次需花费%1$@%2$@(首次修改免费).";
+//EditSignature
+"EditSignature_signature" = "修改签名";
+"EditSignature_signatureLimit" = "最多输入20个字";
+//InfoEdit1TableViewCell
+"InfoEdit1TableViewCell_Avatar" = "头像";
+//myInfoEdit
+"myInfoEdit_nickName" = "昵称";
+"myInfoEdit_phoneNum" = "手机号";
+"myInfoEdit_email" = "邮箱";
+"myInfoEdit_signature" = "签名";
+"myInfoEdit_MyCard" = "我的名片";
+"myInfoEdit_BirthDay" = "生日";
+"myInfoEdit_Sex" = "性别";
+"myInfoEdit_My_Impressed" = "我的主播印象";
+"myInfoEdit_EditInfo" = "编辑资料";
+"myInfoEdit_Man"="男";
+"myInfoEdit_Woman"="女";
+"myInfoEdit_Uploading" = "正在上传";
+"myInfoEdit_Upload_Error" = "上传失败";
+//sexCell
+"sexCell_Sexy" = "性别";
+//impressVC
+"impressVC_anchorImpressed_choise" = "请你选择你对主播的印象";
+"impressVC_MyImpressed" = "你收到的主播印象";
+"impressVC_NoImpressed" = "你暂时还没有收到主播印象";
+"impressVC_Choise_limitNum" = "最多选择三项";
+"impressVC_Choise_min_tip" = "最少选择一项";
+
+//socketLivePlay
+"socketLivePlay_who%@_Guard" = "%1$@ 守护了主播";
+"socketLivePlay_whoGuard" = "守护了主播";
+"socketLivePlay_Who%@_time%@" = "%1$@被禁言%2$@";
+"socketLivePlay_DisableSendMsgSuccess" = "禁言成功";
+"socketLivePlay_Kick%@Room" = "%1$@被踢出房间";
+"socketLivePlay_KickSuccess"= "踢人成功";
+"socketLivePlay_SendRedbag" = "在直播间发红包啦！快去抢哦～";
+//socketLive
+"socketLive_closeManagerSuceess" = "取消管理员成功";
+"socketLive_setManagerSuceess" = "设置管理员成功";
+"socketLive_CloseLive" = "直播关闭";
+"socketLive_droppedLive" = "涉嫌违规，被下播";
+"socketLive_silenced" = "你已被禁言";
+"socketLive_BecloseManager" = "被取消管理员";
+"socketLive_BeManager" = "被设为管理员";
+//AppDelegate
+"AppDelegate_oldVersion" = "使用旧版";
+"AppDelegate_GoUpdate" = "前往更新";
+"AppDelegate_Information_maintain" = "维护信息";
+"AppDelegate_Living" = "正在直播中，无法退出";
+"AppDelegate_ifCancelLiveRoom" = "是否退出直播间";
+
+
+//VIPVC
+"VIPVC_title" = "王者俸禄";
+"VIPVC_KingLeve%@_title" = "王者v%1$@";
+"VIPVC_KingLeveCurrent%@" = "当前王者等级:VIP%1$@";
+"VIPVC_Charge%@_UpKingLeve%ld" = "还差%1$@充值升级到王者V%2$ld";
+"VIPVC_KingLeve%@_Rights" = "尊贵的王者V%1$@会员，您可以享受以下权益";
+"VIPVC_Can'tGet" = "不可领取";
+"VIPVC_NextTime%@" = "下次:%1$@";
+"VIPVC_KingRights" = "王者特权";
+"VIPVC_KingDetailRule" = "王者详情";
+"VIPVC_KingRuleLevel" = "王者级别";
+"VIPVC_KingRuleChargeRange" = "总充值\n范围";
+"VIPVC_KingRuleUpHandsel" = "晋级彩金";
+"VIPVC_KingRuleWeekSalary" = "周俸禄";
+"VIPVC_King" = "王者";
+"VIPVC_Current_Level" = "当前等级";
+
+"kingsalary_kinglevel" = "王者等级";
+"kingsalary_totalrecharge" = "总充值";
+"kingsalary_promotionbonus" = "晋级奖金";
+"monthfenglu" = "月俸禄";
+"view_wangzhevipdes_zhou_fenglu" = "周俸禄";
+
+
+//PostVideo
+"PostVideo_title" = "发布短视频";
+"PostVideo_sub_title1" = "视频标题";
+"PostVideo_sub_title2" = "添加视频标题";
+"PostVideo_sub_title3" = "添加视频";
+"PostVideo_sub_title3_1" = "更换视频";
+"PostVideo_sub_title4" = "添加视频封面(可选)";
+"PostVideo_sub_title4_1" = "替换视频封面";
+"PostVideo_sub_title5" = "添加视频标签";
+"PostVideo_chooseTag" = "请选择标签";
+"PostVideo_sub_title6" = "发布";
+
+"PostVideo_sub_wait_video" = "等待视频上传";
+"PostVideo_sub_wait_cover" = "等待封面上传";
+
+"PostVideo_sub_upload_video_success" = "视频上传成功，快去发布吧！";
+"PostVideo_sub_upload_video_error" = "视频上传失败，请重新选择";
+
+"PostVideo_sub_title_cancel" = "是否取消正在上传的视频?";
+"PostVideo_cancel_upload" = "取消上传";
+"PostVideo_continue_upload" = "继续上传";
+
+//BillVC
+"BillVC_consumeDetail" = "消费明细";
+"BillVC_inComeDetail" = "收入明细";
+"BillVC_consumeToday_%@%@" = "今日消费%1$@%2$@";
+"BillVC_incomeToday_%@%@" = "今日收入%1$@%2$@";
+"BillVC_DateFormat" = "MM月dd日";
+"BillVC_DateChoiseTitle" = "最近7天";
+"BillVC_Month" = "月";
+"BillVC_Days" = "日";
+"BillVC_Anthor_name" = "主播名称";
+
+//myRechargeCoinVC
+"myRechargeCoinVC_Promotion%@_tile" = "推广收益%1$@";
+"myRechargeCoinVC_Charge%@_num" = "输入要充入的%1$@数";
+"myRechargeCoinVC_CanHaveHowMuch" = "可到账";
+"myRechargeCoinVC_symbol%@" = "%1$@¥";
+"myRechargeCoinVC_OptionSuccess" = "操作成功";
+"myRechargeCoinVC_OptionError" = "操作失败";
+"myRechargeCoinVC_ChargeIn" = "充入";
+
+//market
+"market_member" = "会员";
+"market_liangNum" = "靓号";
+"market_mount" = "坐骑";
+
+//myProfitVC
+"myProfitVC_WithDrawRecord" = "提现记录";
+"myProfitVC_WithDrawMoneyChoise" = "提现金额";
+
+"myProfitVC_totalNum%@" = "总%1$@数";
+"myProfitVC_WithDrawTotal%@" = "可提取%1$@数";
+"myProfitVC_WithDraw_input%@" = "输入要提取的%1$@数";
+"myProfitVC_To_account_num" = "可到账金额";
+"myProfitVC_choise_withDraw_account" = "请选择提现账户";
+"myProfitVC_withDraw_now" = "立即提现";
+"myProfitVC_NoWithDrawError" ="未选择提现方式";
+
+//profit2
+"profit2_input_withDraw_money" = "请输入提现金额";
+"profit2_input_money" = "请输入金额";
+"profit2_withDraw_account" = "提现账户";
+"profit2_add" = "添加";
+"profit2_NoAddAccount" = "您当前还没有设置提现账户";
+"profit2_if_delete_account" = "是否确定删除此提现账号？";
+//AddCardViewController
+"AddCard_title" = "绑定银行卡";
+"AddCard_CardUserName" = "请输入真实姓名";
+"AddCard_CardNum" = "请输入银行卡号";
+"AddCard_CardBankName" = "请选择开户银行";
+"AddCard_CardCity" ="请选择办理地区";
+"AddCard_CardAddress" = "请输入开户网点";
+"AddCard_ChoiseBank" = "请选择银行";
+"AddCard_ChoiseBankCity" = "请选择办理地区";
+"AddCard_CurrencyType" = "请选择货币类型";
+"AddCard_Transfor_tip" = "转入他人卡号将无法追回，请仔细核对卡号，避免造成不必要的损失";
+"AddCard_Transfor_tip1" = "请认真填写账户信息，以免提现不能正常到账（最多只能添加5个账户，银行卡请输入开户信息）";
+"AddCard_CardUserName_title" = "真实姓名";
+"AddCard_BankNum_title" = "银行卡号";
+"AddCard_CardBankName_title" = "开户银行";
+"AddCard_ChoiseBankCity_title" = "开户地区";
+"AddCard_CardAddress_title" = "开户网点";
+"AddCard_CurrencyType_title" = "货币类型";
+"SearchCard_BankName" = "请输入搜索关键字";
+
+//LiveNodeTableViewCell
+"LiveNodeTableViewCell_peopleNumberTitle" = "人看过直播";
+//LiveNodeViewController
+
+"LiveNodeVC_Record_title" = "直播记录";
+"LiveNodeVC_HaveNoLive" = "你最近没有开过直播";
+"LiveNodeVC_HaveNoLive_tip" = "赶快去开场直播体验一下吧～";
+
+//myPopularizeVC
+"myPopularizeVC_Charge_title" = "充入账户";
+"myPopularizeVC_invite%d" = "邀请%1$d人";
+"myPopularizeVC_Charge%d_%@" = "充值%@%2$@";
+"myPopularizeVC_WithDrawSuccess" = "提现成功";
+"myPopularizeVC_WithDraw_Applying" = "申请提现中";
+"myPopularizeVC_copy_link" = "复制推广链接";
+"myPopularizeVC_DetailPopularize" = "----您的收益明细----";
+
+//addPopTypeView
+"addPopTypeView_addAccount" = "添加提现账户";
+"addPopTypeView_AddAccountType" = "账户类型";
+"addPopTypeView_alipay" = "支付宝";
+"addPopTypeView_input_aplipayAccount" = "请输入支付宝账号";
+"addPopTypeView_input_aplipayName" = "请输入支付宝账号姓名";
+"addPopTypeView_input_WechatAccount" = "请输入微信账号";
+
+"addPopTypeView_input_bankName" = "请输入银行名称";
+"addPopTypeView_input_bankNum" = "请输入银行卡账号";
+"addPopTypeView_input_bankUserName" = "请输入持卡人姓名";
+"addPopTypeView_Wechat" = "微信";
+"addPopTypeView_banKCard" = "银行卡";
+
+//setView设置
+"setView_VersionCheck" = "当前已是最新版本";
+"setView_CleardCache" ="缓存已清除";
+"setView_logout" = "退出登录";
+//applePay
+"applePay_error" = "无法获取商品信息";
+"applePay_checkDebug" = "请查看网站是否开启了调试模式";
+"applePay_ChargeSuccess" = "充值成功";
+"applePay_canBuy" ="用户已恢复购买";
+
+//YBUserInfoViewController
+"YBUserInfoVC_BillDetail" = "收支明细";
+"YBUserInfoVC_personSet" = "个人设置";
+"YBUserInfoVC_total%@_Balance" = "总资产（%1$@）";
+"YBUserInfoVC_BindPhone" = "绑定手机";
+"YBUserInfoVC_BindEmail" = "绑定邮箱";
+"YBUserInfoVC_ExchangeRate" = "（切换汇率）";
+//YBPersonTableViewModel
+"YBPersonTableViewMode_fansN%.1f" = "%1$.1f 万";
+//ExchangeRateViewController
+"ExchangeRateVC_ExchangeRate" = "汇率";
+//exchangeVC
+"exchangeVC_balance" ="账户余额";
+"exchangeVC_balanceAutoChange" = "自动余额转换";
+"exchangeVC_OneKeyBack" = "一键归集";
+"exchangeVC_SwitchIn" = "转入";
+"exchangeVC_SwitchOut" = "转出";
+"exchangeVC_Input_Money" = "请输入转入金额";
+"exchangeVC_all" = "全部";
+"exchangeVC_option" = "正在操作";
+"exchangeVC_Refresh%@_Balance" = "[%1$@]刷新余额"; // [JDB]刷新余额
+"exchangeVC_RefreshAccountBalance" = "刷新账号余额";
+"exchangeVC_curreny_title" = "币种";
+
+
+"Gesture_Password" = "手势密码";
+"Gesture_PasswordUnlock" = "手势密码解锁";
+"Modif_UnlockPassword" = "修改手势密码";
+"Draw_UnlockPattern" = "绘制解锁图案";
+"Draw_Original_Gesturepsd" = "请绘制原手势密码";
+"Gesture_Neglect" = "忽略";
+"Gesture_redraw" = "至少连接4个点，请重新绘制";
+"Draw_UnlockPatternAgain" = "再次绘制解锁图案";
+"Successfully_GestureSet" = "设置成功";
+"Draw_PasswordError" = "密码错误，请重新绘制";
+"LastDraw_Inconsistent" = "与上一次绘制不一致，请重新绘制";
+"Turn_GesturePasscode" = "关闭手势密码";
+"Turn_GesturePasscode_close" = "确定要关闭手势密码吗？";
+"Turn_GesturePasscode_Warn" = "安全提示: 建议设置密码，深度保护您的隐私，每次离开产品，将自动锁定！";
+"Turn_GesturePasscode_forget" = "忘记手势密码需要重新登录，登录后锁屏保护自动关闭";
+
+"Set_GesturePasscode" = "设置手势密码";
+"ReSet_GesturePasscode" = "重置手势密码";
+"Draw_PasswordErrorNum%d" = "密码错误，还剩%1$d次机会";
+"Forgot_GesturePassword" = "忘记手势密码";
+
+//mineVideoVC
+"mineVideoVC_youHaveNoVideo" = "你还没有视频作品";
+"mineVideoVC_youHaveNoVideo_tip" = "赶快去拍摄上传吧～";
+//myWithdrawVC2
+"myWithdrawVC2_Account%@_Balance" ="账户余额%1$@";
+"myWithdrawVC2_Account%@_Balance1" ="账户余额%1$@:";
+"myWithdrawVC2_Account_Balance2" ="VIPPAY余额:";
+"myWithdrawVC2_inputHowMany" = "输入要提现金额";
+"myWithdrawVC2_CanWithDrawNum" = "可提现额度";
+"myWithdrawVC2_limitDes" ="额度说明";
+"myWithdrawVC2_WithDrawDesTip" = "充值后，游戏流水需大于您的充值金额才可提现.\n(游戏流水有3-5分钟延迟，请耐心等待)";
+"myWithdrawVC2_UpdatingBalance" = "正在刷新账号余额";
+"myWithdrawVC2_WithDrawOver%@%f" = "金额超过提现额度:%1$@%2$.2f";
+"myWithdrawVC2_MaxWithDrawMoney%@%.1f" = "单笔最大提现金额:%1$@%2$.1f";
+"myWithdrawVC2_MinWithDrawMoney%@%.1f" = "单笔最小提现金额:%1$@%2$.1f";
+"myWithdrawVC2_WithDrawWaitTip" = "您的提现申请提交成功\n我们将尽快为您处理";
+
+
+//withdrawPopView
+"withdrawPopView_tip" = "提现提示";
+"withdrawPopView_Error_tip_BindPhone" = "先绑定手机号才可以提现喔";
+"withdrawPopView_goBindPhone" = "去绑定";
+//myWithdrawVC
+
+"myWithdrawVC_minWithDrawAmount%.2f" = "最小提现:%1$.2f";
+
+///
+"PayInsta_tenTh%.0f" = "%1$.0f万+";
+"PayInsta_Th%.0f" = "%.0f千+";
+"PayInsta_hund%.0f" = "%.0f百+";
+
+"Filter_title" = "更多";
+
+"More_title" = "更多";
+
+"movie_pay_Purchased" = "已购";
+"movie_pay" = "付费";
+"movie_nav" = "导航";
+"movie_game_menu" = "边看边玩";
+"movie_video_menu" = "相关视频";
+"movie_pay_vip" = "VIP解锁观看";
+"unlockremind_buyviptips1" = "开通VIP使用此功能";
+"VIP_Activate_now" = "立即开通";
+"movie_pay_money" = "解锁观看";
+"movie_vip_tip" = "当前为VIP专属视频，需开通VIP观看";
+"movie_open_vip" = "您还不是VIP，立即开通";
+"movie_ticket_tip" = "当前观影券不足，打码获取观影券";
+"movie_amount_tip" = "当前余额不足，立即充值";
+"movie_vip_pay_tip" = "当前为VIP付费视频，购买后可看";
+"movie_money_pay_tip" = "当前为付费视频";
+"movie_money_pay_tip2" = "购买后可看";
+"movie_money_pay_tip3" = "进行浏览观看";
+"movie_trying_load_tip" = "试看%@后结束,观看完整视频请";
+"movie_trying_end_tip" = "试看结束,观看完整视频请";
+"movie_money_pay_title" = "余额支付";
+"movie_ticket_unit" = "张";
+"movie_ticket_name" = "观影券";
+"movie_time_expire" = "即将过期";
+"movie_time_valid" = "永久有效";
+"movie_pay_title" = "建议您使用观影券";
+"vip_pay_title" = "开通VIP会员";
+"vip_pay_button" = "开通VIP";
+"vip_open_account" = "开通账号";
+"vip_open_title" = "充值后开通";
+"vip_pay_ballance" = "使用余额支付";
+"vip_pay_need_amount" = "还需充值";
+"create_menu_record" = "收益报表";
+"create_menu_rule" = "创作规则";
+"public_rule" = "规则";
+"create_menu_upload" = "上传视频";
+"create_total_income" = "累计收益";
+"create_manage_show" = "对外";
+"create_manage_hide" = "隐藏";
+"create_nav_title" = "我的创作";
+"create_state_approved" = "已发布";
+"create_state_pending" = "审核中";
+"create_state_rejected" = "未通过";
+"create_select_count" = "| 已选中 %@ 个视频";
+"create_should_choose" = "请选择视频";
+"create_date_today" = "今日";
+"create_date_yesterday" = "昨日";
+"create_date_week" = "近一周";
+"create_date_month" = "近一月";
+"create_report_from" = "视频来源";
+"create_report_date" = "日期";
+"create_report_amount" = "收益金额";
+"create_total_amount" = "总收益";
+"video_trying_start" = "试看中(点击解锁)";
+"video_trying_stop" = "试看结束";
+"video_game_can_full" = "游戏中无法全屏";
+
+///语言切换
+"swichLanguage" = "语言设置";
+"swichNotice" = "通知设置";
+///还没翻译
+
+"curreny_unit_alert" = "您可以获得%1$@ %2$@,当前汇率%3$@";
+"curreny_unit_alert_charge" = "您可以获得%1$@ %2$@";
+
+"WithDrawNumberTip%@" = "提现还需打码量 %1$@ (打码量为彩票与游戏下注量)";
+
+"ChargeNumberTip%@" = "直充还需打码量 %1$@ (打码量为彩票与游戏下注量)";
+
+"history_award" = "中奖";
+
+"history_profit" = "盈利";
+
+"history_starttime" = "开始时间";
+
+"history_endtime" = "结束时间";
+
+"history_statetitle" = "选择交易状态";
+
+"history_typetitle" = "选择彩种类型";
+
+"history_betcontent%@%@" = "期号：%1$@ 投注内容：%2$@";
+"history_betTitle%@" = "第%1$@期";
+
+"history_bettime%@" = "投注时间：%1$@";
+
+"history_statewillaward" = "未开奖";
+
+"history_statenotaward" = "未中奖";
+
+"history_statedidaward" = "中奖";
+
+"history_stateequal" = "和局";
+
+"TimeSelect_tipError" = "开始时间不能大于结束时间";
+//签到
+"ContinuousCheckin" = "已连续签到";
+"ChekinRightNow" = "立即签到";
+
+//历史记录
+"all_state" = "全部状态";
+"didAward" = "已中奖";
+"notAward" = "未中奖";
+"willAward" = "待中奖";
+"equalEnd" = "和局";
+"lb_resultTime" = "至";
+"all_type" = "全部类型";
+"time_sel" = "时间筛选";
+//游戏
+"game_begain" = "开始投注";
+"game_will_begain" = "即将开始";
+"game_continue_bet" = "续投";
+//走势图
+"trend" = "走\n势\n图";
+"trend_title" = "走势图";
+
+"Chart_Area_big_small" = "大小";
+"Chart_Area_single_double" = "单双";
+"Chart_Area_red_black" = "红黑";
+
+"Chart_Area" = "区段";
+"Chart_Area_Color" = "波色";
+
+//设置主播名片
+"ContactInfo_notEditTipsTitle" = "您还未设置主播名片";
+"ContactInfo_notEditTipsMsg" = "是否去设置？";
+"ContactInfo_notEditTipsSure" = "去设置";
+"ContactInfo_notEditTipsCancel" = "不必了";
+//添加提现方式
+"AddWithDrawType_title" = "请选择添加的提现方式";
+"AddWithDrawType_message" = "";
+"AddWithDrawType_usdt" = "USDT";
+"AddWithDrawType_card" = "银行卡";
+"AddWithDrawType_cancel" = "取消";
+"AddProfitTip_Error" = "暂未开放，敬请期待";
+//添加USDT
+"AddUSDT_title" = "添加USDT";
+"AddUSDT_Type_title" = "转账网络";
+"AddUSDT_Address_title" = "USDT地址";
+"AddUSDT_ChoiseType_title" = "请选择转账网络";
+"AddUSDT_Type_Tips" = "您还未选择USDT主网类型";
+"AddUSDT_Address_Tips" = "您还未编写USDT地址";
+"AddUSDT_Transfor_tip" = "转入他人钱包地址将无法追回，请仔细核对钱包地址，避免造成不必要的损失";
+"AddUSDT_Paste" = "粘贴";
+"AddUSDT_PlaceHolder" = "请输入钱包地址";
+//添加其他
+"AddOther_title%@" = "添加%1$@";
+"AddOther_Address_title%@" = "%1$@地址";
+"AddOther_Address_Tips%@" = "您还未编写%1$@地址";
+//直播间弹幕过滤
+"filter_belowf" = "过滤100以下";
+"filter_belows" = "过滤1K以下";
+"filter_belowt" = "过滤1W以下";
+
+//禁止录屏
+"Live_ProhibitScreenRecording" = "禁止录屏";
+
+///不用翻译
+"socketLivePlay_Light" = "我点亮了";//不翻译
+"socketLivePlay_Followed" = "关注了主播";//不翻译
+"Livebroadcast_backtoRoom" = "主播回来了";//不翻译
+"Livebroadcast_liveinbackgroud" = "主播离开一下，精彩不中断，不要走开哦";//不翻译
+//OpenAwardViewController
+"OpenAward_NiuNiu_BlueWin" = "蓝方胜";
+"OpenAward_NiuNiu_RedWin" = "红方胜";
+"PublicObj_blue" = "蓝方:";
+"PublicObj_red" = "红方:";
+"PublicObj_Spade" = "黑桃";
+"PublicObj_Heart" = "红心";
+"PublicObj_Club" = "梅花";
+"PublicObj_Diamond" = "方块";
+
+
+"Hotpage_AddMoreCountry" = "更多国家";
+"GameCenter_List" = "报表";
+"Mypage_CopyId" = "点击复制";
+"LiveGame_NoBetList" = "没有投注记录";
+
+"OpenHistory_Dragon" = "龙";
+"OpenHistory_he" = "合";
+"OpenHistory_Tiger" = "虎";
+
+"忘记手势密码" = "忘记手势密码";
+"指纹解锁" = "指纹解锁";
+"面容ID解锁" = "面容ID解锁";
+"点击进行指纹解锁" = "点击进行指纹解锁";
+"点击进行面容ID解锁" = "点击进行面容ID解锁";
+
+"DramaHomeViewController_title" = "观影卷";
+"DramaHomeHistoryCell_history_title" = "观看历史";
+"DramaHomeHeaderView_latest" = "最新";
+"DramaHomeHeaderView_hot" = "热门";
+
+"DramaFavoriteViewController_title" = "收藏夹";
+"DramaFavoriteViewController_empty_favorite" = "您还没有收藏任何内容";
+"DramaFavoriteViewController_empty_follow" = "您还没有关注任何內容";
+"DramaFavoriteViewController_empty_like" = "您还没有喜欢任何內容";
+
+"DramaPortraitVideoControlView_fullScreen_title" = "全屏观看";
+"DramaPortraitVideoControlView_unlock_pay" = "付费解锁";
+"DramaVideoViewController_video_not_available" = "该影片还未上架";
+"DramaVideoViewController_video_buy_ticket" = "是否消耗 %d 张观影券购买?";
+"DramaAllHeaderView_pay_info" = "含%d集付费";
+"DramaAllHeaderView_pay_info_vip" = "含%d集VIP付费";
+"DramaAllHeaderView_all_episodes" = "%d集全";
+"DramaAllListCell_pay" = "付费";
+"Hotpage_skit_entrance" = "短剧入口";
+"VIP Pay" = "VIP付费";
+"DramaAllHeaderView_paid_info" = "含%d集";
+"play" = "播放";
+
+"Please stay tuned" = "敬请期待";
+"like" = "喜欢";
+"work" = "作品";
+"Tap to live stream room" = "点击进入直播间";
+"Not Search Any Result" = "未搜索到相关结果";
+"short_video_favorite_unit" = "万";
+"short_video_preview" = "试看 %@";
+"short_video_buy" = "购买";
+"short_video_preview_end" = "试看结束";
+
+"post_video_free" = "免费";
+"post_video_ticket_name" = "观影劵";
+"post_video_other_price" = "其他金额:";
+"post_video_other_tags" = "其他标签";
+"post_video_no_rule" = "您还没有权限上传视频";
+"post_video_uploading" = "发布中，请稍后...";
+"post_video_upload_wait" = "请等待上传完成";
+"post_video_upload_retry" = "请重新上传视频";
+"post_video_upload_cover_again" = "请重新上传封面";
+
+"Live Streaming" = "直播中";
+"All %ld episodes, completed" = "全%ld集，已完结";
+"Favorite" = "收藏";
+"Watch History" = "观看纪录";
+"Serialization" = "连载中";
+"Episodes finished" = "已完结";
+"Episodes updating" = "更新中";
+"Not watched" = "未观看";
+"Episode %ld" = "第%ld集";
+"%@ people online" = "%@人在线";
+"follow_recommend" = "推荐关注";
+"Episodes update to" = "更新至";
+"No Prefix Episode %ld" = "%ld集";
+"Select episode" = "选集";
+
+//短视频评论
+"short_video_comment_lookingForwardYourComments" = "期待你的评论";
+"short_video_comment_leaveCommentExpressYourThoughts" = "发条评论表达你的想法吧";
+"short_video_comment_noMoreComments" = "没有更多评论了~";
+"short_video_comment_kindWordsBringGood" = "善语结善缘，恶语伤人心";
+"short_video_comment_send" = "发送";
+"short_video_comment_howManyComments" = "条评论";
+"short_video_comment_reply" = "回复";
+"short_video_comment_expand" = "展开";
+"short_video_comment_close" = "收起";
+"short_video_comment_year" = "年前";
+"short_video_comment_month" = "月前";
+"short_video_comment_weekOfYear" = "周前";
+"short_video_comment_day" = "天前";
+"short_video_comment_hour" = "小时前";
+"short_video_comment_minute" = "分钟前";
+"short_video_comment_justNow" = "刚刚";
+//首页容器
+"home_container_recommend" = "推荐";
+"home_container_recommend_space" = "推   荐";//要三个半形空白键
+"home_container_skit_space" = "短   剧";
+//搜索頁
+"home_search_searchVideos" = "搜索视频";
+"home_search_all" = "全部";
+"home_search_shortVideo" = "短视频";
+"home_search_skit" = "短剧";
+"home_search_longVideo" = "长视频";
+"home_search_anchorNickname" = "主播";
+"home_search_searchRecord" = "搜索历史";
+"home_search_youLike" = "猜你喜欢";
+"home_search_hotSearch" = "热搜榜";
+"home_search_tenThousand" = "万";
+"home_search_thousand" = "千";
+"home_search_noRelevantResultsFound" = "未搜索到相关结果";
+"home_search_modifySearchKeywordsAndTryAgain" = "建议您修改搜索关键词后重新再试";
+"home_search_search" = "搜索";
+"home_search_userNickName" = "用户昵称";
+//发布短视频
+"post_video_rules_title" = "短视频发布规则";
+"post_video_desc_section1" = "视频时长";
+"post_video_desc_rulse1" = "视频长度应在10秒至5分钟之间。";
+"post_video_desc_section2" = "视频格式";
+"post_video_desc_rulse2_1" = "支持的文件格式：MP4、MOV、AVI等。";
+"post_video_desc_rulse2_2" = "分辨率至少为720p（720x1280像素）。";
+"post_video_desc_rulse2_3" = "文件大小不超过100MB。";
+"post_video_desc_section3" = "内容规范";
+"post_video_desc_rulse3_1" = "严禁暴力、涉政、仇恨言论等内容。";
+"post_video_desc_rulse3_2" = "保护他人隐私，需获得被拍对象的同意。";
+"post_video_desc_section4" = "视频质量";
+"post_video_desc_rulse4" = "视频应清晰稳定，音频清晰无杂音。";
+"post_video_desc_section5" = "视频标题和描述";
+"post_video_desc_rulse5_1" = "标题和描述应准确反映视频内容。";
+"post_video_desc_rulse5_2" = "使用相关标签以便分类和搜索。";
+"post_video_desc_section6" = "其他要求";
+"post_video_desc_rulse6_1" = "视频经过平台审核后才可能公开展示。";
+"post_video_desc_rulse6_2" = "根据视频内容选择适当的分类来发布视频。";
+"post_video_max_tags" = "最多五个标签";
+//我的
+"profile_center_wallet" = "中心钱包";
+"profile_center_myWallet" = "我的钱包";
+"profile_center_change_unit" = "切换币种";
+//消息列表
+"message_list" = "消息列表";
+"message_list_no_new_notifi" = "没有新通知";
+"message_list_interactive_messages" = "互动消息";
+"message_list_people_have_saved_your_comments" = "%1$@ 人攒了你的评论";
+"message_list_reply_comment" = "回复评论";
+"message_list_like" = "贊";
+"message_list_no_messages" = "暂无消息，太低调了～";
+"message_list_go_play_game" = "先去玩个游戏吧";
+
+// 簽到
+"Signed In" = "已签到";
+"The more consecutive sign-ins, the greater the rewards" = "连续签到越多，奖励越大!";
+"Achieved" = "已达成";
+"Consecutive Sign-ins" = "连签";
+"Daily Sign-in" = "每日签到";
+
+// 幸運抽獎
+"luckyDraw_title" = "幸运抽奖";
+"luckyDraw_remaining_bonus_in_the_prize_pool" = "奖池剩余奖金";
+"luckyDraw_number_of_draws_remaining" = "剩余抽奖次数";
+"luckyDraw_winning_record" = "中奖纪录";
+"luckyDraw_bonus_rules" = "奖励规则";
+"luckyDraw_reset_time" = "您抽奖次数将于%1$@重置，请尽快使用";
+"luckyDraw_tips" = "快去完成下方任务，获得抽奖次数吧。";
+"luckyDraw_result_tips" = "持续达标，幸运抽奖好礼领不完！";
+
+"bounsRules_category_title1" = "大奖记录";
+"bounsRules_category_title2" = "我的记录";
+
+"bounsRules_section1_title" = "幸运抽奖次数活动";
+"bounsRules_section1_row1" = "首次充值即可赠送一次抽奖次数。";
+"bounsRules_section1_row2" = "绑定手机号码赠送一次抽奖次数。";
+"bounsRules_section1_row3" = "连续三天登录赠送一次抽奖次数。";
+"bounsRules_section1_row4" = "打赏主播超过钻石赠送一次抽奖机会（单日不可叠加）";
+"bounsRules_section1_row5" = "单次彩票投注超过¥100赠送一次抽奖次数（单日不可叠加）";
+"bounsRules_section1_row6" = "单次免提直充入款超过¥100赠送一次抽奖次数（单日不可叠加）";
+"bounsRules_section2_title" = "幸运抽奖规则";
+"bounsRules_section2_row1" = "奖金池中的奖金由玩家投注产生，奖金池中的奖金实时更新。";
+"bounsRules_section2_row2" = "获赠抽奖次数每周日23:59清零，若是本周未参与抽奖视为自动放弃。";
+"bounsRules_section2_row3" = "当中奖金额大于奖金池中的奖金时，剩余奖金池奖金全部归中奖者所有。";
+"bounsRules_section2_row4" = "若因系统延迟导致末能及时收到奖励，请重新登录或联系在线客服。";
+"bounsRules_section2_row5" = "幸运抽奖活动玩法，规则最终解释权归平台所有。";
+
+"Winning_record_welcome" = "欢迎您的加入～";
+"Winning_record_lucky" = "祝您幸运中奖喔";
+"Winning_record_eve" = "前日";
+"Winning_record_congratulations_your_winning_draw" = "恭喜您抽中：";
+"Winning_record_Congratulations_user_winning_draw" = "恭喜用户抽中：";
+"Winning_record_user_name" = "用户名：";
+
+"comment_replay_like_des" = "赞了你的评论";
+"comment_replay_like_video_des" = "赞了你的视频";
+"comment_post_new_video" = "发布了新的作品";
+"read_all" = "全部已读";
+
+"post_video_upload_interrupted" = "上传中断";
+"post_video_resume_prompt" = "是否续传？";
+"post_video_retry" = "重新上传";
+"ppublic_continue" = "继续";
+"ppublic_account" = "账号";
+"video_ticket_float" = "coupon_ticket-fanti";
+
+"验证码验证超时，请重试" = "验证码验证超时，请重试";
+"网络连接失败，请检查网络后重试" = "网络连接失败，请检查网络后重试";
+"验证已取消" = "验证已取消";
+"验证码初始化失败，请稍后重试" = "验证码初始化失败，请稍后重试";
+"验证码配置错误，请联系客服" = "验证码配置错误，请联系客服";
+"验证结果无效，请重新验证" = "验证结果无效，请重新验证";
+"验证失败，请重试" = "验证失败，请重试";
+"验证失败" = "验证失败";
+"验证码初始化失败" = "验证码初始化失败";
+"降级模式验证成功" = "降级模式验证成功";

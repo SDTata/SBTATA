@@ -1,0 +1,1643 @@
+/*
+  Info.strings
+  yunbaolive
+
+  Created by IOS1 on 2019/2/26.
+  Copyright © 2019 cat. All rights reserved.
+*/
+
+//连尾下注翻译需要特别修复 后台
+// 蓝方胜 红方胜 后台数据需要匹配
+//"GameListVC_lotteryTitle" = "彩票"; //containsString 特殊处理
+//"socketLivePlay_getConatct" = "收到主播名片："; // stringByReplacingOccurrencesOfString
+
+//"h5game_submit_successfully" = "提交成功"; //isEqualToString
+//"h5game_application_progress" = "申请进度"; //isEqualToString
+//"h5game_My_family_tree" = "我的家族"; //isEqualToString
+
+//图片不需要翻译文字。
+"public_kefuIcon" = "vn_ic_kefu"; //图片
+"public_fans_follow_Icon" = "vn_fans_follow"; //图片
+"public_fans_followed_Icon" = "vn_fans_followed"; //图片
+//Hotpage
+"Hotpage_zxggIcon" = "vn_img_zxgg";//图片
+//FirstInvestAlert
+"FirstInvestAlert_GoCharge_BT" = "vn_charge_gift"; //图片
+"FirstInvestAlert_ChargeBgImgV" = "vn_charge_gift_bg";//图片
+//RotaionRecordVC
+"RotaionRecordVC_recordAll_N" = "vn_dajl_n";//图片
+"RotaionRecordVC_recordAll_S" = "vn_djjl_s";//图片
+"RotaionRecordVC_recordMy_N"  = "vn_wdjl_n";//图片
+"RotaionRecordVC_recordMy_S"  = "vn_wdjl_s";//图片
+//RotationDescVC
+"RotationDescVC_ImgBg" = "vn_jcgzbg";//图片
+
+//RotationResultVC
+"RotationResultVC_bgImgV" = "vn_zjresultbg";//图片
+//RotationVC
+"RotationVC_topTitleImgV" = "vn_jczjzz"; //图片
+"RotationVC_giftRecordButton" = "vn_zjjl"; //图片
+"RotationVC_giftRuleButton" = "vn_jcgz";//图片
+//TYRotaryView
+"TYRotaryView_jcdjcj" = "vn_jcdjcj"; //图片
+
+//RotationNothingVC
+"RotationNothingVC_Nothing" = "vn_rotaionResultNothing";//图片
+"RotationNothingVC_Confirm" = "vn_zjresultsure";
+//LotteryBarrageView
+"LotteryBarrageView_daxianshenshou" = "vn_daxianshenshou";//图片
+"LotteryBarrageView_yimingjinren" = "vn_yimingjinren";//图片
+"LotteryBarrageView_shouqinitian" = "vn_shouqinitian";//图片
+//guardListCell
+"guardListCell_guard_low" = "vn_guard_low";//图片
+"guardListCell_guard_heig" = "vn_guard_heig";//图片
+//guardShowView
+"guardShowView_GuardStar" ="vn_guard_star";//图片
+"guardShowView_GuardEmpty" = "vn_GuardEmpty";//图片
+
+//searchVC
+"searchVC_empty" = "vn_search_empty";//图片
+//giftCell
+"giftCell_haoIcon" = "vn_gift_rich";//图片
+"giftCell_hotIcon" = "vn_gift_hot";//图片
+"giftCell_guardIcon" = "vn_gift_guard";//图片
+//chatModel
+"chatModel_chat_shou" = "vn_chat_shou_month";//图片
+"chatModel_chat_system" = "vn_chat_system";//图片
+"chatModel_chat_follow_game" = "vn_chat_follow_game";//图片
+"chatModel_chat_shou_year" = "vn_chat_shou_year";//图片
+"chatModel_chat_win" = "vn_chat_win";//图片
+"chatModel_chat_follow_bet" = "vn_chat_follow_bet";//图片
+"chatModel_chat_liang" = "vn_chat_liang";//图片
+"chatModel_chat_admin" = "vn_chat_admin";//图片
+"chatModel_chat_dividend" = "vn_chat_dividend";//图片
+"chatModel_chat_translate" = "vn_translate_btn";//图片
+
+//redBagView
+"redBagView_DelayTimeIcon" = "vn_DelayTimeIcon"; //图片
+"redBagView_rightNowIcon" = "vn_rightNowIcon";  //图片
+//LiveContactView
+"LiveContactView_ContactGetIcon" = "vn_anchor_get"; //图片'
+
+//YBSetListCell
+"YBSetListCell_updateBtnIcon" = "vn_btn_gx";//图片
+//OpenAwardViewController
+"OpenAwardVC_RightWin"="vn_nn_red_win";//图片
+"OpenAwardVC_LeftWin" = "vn_nn_blue_win";//图片
+//GameListViewController
+"GameListVC_txjl" = "vn_icon_txjl";//图片
+//HotCollectionViewCell
+"HotCollectionViewCell_Nomal_Room" = "vn_live_normal";//图片
+"HotCollectionViewCell_PWD_Room" = "vn_live_password";//图片
+"HotCollectionViewCell_Pay_Room" = "vn_live_pay";//图片
+"HotCollectionViewCell_Time_Room" = "vn_live_timer";//图片
+"copyID" = "vn_copyID";
+"docoasessssimage" = "vn_docoasessssimage.jpg";
+"LotteryAwardVC_lottery_reward_bgImg" = "vn_lottery_reward";
+"home_tgzq" = "vn_home_tgzq";
+"img_zwsj" = "vn_img_zwsj";
+"liveShare_" = "vn_liveShare_";
+"logFirst_成功" = "vn_logFirst_success";
+"logFirst_headerImg" = "vn_logFirst_headerImg";
+"bjl_title_player_img" = "bjl_player";
+"bjl_title_banker_img" = "bjl_banker";
+
+"lh_title_dragon_img" = "dragan";
+"lh_title_tiger_img" = "tiger";
+//////////////////////////////////////////下面需要翻译中文文字/////////////////////////////////////////
+NSCameraUsageDescription = "Truy cập máy ảnh của bạn, cho phép bạn bắt đầu phát trực tiếp và quay video";
+NSLocationWhenInUseUsageDescription = "Ghé thăm vị trí của bạn để cho phép truy cập vào các chương trình phát sóng và video trực tiếp tại địa phương";
+NSMicrophoneUsageDescription = "Truy cập micrô của bạn, cho phép bạn ghi lại âm thanh";
+NSPhotoLibraryAddUsageDescription = "Đọc anbom của bạn, cho phép bạn tải nội dung của anbom lên máy chủ";
+NSPhotoLibraryUsageDescription = "Truy cập album ảnh của bạn, cho phép bạn lưu video vào album ảnh";
+NSUserTrackingUsageDescription = "Chúng tôi cần sử dụng quyền theo dõi quảng cáo của bạn để đảm bảo sử dụng bình thường";
+NSBluetoothAlwaysUsageDescription = "Ứng dụng của chúng tôi sử dụng Bluetooth để kết nối thiết bị";
+NSFaceIDUsageDescription = "Cho phép truy cập vào FaceID của thiết bị";
+
+//启动app /这个小部分可以强制翻译
+"activity_login_connectkefu1" = "liên hệ với dịch vụ khách hàng";
+"launchAppP_islauching" = "Đang bắt đầu, vui lòng đợi";
+"launchAppP_logscopy" = "Sao chép nhật ký";
+"launchAppP_domainCheckingLine2" = "Cố gắng lấy dòng 2";
+"launchAppP_LineReadyGet" = "Bắt đầu dòng yêu cầu";
+"launchAppP_Line2ErrorMoretime" = "Dòng 2 gặp nhiều lỗi và hết thời gian";
+"launchAppP_Line2timeOutCantGet" = "Dòng 2 đã hết thời gian chờ và không thể lấy được";
+"launchAppP_Line2SuccessBack" = "Tên miền kiểm tra tốc độ dòng 2 thành công";
+"launchAppP_Line2DomainError" = "Kiểm tra tốc độ dòng 2 không thành công";
+"launchAppP_Line2AnalyseLocation"  = "Bắt đầu lấy thông tin địa lý";
+"launchAppP_LocationHaveCache" = "Bộ nhớ cache thông tin địa lý tồn tại";
+"launchAppP_Line2AnalyseBegain" = "Bắt đầu phân tích dòng 2";
+"launchAppP_Line2SuccessAnalyseError" = "Dòng 2 trả về thành công và phân tích không thành công";
+"launchAppP_readyCheck" = "Sẵn sàng để kiểm tra";
+"launchAppP_noNetwork" = "Không có mạng, vui lòng kiểm tra kết nối mạng";
+"launchAppP_Line1timeOutCantGet" = "Dòng 1 đã hết thời gian chờ và không thể lấy được";
+"launchAppP_domainCheckingError" = "Kiểm tra tốc độ tên miền không thành công, bắt đầu lại";
+"launchAppP_readyDomainChecking" = "Bắt đầu kiểm tra tốc độ";
+"launchAppP_domainCheckEnd" = "Kết thúc bài kiểm tra tốc độ";
+"launchAppP_Line1DomainError" = "Tên miền kiểm tra tốc độ dòng 1 không thành công";
+"launchAppP_Line2SuccessGetCallback" = "Dòng 2 trả về thành công";
+"launchAppP_Line1SuccessBack" = "Tên miền kiểm tra tốc độ dòng 1 thành công";
+"launchAppP_domainCheckingRetry" = "Khởi động lại để cố gắng phát hiện";
+"launchAppP_domainCheckingSpeedReady"="Bắt đầu chuẩn bị cho bài kiểm tra tốc độ";
+"launchAppP_AnalyseSpeedSuccessReady"="Kiểm tra tốc độ thành công, bắt đầu kiểm tra";
+"launchAppP_Line2AnalyseLocationSuccess"="Truy vấn thông tin địa lý thành công";
+
+"Illegal_request"="Illegal request";
+
+//系统语言
+"zh-Hans"  = "中文简体";
+"zh-Hant"  = "中文繁體";
+"en" = "English";
+"ja" = "日本語";
+"vi" = "Tiếng Việt";
+"id" = "Bahasa Indonesia";
+
+//公共参数
+"publictool_copy_success" = "Sao chép thành công";
+"public_warningAlert" = "Nhắc nhở";
+"publictool_copy" = "Sao chép";
+"publictool_sure" = "Chắc chắn";
+"public_cancel" = "Hủy bỏ";
+"public_manage" = "Quản lý";
+"public_timeFormat1" = "YYYY-MM-DD HH: MM";
+"public_networkError" = "Mạng bất thường, vui lòng đợi";
+"public_close" = "Đóng";
+"public_retryAgain" = "Thử lại";
+"public_back" = "Trở lại";
+"public_systemMsgTitle" = "Thông báo hệ thống.";
+"public_noEmpty" = "Không có dữ liệu";
+"public_loadMore_loading"= "Đang tải...";
+"public_loadMore_noMore" = "Không còn nữa, oh ~";
+"Bet_Charge_Title" = "Nạp tiền";
+"public_WithDraw" = "Rút tiền";
+"public_WithDraw_creator" = "Thu nhập sáng tạo";
+
+"MaxMoney" = "tối đa";
+
+"public_errorReson" = "Lỗi";
+"public_fans" = "Fan";
+"public_liang" = "Tốt";
+"public_itemMsg" = "dải.";
+"public_Save" = "Lưu";
+"public_Day" = "Không";
+"public_like" = "nhận lượt thích";
+//登录页面
+
+"version_update" = "Cập nhật phiên bản mới";
+"version_updateNow" = "Cập nhật";
+"version_newversion_title" = "Có bản mới";
+"version_newversion_now" = "Đã là phiên bản mới nhất";
+
+
+"loginActivity_switchstandbyline" = "Đang khởi động đường truyền dự trữ";
+"loginActivity_switchdefaltline" = "Chuyển sang đường truyền mặc định";
+"loginActivity_switchLinesuccess" = "Chuyển đổi đường truyền thành công";
+"loginActivity_logsCopySuccess" = "Nhật kí Sao chép thành công";
+"loginActivity_sendmsgcode" = "Gửi mã xác minh";
+"loginActivity_login_ing" = "đăng nhập...";
+"loginActivity_sendingcodewarning" = "Đang gửi mã xác minh, vui lòng không lặp lại thao tác";
+"loginActivity_sendingcodetimeoutretry" = "Quá thời gian, vui lòng thao tác lại";
+"loginActivity_reg_input_phone" = "số điện thoại di động của bạn";
+"loginActivity_sendingcode" = "Đang gửi ";
+"loginActivity_resend" = "Gửi lại.";
+"loginActivity_sendsuccess" = "Gửi thành công";
+"loginActivity_senderrorretry" = "Gửi thất bại, vui lòng thử lại sau!";
+"loginActivity_login_input_phone" = "số điện thoại";
+"loginActivity_login_input_email" = "Vui lòng nhập email của bạn";
+"loginActivity_login_input_userName" = "Vui lòng nhập tên người dùng";
+"loginActivity_login_input_pwd" = "mã xác minh";
+"loginActivity_login_warning" = "Đang đăng nhập,vui lòng không thao tác";
+"loginActivity_login_error" = "Đăng nhập thất bại, vui lòng kiểm tra kết nối mạng";
+
+"activity_login_phoneLogin" = "Số điện thoại đăng nhập";
+"activity_login_emailLogin" = "Đăng nhập bằng email";
+"activity_login_userName" = "Đăng nhập bằng tên người dùng";
+"activity_login_guestLogin" = "Du khách";
+"activity_login_privateServer" = "Đăng kí, đăng nhập có nghĩa bạn đồng ý với thỏa thuận dịch vụ đăng ký người dùng và \"Chính sách bảo mật\"";
+"activity_login_country_region" = "Quốc gia / Vùng";
+"activity_login_country_region1" = "Quốc gia và Vùng";
+
+"activity_login_inputPhoneNum" = "Nhập sdt Chú ý : không điền số '0' ở đầu sdt.";
+"activity_login_inputEmail" = "Vui lòng nhập email";
+"activity_login_inputcode" = "Mã xác minh";
+"activity_login_inputPassword" = "mật khẩu phòng";
+"activity_login_login" = "Đăng nhập";
+"activity_login_loginAndRegister" = "Đăng nhập/Đăng ký";
+"activity_login_connectkefu" = "LIên hệ CSKH";
+"activity_charge_connectkefu" = "Problems?";
+"activity_login_loginproblem" = "Đăng nhập / Đăng ký gặp sự cố?";
+"activity_login_standbyline" = "Đường truyền dự trữ";
+"activity_login_versionTitle" = "Phiên bản số";
+"login_tip_2" = "Chính sách bảo mật và dịch vụ";
+"login_phone_error" = "Vui lòng nhập đúng số điện thoại";
+"login_email_error" = "Vui lòng nhập email đúng";
+"activity_login_changeLoginMethod" = "Chuyển đổi phương thức đăng nhập";
+
+//绑定手机号
+"activity_bind_phone_number_bindphonetitle" = "Liên kết số điện thoại di động của bạn";
+"activity_bind_phone_number_bindphonesubtitle" = "Để thuận tiện cho việc nạp rút tiền, vui lòng liên kết số điện thoại di động của bạn ";
+"activity_bind_phone_number_phone" = "điện thoại di động";
+"activity_bind_phone_number_Login" = ",Bạn có muốn đăng nhập trực tiếp không?";
+"activity_bind_phone_number_bindEmailTitle" = "Liên kết email của bạn";
+"activity_bind_phone_number_bindEmailSubtitle" = "Để thuận tiện cho việc gửi và rút tiền, vui lòng liên kết email của bạn";
+"activity_bind_phone_number_Email" = "Email";
+
+
+//TaskVC
+"taskTitleString" = "Sảnh nhiệm vụ";
+"taskEmptyString" = "Tạm thời không có hoạt động";
+"taskgofinish" = "Đi Hoàn thành";
+"taskfinished" = "Đã hoàn thành";
+"tasktoget" = "Nhận";
+"task_time" = "Thời gian";
+"task_reward_title" = "Trung tâm khen thưởng";
+"task_reward_bet" = "đặt cược";
+"task_reward_level" = "mức độ";
+"task_reward_backwater" = "Giảm giá theo thời gian thực";
+"task_reward_backwater_rate" = "Tỷ lệ chiết khấu";
+"task_reward_backwater_amount" = "Số tiền chi tiêu hoặc đặt cược hiệu quả";
+"task_reward_backwater_limit" = "Giới hạn hoàn tiền trên";
+"task_reward_backwater_about" = "Giới thiệu chức năng";
+"task_reward_draw_success" = "Đã nhận thành công";
+"task_reward_sign_success" = "Đăng nhập thành công";
+"task_reward_backwater_tip1" = "Giảm giá theo thời gian thực là cơ chế giảm giá tức thì dựa trên thống kê đơn đặt hàng của người chơi. Người chơi có thể nhận được số tiền giảm giá ngay lập tức khi đáp ứng các điều kiện và tận hưởng nhiều đặc quyền và lợi ích hơn.";
+"task_reward_backwater_tip2" = "\n\n1. Phương pháp tính toán";
+"task_reward_backwater_tip3" = "\n     Số tiền giảm giá được tính dựa trên đơn hàng đã thanh toán.";
+"task_reward_backwater_tip4" = "\n2. Phương thức thu thập";
+"task_reward_backwater_tip5" = "\n     50% số tiền được thêm vào số dư, 50% số tiền được chia thành 3 phần và có thể nhận được một phần sau mỗi 4 giờ.";
+"task_reward_backwater_tip6" = "\n3. Khoảng thời gian thu thập";
+"task_reward_backwater_tip7" = "\n     Khoảng thời gian giữa mỗi lần thu thập là 20 phút.";
+"task_reward_backwater_tip8" = "\n4. Tỷ lệ chiết khấu";
+"task_reward_backwater_tip9" = "\n     Tỷ lệ hoàn tiền liên quan đến cấp vua và loại trò chơi.";
+"task_reward_alert_tip" = "Chúc mừng bạn đã nhận được";
+"task_reward_alert_title" = "Phần thưởng";
+"task_reward_alert_success" = "Bạn đã nhận được phần thưởng thành công";
+"skit_home_record" = "Bản ghi đang xem";
+
+"livetaskTitleString" = "Nhiệm vụ Idol";
+
+//PayWaitConfirmViewController
+
+"pay_wait_page_back" = "Quay lại trang chủ";
+"pay_wait_page_des" ="Tài vụ đang kiểm tra \nếu 3 ~ 5 phút sau tiền không lên tài khoản, vui lòng liên hệ CSKH";
+
+//PayChannelViewController
+"PayChanne_title" = "Kênh thanh toán";
+
+//PayReqViewController
+
+"PayReq_chargeNow" = "Nạp tiền ngay bây giờ";
+"PayReq_warning"="LƯU Ý: kênh thanh toán không phải là định kỳ cập nhật, vui lòng kiểm tra và đảm bảo tài khoản nhận là mới nhất thì tiến hành nạp tiền";
+
+//RechargePopView
+"RechargePop_Warning"="Nạp tiền lưu ý";
+"RechargePop_bindPhoneTitle"="Để đảm bảo tài khoản bảo mật và an toàn, vui lòng liên kết số điện thoại di động!";
+"RechargePop_bindPhone"="Liên kết số điện thoại di động";
+"RechargePop_ChargeContinue"="Tiếp tục nạp tiền";
+
+//PayInsteadViewController
+"PayInstead_accountTitle"="Tài khoản nạp tiền của bạn:";
+"PayInstead_tipwarning"="Tài khoản nhận không phải cố định,không phải là định kỳ cập nhật, không nên lưu lại,nạp tiền vui lòng đến trang chủ nhận tài khoản mới nhất tiến hành nạp tiền";
+
+
+//PayInsteadCollectionViewCell
+"PayInsteadCell_installQQ"="Vui lòng cài đặt QQ";
+"PayInsteadCell_desTitle"="Giải thích";
+"PayInsteadCell_desQQDetail"="\n Số QQ proxy đã được sao chép \n Vui lòng truy cập QQ để thêm RecHarge hoàn thành proxy \n bấm OK AUTO JUMP \n";
+"PayInsteadCell_installWechat"="Vui lòng cài đặt WeChat";
+"PayInsteadCell_desWechatDetail"="\n Tín hiệu vi mô proxy đã được sao chép \n Vui lòng truy cập Wechat Add Tác nhân Hoàn thành Recharge \n bấm OK Tự động nhảy \n";
+"PayInsteadCell_installAlipay" = "Vui lòng cài đặt di động Alipay trước";
+"PayInsteadCell_desAlipayDetail" = "\n Treasure thanh toán đại lý đã được sao chép \n Vui lòng truy cập Alipay Add Agent Hoàn thành Recharge \n bấm OK Auto Jump \n";
+"PayInsteadCell_canPayamount"="Số dư khả dụng";
+"PayInsteadCell_contactNow"="Lập tức liên hệ";
+
+//PayAmountViewController
+"PayAmount_Range_%@%@_%@%@" = "Phạm vi nạp tiền%1$@%2$@-%3$@%4$@";
+
+"PayAmount_giftRule1_%@%.1f_%@%.1f_%@%.1f" = "Đối với mỗi lần nạp tiền %1$@%2$.1f, nhận %3$@%4$.1f phần thưởng cao nhất%5$@%6$.1f";
+"PayAmount_giftRule2_%.2f_%@%.1f"="Phần thưởng nạp tièn%1$.2f%% Phần thưởng cao nhất%2$@%3$.1f";
+
+"PayAmount_giftRule3_%@%@_%@%@" = "Đối với mỗi lần nạp tiền %1$@%2$@, nhận %3$@%4$@";
+
+
+"PayAmount_giftRule3%@%@"="Bạn sẽ nhận được %1$@%2$@";
+"PayAmount_chargeTitle" = "Số tiền";
+"PayAmount_input_charge_amount" = "số tiền nạp";
+
+//PayTransferViewController
+"Transfer_nameTitle" = "Tên người chuyển tiền";
+"Transfer_leaveMsg" = "Nội dung";
+"Transfer_nameplaceholder" = "Nhập tên người chuyển tiền";
+"Transfer_optionalplaceholder" = "Điền id của bạn";
+
+//PayTransferCollectionViewCell
+"Transfer_bankNumberTitle" = "Số Tài Khoản.";
+"Transfer_bankUserNameTitle" = "Tên người nhận tiền";
+"Transfer_bankNameTitle" = "Tên ngân hàng";
+"Transfer_bankPlaceTitle" = "Chi nhánh ngân hàng";
+
+//PayViewController
+"PayVC_Title"= "Trung tâm nạp tiền";
+"PayVC_AlertDestitle"="Quan trọng";
+"PayVC_AlertImportDestitle"="Lưu ý quan trọng";
+"PayVC_AlertImportDetail" = "Vui lòng chuyển tiền xong tiền hành nhập lệnh nạp tiền";
+"PayVC_finishedtransfer" = "Đã hoàn thành chuyển tiền";
+"PayVC_noTransfer" = "Chưa chuyển tiền";
+"PayVC_OrderError" = "Nhập lệnh nạp tiền thất bại,thử lại";
+"PayVC_TransferResultTitle" = "\n Kết quả thanh toán \n\n";
+"PayVC_PaySuccess" = "Thanh toán thành công";
+"PayVC_PayError" = "Thất bại";
+"PayVC_BalanceTitle" = "SỐ DƯ CỦA TÔI";
+"PayVC_Record" = "Nạp tiền";
+"PayVC_ChargeAmount" = "Số tiền Nạp trực tiếp";
+"PayVC_PwdAlertTitle" = "Mật khẩu quỹ ví";
+"PayVC_PwdAlertTip" = "Vui lòng nhập mật khẩu quỹ ví của bạn";
+
+"chargeMoney2" = "Nạp";
+
+//BetOptionCollectionViewCell2
+"BetOption2_errorAlert" = "Thất bại, vui lòng cập nhật phiên bản mới nhất";
+
+//OpenAwardCollectionViewCell
+"OpenAward_dateTitle" = "Kỳ";
+
+//CommonCollectionViewController2
+"CommonCollectionVC2_selected %ld Warning" ="Lựa chọn tối đa%1$d Số ~";
+
+//CommonPageViewController
+"CommonPageVC_notitle" = "Không tiêu đề";
+"public_rule" = "Quy định";
+//LobbyBetConfirmCollectionViewCell
+
+"LobbyBetCell_Unit_Count" = "Cược";
+"LobbyBetCell_double_total"="%1$@bội hợp";
+
+"LobbyBetCell_double_total11"="cược hợp";
+
+//LobbyBetConfirmViewController
+
+"LobbyBet_name%@_date%@_Alert" = "%1$@ - Số kỳ đã được cập nhật thành%2$@";
+"LobbyBet_name%@_date%@_second%@timeTi" = "%1$@ - thứ %2$@kỳ  Từ khi đóng:%3$@";
+"LobbyBet_name%@_date%@_endbet" = "%1$@ - thứ %2$@kỳ  Đã đóng băng";
+"LobbyBet_name%@_date%@_betOpening" = "%1$@ - thứ %2$@kỳ  Đang mở thưởng";
+"LobbyBet_selecte_Warning" = "Vui lòng chọn ít nhất một lần đặt cược";
+"LobbyBet_changeBet" = "Sửa đổi mã ghi chú đơn";
+"LobbyBet_MinMoneyBet%@" = "Đặt cược tối thiểu là 1 %1$@";
+"LobbyBet_RangeBetMoney" = "Phạm vi tùy chỉnh ";
+"LobbyBet_ClearAll" = "Xóa sạch";
+"LobbyBet_betContent" = "Nội dung đặt cược";
+"LobbyBet_DeleteTip" = "Đây là cái cuối cùng, không thể xóa ha ~";
+"LobbyBetConfirm_title" = "Xác nhận đặt cược";
+"LobbyBetConfirm_balance" = "Số dư";
+
+//LobbyLotteryVC
+"LobbyLotteryVC_UpdateDate" ="Số kỳ hiện tại đã được cập nhật";
+"LobbyLotteryVC_UpdateError" = "Nhận thông tin xổ số thất bại, oh";
+
+"LobbyLotteryVC_selectedCount%@_total%@%@_profit%@%@" = "Đã chọn%1$@注, tổng cộng %2$@%3$@, kỳ vọng có thể nhận được%4$@%5$@";
+"LobbyLotteryVC2_selectedCount%@_total%@%@_profit1%@_profit2%@%@" = "Đã chọn%1$@注, tổng cộng %2$@%3$@, kỳ vọng có thể nhận được%4$@~%5$@%6$@";
+
+//拆分上面字符串作为富文本文字染色
+"LobbyLotteryVC_selectedCount1" = "Đã chọn";
+"LobbyLotteryVC_selectedCount2" = "Cược, Tổng cộng";
+"LobbyLotteryVC_selectedCount3%@" = "%1$@，Kì vọng nhận được";
+
+"LobbyLotteryVC3_selectedCount%ld_scale%ld_profit%.1f%@" = "Tổng cộng %1$ld cược%2$ld, dự kiến ​​sẽ nhận được%3$.1f%4$@";
+"LobbyLotteryVC_betEnd" = "Đang đóng băng";
+"LobbyLotteryVC_betOpen" = "Đang mở thưởng";
+"LobbyLotteryVC_Stay_tuned_for" = "Hãy mong chờ lần sau ~";
+"LobbyLotteryVC_betHistory" = "Lịch sử đặt cược";
+"LobbyLotteryVC_betExplain" = "Quy tắc trò chơi";
+"LobbyLotteryVC_Bleuberi" = "Việt quất";
+"LobbyLotteryVC_Lemon" = "Chanh";
+"LobbyLotteryVC_Ceri" = "Anh đào";
+"lobby_big" = "Tài";
+"lobby_small" = "Xỉu";
+"lobby_single" = "Lẽ";
+"lobby_double" = "Chẵn";
+"points" = "điểm";
+
+"lottery_trend_xiao" = "S";
+"lottery_trend_da" = "B";
+"lottery_trend_dan" = "S";
+"lottery_trend_shuang" = "D";
+"lottery_trend_long" = "D";
+"lottery_trend_hu" = "T";
+"lottery_trend_hong" = "R";
+"lottery_trend_hei" = "B";
+"lottery_trend_lan" = "B";
+"lottery_trend_lv" = "G";
+"lottery_trend_xian" = "P";
+"lottery_trend_zhuang" = "B";
+"lottery_trend_ning" = "L";
+"lottery_trend_ying" = "C";
+
+"LobbyLotteryVC_bet_balance_Error" = "Số dư của bạn ít hơn đặt cược tối thiểu.";
+"LobbyLotteryVC_bet_endBet" = "Kì này đã đóng băng, tạm thời không thể đặt cược";
+"LobbyLotteryVC_betEmptySelecte" = "Bạn vẫn chưa đặt cược thêm";
+"LobbyLotteryVC_NoBalance" = "Số dư không đủ";
+"LobbyLotteryVC_NoBalanceDetailDes" = "Số dư của bạn là không đủ lần đặt cược này.";
+"LobbyLotteryVC_titleBet" = "Sảnh xổ số";
+
+
+"LobbyLotteryVC_DateNow%@" = "Số%1$@kỳ";
+//期数字符拆分
+"LobbyLotteryVC_DateNow1" = "Lần";
+"LobbyLotteryVC_DateNow2" = "Kỳ";
+
+
+
+"LobbyLotteryVC_DateBetingNow%@" = "Cuối kỳ%1$@";
+//期数字符拆分
+"LobbyLotteryVC_DateBetingNow1" = "Khoảng";
+"LobbyLotteryVC_DateBetingNow2" = "Hết hạn";
+"LobbyLotteryVC_moreBtn" = "Hơn";
+"LobbyLotteryVC_deviceRandomBtn" = "Lựa chọn máy";
+"LobbyLotteryVC_BetRecord" = "Lịch sử đặt cược";
+"LobbyLotteryVC_betAll" = "Poker";
+"LobbyLotteryVC_betMin" = "Đặt cược tối thiểu";
+"LobbyLotteryVC_Bet" = "Đặt cược";
+"LobbyLotteryVC_BetAddChoise" = "Thêm đơn cược";
+"LobbyLotteryVC_GoToBet" = "Đi đặt cược";
+"LobbyLotteryVC_total" = "tổng cộng";
+"menu_lottery_result" = "Kết quả xổ số";
+
+//LobbyOpenHistoryViewController
+"LobbyOpenHistory_periods" = "Số kỳ";
+
+"LobbyOpenHistory_Type_Number" = "Con số";
+"LobbyOpenHistory_Type_Size" = "Tài Xỉu";
+"LobbyOpenHistory_Type_SingleDouble" = "Chẵn Lẻ";
+"LobbyOpenHistory_Type_WinnerDragonTiger" = "Nhất Nhì Long Hổ";
+"LobbyOpenHistory_Type_total" = "Tổng";
+"LobbyOpenHistory_Type_Tema" = "Mã đặc biệt";
+
+
+
+"OpenAward_NiuNiu_Red" = "Đỏ";
+"OpenAward_NiuNiu_Blue" = "Xanh dương";
+
+//OpenHistoryViewController
+"OpenHistory_titleBetHistory" = "Lịch sử mở thưởng";
+"OpenHistory_DateNow%@" = "Thứ%1$@Kỳ";
+
+
+//BetConfirmCollectionViewCell
+
+"BetCell_double"="Bội";
+"BetCell_double1"="1X";
+"BetCell_double2"="2X";
+"BetCell_double5"="5X";
+"BetCell_double10"="10X";
+"BetCell_double20"="20X";
+
+"BetCell_remove"="Xóa bỏ";
+
+//ChipSwitchViewController
+"ChipSwitch_currentChip_title" = "Chip hiện tại";
+"ChipSwitch_input_custom_chip" = "Nhập chip tùy chỉnh";
+"ChipSwitch_settitle" = "Đặt chip";
+"ChipSwitch_ChangeChip_title" = "[Sửa đổi chip]";
+
+//LotteryBetViewController_NN
+"LotteryBetVC_NN_TimeTitle" = "Hết hạn";
+
+//LotteryBetViewController
+"LotteryBetVC_TimeTitle" = "Kỳ này đã hết hạn";
+
+//GameListViewController
+"GameListVC_UnknowGamePlat" = "Trò chơi không xác định";
+
+"GameListVC_lotteryTitle" = "Xổ số"; //containsString 特殊处理
+"GameListVC_GameCenter_title" = "Trung Tâm Trò Chơi";
+
+//h5game
+"h5game_Amount_Conversion" = "Chuyển đổi";
+"h5game_submit_successfully" = "Gửi thành công"; //isEqualToString
+"h5game_application_progress" = "Tiến độ gửi yêu cầu"; //isEqualToString
+"h5game_My_family_tree" = "Quản lý của tôi"; //isEqualToString
+
+//XHLaunchAdButton
+"XHLaunchAdButton_titleSkip" = "Bỏ qua";
+
+//MsgSysVC
+"MsgSysVC_systemMsg" = "Thông tin hệ thống";
+"MsgSysVC_noMoremsg" = "Tạm thời không có thông tin mới";
+"MsgSysVC_allRead" = "Tất cả được đọc";
+
+//PublicObj
+
+
+
+//GameToolClass
+"GameToolClass_switchMoneyType" = "Số dư đang được chuyển đổi ..";
+"GameToolClass_switchMoneyTypeSuccess" = "Chuyển đổi thành công.";
+"GameToolClass_EnterGame" = "Đang vào";
+"GameToolClass_EnterGameReson" = "Bất thường";
+"GameToolClass_EnterGameError" ="Đăng nhập trò chơi thất bại";
+"GameToolClass_gameName%@_balance%@" = "Số dư hiện tại [%1$@]: ￥%2$@\n Chúc bạn chơi vui vẻ. \n Muốn nạp tiền vui lòng quay lại trang chủ tiến hành nạp tiền";
+
+//YBToolClass
+"YBToolClass_timeFormat_Hour%02ld_Min%02ld_Second%02ld" = "%1$02ld Giờ%2$02d Phút %3$02d giây";
+"YBToolClass_timeFormat_Min%02ld_Second%02ld" = "%1$02d phút %2$02d giây";
+"YBToolClass_timeFormat_Second%02ld" = "%1$02d giây";
+
+//homepageController
+"homepageController_attention" = "Theo dõi";
+"homepageController_live" = "Livestream";
+"homepageController_game" = "Trò chơi";
+"homepageController_Rich_list" = "Triệu phú";
+
+//ZYTabBar
+"ZYTabBar_open_live" = "Bắt đầu livestream";
+"ZYTabBar_Box" = "Kho báu";
+
+//ZYTabBarController
+"ZYTabBarC_HomePage" = "Trang chủ";
+"ZYTabBarC_MePage" = "Tôi";
+
+//EnterLivePlay
+"EnterLivePlay_enterWinnerRoom" = "Nên trong phòng livestream đặt cược, may mắn sẽ đến ";
+"EnterLivePlay_enterRoom" = "Đi đến";
+"EnterLivePlay_pwdRoomWarning" = "Phòng này là một phòng mật khẩu";
+"EnterLivePlay_input_pwd" = "mật khẩu của bạn";
+"EnterLivePlay_pwd_error" = "Sai mật khẩu";
+
+//AttentionHeader
+"AttentionHeader_myAttention" = "Theo dõi";
+"AttentionHeader_Popular_Hot" = "Đề xuất";
+"AttentionHeader_No_Attention" = "Tamj thời không theo dõi";
+"AttentionHeader_No_Hot" = "Không có wifi";
+
+//GamesController
+"GamesVC_NoGameAnchor" = "Tạm thời không có phòng livestream trò chơi";
+"GamesVC_SeeOthersGameAnchor" = "Nhanh chóng đi xem phòng livestream khác";
+
+//GamesHeader
+"GamesHeader_Game_Recommend" = "Trò chơi đề xuất";
+"GamesHeader_isHit" = "HẤP DẪN";
+
+//Hotpage
+"Hotpage_leftAddMore" = "Xem Thêm";
+"Hotpage_my_expand" = "Giới thiệu để kiếm tiền";
+"Hotpage_Hot" = "Phổ biến";
+
+//classVC
+"classVC_noAnchorLive" = "Tạm thời không có idol livestream";
+"classVC_goToOthersAnchorLive" = "Nhanh chóng Đi đến các kênh khác để đi mua sắm ~";
+//LiveNotificationAlert
+"LiveNotif_AlertTitle" = "Thông báo";
+
+
+//RankCell
+"RankCell_FollowButton" = "Theo dõi";
+"RankCell_Title_scroe%@" = "Lạc hậu %1$@";
+//RankVC
+"RankVC_FollowMeError" = "Không thể tự theo dõi bản thân";
+"RankVC_Empty" = "Tạm thời trống";
+"RankVC_profit_list" = "thu nhập";
+"RankVC_contribution_list" = "cống hiến";
+"RankVC_List_of_day" = "Ngày";
+"RankVC_Yesterday_the_list" = "hôm qua";
+"RankVC_List_of_Week" = "tuần";
+"RankVC_List_of_Month" = "tháng";
+//RotationVC
+"RotationVC_remaining_lottery_times" = "Số lượt bốc thăm còn lại";
+"RotationVC_giftPoolTitle" = "Số tiền thưởng còn lại";
+
+//RotationResultVC
+"RotationResultVC_ResultContent" = "Chúc mừng bạn nhận thành công";
+//jubaoVC
+"jubaoVC_headerLabel" = "Lựa chọn lí do báo cáo";
+"jubaoVC_Option_title" = "Để biết thêm chi tiết, xin vui lòng chọn mục giải thích";
+"jubaoVC_submit" = "Gửi đi";
+"jubaoVC_reason_title"="Lựa chọn lí do báo cáo";
+"jubaoVC_success" = "Báo cáo thành công";
+"jubaoVC_title" = "Báo cáo";
+
+//LotteryBarrageView
+"LotteryBarrageView_clickTitle" = "Nhấn đặt cược theo";
+"LotteryBarrageView_name%@_type%@_way%@_money%@%@" = "<font color=\"#72f3e1\">%1$@</font><font color=\"#ffffff\">Trong</font><font color=\"#fff292\">%2$@</font><font color=\"#ffffff\">Cách đặt cược</font><font color=\"#fff292\">%3$@</font><font color=\"#ffffff\">Thắng</font><font color=\"#f9d347\">%4$@</font><font color=\"#ffffff\">%5$@。</font>";
+
+"LotteryCenterBarrageView_name%@_type%@_money%@%@" = "<font color=\"#72f3e1\">%1$@</font><font color=\"#ffffff\">Trong</font><font color=\"#fff292\">%2$@</font><font color=\"#ffffff\">Thắng</font><font color=\"#f9d347\">%3$@</font><font color=\"#ffffff\">%4$@。</font>";
+
+//LotteryAwardVController
+"LotteryAwardVC%@%@" = "Trúng thưởng%1$@ %2$@";
+"LotteryAwardVC_close" = "Bấm vào bất cứ nơi nào để đóng";
+
+
+//TopTodayView
+"TopTodayView_update_time_title" = "Cập nhật mới nhất";
+"TopTodayView_LevelAlert_title" = "Cách người trước vẫn còn thiếu";
+"TopTodayView_title" = "Danh sách Ngày";
+"TopTodayView_SendGift" = "Tặng quà";
+"Top rank" = "Hạng nhất";
+
+//guardShowView
+"guardShowView_guardUntilTime" = "Bạn là bảo vệ tháng của idol,bảo vệ ngày đã hết hạn";
+"guardShowView_RenewGuard" = "Phí bảo vệ";
+"guardShowView_OpenGuard" = "Mở tính năng bảo vệ";
+"guardShowView_OpenGuardAlert" ="Nhanh đến idol mà bạn thích để mở bảo vệ";
+"guardShowView_NoGuard" = "Bạn chưa có mở tính năng bảo vệ";
+"guardShowView_BeFirstGuard" = "Trở thành người bảo vệ đầu tiên của idol";
+"guardShowView_ThisWeekGuard" = "Đóng góp của tuần này";
+"guardShowView_OpenNow" = "Mở ngay lập tức";
+
+//shouhuView
+"shouhuView_guardTime" = "Lựa chọn thời gian bảo vệ";
+"shouhuView_guardrights" = "Đặc quyền tính năng bảo vệ";
+"shouhuView_MyBalance" = "Tôi";
+"shouhuView_GuardMonthDes" = "Hiện tại bạn đã là bảo vệ tháng của idol, việc mở bảo vệ năm thì sẽ mất đi bảo vệ tháng đặc quyền, bạn chắc chắn không?";
+"shouhuView_GuardYearDes" = "Người hiện tại đã là bảo vệ năm của idol\n không thể được mở được bảo vệ tuần / tháng nữa";
+"shouhuView_You_will_coast" = "Bạn sẽ chi tiêu";
+"shouhuView_Guard7Days" = "Vì idol sẽ mở bảo vệ 7 ngày";
+"shouhuView_GuardMonthDays" = "Vì idol sẽ mở bảo vệ tháng";
+"shouhuView_GuardOneYear" = "Vì idol sẽ mở bảo vệ năm";
+
+//upmessageInfo
+"upmessageInfo_content" = "Bị nghi ngờ lan truyền thông tin khiêu dâm tục tĩu";
+"upmessageInfo_report" = "Báo cáo";
+"upmessageInfo_sended" = "Gửi đi";
+"upmessageInfo_income" = "Thu nhập";
+"upmessageInfo_ten_thousand" = "Mười nghìn";
+"upmessageInfo_on_Mars" = "Hình như đang ở sao Hỏa";
+"upmessageInfo_followed" = "Đã Theo dõi";
+"upmessageInfo_kick" = "Đuổi";
+"upmessageInfo_silent" = "Cấm chát";
+"upmessageInfo_set_management" = "Cài đặt quản lí";
+"upmessageInfo_cancel_management" = "Hủy quản lý";
+
+"upmessageInfo_management_list" = "Danh sách quản lí";
+"upmessageInfo_close_live" = "Đóng livestream";
+"upmessageInfo_disable_live" = "Khóa livestream";
+"upmessageInfo_add_the_impression+" = "Thêm ấn tượng";
+"upmessageInfo_add_the_impression" = "Thêm ấn tượng"; //contains
+"upmessageInfo_Send_a_card" = "Gửi danh thiếp";
+"upmessageInfo_HomeTitle" = "Trang chủ";
+
+//searchVC
+"searchVC_input_name_id" = "tên nickname hoặc ID bạn muốn tìm kiếm.";
+
+//setViewM
+"setViewM_guardTitle" = "Bảo vệ Trống chỗ,đang chờ người mở";
+"setViewM_Top_list" = "TOP>";
+"setViewM_Guard" = "Bảo vệ";
+"setViewM_People" = "Người";
+"setViewM_Guardians" = "bảo vệ";
+"setViewM_GuardiansP" = "Người";
+
+//liwuview
+"liwuview_sendGift" = "Gửi tặng quà";
+"liwuview_SendButton" = "Tiếp tục tặng";
+"liwuview_YearGift" = "Quà tặng độc quyền của bảo vệ năm";
+"liwuview_sendSuccess" = "Tặng thành công";
+"liwuview_Bursts" = "Liên tiếp gửi";
+"Give the streamer a small gift" = "Hãy tặng cho streamer một món quà nhỏ nhé";
+"RC toy" = "Đồ chơi RC";
+"Issue command" = "Gửi lệnh";
+
+//coastselectview
+"coastselectview_minue" = "Phút";
+"coastselectview_coast_money" = "Số tiền thu phí";
+"coastselectview_Choose_to_charge_for" = "Lựa chọn thu phí";
+
+//redBagView
+"redBagView_redbagTitle" = "Lì xì phòng livestream";
+"redBagView_sendRedBag" = "Phát lì xì cho khách ở trong phòng livestream";
+"redBagView_LuckyRedBag" = "Bao lì xi may mắn";
+"redBagView_average" = "Lì xì trung bình";
+"redBagView_total_money" = "Tổng cộng";
+"redBagView_amount" = "Số lượng";
+//"redBagView_Congratulations" = "Chúc mừng phát tài, đại cát đại lợi";
+"redBagView_sendRedBagTitle" = "Phát lì xì";
+"redBagView_peerMoney" = "Số tiền mỗi cái";
+"redBagView_input_redbag_money" = "số tiền lì xì";
+"redBagView_input_redbag_amount" = "số lượng bao lì xì";
+
+//redDetails
+"redDetails_whoRedBag" = "Lì xì";
+"redDetails_no_get" = "Không nhận được";
+"redDetails_get_to_me" = "Đã gửi";
+"redDetails_already_got" = "Đã nhận được";
+"redDetails_peer_amount" = "Cái";
+"redDetails_total" = "Tổng";
+//redListCell
+"redListCell_delayRedBag" = "Phát xong 1 cái lì xì muộn";
+"redListCell_nowRedBag" = "Phát xong 1 cái lì xì nhanh";
+"redListCell_GetNow" = "Cướp";
+//redListView
+"redListView_redBag" = "Lì xì";
+"redListView_timeEndCanGet" = "Đợi đến thời gian bắt đầu cướp";
+"redListView_ShowDetailRedBagGot" = "Xem chi tiết nhận lì xì ";
+"redListView_redBagOver" = "Tay bạn chậm quá, lì xì đã bị cướp hết rồi";
+"redListView_congratulations" = "Chúc mừng bạn nhận thành công";
+"redListView_GotBag" = "Cướp được ";
+"redListView_Who" = "Phát";
+//continueGift
+"continueGift_continue" = "Tặng liên tiếp";
+
+//exoensiveGifGiftV
+"exoensiveGifGiftV_giveOne" = "Tặng 1 cái";
+
+//shipAction
+"shipAction_shipSend" = "Đã tặng 1 tàu du lịch";
+//adminLists
+"adminLists_currentManager" = "Quản lý hiện tại";
+"adminLists_Alert" = "Xin lưu ý";
+"adminLists_ifCancel" = "Chắc chắn hủy bỏ?";
+"adminLists_managerRule" = "Thân phận của quản lý";
+"adminLists_No" = "Không";
+//lastview
+"lastview_endLive" = "livestream kết thúc";
+
+
+//bottombuttonv
+"bottombuttonv_flash" = "Đèn chớp flash";
+"bottombuttonv_timing" = "Tính giờ";
+"bottombuttonv_tickets" = "Vé phòng";
+"bottombuttonv_beauty" = "Sắc đẹp";
+"bottombuttonv_flip" = "Cuộn ";
+"bottombuttonv_music" = "Nhạc đệm";
+"bottombuttonv_share" = "Chia sẻ";
+"bottombuttonv_redBag" = "Lì xì";
+"bottombuttonv_toy" = "máy rung";
+"bottombuttonv_order" = "chỉ dẫn";
+//musicView
+"musicView_downloading" = "Đang Tải về";
+"musicView_choise" = "lựa chọn";
+"musicView_donwload" = "Tải xuống";
+//PresentView
+"PresentView_send" = "Đã gửi";
+
+//nuserLoginAnimation
+"nuserLoginAnimation_enter_room" = "Đi vào phòng livestream";
+
+//fenXiangView
+"fenXiangView_shareTo" = "Chia sẻ đến";
+"fenXiangView_have_%@_fans_coming" = "Cô ấy có%1$@ người hâm mộ, hãy đến xem!";
+"fenXiangView_%@_in_here%@_share" = "\"%1$@\" cũng nằm trong%2$@, ~ hãy nhấp để xem câu chuyện của cô ấy";
+"fenXiangView_ShareSuccess" = "Chia sẻ thành công";
+"fenXiangView_ShareError" = "Chia sẻ thất bại";
+
+//liveclosepopview
+"liveclosepopview_leave" = "Rời bỏ";
+"liveclosepopview_follow_exit" = "Theo dõi và thoát ra";
+"liveclosepopview_title" = "Theo dõi idol ~";
+"liveclosepopview_hint" = "Muốn quay lại";
+
+//Livebroadcast
+"Livebroadcast_live_cover" = "Hình ảnh Phòng livestream";
+"Livebroadcast_live_title" = "Tiêu đề Phòng livestream";
+"Livebroadcast_live_title_tip" = "Viết một tiêu đề cho phòng livestream";
+"Livebroadcast_choise_lottery_type" = "Chọn loại hình livestream trò chơi ";
+"Livebroadcast_push_card" = "Gửi danh thiếp";
+"Livebroadcast_Nopush_card" = "không gửi";
+"Livebroadcast_begain_live" = "Bắt đầu phát";
+"Livebroadcast_OBS_live" = "Phát trực tiếp OBS";
+"Livebroadcast_room_type" = "Loại phòng";
+"Livebroadcast_choise_price" = "Giá lựa chọn";
+"Livebroadcast_room_type_nomal" = "Phổ thông";
+"Livebroadcast_room_type_pwd" = "mật khẩu phòng";
+"Livebroadcast_room_type_tickets" = "Vé phòng";
+"Livebroadcast_room_type_time" = "Thời gian";
+"Livebroadcast_room" = "Phòng";
+"Livebroadcast_please_set_room_pwd" = "Vui lòng đặt mật khẩu phòng";
+"Livebroadcast_please_enter_right_pwd" = "lòng nhập đúng mật khẩu";
+"Livebroadcast_please_set_ticket_price" = "lòng nhập đặt giá phòng";
+"Livebroadcast_please_enterPrice" = "lòng nhập giá";
+"Livebroadcast_please_rightTicket_price" = "lòng nhập đúng giá vé phòng";
+"Livebroadcast_no_open" = "Phiên bản này chưa mở";
+"Livebroadcast_Choise_live_type" = "Vui lòng chọn một kênh";
+"Livebroadcast_private_rule_no" = "Thu hồi quyền han";
+"Livebroadcast_please_open_camera_private" = "lòng bật quyền mở camera trong cài đặt";
+"Livebroadcast_please_open_mic_private" = "lòng mở quyền truy cập micrô trong cài đặt";
+"Livebroadcast_please_choise_uploadWay" = "Chọn phương thức tải lên";
+"Livebroadcast_Alumb" = "Album ảnh";
+"Livebroadcast_Camera" = "Chụp ảnh";
+"Livebroadcast_Change_Cover" = "Thay thế hình ảnh";
+"Livebroadcast_Live_End" = "livestream đã kết thúc";
+"Livebroadcast_LiveTimes" = "Thời gian phát";
+"Livebroadcast_harvest" = "Thu hoạch";
+"Livebroadcast_watchNumbers" = "Số lượt xem";
+"Livebroadcast_LiveMsgs" = "Thông tin phòng livestream";
+"Livebroadcast_LiveSend%d_gift%@" = "Đã có %1$d %2$@";
+"Livebroadcast_lotteryDisable" = "Đã dừng thu";
+"Livebroadcast_liveEnd" = "Có chắc chắn thoát ra khỏi phòng?";
+"Livebroadcast_haveNewMsgs" = "Có tin mới";
+"Livebroadcast_SayHi" = "Nói với mọi người cái này làm gì";
+"Livebroadcast_SaySomething" = "Nói gì đó đi...";
+"Livebroadcast_OnlyMsgs" = "Chỉ trò chuyện";
+"Livebroadcast_switchRoom_cannot" = "Bạn đã đổi loại phòng và không thể chuyển đổi thê";
+"Livebroadcast_switchRoom_cannot1" = "Chỉ có phòng phổ thông mới được chuyển đổi";
+"Livebroadcast_Input_word_limit50" = "Số lượng tối đa 50 từ";
+"Livebroadcast_Login_other_device" = "Tài khoản hiện tại đã được đăng nhập vào các thiết bị khác";
+"Livebroadcast_Open_msg_notifys" = "Mở loa lớn";
+"Livebroadcast_No_lyrics" = "Không có lời bài hát";
+"Livebroadcast_end" = "Kết thúc";
+"live_close_adv" = "Game barrage đã đóng";
+"live_open_adv" = "Trò chơi đã được mở";
+"live_toy_close" = "không kết nối";
+"live_toy_open" = "đã kết nối";
+"live_order_list" = "danh sách lệnh";
+"live_more_surprise" = "Nhiều hơn";
+"Livebroadcast_title_server" = "máy chủ";
+"Livebroadcast_title_stream" = "khóa luồng";
+"Livebroadcast_title_start_stream" = "Bắt đầu Trực tiếp";
+"Livebroadcast_title_start_stream_info" = "Khi bạn bắt đầu phát sóng, nhấn vào nút \"Bắt đầu Trực tiếp\" ở phía dưới.";
+"Livebroadcast_title_OBS_stream_info" = "Để sử dụng ứng dụng khác để thực hiện việc truyền trực tiếp, vui lòng nhập địa chỉ máy chủ và khóa truyền trực tiếp sau đây trong ứng dụng.";
+"Livebroadcast_order_select_all" = "Chọn tất cả";
+"Livebroadcast_order_confirm" = "Xác nhận";
+"Livebroadcast_toy_unconnect" = "Thiết bị chưa được kết nối";
+"Livebroadcast_order_unselect" = "Vui lòng chọn một lệnh từ danh sách lệnh";
+"Livebroadcast_error_toyDisconnect" = "Đã ngắt kết nối -> Chế độ trứng (Không kết nối) Chuyển đổi trạng thái chế độ trứng hiển thị đóng";
+"Livebroadcast_room_need_charge" = "Phòng này là phòng trả phí, cần thanh toán";
+
+"RemoteInterfaceView_in_queue" = "Hiện đang xếp hàng";
+"RemoteInterfaceView_remote_user" = "Kiểm soát con người";
+"RemoteInterfaceView_remain_time" = "Thời gian thực hiện còn lại";
+"RemoteInterfaceView_toy_connect" = "Người dẫn chương trình đã sẵn sàng";
+"RemoteInterfaceView_wait_you_control" = "Đang đợi bạn điều khiển";
+"RemoteInterfaceView_order_name" = "Chỉ thị";
+"RemoteInterfaceView_control_and_order" = "Điều khiển từ xa & Lệnh";
+"RemoteInterfaceView_toy_title" = "Hàng đợi trứng nhảy";
+"RemoteInterfaceView_order_title" = "Hàng đợi lệnh";
+"RemoteInterfaceView_cmd_name" = "Tên lệnh";
+"RemoteInterfaceView_cmd_time" = "Thời lượng (giây)";
+"RemoteInterfaceView_cmd_price" = "Giá";
+"RemoteInterfaceView_cmd_delete" = "Xóa bỏ";
+"RemoteInterfaceView_cmd_edit" = "Ôn lại";
+"RemoteInterfaceView_cmd_confirm" = "Chắc chắn";
+"RemoteInterfaceView_cmd_input_name" = "Vui lòng nhập tên lệnh";
+"RemoteInterfaceView_cmd_input_time" = "Vui lòng nhập thời lượng";
+
+"SearchToyVC_title_name" = "Lovense";
+"SearchToyVC_bluetooth_connected" = "bluetooth: 🔵";
+"SearchToyVC_bluetooth_disconnect" = "bluetooth: ⚪️";
+"SearchToyVC_no_connected_text" = "Không kết nối ❌";
+"SearchToyVC_connected_text" = "Đã kết nối ✅";
+"SearchToyVC_searching_toy" = "Đang tìm kiếm Lovense";
+"SearchToyVC_stop_search_toy" = "Dừng tìm kiếm Lovense";
+"SearchToyVC_clear_all_toy" = "Xóa tất cả Lovense";
+"SearchToyVC_star_connecting_toy" = "Bắt đầu kết nối Lovense";
+"SearchToyVC_have_no_found_toy" = "Không tìm thấy Lovense";
+"SearchToyVC_connected_toy" = "Đã kết nối Lovense";
+"SearchToyVC_connect_fail" = "Kết nối thất bại";
+"SearchToyVC_search" = "Tìm kiếm";
+"SearchToyVC_stop_search" = "Dừng tìm kiếm";
+
+"ToyDetailVC_toy_control" = "Kiểm soát Lovense";
+"ToyDetailVC_battery" = "Pin";
+"ToyDetailVC_device_type" = "Loại thiết bị";
+"ToyDetailVC_version" = "Phiên bản";
+"ToyDetailVC_disconnect" = "Ngắt kết nối";
+"ToyDetailVC_all_toy_command" = "Tất cả lệnh Lovense";
+"ToyDetailVC_vibration" = "Rung";
+"ToyDetailVC_quick_flash" = "Đèn nháy nhanh";
+"ToyDetailVC_preset" = "Cài đặt trước";
+"ToyDetailVC_nora_rotation" = "Nora Xoay";
+"ToyDetailVC_nora_rotation_anti_clockwise" = "Nora Xoay ngược chiều kim đồng hồ";
+"ToyDetailVC_nora_rotation_change" = "Nora Thay đổi xoay";
+"ToyDetailVC_turn_off_AID_light" = "Tắt đèn AID";
+"ToyDetailVC_turn_on_AID_light" = "Bật đèn AID";
+"ToyDetailVC_get_AID_light_status" = "Lấy trạng thái đèn AID";
+"ToyDetailVC_turn_off_light" = "Tắt đèn";
+"ToyDetailVC_turn_on_light" = "Bật đèn";
+"ToyDetailVC_start_tracking_movement" = "Bắt đầu theo dõi chuyển động";
+"ToyDetailVC_stop_tracking_movement" = "Dừng theo dõi chuyển động";
+"ToyDetailVC_max_air_in" = "Lượng Không khí Tối đa";
+"ToyDetailVC_max_air_out" = "Lượng Không khí Tối đa";
+"ToyDetailVC_max_air_auto" = "Lưu lượng không khí tối đa tự động";
+"ToyDetailVC_device_info" = "Thông tin thiết bị";
+"ToyDetailVC_movement" = "Di chuyển";
+
+"RemoteControllerCell_second" = "s";
+
+"Livebroadcast_mic_volum_number" = "Âm lượng micro.";
+"Livebroadcast_micBg_volum_number" = "Âm lượng âm nhạc nền.";
+"Livebroadcast_name%@_BetType%@_betMoney%@%@" = "<font color = \"# ffffff \">%1$@ </font> <font color = \"# ffffff \"> trong </font> <font color = \"# fff292 \">%2$@ </font> <font color = \"# ffffff \"> Vào, đặt cược </font> <font color = \"# fff292 \">%3$@ </font> <font color = \"# ffffff \">%4$@. </font>";
+
+"Livebroadcast_Congratulations_Name%@_game%@" = "<font color = \"# ffffff \"> Xin chúc mừng </font> <font color = \"# ffffff \">%1$@ </font> <font color = \"# ffffff \"> trong </ font > <font color = \"# fff292 \">%2$@ </font> <font color = \"# ffffff \"> Tôi đã giành được giải thưởng </font>";
+
+"Livebroadcast_shareMoney_fromName%@_lotteryName%@_money%@_%@" = "<font color = \"# ffffff \"> Xin chúc mừng </font> <font color = \"# ffffff \"> Nhận </font> <font color = \"# fff292 \">%1$@ </ font > <font color = \"# ffffff \"> Trong </font> </font> <font color = \"# fff292 \">%2$@ </font> <font color = \"# ffffff \" Phần thưởng của> <font color = \"# fff292 \">%3$@ </font>%4$@ </font>";
+"Livebroadcast_LiveAnchor" = "Any.";
+
+//LivePlay
+"LivePlay_KickedRoom" = "Bạn đã bị đuổi ra khỏi phòng";
+"LivePlay_sayTimeOver" = "Số lần chát đã được sử dụng";
+"LivePlay_sayTimes%ld" = "Còn lại %1$ld lần chát";
+"LivePlay_SaidMoreQuikly" = "Thao tác quá nhiều lần, vui lòng đợi trong giây lát tiếp tục thao tác";
+"LivePlay_SayRule%d" = "cấp thấp hơn %1$d không thể chát \n nạp tiền tặng quà tăng cấp có thể gửi chát";
+"LivePlay_GoCharge" = "Đi nạp tiền";
+"LivePlay_GoSendGifts" = "Đi tặng quà";
+"LivePlay_RommSwitchTime_%@%@Price" = "Phòng đã được chuyển sang phòng tính giờ,%1$@%2$@/phút,chắc chắn tiếp tục?";
+"LivePlay_RommSwitchTicket_%@%@Price" = "Phòng đã được chuyển sang phòng vé, bạn cần trả%1$@%2$@, chắc chắn tiếp tục?";
+"LivePlay_No" = "không";
+"LivePlay_YES" = "Đúng";
+"LivePlay_BalanceNot" = "Số dư hiện tại của bạn không đủ để tiếp tục xem";
+
+//LiveContactView
+"LiveContactView_ConatctTitle1" = "ghi chú Nickname người dùng nhanh thông qua";
+"LiveContactView_ConatctTitle2" = "Nhận tiến độ danh thiếp";
+"LiveContactView_ConatctTitle3" = "Tặng quà đạt yêu cầu có thể nhận được";
+"LiveContactView_ConatctTitle4" = "1. Khi thêm thông tin liên lạc, xin lưu ý ghi chú nickname để dễ phân biệt";
+"LiveContactView_ConatctTitle5" = "2. Thông tin liên lạc không chính xác vui lòng liên hệ CSKH xử lí";
+"LiveContactView_WhoName%@" = "%1$@ danh thiếp";
+"LiveContactView_NoCard" = "Idol chưa cài đặt danh thiếp";
+"LiveContactView_NotEnoughGifts" = "Số quà tặng của bạn chưa đạt đủ yêu cầu";
+"LiveContactView_GetError" = "Nhận danh thiếp thất bại";
+"socketLivePlay_getConatct" = "Nhận thành công danh thiếp idol"; // stringByReplacingOccurrencesOfString
+"socketLivePlay_getCard" = "Nhận thành công danh thiếp idol";
+"socketLivePlay_Anchor_Card" = "Danh thiếp idol";
+//fansViewController
+"fansViewController_noFans" = "Bạn chưa có người hâm mộ";
+"fansViewController_noFansTip" = "Hoàn thiện thông tin cá nhân sẽ có nhiều người theo dõi đến bạn ~";
+
+//attrViewController
+"attrViewController_noFolllow" = "Bạn chưa theo dõi bất cứ ai";
+"attrViewController_noFolllowTip" = "Nhanh chóng theo dõi những idol mà bạn thích~";
+//personLiveCell
+"personLiveCell_numberTip" = "Mọi người đã nhìn thấy";
+//otherUserMsgVC
+"otherUserMsgVC_block" = "Block";
+"otherUserMsgVC_blocked" = "Đã block";
+"otherUserMsgVC_unblocked"="Mở block";
+"otherUserMsgVC_impressed" = "Ấn tượng idol";
+"otherUserMsgVC_GuardTop" = "Danh sách bảo vệ";
+"otherUserMsgVC_Video" = "Video";
+"otherUserMsgVC_no_work" = "Chưa có tác phẩm nào";
+"otherUserMsgVC_no_like" = "Chưa có mục yêu thích";
+"otherUserMsgVC_no_live" = "Chưa có phát trực tiếp";
+
+//EditContactInfo
+"EditContactInfo_editMyConatct" = "Sửa đổi danh thiếp của tôi";
+"EditContactInfo_Empty" = "Chưa điền";
+"EditContactInfo_inputTip" = "Nhập tối đa 20 kí tự \n, ví dụ: neo WeChat: 123456";
+"EditContactInfo_InputLimit" = "số kí tự vượt quá giới hạn";
+//EditNiceName
+"EditNiceName_NameEdit" = "Thay đổi tên nickname";
+"EditNiceName_FreeTip" = "Lần này là lần sửa đổi đầu tiên và được miễn phí.";
+"EditNiceName_coast%@_%@" =  "Đổi tên cần tiêu %1$@ %2$@.";
+"EditNiceName_nameLimitlenth" = "Nickname nhiều nhất 8 kí tự";
+"EditNiceName_ChangeCoastTip_%@%@" = "Mỗi lần đổi tên cần %1$@ %2$@ (lần đầu tiên đổi miễn phí).";
+//EditSignature
+"EditSignature_signature" = "Sửa đổi chữ ký";
+"EditSignature_signatureLimit" = "Nhập tối đa 20 kí tự";
+//InfoEdit1TableViewCell
+"InfoEdit1TableViewCell_Avatar" = "Hình đại diện";
+//myInfoEdit
+"myInfoEdit_nickName" = "Tên nickname";
+"myInfoEdit_phoneNum" = "Số điện thoại";
+"myInfoEdit_email" = "Email";
+"myInfoEdit_signature" = "Ký tên";
+"myInfoEdit_MyCard" = "Danh thiếp của tôi";
+"myInfoEdit_BirthDay" = "Ngày sinh nhật";
+"myInfoEdit_Sex" = "Giới tính";
+"myInfoEdit_My_Impressed" = "Ấn tượng idol";
+"myInfoEdit_EditInfo" = "Chỉnh sửa thông tin";
+"myInfoEdit_Man"="Nam";
+"myInfoEdit_Woman"="Nữ";
+"myInfoEdit_Uploading" = "Tải lên";
+"myInfoEdit_Upload_Error" = "Thất bại";
+//sexCell
+"sexCell_Sexy" = "Giới tính";
+//impressVC
+"impressVC_anchorImpressed_choise" = "lòng chọn ấn tượng của bạn về idol";
+"impressVC_MyImpressed" = "Bạn đã có  ấn tượng về idol";
+"impressVC_NoImpressed" = "Tạm thời không có ấn tượng về idol";
+"impressVC_Choise_limitNum" = "Nhiều nhất chọn 3 mục";
+"impressVC_Choise_min_tip" = "Ít nhất chọn 1 mục";
+
+//socketLivePlay
+"socketLivePlay_who%@_Guard" = "%1$@ bảo vệ của idol";
+"socketLivePlay_whoGuard" = "Bảo vệ idol rồi";
+"socketLivePlay_Who%@_time%@" = "%1$@bị cấm chát%2$@;";
+"socketLivePlay_DisableSendMsgSuccess" = "Cấm chát thành công";
+"socketLivePlay_Kick%@Room" = "%1$@bị đuổi ra khỏi phòng";
+"socketLivePlay_KickSuccess"= "Đuổi ra thành công";
+"socketLivePlay_SendRedbag" = "Phòng livestream đang phát lì xì,nhanh cướp nào";
+//socketLive
+"socketLive_closeManagerSuceess" = "Hủy bỏ quản lý thành công";
+"socketLive_setManagerSuceess" = "Cài đặt thành công quản lí";
+"socketLive_CloseLive" = "Đóng Phòng phát ";
+"socketLive_droppedLive" = "Nghi ngờ vi phạm, bị đóng phát";
+"socketLive_silenced" = "Bạn đã bị cấm chát";
+"socketLive_BecloseManager" = "bị hủy bỏ quản lí";
+"socketLive_BeManager" = "được cài đặt làm quản lí";
+//AppDelegate
+"AppDelegate_oldVersion" = "Sử dụng phiên bản cũ";
+"AppDelegate_GoUpdate" = "Đi cập nhật.";
+"AppDelegate_Information_maintain" = "Thông tin bảo trì";
+"AppDelegate_Living" = "Đang phát trực tiếp,không thể thoát ra";
+"AppDelegate_ifCancelLiveRoom" = "Chắc chắn thoát khỏi phòng phát trực tiếp";
+
+
+//VIPVC
+"VIPVC_title" = "Tiền thưởng KING";
+"VIPVC_KingLeve%@_title" = "KING V%1$@";
+"VIPVC_KingLeveCurrent%@" = "Cấp KING hiện tai :VIP%1$@";
+"VIPVC_Charge%@_UpKingLeve%ld" = "Còn thiếu %1$@ tiền nạp lên KINGV%2$ld";
+"VIPVC_KingLeve%@_Rights" = "Hội viên KINGV%1$@ cấp cao quý,có thể nhận được ";
+"VIPVC_Can'tGet" = "Không thể nhận được";
+"VIPVC_NextTime%@" = "Lần sau:%1$@";
+"VIPVC_KingRights" = "ĐẶC QUYỀN CẤP KING";
+"VIPVC_KingDetailRule" = "KING cấp chi tiết";
+"VIPVC_KingRuleLevel" = "Cấp độ KING";
+"VIPVC_KingRuleChargeRange" = "Tổng nạp tiền/phạm vi";
+"VIPVC_KingRuleUpHandsel" = "Tiền thưởng thăng cấp";
+"VIPVC_KingRuleWeekSalary" = "Bổng lộc tuần";
+"VIPVC_King" = "KING";
+"VIPVC_Current_Level" = "Cấp độ hiện tại";
+
+"kingsalary_kinglevel" = "Cấp Bậc Vua";
+"kingsalary_totalrecharge" = "Tổng Nạp Tiền";
+"kingsalary_promotionbonus" = "Thưởng Thăng Cấp";
+"monthfenglu" = "Lương Tháng";
+"view_wangzhevipdes_zhou_fenglu" = "Bổng lộc tuần";
+
+"PostVideo_title" = "Đăng Video";
+"PostVideo_sub_title1" = "Tiêu Đề Video";
+"PostVideo_sub_title2" = "Thêm Tiêu Đề Video";
+"PostVideo_sub_title3" = "Thêm Video";
+"PostVideo_sub_title3_1" = "Thay đổi video";
+"PostVideo_sub_title4" = "Thêm Bìa Video (Tùy Chọn)";
+"PostVideo_sub_title4_1" = "Thay đổi ảnh bìa video";
+"PostVideo_sub_title5" = "Thêm Thẻ Video";
+"PostVideo_chooseTag" = "Vui lòng chọn thẻ";
+"PostVideo_sub_title6" = "Đăng";
+
+"PostVideo_sub_wait_video" = "Đang chờ tải lên video";
+"PostVideo_sub_wait_cover" = "Đang chờ tải lên ảnh bìa";
+
+"PostVideo_sub_upload_video_success" = "Video đã tải lên thành công, hãy xuất bản ngay bây giờ!";
+"PostVideo_sub_upload_video_error" = "Tải lên video thất bại, vui lòng chọn lại";
+
+"PostVideo_sub_title_cancel" = "Bạn có muốn hủy tải lên video không?";
+"PostVideo_cancel_upload" = "Hủy tải lên";
+"PostVideo_continue_upload" = "Tiếp tục tải lên";
+
+
+//BillVC
+"BillVC_consumeDetail" = "Chi tiết chi tiêu";
+"BillVC_inComeDetail" = "Chi tiết thu nhập";
+"BillVC_consumeToday_%@%@" = "Chi tiêu hôm nay%1$@%2$@";
+"BillVC_incomeToday_%@%@" = "Thu nhập hôm nay%1$@%2$@";
+"BillVC_DateFormat" = "MM-dd";
+"BillVC_DateChoiseTitle" = "7 ngày gần đây";
+"BillVC_Month" = "Tháng";
+"BillVC_Days" = "Ngày";
+"BillVC_Anthor_name" = "idol nickname";
+
+//myRechargeCoinVC
+"myRechargeCoinVC_Promotion%@_tile" = "Doanh thu khuyến mại%1$@";
+"myRechargeCoinVC_Charge%@_num" = "nhập cần nạp%1$@số";
+"myRechargeCoinVC_CanHaveHowMuch" = "Có thể rút được";
+"myRechargeCoinVC_symbol%@" = "%1$@¥";
+"myRechargeCoinVC_OptionSuccess" = "Thao tác thành công";
+"myRechargeCoinVC_OptionError" = "Thao tác thất bại";
+"myRechargeCoinVC_ChargeIn" = "Nạp vào";
+
+//market
+"market_member" = "Thành viên";
+"market_liangNum" = "ID";
+"market_mount" = "Xe";
+
+//myProfitVC
+"myProfitVC_WithDrawRecord" = "Lịch sử rút tiền";
+"myProfitVC_WithDrawMoneyChoise" = "Số Tiền Rút";
+
+"myProfitVC_totalNum%@" = "Tổng%1$@";
+"myProfitVC_WithDrawTotal%@" = "Có thể rút%1$@";
+"myProfitVC_WithDraw_input%@" = "Nhập số tiền cần rút%1$@";
+"myProfitVC_To_account_num" = "Số tiền đến tài khoản";
+"myProfitVC_choise_withDraw_account" = "Tài khoản rút tiền";
+"myProfitVC_withDraw_now" = "LẬP TỨC RÚT TIỀN";
+"myProfitVC_NoWithDrawError" ="Chưa chọn phương thức rút tiền";
+
+//profit2
+"profit2_input_withDraw_money" = "lòng nhập số tiền cần rút";
+"profit2_input_money" = "lòng nhập số tiền";
+"profit2_withDraw_account" = "Tài khoản rút tiền";
+"profit2_add" = "Thêm";
+"profit2_NoAddAccount" = "Bạn chưa thiết lập một tài khoản rút tiền";
+"profit2_if_delete_account" = "Bạn có chắc chắn xóa tài khoản này không?";
+//AddCardViewController
+"AddCard_title" = "Liên kết thẻ ngân hàng";
+"AddCard_CardUserName" = "Họ tên thật";
+"AddCard_CardNum" = "số thẻ ngân hàng";
+"AddCard_CardBankName" = "tên ngân hàng";
+"AddCard_CardCity" ="một khu vực tỉnh/thành phố";
+"AddCard_CardAddress" = "chi nhánh ngân hàng";
+"AddCard_ChoiseBank" = "một ngân hàng";
+"AddCard_CurrencyType" = "Loại tiền tệ";
+"AddCard_ChoiseBankCity" = "một khu vực tỉnh/thành phố";
+"AddCard_Transfor_tip" = "Chuyển nhầm đến tài khoản người khác thì không thể lấy lại , vui lòng kiểm tra kỹ số tài khoản , họ tên , NH , Để tránh những tổn thất không đáng có";
+"AddCard_Transfor_tip1" = "Vui lòng điền thông tin tài khoản một cách cẩn thận, tránh tình trạng tiền không đến tài khoản (tối đa có thể liên kết 5 NH, vui lòng nhập chính xác thông tin NH)";
+
+"AddCard_CardUserName_title" = "Họ tên thật";
+"AddCard_BankNum_title" = "Số Tài Khoản";
+"AddCard_CardBankName_title" = "Tên ngân hàng";
+"AddCard_ChoiseBankCity_title" = "Khu vực";
+"AddCard_CardAddress_title" = "Chi nhánh ngân hàng";
+"AddCard_CurrencyType_title" = "Loại tiền tệ";
+"SearchCard_BankName" = "từ khóa để tìm kiếm";
+
+//LiveNodeTableViewCell
+"LiveNodeTableViewCell_peopleNumberTitle" = "Mọi người đã thấy phát sóng trực tiếp";
+//LiveNodeViewController
+
+"LiveNodeVC_Record_title" = "Hồ sơ phòng phát";
+"LiveNodeVC_HaveNoLive" = "Bạn gần đây không có livestream";
+"LiveNodeVC_HaveNoLive_tip" = "Nhanh mở phòng phát trực tiếp trải nghiệm chút ";
+
+//myPopularizeVC
+"myPopularizeVC_Charge_title" = "Nạp vào tài khoản";
+"myPopularizeVC_invite%d" = "Mời %1$d người";
+"myPopularizeVC_Charge%d_%@" = "Nạp tiền %@ %2$@";
+"myPopularizeVC_WithDrawSuccess" = "Rút tiền thành công";
+"myPopularizeVC_WithDraw_Applying" = "đang yêu cầu rút tiền";
+"myPopularizeVC_copy_link" = "Sao chép link giới thiệu";
+"myPopularizeVC_DetailPopularize" = "---- Chi tiết doanh thu của bạn ----";
+
+//addPopTypeView
+"addPopTypeView_addAccount" = "Thêm tài khoản rút tiền";
+"addPopTypeView_AddAccountType" = "Kiểu tài khoản";
+"addPopTypeView_alipay" = "Alipay";
+"addPopTypeView_input_aplipayAccount" = "tài khoản Alipay";
+"addPopTypeView_input_aplipayName" = "tên tài khoản Alipay";
+"addPopTypeView_input_WechatAccount" = "tài khoản WeChat";
+
+"addPopTypeView_input_bankName" = "tên của ngân hàng";
+"addPopTypeView_input_bankNum" = "tài khoản thẻ ngân hàng";
+"addPopTypeView_input_bankUserName" = "tên chủ thẻ";
+"addPopTypeView_Wechat" = "WeChat";
+"addPopTypeView_banKCard" = "Thẻ ngân hàng";
+
+//setView设置
+"setView_VersionCheck" = "Phiên bản hiện tại đã là phiên bản mới nhất";
+"setView_CleardCache" ="Bộ nhớ cache đã được xóa";
+"setView_logout" = "Đăng xuất";
+//applePay
+"applePay_error" = "Không thể nhận thông tin sản phẩm";
+"applePay_checkDebug" = "lòng kiểm tra xem liệu trang web đã mở chế độ gỡ lỗi?";
+"applePay_ChargeSuccess" = "Nạp tiền thành công";
+"applePay_canBuy" ="Người dùng đã hồi phục mua hàng";
+
+//YBUserInfoViewController
+"YBUserInfoVC_BillDetail" = "Giao Dịch";
+"YBUserInfoVC_personSet" = "Thiết lập cá nhân";
+"YBUserInfoVC_total%@_Balance" = "Tổng số dư （%1$@）";
+"YBUserInfoVC_BindPhone" = "Chứng nhận";
+"YBUserInfoVC_BindEmail" = "Liên kết email";
+"YBUserInfoVC_ExchangeRate" = "(Tỷ giá chuyển đổi)";
+//YBPersonTableViewModel
+"YBPersonTableViewMode_fansN%.1f" = "%1$.1f mười nghìn";
+//ExchangeRateViewController
+"ExchangeRateVC_ExchangeRate" = "tỷ giá";
+//exchangeVC
+"exchangeVC_balance" ="Số dư tài khoản";
+"exchangeVC_balanceAutoChange" = "Tự động Chuyển đổi số dư ";
+"exchangeVC_OneKeyBack" = "Thu hồi";
+"exchangeVC_SwitchIn" = "Chuyển vào";
+"exchangeVC_SwitchOut" = "Chuyển ra";
+"exchangeVC_Input_Money" = "số tiền cần chuyển vào";
+"exchangeVC_all" = "Tất cả";
+"exchangeVC_option" = "Đang thao tác";
+"exchangeVC_Refresh%@_Balance" = "[%1$@] Làm mới số dư"; // [JDB]刷新余额
+"exchangeVC_RefreshAccountBalance" = "Làm mới số dư tài khoản";
+"exchangeVC_curreny_title" = "Tiền tệ";
+
+"Gesture_Password" = "mật khẩu cử chỉ";
+"Gesture_PasswordUnlock" = "Mở khóa mật khẩu bằng cử chỉ";
+"Modif_UnlockPassword" = "Sửa đổi mật khẩu cử chỉ";
+"Draw_UnlockPattern" = "Vẽ hình mở khóa";
+"Draw_Original_Gesturepsd" = "Vui lòng vẽ mật khẩu cử chỉ ban đầu";
+"Gesture_Neglect" = "sao nhãng";
+"Gesture_redraw" = "Kết nối ít nhất 4 điểm, vui lòng vẽ lại";
+"Draw_UnlockPatternAgain" = "Vẽ lại hình mở khóa";
+"Successfully_GestureSet" = "thiết lập thành công";
+"Draw_PasswordError" = "Lỗi mật khẩu, vui lòng vẽ lại";
+"LastDraw_Inconsistent" = "Không phù hợp với bản vẽ trước, vui lòng vẽ lại";
+"Turn_GesturePasscode" = "Tắt mật khẩu cử chỉ";
+"Set_GesturePasscode" = "Đặt mật khẩu cử chỉ";
+"ReSet_GesturePasscode" = "Đặt lại mật khẩu cử chỉ";
+"Turn_GesturePasscode_close" = "Bạn có chắc chắn muốn tắt mật khẩu cử chỉ không?";
+"Turn_GesturePasscode_Warn" = "Mẹo bảo mật: Nên đặt mật khẩu để bảo vệ quyền riêng tư của bạn, mỗi khi bạn rời khỏi sản phẩm, nó sẽ tự động khóa!";
+"Turn_GesturePasscode_forget" = "Quên mật khẩu cử chỉ yêu cầu đăng nhập lại, và bảo vệ khóa màn hình sẽ tự động tắt sau khi đăng nhập";
+"Draw_PasswordErrorNum%d" = "Mật khẩu sai, còn %1$d cơ hội";
+"Forgot_GesturePassword" = "Quên mật khẩu cử chỉ";
+
+//mineVideoVC
+"mineVideoVC_youHaveNoVideo" = "Bạn vẫn chưa có video nào";
+"mineVideoVC_youHaveNoVideo_tip" = "Nhanh tay quay video và tải lên";
+//myWithdrawVC2
+"myWithdrawVC2_Account%@_Balance" ="Số dư tài khoản %1$@";
+"myWithdrawVC2_Account%@_Balance1" ="Số dư tài khoản %1$@:";
+"myWithdrawVC2_Account_Balance2" ="VIPPAY khoản:";
+"myWithdrawVC2_inputHowMany" = "Nhập Số Tiền";
+"myWithdrawVC2_CanWithDrawNum" = "Có Thể Rút";
+"myWithdrawVC2_limitDes" ="Mô tả hạn ngạch";
+"myWithdrawVC2_WithDrawDesTip" = "Sau khi nạp tiền, số tiền đặt cược phải nhiều hơn số tiền nạp mới có thể rút tiền. \ N (dữ liệu số tiền đặt cược có thể cập nhật muộn từ 3-5 phút, bạn vui lòng kiên nhẫn chờ đợi)";
+"myWithdrawVC2_UpdatingBalance" = "Đang làm mới Số dư tài khoản";
+"myWithdrawVC2_WithDrawOver%@%f" = "Số tiền vượt quá số tiền có thể rút:%1$@%2$.2f";
+"myWithdrawVC2_MaxWithDrawMoney%@%.1f" = "Mỗi đơn rút tiền tối đa:%1$@%2$.1f";
+"myWithdrawVC2_MinWithDrawMoney%@%.1f" = "Mỗi đơn rút tiền tối thiểu:%1$@%2$.1f";
+"myWithdrawVC2_WithDrawWaitTip" = "Yêu cầu rút tiền của bạn đã thành công \n Chúng tôi sẽ xử lý nó càng sớm càng tốt";
+"myWithdrawVC2_CanWithDrawMoney%.1f" = "Số tiền bạn có thể rút là:¥%1$.1f";
+
+//withdrawPopView
+"withdrawPopView_tip" = "Lưu ý rút tiền";
+"withdrawPopView_Error_tip_BindPhone" = "Đầu tiên bạn phải liên kết với số điện thoại mới có thể rút tiền";
+"withdrawPopView_goBindPhone" = "Đi liên kết";
+//myWithdrawVC
+
+"myWithdrawVC_minWithDrawAmount%.2f" = "Số tiền rút tối thiểu:¥%1$.2f";
+
+///
+"PayInsta_tenTh%.0f" = "%1$.0fmười nghìn+";
+"PayInsta_Th%.0f" = "%.0fnghìn+";
+"PayInsta_hund%.0f" = "%.0fTrăm+";
+
+"Filter_title" = "Nhiều Hơn";
+
+"More_title" = "Nhiều hơn";
+
+"movie_pay_Purchased" = "Đã mua";
+"movie_pay" = "Thanh toán";
+"movie_nav" = "Điều hướng";
+"movie_game_menu" = "Vừa xem vừa chơi";
+"movie_video_menu" = "Video liên quan";
+"movie_pay_vip" = "Mở khóa VIP để xem";
+"unlockremind_buyviptips1" = "Nâng cấp lên VIP để sử dụng tính năng này";
+"VIP_Activate_now" = "Kích hoạt ngay";
+"movie_pay_money" = "Mở khóa để xem";
+"movie_vip_tip" = "Đây là video độc quyền của VIP, cần có quyền truy cập VIP để xem";
+"movie_open_vip" = "Bạn chưa phải là VIP, kích hoạt ngay";
+"movie_ticket_tip" = "Vé xem phim hiện tại không đủ. Đặt cược để nhận thêm vé.";
+"movie_amount_tip" = "Số dư hiện tại không đủ, hãy nạp tiền ngay";
+"movie_vip_pay_tip" = "Đây là video trả phí VIP, mua để xem";
+"movie_money_pay_tip" = "Đây là video trả phí";
+"movie_money_pay_tip2" = "Mua để xem";
+"movie_money_pay_tip3" = "Duyệt và xem";
+"movie_trying_load_tip" = "Bản xem trước kết thúc sau %@. Vui lòng xem video đầy đủ";
+"movie_trying_end_tip" = "Bản xem trước đã kết thúc. Vui lòng xem video đầy đủ";
+"movie_money_pay_title" = "Thanh toán bằng số dư";
+"movie_ticket_unit" = "Vé";
+"movie_ticket_name" = "Vé xem phim";
+"movie_time_expire" = "Hết hạn";
+"movie_time_valid" = "Vĩnh viễn";
+"movie_pay_title" = "Chúng tôi khuyên bạn nên sử dụng vé xem phim";
+"vip_pay_title" = "Mở thành viên VIP";
+"vip_pay_button" = "Kích hoạt VIP";
+"vip_open_account" = "Mở một tài khoản";
+"vip_open_title" = "Kích hoạt sau khi sạc lại";
+"vip_pay_ballance" = "Thanh toán bằng số dư";
+"vip_pay_need_amount" = "Vẫn cần phải nạp thêm";
+"create_menu_record" = "Báo cáo thu nhập";
+"create_menu_rule" = "Quy tắc tạo";
+"create_menu_upload" = "Tải video lên";
+"create_total_income" = "Thu nhập tích lũy";
+"create_manage_show" = "Hiển thị";
+"create_manage_hide" = "Ẩn";
+"create_nav_title" = "Sáng tạo của tôi";
+"create_state_approved" = "Đã xuất bản";
+"create_state_pending" = "Đang xem xét";
+"create_state_rejected" = "Thất bại";
+"create_select_count" = "| %@ video được chọn";
+"create_should_choose" = "Vui lòng chọn video";
+"create_date_today" = "Hôm nay";
+"create_date_yesterday" = "ngày hôm qua";
+"create_date_week" = "Tuần trước";
+"create_date_month" = "gần một tháng";
+"create_report_from" = "Nguồn video";
+"create_report_date" = "Ngày";
+"create_report_amount" = "Số tiền doanh thu";
+"create_total_amount" = "Tổng doanh thu";
+"video_trying_start" = "Xem trước(Bấm để mở khóa)";
+"video_trying_stop" = "Xem trước kết thúc";
+"video_game_can_full" = "Không thể xem toàn màn hình trong trò chơi";
+
+///语言切换
+"swichLanguage" = "cài đặt ngôn ngữ";
+"swichNotice" = "Cài đặt thông báo";
+
+///还没翻译
+
+"curreny_unit_alert" = "Bạn có thể nhận được%1$@ %2$@, tỷ giá hối đoái hiện tại%3$@";
+
+"curreny_unit_alert_charge" = "Bạn có thể nhận được%1$@ %2$@";
+
+"WithDrawNumberTip%@" = "Còn thiếu 50 kim cương vòng cược %1$@ (vui lòng vào game đặt cược thêm để hoàn thành vòng cược rút tiền)";
+
+"ChargeNumberTip%@" = "Nạp tiền trực tiếp vẫn cần phải quay vòng %1$@ (quay vòng là tổng số tiền cược trên xổ số và trò chơi).";
+
+"history_award" = "Trúng thưởng ";
+
+"history_profit" = "lợi nhuận";
+
+"history_starttime" = "Thời gian bắt đầu";
+
+"history_endtime" = "Thời gian kết thúc";
+
+"history_statetitle" = "Chọn Trạng thái giao dịch";
+
+"history_typetitle" = "Chọn loại loại màu";
+
+"history_betcontent%@%@" = "sỐ KỲ :%1$@ Nội dung cá cược:%2$@";
+
+"history_betTitle%@" = "Kỳ %1$@";
+
+"history_bettime%@" = "Thời gian đặt cược:%1$@";
+
+"history_statewillaward" = "chưa mở thưởng";
+
+"history_statenotaward" = "không trúng thưởng";
+
+"history_statedidaward" = "trúng thưởng";
+
+"history_stateequal" = "Hòa";
+
+"TimeSelect_tipError" = "Thời gian bắt đầu không thể lớn hơn thời gian kết thúc";
+//签到
+"ContinuousCheckin" = "Đăng nhập liên tục";
+"ChekinRightNow" = "Đăng nhập ngay lập tức";
+
+//历史记录
+"all_state" = "Tất cả trạng thái";
+"didAward" = "Đã trúng thưởng";
+"notAward" = "Không trúng thưởng";
+"willAward" = "Chờ đợi giải thưởng";
+"equalEnd" = "Hòa";
+"lb_resultTime" = "đến";
+"all_type" = "Các loại";
+"time_sel" = "Sàng lọc thời gian";
+//游戏
+"game_begain" = "Bắt đầu đặt cược";
+"game_will_begain" = "Về để bắt đầu";
+"game_continue_bet" = "Thay mới";
+
+"trend" = "C\nH\nA\nR\nT";
+"trend_title" = "CHART";
+"Chart_Area" = "Phạm vi";
+"Chart_Area_Color" = "Special Color";
+
+"Chart_Area_big_small" = "T/X";
+"Chart_Area_single_double" = "L/C";
+"Chart_Area_red_black" = "R/B";
+
+//设置主播名片
+"ContactInfo_notEditTipsTitle" = "Bạn chưa đặt thẻ tên mỏ neo";
+"ContactInfo_notEditTipsMsg" = "Bạn có muốn thiết lập nó không?";
+"ContactInfo_notEditTipsSure" = "Đi tới Cài đặt";
+"ContactInfo_notEditTipsCancel" = "Tiếp theo";
+//添加提现方式
+"AddWithDrawType_title" = "Vui lòng chọn phương thức rút tiền đã thêm";
+"AddWithDrawType_message" = "";
+"AddWithDrawType_usdt" = "USDT";
+"AddWithDrawType_card" = "Thẻ ngân hàng";
+"AddWithDrawType_cancel" = "Hủy bỏ";
+"AddProfitTip_Error" = "Chưa mở, hãy theo dõi";
+//添加USDT
+"AddUSDT_title" = "Thêm USDT";
+"AddUSDT_Type_title" = "chuyển mạng";
+"AddUSDT_Address_title" = "Địa chỉ USDT";
+"AddUSDT_ChoiseType_title" = "Vui lòng chọn một mạng chuyển";
+"AddUSDT_Type_Tips" = "Bạn chưa chọn loại mạng chính USDT";
+"AddUSDT_Address_Tips" = "Bạn chưa viết địa chỉ USDT";
+"AddUSDT_Transfor_tip" = "Chuyển đến địa chỉ ví của người khác sẽ không thể lấy lại được, vui lòng kiểm tra kỹ địa chỉ ví để tránh những tổn thất không đáng có";
+"AddUSDT_Paste" = "dán";
+"AddUSDT_PlaceHolder" = "Vui lòng nhập địa chỉ ví";
+//添加其他
+"AddOther_title%@" = "Thêm %1$@";
+"AddOther_Address_title%@" = "Địa chỉ %1$@";
+"AddOther_Address_Tips%@" = "Bạn chưa viết địa chỉ %1$@";
+//禁止录屏
+"Live_ProhibitScreenRecording" = "Cấm quay phim màn hình";
+///直播间弹幕过滤
+"filter_belowf" = "Lọc dưới 100";
+"filter_belows" = "Lọc dưới 1K";
+"filter_belowt" = "Lọc dưới 1W";
+///不用翻译
+"socketLivePlay_Light" = "我点亮了";//不翻译
+"socketLivePlay_Followed" = "关注了主播";//不翻译
+"Livebroadcast_backtoRoom" = "主播回来了";//不翻译
+"Livebroadcast_liveinbackgroud" = "主播离开一下，精彩不中断，不要走开哦";//不翻译
+//OpenAwardViewController
+"OpenAward_NiuNiu_BlueWin" = "蓝方胜";
+"OpenAward_NiuNiu_RedWin" = "红方胜";
+"PublicObj_blue" = "蓝方:";
+"PublicObj_red" = "红方:";
+"PublicObj_Spade" = "黑桃";
+"PublicObj_Heart" = "红心";
+"PublicObj_Club" = "梅花";
+"PublicObj_Diamond" = "方块";
+"OpenAward_NiuNiu_Green" = "xanh";
+
+"Hotpage_AddMoreCountry" = "nhiều quốc gia hơn";
+"GameCenter_List" = "Lịch sử cược";
+"Mypage_CopyId" = "Bấm vào sao chép";
+"LiveGame_NoBetList" = "Không có hồ sơ cá cược";
+
+"OpenHistory_Dragon" = "龙";
+"OpenHistory_he" = "合";
+"OpenHistory_Tiger" = "虎";
+
+"忘记手势密码" = "Quên mật khẩu cử chỉ";
+"指纹解锁" = "Mở khóa bằng vân tay";
+"面容ID解锁" = "Mở khóa Face ID";
+"点击进行指纹解锁" = "Bấm để mở khóa bằng vân tay";
+"点击进行面容ID解锁" = "Bấm để mở khóa bằng Face ID";
+
+"DramaHomeViewController_title" = "Vé xem phim";
+"DramaHomeHistoryCell_history_title" = "Lịch sử xem";
+"DramaHomeHeaderView_latest" = "Mới nhất";
+"DramaHomeHeaderView_hot" = "Phổ biến";
+
+"DramaFavoriteViewController_title" = "Yêu thích";
+"DramaFavoriteViewController_empty_favorite" = "Bạn chưa đánh dấu nội dung nào";
+
+"DramaPortraitVideoControlView_fullScreen_title" = "Xem toàn màn hình";
+"DramaPortraitVideoControlView_unlock_pay" = "Mở khóa trả phí";
+"DramaVideoViewController_video_not_available" = "Bộ phim này chưa được phát hành";
+"DramaFavoriteViewController_empty_follow" = "Bạn chưa theo dõi bất kỳ nội dung nào";
+"DramaFavoriteViewController_empty_like" = "Bạn chưa thích bất kỳ nội dung nào";
+
+"DramaVideoViewController_video_buy_ticket" = "Bạn có muốn sử dụng %d phiếu xem phim không?";
+"DramaAllHeaderView_pay_info" = "Bao gồm %d tập trả phí";
+"DramaAllHeaderView_pay_info_vip" = "Bao gồm %d tập VIP trả phí";
+"DramaAllHeaderView_all_episodes" = "Trọn bộ %d tập";
+"DramaAllListCell_pay" = "Thanh toán";
+"Hotpage_skit_entrance" = "Lối vào kịch ngắn";
+"VIP Pay" = "VIP trả phí";
+"DramaAllHeaderView_paid_info" = "Bao gồm %d tập";
+"play" = "Phát";
+
+"Please stay tuned" = "Xin hãy chờ đợi";
+"like" = "thích";
+"work" = "tác phẩm";
+"Tap to live stream room" = "Nhấn vào để vào phòng phát trực tiếp";
+"Not Search Any Result" = "Không tìm thấy kết quả liên quan";
+"short_video_favorite_unit" = "M";
+"short_video_preview" = "Xem thử %@";
+"short_video_buy" = "Mua";
+"short_video_preview_end" = "Kết thúc xem thử";
+
+"post_video_free" = "Miễn phí";
+"post_video_ticket_name" = "Vé xem phim";
+"post_video_other_price" = "Số tiền khác:";
+"post_video_other_tags" = "Thẻ khác";
+"post_video_no_rule" = "Bạn không có quyền tải video lên";
+"post_video_uploading" = "Đang phát hành, vui lòng đợi...";
+"post_video_upload_wait" = "Vui lòng đợi tải lên hoàn thành";
+"post_video_upload_retry" = "Vui lòng tải lại video";
+"post_video_upload_cover_again" = "Vui lòng tải lại bìa";
+
+"Live Streaming" = "Đang phát trực tiếp";
+"All %ld episodes, completed" = "Toàn bộ %ld tập, đã hoàn thành";
+"Favorite" = "Yêu thích";
+"Watch History" = "Lịch sử xem";
+"Serialization" = "Đang phát hành";
+"Episodes finished" = "Đã hoàn thành";
+"Episodes updating" = "Đang cập nhật";
+"Not watched" = "Chưa xem";
+"Episode %ld" = "Tập %ld";
+"%@ people online" = "%@ người trực tuyến";
+"follow_recommend" = "Đề xuất";
+"Episodes update to" = "Cập nhật lên";
+"No Prefix Episode %ld" = "%ld tập";
+"Select episode" = "Chọn tập";
+
+//短视频评论
+"short_video_comment_lookingForwardYourComments" = "Mong nhận được bình luận của bạn";
+"short_video_comment_leaveCommentExpressYourThoughts" = "Hãy để lại bình luận để thể hiện ý kiến của bạn";
+"short_video_comment_noMoreComments" = "Không còn bình luận nào nữa~";
+"short_video_comment_kindWordsBringGood" = "Lời nói tử tế mang lại may mắn, lời ác gây tổn thương";
+"short_video_comment_send" = "Gửi";
+"short_video_comment_howManyComments" = "Bình luận";
+"short_video_comment_reply" = "Trả lời";
+"short_video_comment_expand" = "Mở rộng";
+"short_video_comment_close" = "Đóng lại";
+"short_video_comment_year" = "năm trước";
+"short_video_comment_month" = "tháng trước";
+"short_video_comment_weekOfYear" = "tuần trước";
+"short_video_comment_day" = "ngày trước";
+"short_video_comment_hour" = "giờ trước";
+"short_video_comment_minute" = "phút trước";
+"short_video_comment_justNow" = "vừa xong";
+//首页容器
+"home_container_recommend" = "Đề xuất";
+"home_container_recommend_space" = "Đề xuất";
+"home_container_skit_space" = "Kịch ngắn";
+//搜索頁
+"home_search_searchVideos" = "Tìm kiếm video";
+"home_search_all" = "Tất cả";
+"home_search_shortVideo" = "Video ngắn";
+"home_search_skit" = "Kịch ngắn";
+"home_search_longVideo" = "Video dài";
+"home_search_anchorNickname" = "MC";
+"home_search_searchRecord" = "Lịch sử tìm kiếm";
+"home_search_youLike" = "Có thể bạn thích";
+"home_search_hotSearch" = "Tìm kiếm nổi bật";
+"home_search_tenThousand" = "mười nghìn";
+"home_search_thousand" = "nghìn";
+"home_search_noRelevantResultsFound" = "Không tìm thấy kết quả liên quan";
+"home_search_modifySearchKeywordsAndTryAgain" = "Hãy thay đổi từ khóa tìm kiếm và thử lại";
+"home_search_search" = "Tìm kiếm";
+"home_search_userNickName" = "Biệt danh người dùng";
+//发布短视频
+"post_video_rules_title" = "Quy tắc đăng video ngắn";
+"post_video_desc_section1" = "Thời lượng video";
+"post_video_desc_rulse1" = "Thời lượng video từ 10 giây đến 5 phút.";
+"post_video_desc_section2" = "Định dạng video";
+"post_video_desc_rulse2_1" = "Định dạng tệp được hỗ trợ: MP4, MOV, AVI, v.v.";
+"post_video_desc_rulse2_2" = "Độ phân giải ít nhất là 720p (720x1280 pixel).";
+"post_video_desc_rulse2_3" = "Kích thước tệp không vượt quá 100MB.";
+"post_video_desc_section3" = "Nguyên tắc nội dung";
+"post_video_desc_rulse3_1" = "Nội dung bạo lực, chính trị hoặc ngôn từ thù ghét bị cấm.";
+"post_video_desc_rulse3_2" = "Bảo vệ quyền riêng tư của người khác, phải có sự đồng ý của người được quay.";
+"post_video_desc_section4" = "Chất lượng video";
+"post_video_desc_rulse4" = "Video phải rõ ràng và ổn định, âm thanh không có tạp âm.";
+"post_video_desc_section5" = "Tiêu đề và mô tả video";
+"post_video_desc_rulse5_1" = "Tiêu đề và mô tả phải phản ánh chính xác nội dung của video.";
+"post_video_desc_rulse5_2" = "Sử dụng thẻ liên quan để phân loại và dễ dàng tìm kiếm.";
+"post_video_desc_section6" = "Yêu cầu khác";
+"post_video_desc_rulse6_1" = "Video sẽ được công khai sau khi được nền tảng phê duyệt.";
+"post_video_desc_rulse6_2" = "Chọn danh mục phù hợp với nội dung video.";
+"post_video_max_tags" = "Tối đa năm thẻ";
+//我的
+"profile_center_wallet" = "Ví trung tâm";
+"profile_center_myWallet" = "Ví của tôi";
+"profile_center_change_unit" = "Chuyển đổi tiền tệ";
+//消息列表
+"message_list" = "Danh sách tin nhắn";
+"message_list_no_new_notifi" = "Không có thông báo mới";
+"message_list_interactive_messages" = "Tin nhắn tương tác";
+"message_list_people_have_saved_your_comments" = "%1$@ người đã lưu bình luận của bạn";
+"message_list_reply_comment" = "Trả lời bình luận";
+"message_list_like" = "Thích";
+"message_list_no_messages" = "Không có tin nhắn nào, bạn quá kín tiếng～";
+"message_list_go_play_game" = "Hãy đi chơi một trò chơi trước";
+
+// 簽到
+"Signed In" = "Đã điểm danh";
+"The more consecutive sign-ins, the greater the rewards" = "Càng điểm danh liên tiếp nhiều, phần thưởng càng lớn!";
+"Achieved" = "Đã hoàn thành";
+"Consecutive Sign-ins" = "Điểm danh liên tiếp";
+"Daily Sign-in" = "Điểm danh hàng ngày";
+
+// 幸運抽獎
+"luckyDraw_title" = "Quay số may mắn";
+"luckyDraw_remaining_bonus_in_the_prize_pool" = "Tiền thưởng còn lại trong quỹ giải thưởng";
+"luckyDraw_number_of_draws_remaining" = "Số lần quay số còn lại";
+"luckyDraw_winning_record" = "Lịch sử trúng thưởng";
+"luckyDraw_bonus_rules" = "Quy tắc thưởng";
+"luckyDraw_reset_time" = "Lượt quay của bạn sẽ được đặt lại vào %1$@, vui lòng sử dụng sớm";
+"luckyDraw_tips" = "Hãy hoàn thành các nhiệm vụ dưới đây để nhận thêm lượt quay.";
+"luckyDraw_result_tips" = "Hãy tiếp tục đạt tiêu chuẩn, rút thăm may mắn với nhiều phần quà hấp dẫn!";
+
+"bounsRules_category_title1" = "Lịch sử trúng giải lớn";
+"bounsRules_category_title2" = "Lịch sử của tôi";
+
+"bounsRules_section1_title" = "Hoạt động quay số may mắn";
+"bounsRules_section1_row1" = "Nạp tiền lần đầu tiên sẽ được tặng một lượt quay số.";
+"bounsRules_section1_row2" = "Liên kết số điện thoại để nhận một lượt quay số.";
+"bounsRules_section1_row3" = "Đăng nhập liên tục 3 ngày để nhận một lượt quay số.";
+"bounsRules_section1_row4" = "Tặng quà cho streamer vượt quá số lượng kim cương sẽ được tặng một lượt quay (không cộng dồn theo ngày).";
+"bounsRules_section1_row5" = "Đặt cược xổ số đơn lẻ trên ¥100 sẽ được tặng một lượt quay (không cộng dồn theo ngày).";
+"bounsRules_section1_row6" = "Nạp tiền một lần qua chuyển khoản trực tiếp trên ¥100 sẽ được tặng một lượt quay (không cộng dồn theo ngày).";
+
+"bounsRules_section2_title" = "Quy tắc quay số may mắn";
+"bounsRules_section2_row1" = "Tiền thưởng trong quỹ giải thưởng được tạo ra từ các khoản cược của người chơi và được cập nhật theo thời gian thực.";
+"bounsRules_section2_row2" = "Số lượt quay nhận được sẽ được đặt lại vào Chủ Nhật hàng tuần lúc 23:59, nếu không sử dụng sẽ bị coi là từ bỏ.";
+"bounsRules_section2_row3" = "Khi số tiền trúng thưởng lớn hơn quỹ giải thưởng, toàn bộ số tiền còn lại trong quỹ sẽ thuộc về người chiến thắng.";
+"bounsRules_section2_row4" = "Nếu hệ thống bị trễ và không nhận được phần thưởng kịp thời, vui lòng đăng nhập lại hoặc liên hệ với hỗ trợ trực tuyến.";
+"bounsRules_section2_row5" = "Các quy tắc của hoạt động quay số may mắn thuộc quyền giải thích cuối cùng của nền tảng.";
+
+"Winning_record_welcome" = "Chào mừng bạn đến!";
+"Winning_record_lucky" = "Chúc bạn may mắn trúng thưởng!";
+"Winning_record_eve" = "Hôm kia";
+"Winning_record_congratulations_your_winning_draw" = "Chúc mừng bạn đã trúng thưởng:";
+"Winning_record_Congratulations_user_winning_draw" = "Chúc mừng người dùng đã trúng thưởng:";
+"Winning_record_user_name" = "Tên người dùng:";
+
+"comment_replay_like_des" = "đã thích bình luận của bạn";
+"comment_replay_like_video_des" = "đã thích video của bạn";
+"comment_post_new_video" = "đã đăng tác phẩm mới";
+"read_all" = "Đánh dấu đã đọc";
+
+"post_video_upload_interrupted" = "Tải lên bị gián đoạn";
+"post_video_resume_prompt" = "Bạn có muốn tiếp tục không?";
+"post_video_retry" = "Tải lên lại";
+"ppublic_continue" = "Tiếp tục";
+"ppublic_account" = "Tài khoản";
+"video_ticket_float" = "coupon_ticket-vi";
+
+"验证码验证超时，请重试" = "Xác thực mã hết thời gian, vui lòng thử lại";
+"网络连接失败，请检查网络后重试" = "Kết nối mạng thất bại, vui lòng kiểm tra mạng và thử lại";
+"验证已取消" = "Xác thực đã bị hủy";
+"验证码初始化失败，请稍后重试" = "Khởi tạo mã xác thực thất bại, vui lòng thử lại sau";
+"验证码配置错误，请联系客服" = "Lỗi cấu hình mã xác thực, vui lòng liên hệ dịch vụ khách hàng";
+"验证结果无效，请重新验证" = "Kết quả xác thực không hợp lệ, vui lòng xác thực lại";
+"验证失败，请重试" = "Xác thực thất bại, vui lòng thử lại";
+"验证失败" = "Xác thực thất bại";
+"验证码初始化失败" = "Khởi tạo mã xác thực thất bại";
+"降级模式验证成功" = "Xác thực chế độ dự phòng thành công";

@@ -1,0 +1,1647 @@
+/* 
+  Info.strings
+  yunbaolive
+
+  Created by IOS1 on 2019/2/26.
+  Copyright © 2019 cat. All rights reserved.
+*/
+
+//连尾下注翻译需要特别修复 后台
+// 蓝方胜 红方胜 后台数据需要匹配
+//"GameListVC_lotteryTitle" = "彩票"; //containsString 特殊处理
+
+
+//图片不需要翻译文字。
+"public_kefuIcon" = "en_ic_kefu"; //图片
+"public_fans_follow_Icon" = "en_fans_follow"; //图片
+"public_fans_followed_Icon" = "en_fans_followed"; //图片
+//Hotpage
+"Hotpage_zxggIcon" = "en_img_zxgg";//图片
+//FirstInvestAlert
+"FirstInvestAlert_GoCharge_BT" = "en_charge_gift"; //图片
+"FirstInvestAlert_ChargeBgImgV" = "en_charge_gift_bg";//图片
+//RotaionRecordVC
+"RotaionRecordVC_recordAll_N" = "en_dajl_n";//图片
+"RotaionRecordVC_recordAll_S" = "en_djjl_s";//图片
+"RotaionRecordVC_recordMy_N"  = "en_wdjl_n";//图片
+"RotaionRecordVC_recordMy_S"  = "en_wdjl_s";//图片
+//RotationDescVC
+"RotationDescVC_ImgBg" = "en_jcgzbg";//图片
+
+//RotationResultVC
+"RotationResultVC_bgImgV" = "en_zjresultbg";//图片
+//RotationVC
+"RotationVC_topTitleImgV" = "en_jczjzz"; //图片
+"RotationVC_giftRecordButton" = "en_zjjl"; //图片
+"RotationVC_giftRuleButton" = "en_jcgz";//图片
+//TYRotaryView
+"TYRotaryView_jcdjcj" = "en_jcdjcj"; //图片
+
+//RotationNothingVC
+"RotationNothingVC_Nothing" = "en_rotaionResultNothing";//图片
+"RotationNothingVC_Confirm" = "en_zjresultsure";
+//LotteryBarrageView
+"LotteryBarrageView_daxianshenshou" = "en_daxianshenshou";//图片
+"LotteryBarrageView_yimingjinren" = "en_yimingjinren";//图片
+"LotteryBarrageView_shouqinitian" = "en_shouqinitian";//图片
+//guardListCell
+"guardListCell_guard_low" = "en_guard_low";//图片
+"guardListCell_guard_heig" = "en_guard_heig";//图片
+//guardShowView
+"guardShowView_GuardStar" = "en_guard_star";//图片
+"guardShowView_GuardEmpty" = "en_GuardEmpty";//图片
+
+//searchVC
+"searchVC_empty" = "en_search_empty";//图片
+//giftCell
+"giftCell_haoIcon" = "en_gift_rich";//图片
+"giftCell_hotIcon" = "en_gift_hot";//图片
+"giftCell_guardIcon" = "en_gift_guard";//图片
+//chatModel
+"chatModel_chat_shou" = "en_chat_shou_month";//图片
+"chatModel_chat_system" = "en_chat_system";//图片
+"chatModel_chat_follow_game" = "en_chat_follow_game";//图片
+"chatModel_chat_shou_year" = "en_chat_shou_year";//图片
+"chatModel_chat_win" = "en_chat_win";//图片
+"chatModel_chat_follow_bet" = "en_chat_follow_bet";//图片
+"chatModel_chat_liang" = "en_chat_liang";//图片
+"chatModel_chat_admin" = "en_chat_admin";//图片
+"chatModel_chat_dividend" = "en_chat_dividend";//图片
+"chatModel_chat_translate" = "en_translate_btn";//图片
+
+//redBagView
+"redBagView_DelayTimeIcon" = "en_DelayTimeIcon"; //图片
+"redBagView_rightNowIcon" = "en_rightNowIcon";  //图片
+//LiveContactView
+"LiveContactView_ContactGetIcon" = "en_anchor_get"; //图片'
+
+//YBSetListCell
+"YBSetListCell_updateBtnIcon" = "en_btn_gx";//图片
+//OpenAwardViewController
+"OpenAwardVC_RightWin"= "en_nn_red_win";//图片
+"OpenAwardVC_LeftWin" = "en_nn_blue_win";//图片
+//GameListViewController
+"GameListVC_txjl" = "en_icon_txjl";//图片
+//HotCollectionViewCell
+"HotCollectionViewCell_Nomal_Room" = "en_live_normal";//图片
+"HotCollectionViewCell_PWD_Room" = "en_live_password";//图片
+"HotCollectionViewCell_Pay_Room" = "en_live_pay";//图片
+"HotCollectionViewCell_Time_Room" = "en_live_timer";//图片
+"copyID" = "en_copyID";
+"docoasessssimage" = "en_docoasessssimage.jpg";
+"LotteryAwardVC_lottery_reward_bgImg" = "en_lottery_reward";
+"home_tgzq" = "en_home_tgzq";
+"img_zwsj" = "en_img_zwsj";
+"liveShare_" = "en_liveShare_";
+"logFirst_成功" = "en_logFirst_success";
+"logFirst_headerImg" = "en_logFirst_headerImg";
+"bjl_title_player_img" = "bjl_player";
+"bjl_title_banker_img" = "bjl_banker";
+
+"lh_title_dragon_img" = "dragan";
+"lh_title_tiger_img" = "tiger";
+//////////////////////////////////////////下面需要翻译中文文字/////////////////////////////////////////
+NSCameraUsageDescription = "Access Your Camera, allow to start live broadcast and record video";
+NSLocationWhenInUseUsageDescription = "Visit your location, allow to get local live broadcasts and videos";
+NSMicrophoneUsageDescription = "Access to your microphone, allow to voice recording";
+NSPhotoLibraryAddUsageDescription = "Read your album, allowto upload the contents of the album to the server";
+NSPhotoLibraryUsageDescription = "Access to your album, allow to save the video in the album";
+NSUserTrackingUsageDescription = "We need to use your ad tracking permission to ensure normal use";
+NSBluetoothAlwaysUsageDescription = "Our app uses Bluetooth to connect devices";
+NSFaceIDUsageDescription = "Allow access to device FaceID";
+
+
+//系统语言
+"zh-Hans"  = "中文简体";
+"zh-Hant"  = "中文繁體";
+"en" = "English";
+"ja" = "日本語";
+"vi" = "Tiếng Việt";
+"id" = "Bahasa Indonesia";
+
+//Start the app /This small part can be translated directly
+"activity_login_connectkefu1" = "Contact Customer Service";
+"launchAppP_islauching" = "Starting, please wait";
+"launchAppP_logscopy" = "Copy Logs";
+"launchAppP_domainCheckingLine2" = "Try to get line 2";
+"launchAppP_LineReadyGet" = "Start request line";
+"launchAppP_Line2ErrorMoretime" = "Line 2 gets multiple failed timeouts";
+"launchAppP_Line2timeOutCantGet" = "Line 2 has timed out and cannot be obtained";
+"launchAppP_Line2SuccessBack" = "Line 2 speed test domain name is successful";
+"launchAppP_Line2DomainError" = "Line 2 speed test failed";
+"launchAppP_Line2AnalyseLocation"  = "Start to obtain geographic information";
+"launchAppP_LocationHaveCache" = "Geographic information cache exists";
+"launchAppP_Line2AnalyseBegain" = "Start analyzing line 2";
+"launchAppP_Line2SuccessAnalyseError" = "Line 2 returned success, analysis failed";
+"launchAppP_readyCheck" = "Ready to check";
+"launchAppP_noNetwork" = "No network at the moment, please check the network connection";
+"launchAppP_Line1timeOutCantGet" = "Line 1 has timed out and cannot be obtained";
+"launchAppP_domainCheckingError" = "Domain name speed test failed, start over";
+"launchAppP_readyDomainChecking" = "Start to perform speed test";
+"launchAppP_domainCheckEnd" = "Speed test  ends";
+"launchAppP_Line1DomainError"= "Line 1 speed test domain name failed";
+"launchAppP_Line2SuccessGetCallback"= "Line 2 line returned success";
+"launchAppP_Line1SuccessBack"= "Line 1 speed test domain name is successful";
+"launchAppP_domainCheckingRetry"= "Restart trying to detect";
+"launchAppP_domainCheckingSpeedReady"="Start preparing for speed test";
+"launchAppP_AnalyseSpeedSuccessReady"="Speed";
+"launchAppP_Line2AnalyseLocationSuccess"="Geographic information query is successful";
+            
+
+"Illegal_request"="Illegal request";
+
+
+//Public parameters
+"publictool_copy_success"= "Copy success";
+"public_warningAlert"= "Alert";
+"publictool_copy"= "Copy";
+"publictool_sure"= "OK";
+"public_cancel"= "Cancel";
+"public_manage" = "Manage";
+"public_timeFormat1"= "YYYY-MM-dd HH:mm";
+"public_networkError"= "Network error, please wait";
+"public_close"= "Close";
+"public_retryAgain"= "Retry";
+"public_back"= "Back";
+"public_systemMsgTitle"= "System Notice";
+"public_noEmpty"= "No data yet";
+"public_loadMore_loading"= "Data loading....";
+"public_loadMore_noMore"= "No more~";
+"Bet_Charge_Title"= "Recharge";
+"public_WithDraw"= "Withdraw";
+"public_WithDraw_creator" = "Creator Earnings";
+"MaxMoney" = "MAX";
+
+"public_errorReson"= "Something went wrong";
+"public_fans"= "Fans";
+"public_liang"= "Nice ID";
+"public_itemMsg"= "piece";
+"public_Save"= "Save";
+"public_Day"= "Day";
+"public_like" = "Get likes";
+//log in page
+            
+"public_rule" = "rule";
+
+"version_update" = "New Version !";
+"version_updateNow" = "Update";
+"version_newversion_title" = "New version";
+"version_newversion_now" = "Already the latest version";
+
+
+"loginActivity_switchstandbyline"= "Opening the standby line";
+"loginActivity_switchdefaltline"= "Switching to the default line";
+"loginActivity_switchLinesuccess"= "Line switching is complete";
+"loginActivity_logsCopySuccess"= "Log copy success";
+"loginActivity_sendmsgcode"= "Send";
+"loginActivity_login_ing"= "Login...";
+"loginActivity_sendingcodewarning"= "Sending the verification code, please do not click repeatedly";
+"loginActivity_sendingcodetimeoutretry"= "Sending timeout, please resend";
+"loginActivity_reg_input_phone"= "Please enter your phone number";
+"loginActivity_sendingcode"= "Sending...";
+"loginActivity_resend"= "Resend";
+"loginActivity_sendsuccess"= "Send successfully";
+"loginActivity_senderrorretry"= "!Send failed, please try again later!";
+"loginActivity_login_input_phone"= "Enter your phone number";
+"loginActivity_login_input_email" = "Please enter your email";
+"loginActivity_login_input_userName" = "Please enter your username";
+"loginActivity_login_input_pwd"= "Verification code";
+"loginActivity_login_warning"= "Logging in, please do not click repeatedly";
+"loginActivity_login_error"= "Login failed, please check network connection";
+            
+"activity_login_phoneLogin"= "Mob Login";
+"activity_login_emailLogin" = "Email login";
+"activity_login_userName" = "Username login";
+"activity_login_guestLogin"= "Guest Login";
+"activity_login_privateServer"= "Login and registration means that you agree to the 《User Registration Service Agreement》 and 《Privacy Policy》";
+"activity_login_country_region"= "Country/Region";
+"activity_login_country_region1" = "Country or Region";
+"activity_login_inputPhoneNum"= "Phone number";
+"activity_login_inputEmail" = "Please enter email";
+"activity_login_inputcode"= "Verification Code";
+"activity_login_inputPassword" = "Password";
+"activity_login_login"= "Login";
+"activity_login_loginAndRegister" = "Login/Register";
+"activity_login_connectkefu"= "Online service";
+"activity_charge_connectkefu" = "Problems?";
+"activity_login_loginproblem"= "Questions?";
+"activity_login_standbyline"= "Standby line:";
+"activity_login_versionTitle"= "Version Number";
+"login_tip_2"= "Service and Privacy Policy";
+"login_phone_error"= "Please enter the correct phone number";
+"login_email_error" = "Please enter a valid email address";
+"activity_login_changeLoginMethod" = "Switch login method";
+
+//Bind mobile phone number
+"activity_bind_phone_number_bindphonetitle"= "Register your phone number";
+"activity_bind_phone_number_bindphonesubtitle"= "for facilitating your deposit and withdrawal, please bind your phone number";
+"activity_bind_phone_number_phone"= "Mobile";
+"activity_bind_phone_number_Login" = ",Do you want to log in directly?";
+"activity_bind_phone_number_bindEmailTitle" = "Bind your email";
+"activity_bind_phone_number_bindEmailSubtitle" = "To facilitate your deposits and withdrawals, please bind your email";
+"activity_bind_phone_number_Email" = "Email";
+
+//TaskVC
+"taskTitleString"= "Task Hall";
+"taskEmptyString"= "No more activity";
+"taskgofinish"= "Go";
+"taskfinished"= "Finished";
+"tasktoget"= "Receive";
+"task_time"= "Time";
+"task_reward_title" = "Reward Center";
+"task_reward_bet" = "Bet";
+"task_reward_level" = "Level";
+"task_reward_backwater" = "Real-time rebate";
+"task_reward_backwater_rate" = "Rebate ratio";
+"task_reward_backwater_amount" = "Consumption or effective betting amount";
+"task_reward_backwater_limit" = "Rebate limit";
+"task_reward_backwater_about" = "Function Introduction";
+"task_reward_draw_success" = "Received successfully";
+"task_reward_sign_success" = "Sign in successfully";
+"task_reward_backwater_tip1" = "Real-time rebate is an instant rebate mechanism based on player order statistics. Players can receive the rebate amount immediately when conditions are met and enjoy more privileges and benefits.";
+"task_reward_backwater_tip2" = "\n\n1. Calculation method";
+"task_reward_backwater_tip3" = "\n     The rebate amount is calculated based on settled orders.";
+"task_reward_backwater_tip4" = "\n2. Collection method";
+"task_reward_backwater_tip5" = "\n     50% of the amount is added to the balance, 50% of the amount is divided into 3 parts, and one part can be received every 4 hours.";
+"task_reward_backwater_tip6" = "\n3. Collection interval";
+"task_reward_backwater_tip7" = "\n     The interval between each collection is 20 minutes.";
+"task_reward_backwater_tip8" = "\n4. Rebate ratio";
+"task_reward_backwater_tip9" = "\n     The rebate ratio is related to the king level and game type.";
+"task_reward_alert_tip" = "Congratulations";
+"task_reward_alert_title" = "Reward";
+"task_reward_alert_success" = "You have successfully received the reward";
+"skit_home_record" = "Watching Record";
+
+"livetaskTitleString" = "Camgirl Task";
+            
+//PayWaitConfirmViewController
+            
+"pay_wait_page_back"= "Return";
+"pay_wait_page_des"="Finance is being checked\nThe account is not received within 3-5 minutes, please contact customer service";
+            
+//PayChannelViewController
+"PayChanne_title"= "Payment Channel";
+            
+//PayReqViewController
+            
+"PayReq_chargeNow"= "Recharge Now";
+"PayReq_warning"="Important Reminder:Important reminder: The payment channel will be changed from time to time. Please check and confirm the latest account before depositing the funds before making the remittance.";
+            
+//RechargePopView
+"RechargePop_Warning"="Recharge reminder";
+"RechargePop_bindPhoneTitle"="For account security, please register your phone number!";
+"RechargePop_bindPhone"="Register mobile phone number";
+"RechargePop_ChargeContinue"="Continue to recharge";
+            
+//PayInsteadViewController
+"PayInstead_accountTitle"="Your top-up account number:";
+"PayInstead_tipwarning"="Our deposit bank card is changed irregularly, please do not save the bank card number for transfer\nFor deposit, please enter the [Bank Card Transfer] page to copy the latest card number transfer";
+            
+            
+//PayInsteadCollectionViewCell
+"PayInsteadCell_installQQ"="Please install mobile QQ first";
+"PayInsteadCell_desTitle"="Description";
+"PayInsteadCell_desQQDetail"="\n\nAgent QQ number has been copied\nPlease go to QQ to add an agent to complete the recharge\nClick OK to automatically jump\n";
+"PayInsteadCell_installWechat"="Please install mobile Wechat first";
+"PayInsteadCell_desWechatDetail"="\n\nAgent Wechat has been copied\nPlease go to WeChat to add an agent to complete the recharge\nClick OK to jump automatically\n";
+"PayInsteadCell_installAlipay"= "Please install mobile Alipay first";
+"PayInsteadCell_desAlipayDetail" = "\nAlipay number of the agent has been copied\nPlease go to Alipay to add an agent to complete the recharge\nClick OK to automatically jump\n";
+"PayInsteadCell_canPayamount"="Available amount:";
+"PayInsteadCell_contactNow"="Contact";
+            
+//PayAmountViewController
+"PayAmount_Range_%@%@_%@%@" = "The rechargeable range %1$@%2$@-%3$@%4$@";
+            
+"PayAmount_giftRule1_%@%.1f_%@%.1f_%@%.1f" = "Every top up %1$@%2$.1f will give %3$@%4$.1f the highest reward %5$@%6$.1f";
+"PayAmount_giftRule2_%.2f_%@%.1f"="Reward %1$.2f%% Max Reward %2$@%3$.1f";
+            
+            
+"PayAmount_giftRule3_%@%@_%@%@" = "Every top up %1$@%2$@ will give %3$@%4$@";
+
+
+            
+"PayAmount_giftRule3%@%@"="You will get %1$@%2$@";
+"PayAmount_chargeTitle" = "Amount";
+"PayAmount_input_charge_amount" = "Amount";
+            
+//PayTransferViewController
+"Transfer_nameTitle" = "Remittance Name";
+"Transfer_leaveMsg" = "Remittance Message";
+"Transfer_nameplaceholder" = "Transfer name";
+"Transfer_optionalplaceholder" = "Optional";
+            
+//PayTransferCollectionViewCell
+"Transfer_bankNumberTitle" = "Bank Card Number";
+"Transfer_bankUserNameTitle" = "Payment Name";
+"Transfer_bankNameTitle" = "Bank Account";
+"Transfer_bankPlaceTitle" = "Account Opening Point";
+            
+//PayViewController
+"PayVC_Title"= "Recharge Center";
+"PayVC_AlertDestitle"="Important Instructions";
+"PayVC_AlertImportDestitle"="Important Notice";
+"PayVC_AlertImportDetail" = "\n\n\nPlease make a transfer before submitting the order\n\n";
+"PayVC_finishedtransfer" = "Transfer has been completed";
+"PayVC_noTransfer" = "No transfer";
+"PayVC_OrderError" = "Failed to submit the order, please try again later";
+"PayVC_TransferResultTitle" = "\nPayment Result\n\n";
+"PayVC_PaySuccess" = "Payment Successful";
+"PayVC_PayError" = "Payment failed";
+"PayVC_Record" = "Record";
+"PayVC_BalanceTitle" = "My Balance";
+"PayVC_ChargeAmount" = "Direct Top-up Amount";
+"PayVC_PwdAlertTitle" = "Wallet Funds Password";
+"PayVC_PwdAlertTip" = "Please enter your wallet funds password";
+
+"chargeMoney2" = "Top-up";
+            
+            
+//BetOptionCollectionViewCell2
+"BetOption2_errorAlert" = "Please update the latest version for lottery types that are not currently supported";
+            
+//OpenAwardCollectionViewCell
+"OpenAward_dateTitle" = "Period";
+            
+//CommonCollectionViewController2
+"CommonCollectionVC2_selected %ld Warning" ="Select at most %1$d numbers~";
+            
+//CommonPageViewController
+"CommonPageVC_notitle" = "No Title";
+            
+//LobbyBetConfirmCollectionViewCell
+            
+"LobbyBetCell_Unit_Count" = "Bet";
+"LobbyBetCell_double_total"="x%1$@ Total ";
+"LobbyBetCell_double_total11"=" Bet Total ";
+            
+//LobbyBetConfirmViewController
+            
+"LobbyBet_name%@_date%@_Alert" = "The issue number has been updated to %2$@";
+"LobbyBet_name%@_date%@_second%@timeTi" = "%1$@-th %2$@ period before closing: %3$@";
+"LobbyBet_name%@_date%@_endbet" = "%1$@-th %2$@ period has been closed";
+"LobbyBet_name%@_date%@_betOpening" = "%1$@-th %2$@ is drawing prize";
+"LobbyBet_selecte_Warning" = "Please select at least one bet";
+"LobbyBet_changeBet" = "Change Single Bet Chips";
+"LobbyBet_MinMoneyBet%@" = "Minimum bet is 1.0 %1$@";
+"LobbyBet_RangeBetMoney" = "Custom Range ";
+"LobbyBet_ClearAll" = "Clear";
+"LobbyBet_betContent" = "Bet Content";
+"LobbyBet_DeleteTip" = "This is the last one, can't delete all of them~";
+"LobbyBetConfirm_title" = "Confirm Bet";
+"LobbyBetConfirm_balance" = "Balance ";
+            
+//LobbyLotteryVC
+"LobbyLotteryVC_UpdateDate" ="Issue number:";
+"LobbyLotteryVC_UpdateError" = "Failed to obtain lottery information😭";
+            
+"LobbyLotteryVC_selectedCount%@_total%@%@_profit%@%@" = "%1$@ has been selected, a total of %2$@ %3$@, single bet is expected to earn %4$@ %5$@";
+"LobbyLotteryVC2_selectedCount%@_total%@%@_profit1%@_profit2%@%@" = "%1$@ has been selected, a total of %2$@ %3$@, single bet is expected to earn %4$@~%5$@ %6$@";
+            
+//Split the above string as rich text coloring
+"LobbyLotteryVC_selectedCount1" = "";
+"LobbyLotteryVC_selectedCount2" = " has been selected, a total of ";
+"LobbyLotteryVC_selectedCount3%@" = "%1$@, single bet is expected to earn ";
+            
+"LobbyLotteryVC3_selectedCount%ld_scale%ld_profit%.1f%@" = "%1$ld bet %2$ld times, it is expected to get %3$.1f %4$@";
+"LobbyLotteryVC_betEnd" = "Closing";
+"LobbyLotteryVC_betOpen" = "Drawing";
+"LobbyLotteryVC_Stay_tuned_for" = "Waiting for...";
+"LobbyLotteryVC_betHistory" = "History";
+"LobbyLotteryVC_betExplain" = "Instructions";
+"LobbyLotteryVC_Bleuberi" = "Blueberry";
+"LobbyLotteryVC_Lemon" = "Lemon";
+"LobbyLotteryVC_Ceri" = "Cherry";
+"lobby_big" = "Size";
+"lobby_small" = "Size";
+"lobby_single" = "Single";
+"lobby_double" = "Double";
+"points" = "points";
+
+"lottery_trend_xiao" = "S";
+"lottery_trend_da" = "B";
+"lottery_trend_dan" = "S";
+"lottery_trend_shuang" = "D";
+"lottery_trend_long" = "D";
+"lottery_trend_hu" = "T";
+"lottery_trend_hong" = "R";
+"lottery_trend_hei" = "B";
+"lottery_trend_lan" = "B";
+"lottery_trend_lv" = "G";
+"lottery_trend_xian" = "P";
+"lottery_trend_zhuang" = "B";
+"lottery_trend_ning" = "L";
+"lottery_trend_ying" = "C";
+
+"LobbyLotteryVC_bet_balance_Error" = "Your balance is less than the minimum bet";
+"LobbyLotteryVC_bet_endBet" = "Betting is temporarily unavailable during the closing of this period";
+"LobbyLotteryVC_betEmptySelecte" = "You have not added a bet order yet";
+"LobbyLotteryVC_NoBalance" = "Insufficient balance";
+"LobbyLotteryVC_NoBalanceDetailDes" = "Your balance is insufficient for this bet";
+"LobbyLotteryVC_titleBet" = "Lobby Lottery";
+
+            
+"LobbyLotteryVC_DateNow%@" = "Period %1$@";
+//Period character split
+"LobbyLotteryVC_DateNow1" = "First";
+"LobbyLotteryVC_DateNow2" = "Period";
+            
+            
+            
+"LobbyLotteryVC_DateBetingNow%@" = "Current no. %1$@";
+//Period character split
+"LobbyLotteryVC_DateBetingNow1" = "Current no. ";
+"LobbyLotteryVC_DateBetingNow2" = "Current no. ";
+"LobbyLotteryVC_moreBtn" = "More";
+"LobbyLotteryVC_deviceRandomBtn" = "Automatic";
+"LobbyLotteryVC_BetRecord" = "Record";
+"LobbyLotteryVC_betAll" = "ALL IN";
+"LobbyLotteryVC_betMin" = "Min bet";
+"LobbyLotteryVC_Bet" = "Bet";
+"LobbyLotteryVC_BetAddChoise" = "Add to bet list";
+"LobbyLotteryVC_GoToBet" = "Go To Bet";
+"LobbyLotteryVC_total" = "Total:";
+"menu_lottery_result" = "Lottery Results";
+
+//LobbyOpenHistoryViewController
+"LobbyOpenHistory_periods" = "Issue";
+            
+"LobbyOpenHistory_Type_Number" = "Num";
+"LobbyOpenHistory_Type_Size" = "Size";
+"LobbyOpenHistory_Type_SingleDouble" = "Odd Even";
+"LobbyOpenHistory_Type_WinnerDragonTiger" = "Dragon&Tiger";
+"LobbyOpenHistory_Type_total" = "Total";
+"LobbyOpenHistory_Type_Tema" = "Special";
+            
+
+            
+"OpenAward_NiuNiu_Red" = "Red";
+"OpenAward_NiuNiu_Blue" = "Blue";
+            
+//OpenHistoryViewController
+"OpenHistory_titleBetHistory" = "History";
+"OpenHistory_DateNow%@" = "Issue no.%1$@";
+            
+            
+//BetConfirmCollectionViewCell
+            
+"BetCell_double"="times";
+"BetCell_double1"="x1";
+"BetCell_double2"="x2";
+"BetCell_double5"="x5";
+"BetCell_double10"="x10";
+"BetCell_double20"="x20";
+
+"BetCell_remove"="Remove";
+            
+//ChipSwitchViewController
+"ChipSwitch_currentChip_title" = "Current Coins";
+"ChipSwitch_input_custom_chip" = "Input custom chip";
+"ChipSwitch_settitle" = "Set Coins";
+"ChipSwitch_ChangeChip_title" = "【Modify Coins】";
+            
+//LotteryBetViewController_NN
+"LotteryBetVC_NN_TimeTitle" = "Deadline:";
+            
+//LotteryBetViewController
+"LotteryBetVC_TimeTitle" = "Current:";
+            
+//GameListViewController
+"GameListVC_UnknowGamePlat" = "Unknow Game Platform";
+            
+"GameListVC_lotteryTitle" = "lottery"; //containsString special handling
+"GameListVC_GameCenter_title" = "Game Center";
+
+//h5game
+"h5game_Amount_Conversion" = "Conversion";
+"h5game_submit_successfully" = "Submit successfully"; //isEqualToString
+"h5game_application_progress" = "application progress"; //isEqualToString
+"h5game_My_family_tree" = "My Family"; //isEqualToString
+            
+//XHLaunchAdButton
+"XHLaunchAdButton_titleSkip" = "Skip";
+            
+//MsgSysVC
+"MsgSysVC_systemMsg" = "System Message";
+"MsgSysVC_noMoremsg" = "No more messages have been received yet";
+"MsgSysVC_allRead" = "All read";
+
+            
+//GameToolClass
+"GameToolClass_switchMoneyType" = "Converting balance...";
+"GameToolClass_switchMoneyTypeSuccess" = "Successful conversion";
+"GameToolClass_EnterGame" = "Entering...";
+"GameToolClass_EnterGameReson" = "Entering Exception";
+"GameToolClass_EnterGameError" ="Failed to enter the game";
+"GameToolClass_gameName%@_balance%@" = "Current [%1$@] balance: ￥%2$@\nI wish you a happy game.\nIf you need to recharge, you can return to the live broadcast main interface or use the floating button to recharge.";
+            
+//YBToolClass
+"YBToolClass_timeFormat_Hour%02ld_Min%02ld_Second%02ld" = "%1$02ld h %2$02d m %3$02d s";
+"YBToolClass_timeFormat_Min%02ld_Second%02ld" = "%1$02d m %2$02d s";
+"YBToolClass_timeFormat_Second%02ld" = "%1$02d s";
+            
+//homepageController
+"homepageController_attention" = "Following";
+"homepageController_live" = "Live";
+"homepageController_game" = "Game";
+"homepageController_Rich_list" = "Rich Ranking";
+            
+//ZYTabBar
+"ZYTabBar_open_live" = "Start";
+"ZYTabBar_Box" = "Explore";
+            
+//ZYTabBarController
+"ZYTabBarC_HomePage" = "Home";
+"ZYTabBarC_MePage" = "Me";
+            
+//EnterLivePlay
+"EnterLivePlay_enterWinnerRoom" = "Go to the room\nOnlookers";
+"EnterLivePlay_enterRoom" = "Go";
+"EnterLivePlay_pwdRoomWarning" = "This room is a password room";
+"EnterLivePlay_input_pwd" = "Please enter your password";
+"EnterLivePlay_pwd_error" = "Password error";
+            
+//AttentionHeader
+"AttentionHeader_myAttention" = "Followed";
+"AttentionHeader_Popular_Hot" = "Hot";
+"AttentionHeader_No_Attention" = "No camgirls currently following";
+"AttentionHeader_No_Hot" = "No Hot";
+            
+//GamesController
+"GamesVC_NoGameAnchor" = "There is no game Camgirl for now~";
+"GamesVC_SeeOthersGameAnchor" = "Go to see other Camgirls~";
+            
+//GamesHeader
+"GamesHeader_Game_Recommend" = "Game";
+"GamesHeader_isHit" = "Hot";
+            
+//Hotpage
+"Hotpage_leftAddMore" = "Slide left for more";
+"Hotpage_my_expand" = "Agents Earnings";
+"Hotpage_Hot" = "Hot";
+            
+//classVC
+"classVC_noAnchorLive" = "No Camgirl Live";
+"classVC_goToOthersAnchorLive" = "Go to visit other channels~";
+//LiveNotificationAlert
+"LiveNotif_AlertTitle" = "Announcement";
+            
+            
+//RankCell
+"RankCell_FollowButton" = "Follow";
+"RankCell_Title_scroe%@" = "Behind by %1$@";
+//RankVC
+"RankVC_FollowMeError" = "Cannot follow yourself";
+"RankVC_Empty" = "Temporary Vacancy";
+"RankVC_profit_list" = "Income";
+"RankVC_contribution_list" = "Contribution";
+"RankVC_List_of_day" = "Daily";
+"RankVC_Yesterday_the_list" = "Yesterday";
+"RankVC_List_of_Week" = "Weekly";
+"RankVC_List_of_Month" = "Monthly";
+//RotationVC
+"RotationVC_remaining_lottery_times" = "Remaining lottery draws:";
+"RotationVC_giftPoolTitle" = "Remaining bonus in bonus pool";
+            
+//RotationResultVC
+"RotationResultVC_ResultContent" = "Congratulations on your successful acquisition";
+//jubaoVC
+"jubaoVC_headerLabel" = "Select the reason for reporting";
+"jubaoVC_Option_title" = "For more detailed information, please describe in the description box (optional)";
+"jubaoVC_submit" = "Submit";
+"jubaoVC_reason_title"="Please select the reason for reporting";
+"jubaoVC_success" = "Report successful";
+"jubaoVC_title" = "Report";
+            
+//LotteryBarrageView
+"LotteryBarrageView_clickTitle" = "Click to follow";
+"LotteryBarrageView_name%@_type%@_way%@_money%@%@" = "<font color=\"#72f3e1\">%1$@</font><font color=\"#ffffff\"> In</font><font color=\"#fff292\"> %2$@</font><font color=\"#ffffff\"> bet</font><font color=\"#fff292\"> %3$@ </font><font color=\"#ffffff\">won</font><font color=\"#f9d347\"> %4$@</font><font color=\"#ffffff\"> %5$@.</font>";
+ 
+"LotteryCenterBarrageView_name%@_type%@_money%@%@" = "<font color=\"#72f3e1\">%1$@</font><font color=\"#ffffff\"> In</font><font color=\"#fff292\"> %2$@</font><font color=\"#ffffff\">won</font><font color=\"#f9d347\"> %3$@</font><font color=\"#ffffff\"> %4$@.</font>";
+            
+//LotteryAwardVController
+"LotteryAwardVC%@%@" = "Won %1$@ %2$@";
+"LotteryAwardVC_close" = "Click anywhere to close";
+
+            
+//TopTodayView
+"TopTodayView_update_time_title" = "Last update:";
+"TopTodayView_LevelAlert_title" = "Less than the previous one ";
+"TopTodayView_title" = "Daily ranking";
+"TopTodayView_SendGift" = "Send gift";
+"Top rank" = "Top rank";
+
+//guardShowView
+"guardShowView_guardUntilTime" = "You are the month guardian of the current Camgirl\nGuardian date ends in";
+"guardShowView_RenewGuard" = "Renew Guard";
+"guardShowView_OpenGuard" = "Buy Guard";
+"guardShowView_OpenGuardAlert" ="Go and buy guard for your favorite Camgirl";
+"guardShowView_NoGuard" = "You have not guarded yet";
+"guardShowView_BeFirstGuard" = "Become the first guardian of her";
+"guardShowView_ThisWeekGuard" = "Contribution this week";
+            
+//shouhuView
+"shouhuView_guardTime" = "Select Guard Time";
+"shouhuView_guardrights" = "Guardian Privileges";
+"shouhuView_MyBalance" = "My";
+"shouhuView_GuardMonthDes" = "Your current month guardian for the host, activation of the year guard will cover the remaining time of your month guard, will it be activated?";
+"shouhuView_GuardYearDes" = "Your current host year guard\ncannot activate 7-day/month guard";
+"shouhuView_You_will_coast" = "You will spend";
+"shouhuView_Guard7Days" = "Guard 7 Days for the camgirl";
+"shouhuView_GuardMonthDays" = "Buy month guardian for the camgirl";
+"shouhuView_GuardOneYear" = "Buy year guardian for the camgirl";
+"guardShowView_OpenNow" = "Buy Now";
+
+//upmessageInfo
+"upmessageInfo_content" = "Suspected of spreading obscene and pornographic information";
+"upmessageInfo_report" = "Report";
+"upmessageInfo_sended" = "Send";
+"upmessageInfo_income" = "Income";
+"upmessageInfo_ten_thousand" = "10K";
+"upmessageInfo_on_Mars" = "unknow";
+"upmessageInfo_followed" = "Followed";
+"upmessageInfo_kick" = "Kick out";
+"upmessageInfo_silent" = "Mute";
+"upmessageInfo_set_management" = "Set to admin";
+"upmessageInfo_cancel_management" = "Cancel admin";
+            
+"upmessageInfo_management_list" = "Admin List";
+"upmessageInfo_close_live" = "Close live";
+"upmessageInfo_disable_live" = "Disable live";
+"upmessageInfo_add_the_impression+" = "+ Add Impression";
+"upmessageInfo_add_the_impression" = "Add Impression"; //contains
+"upmessageInfo_Send_a_card" = "Send card";
+"upmessageInfo_HomeTitle" = "Homepage";
+            
+//searchVC
+"searchVC_input_name_id" = "nickname or ID";
+            
+//setViewM
+"setViewM_guardTitle" = "Guard  waiting>";
+"setViewM_Top_list" = "Ranking>";
+"setViewM_Guard" = "Guard";
+"setViewM_People" = "Person";
+"setViewM_Guardians" = "Guardians";
+"setViewM_GuardiansP" = "";
+
+//liwuview
+"liwuview_sendGift" = "Send Gift";
+"liwuview_SendButton" = "Send";
+"liwuview_YearGift" = "Year Guardian Exclusive Gift";
+"liwuview_sendSuccess" = "Send Success";
+"liwuview_Bursts" = "Continuous click";
+"Give the streamer a small gift" = "Give the streamer a small gift";
+"RC toy" = "RC toy";
+"Issue command" = "Issue command";
+
+//coastselectview
+"coastselectview_minue" = "Minute";
+"coastselectview_coast_money" = "Charge amount";
+"coastselectview_Choose_to_charge_for" = "Choose to charge";
+            
+//redBagView
+"redBagView_redbagTitle" = "Lucky money in the Live Room";
+"redBagView_sendRedBag" = "Send lucky money in the current live room";
+"redBagView_LuckyRedBag" = "Lucky money";
+"redBagView_average" = "Average money";
+"redBagView_total_money" = "Total Amount";
+"redBagView_amount" = "Quantity";
+//"redBagView_Congratulations" = "Good luck";
+"redBagView_sendRedBagTitle" = "Send lucky money";
+"redBagView_peerMoney" = "Single Amount";
+"redBagView_input_redbag_money" = "Please enter the amount of lucky money";
+"redBagView_input_redbag_amount" = "Please enter the number of lucky money";
+            
+//redDetails
+"redDetails_whoRedBag" = "’s lucky money";
+"redDetails_no_get" = "Not grabbed";
+"redDetails_get_to_me" = "Already deposited in";
+"redDetails_already_got" = "Already received";
+"redDetails_peer_amount" = "number";
+"redDetails_total" = "Total";
+//redListCell
+"redListCell_delayRedBag" = "A delayed lucky money was sending";
+"redListCell_nowRedBag" = "A real-time lucky money was sending";
+"redListCell_GetNow" = "Grab";
+//redListView
+"redListView_redBag" = "Lucky money";
+"redListView_timeEndCanGet" = "You can grab after the countdown ends";
+"redListView_ShowDetailRedBagGot" = "View Collection Details";
+"redListView_redBagOver" = "It's too late, lucky money is gone";
+"redListView_congratulations" = "Congratulations!";
+"redListView_GotBag" = "Got it";
+"redListView_Who" = "sent";
+//continueGift
+"continueGift_continue" = "Continuous sending";
+            
+//exoensiveGifGiftV
+"exoensiveGifGiftV_giveOne" = "Send One";
+            
+//shipAction
+"shipAction_shipSend" = "Send a luxury cruise ship";
+//adminLists
+"adminLists_currentManager" = "Current admin";
+"adminLists_Alert" = "Warm Reminder";
+"adminLists_ifCancel" = "Are you sure to cancel";
+"adminLists_managerRule" = "'s admin status";
+"adminLists_No" = "No";
+//lastview
+"lastview_endLive" = "live end";
+            
+            
+//bottombuttonv
+"bottombuttonv_flash" = "Flash";
+"bottombuttonv_timing" = "Time";
+"bottombuttonv_tickets" = "Ticket";
+"bottombuttonv_beauty" = "Beauty";
+"bottombuttonv_flip" = "Flip";
+"bottombuttonv_music" = "Accompaniment music";
+"bottombuttonv_share" = "Share";
+"bottombuttonv_redBag" = "Lucky money";
+"bottombuttonv_toy" = "Vibrator";
+"bottombuttonv_order" = "Order";
+//musicView
+"musicView_downloading" = "Downloading";
+"musicView_choise" = "Select";
+"musicView_donwload" = "Download";
+//PresentView
+"PresentView_send" = "Sent";
+           
+//nuserLoginAnimation
+"nuserLoginAnimation_enter_room" = "joined the room";
+            
+//fenXiangView
+"fenXiangView_shareTo" = "Share to";
+"fenXiangView_have_%@_fans_coming" = "She has %1$@ fans, come and watch!";
+"fenXiangView_%@_in_here%@_share" = "“%1$@” is also in %2$@～click to view her story～";
+"fenXiangView_ShareSuccess" = "Share Success";
+"fenXiangView_ShareError" = "Sharing failed";
+
+//liveclosepopview
+"liveclosepopview_leave" = "Leave";
+"liveclosepopview_follow_exit" = "Follow and exit";
+"liveclosepopview_title" = "follow the Camgirl and not get lost~";
+"liveclosepopview_hint" = "Please come back~";
+            
+//Livebroadcast
+"Livebroadcast_live_cover" = "Room Cover";
+"Livebroadcast_live_title" = "Live Title";
+"Livebroadcast_live_title_tip" = "Write a title for the live";
+"Livebroadcast_choise_lottery_type" = "Select the lottery type";
+"Livebroadcast_push_card" = "Push card:";
+"Livebroadcast_Nopush_card" = "Don't show card";
+"Livebroadcast_begain_live" = "Start to live";
+"Livebroadcast_OBS_live" = "OBS live streaming";
+"Livebroadcast_room_type" = "Room Type";
+"Livebroadcast_choise_price" = "Select Price";
+"Livebroadcast_room_type_nomal" = "Normal";
+"Livebroadcast_room_type_pwd" = "Password";
+"Livebroadcast_room_type_tickets" = "Ticket";
+"Livebroadcast_room_type_time" = "Time";
+"Livebroadcast_room" = "Room";
+"Livebroadcast_please_set_room_pwd" = "Please set the room password";
+"Livebroadcast_please_enter_right_pwd" = "Please enter the correct password";
+"Livebroadcast_please_set_ticket_price" = "Please set the room ticket price";
+"Livebroadcast_please_enterPrice" = "Please enter the price";
+"Livebroadcast_please_rightTicket_price" = "Please enter the correct ticket price";
+"Livebroadcast_no_open" = "This version is not yet open";
+"Livebroadcast_Choise_live_type" = "Please choose a channel";
+"Livebroadcast_private_rule_no" = "Permission blocked";
+"Livebroadcast_please_open_camera_private" = "Please enable camera permission in the settings";
+"Livebroadcast_please_open_mic_private" = "Please enable microphone permission in the settings";
+"Livebroadcast_please_choise_uploadWay" = "Choose upload method";
+"Livebroadcast_Alumb" = "Album";
+"Livebroadcast_Camera" = "Take a picture";
+"Livebroadcast_Change_Cover" = "Change Cover";
+"Livebroadcast_Live_End" = "Live has ended";
+"Livebroadcast_LiveTimes" = "Live time";
+"Livebroadcast_harvest" = "Income";
+"Livebroadcast_watchNumbers" = "Number of Watchers";
+"Livebroadcast_LiveMsgs" = "Live Room Message";
+"Livebroadcast_LiveSend%d_gift%@" = "Sent %1$d %2$@";
+"Livebroadcast_lotteryDisable" = "Sold Disabled";
+"Livebroadcast_liveEnd" = "Are you sure to exit the room?";
+"Livebroadcast_haveNewMsgs" = "New message";
+"Livebroadcast_SayHi" = "What to say to everyone";
+"Livebroadcast_SaySomething" = "Say something...";
+"Livebroadcast_OnlyMsgs" = "Chat Only";
+"Livebroadcast_switchRoom_cannot" = "You have switched room types and cannot be switched again";
+"Livebroadcast_switchRoom_cannot1" = "Only normal rooms can switch";
+"Livebroadcast_Input_word_limit50" = "The maximum number of words is 50 words";
+"Livebroadcast_Login_other_device" = "The current account is already logged in on another device";
+"Livebroadcast_Open_msg_notifys" = "Big speakers";
+"Livebroadcast_No_lyrics" = "No lyrics yet";
+"Livebroadcast_end" = "End";
+"live_close_adv" = "Game barrage closed";
+"live_open_adv" = "Game barrage opened";
+"live_toy_close" = "not connected";
+"live_toy_open" = "connected";
+"live_order_list" = "command list";
+"live_more_surprise" = "More surprises";
+"Livebroadcast_title_server" = "Server";
+"Livebroadcast_title_stream" = "Streaming Key";
+"Livebroadcast_title_start_stream" = "Start Live";
+"Livebroadcast_title_start_stream_info" = "Once you start streaming, the geek clicks the \"Start Live\" button below.";
+"Livebroadcast_title_OBS_stream_info" = "To live stream using another application, please enter the following server URL and streaming key in the application.";
+"Livebroadcast_order_select_all" = "Select All";
+"Livebroadcast_order_confirm" = "Confirm";
+"Livebroadcast_toy_unconnect" = "Device not connected";
+"Livebroadcast_order_unselect" = "Please select a command from the command list";
+"Livebroadcast_error_toyDisconnect" = "Disconnected -> Egg Mode (Not Connected) Egg Mode Status Switch Displays Closed";
+"Livebroadcast_room_need_charge" = "This room is a paid room and requires payment of";
+
+"RemoteInterfaceView_in_queue" = "Currently in line";
+"RemoteInterfaceView_remote_user" = "Manipulate people";
+"RemoteInterfaceView_remain_time" = "Remaining execution time";
+"RemoteInterfaceView_toy_connect" = "The host is ready";
+"RemoteInterfaceView_wait_you_control" = "Waiting for you to take control";
+"RemoteInterfaceView_order_name" = "Command";
+"RemoteInterfaceView_control_and_order" = "Remote Control & Command";
+"RemoteInterfaceView_toy_title" = "Vibrator Queue";
+"RemoteInterfaceView_order_title" = "Command Queue";
+"RemoteInterfaceView_cmd_name" = "Command name";
+"RemoteInterfaceView_cmd_time" = "Duration (s)";
+"RemoteInterfaceView_cmd_price" = "Price";
+"RemoteInterfaceView_cmd_delete" = "Delete";
+"RemoteInterfaceView_cmd_edit" = "Revise";
+"RemoteInterfaceView_cmd_confirm" = "Confirm";
+"RemoteInterfaceView_cmd_input_name" = "Please enter the command name";
+"RemoteInterfaceView_cmd_input_time" = "Please enter duration";
+
+"SearchToyVC_title_name" = "Lovense";
+"SearchToyVC_bluetooth_connected" = "bluetooth: 🔵";
+"SearchToyVC_bluetooth_disconnect" = "bluetooth: ⚪️";
+"SearchToyVC_no_connected_text" = "not connected ❌";
+"SearchToyVC_connected_text" = "connected ✅";
+"SearchToyVC_searching_toy" = "searching Lovense";
+"SearchToyVC_stop_search_toy" = "stop search Lovense";
+"SearchToyVC_clear_all_toy" = "clear all Lovense";
+"SearchToyVC_star_connecting_toy" = "star connecting Lovense";
+"SearchToyVC_have_no_found_toy" = "have no found Lovense";
+"SearchToyVC_connected_toy" = "connected Lovense";
+"SearchToyVC_connect_fail" = "connect fail";
+"SearchToyVC_search" = "search";
+"SearchToyVC_stop_search" = "stop search";
+
+"ToyDetailVC_toy_control" = "Lovense Control";
+"ToyDetailVC_battery" = "Battery";
+"ToyDetailVC_device_type" = "Device Type";
+"ToyDetailVC_version" = "Version";
+"ToyDetailVC_disconnect" = "Disconnect";
+"ToyDetailVC_all_toy_command" = "All Lovense Command";
+"ToyDetailVC_vibration" = "Vibration";
+"ToyDetailVC_quick_flash" = "Quick Flash";
+"ToyDetailVC_preset" = "Preset";
+"ToyDetailVC_nora_rotation" = "Nora Rotation";
+"ToyDetailVC_nora_rotation_anti_clockwise" = "Nora Rotation(Anti-clockwise)";
+"ToyDetailVC_nora_rotation_change" = "Nora Rotation Change";
+"ToyDetailVC_turn_off_AID_light" = "Turn off AID Light";
+"ToyDetailVC_turn_on_AID_light" = "Turn on AID Light";
+"ToyDetailVC_get_AID_light_status" = "Get AID Light Status";
+"ToyDetailVC_turn_off_light" = "Turn off Light";
+"ToyDetailVC_turn_on_light" = "Turn on Light";
+"ToyDetailVC_start_tracking_movement" = "Start tracking movement";
+"ToyDetailVC_stop_tracking_movement" = "Stop tracking movement";
+"ToyDetailVC_max_air_in" = "Max Air In";
+"ToyDetailVC_max_air_out" = "Max Air Out";
+"ToyDetailVC_max_air_auto" = "Max Air Auto";
+"ToyDetailVC_device_info" = "Device Info";
+"ToyDetailVC_movement" = "Movement";
+
+"RemoteControllerCell_second" = "s";
+
+"Livebroadcast_mic_volum_number" = "Microphone Volume";
+"Livebroadcast_micBg_volum_number" = "Background music volume";
+"Livebroadcast_name%@_BetType%@_betMoney%@%@" = "<font color=\"#ffffff\">%1$@</font><font color=\"#ffffff\"> in </font><font color= \"#fff292\">%2$@</font><font color=\"#ffffff\"> bet </font><font color=\"#fff292\">%3$@ </font><font color=\"#ffffff\"> %4$@</font>";
+            
+"Livebroadcast_Congratulations_Name%@_game%@" = "<font color=\"#ffffff\">Congratulations </font><font color=\"#ffffff\">%1$@</font><font color=\"# ffffff\"> in</font><font color=\"#fff292\"> %2$@</font><font color=\"#ffffff\"> won</font>";
+            
+"Livebroadcast_shareMoney_fromName%@_lotteryName%@_money%@_%@" = "<font color=\"#ffffff\">Congratulations</font><font color=\"#ffffff\"> get</font><font color= \"#fff292\"> %1$@</font><font color=\"#ffffff\"> in</font></font><font color=\"#fff292\"> %2$@ </font><font color=\"#ffffff\">won dividends <font color=\"#fff292\">%3$@</font>%4$@</font>";
+"Livebroadcast_LiveAnchor" = "Camgirl";
+            
+//LivePlay
+"LivePlay_KickedRoom" = "You have been kicked out of the room";
+"LivePlay_sayTimeOver" = "The number of speeches has been used up";
+"LivePlay_sayTimes%ld" = "%1$ld speech remaining";
+"LivePlay_SaidMoreQuikly" = "Sending too frequently, please try again in 1 minute";
+"LivePlay_SayRule%d" = "If the level is less than %1$d, you can't speak\nYou can level-up to unlock your speech by recharge or send gift";
+"LivePlay_GoCharge" = "Recharge";
+"LivePlay_GoSendGifts" = "Send gifts";
+"LivePlay_RommSwitchTime_%@%@Price" = "This room has been switched to a time room, %1$@%2$@/minute, do you want to continue?";
+"LivePlay_RommSwitchTicket_%@%@Price" = "This room has been switched to a ticket room, you need to pay %1$@%2$@, do you want to continue or not";
+"LivePlay_No" = "No";
+"LivePlay_YES" = "Yes";
+"LivePlay_BalanceNot" = "Your current balance is insufficient to watch";
+            
+//LiveContactView
+"LiveContactView_ConatctTitle1" = "Remark user nickname quickly pass";
+"LiveContactView_ConatctTitle2" = "Progress of getting card";
+"LiveContactView_ConatctTitle3" = "Send gifts to meet the requirements to get the camgirl's card";
+"LiveContactView_ConatctTitle4" = "1. When adding, please note the nickname to avoid the Camgirl can’t distinguish";
+"LiveContactView_ConatctTitle5" = "2. If the contact information is false, you can complain through the customer service";
+"LiveContactView_WhoName%@" = "%1$@'s card";
+"LiveContactView_NoCard" = "The host has not set a card";
+"LiveContactView_NotEnoughGifts" = "Your consumption has not yet reached the target";
+"LiveContactView_GetError" = "Failed to get card";
+"socketLivePlay_getConatct" = "Received Camgirl's card:"; // stringByReplacingOccurrencesOfString
+"socketLivePlay_getCard" = "Received the Camgirl card";
+"socketLivePlay_Anchor_Card" = "Camgirl Card";
+//fansViewController
+"fansViewController_noFans" = "You have no fans yet";
+"fansViewController_noFansTip" = "Improving personal information will make more people follow you~";
+            
+//attrViewController
+"attrViewController_noFolllow" = "You haven't followed anyone";
+"attrViewController_noFolllowTip" = "Follow the people you are interested in~";
+//personLiveCell
+"personLiveCell_numberTip" = "Person have seen it";
+//otherUserMsgVC
+"otherUserMsgVC_block" = "Block";
+"otherUserMsgVC_blocked" = "Blocked";
+"otherUserMsgVC_unblocked"="Has been unblocked";
+"otherUserMsgVC_impressed" = "Camgirl Impressed";
+"otherUserMsgVC_GuardTop" = "GuardTop";
+"otherUserMsgVC_Video" = "Video";
+"otherUserMsgVC_no_work" = "No works available";
+"otherUserMsgVC_no_like" = "No likes yet";
+"otherUserMsgVC_no_live" = "No live stream available";
+
+//EditContactInfo
+"EditContactInfo_editMyConatct" = "Edit My Card";
+"EditContactInfo_Empty" = "Not filled in";
+"EditContactInfo_inputTip" = "Enter up to 20 characters\nFor example: Camgirl WeChat: 123456";
+"EditContactInfo_InputLimit" = "The number of words exceeds the limit";
+//EditNiceName
+"EditNiceName_NameEdit" = "Edit nickname";
+"EditNiceName_FreeTip" = "This is the first modification, and the modification is free.";
+"EditNiceName_coast%@_%@" = "This modification will cost %1$@ %2$@.";
+"EditNiceName_nameLimitlenth" = "A nickname can have up to 8 characters";
+"EditNiceName_ChangeCoastTip_%@%@" = "It costs %1$@ %2$@ each time (the first modification is free).";
+//EditSignature
+"EditSignature_signature" = "Edit Signature";
+"EditSignature_signatureLimit" = "Enter up to 20 characters";
+//InfoEdit1TableViewCell
+"InfoEdit1TableViewCell_Avatar" = "Avatar";
+//myInfoEdit
+"myInfoEdit_nickName" = "nickname";
+"myInfoEdit_phoneNum" = "Phone Number";
+"myInfoEdit_email" = "Email";
+"myInfoEdit_signature" = "Signature";
+"myInfoEdit_MyCard" = "My Card";
+"myInfoEdit_BirthDay" = "Birthday";
+"myInfoEdit_Sex" = "Sex";
+"myInfoEdit_My_Impressed" = "My impression of the Camgirl";
+"myInfoEdit_EditInfo" = "Edit Information";
+"myInfoEdit_Man"="Male";
+"myInfoEdit_Woman"="Female";
+"myInfoEdit_Uploading" = "Uploading";
+"myInfoEdit_Upload_Error" = "Failing";
+//sexCell
+"sexCell_Sexy" = "Sex";
+//impressVC
+"impressVC_anchorImpressed_choise" = "Please choose your impression of the Camgirl";
+"impressVC_MyImpressed" = "The Camgirl impression you received";
+"impressVC_NoImpressed" = "You have not received the Camgirl impression yet";
+"impressVC_Choise_limitNum" = "Select at most three items";
+"impressVC_Choise_min_tip" = "Choose at least one item";
+            
+//socketLivePlay
+"socketLivePlay_who%@_Guard" = "%1$@ guarded the Camgirl";
+"socketLivePlay_whoGuard" = "Guarded the Camgirl";
+
+"socketLivePlay_Who%@_time%@" = "%1$@Muted%2$@";
+"socketLivePlay_DisableSendMsgSuccess" = "Mute success";
+"socketLivePlay_Kick%@Room" = "%1$@ was kicked out of the room";
+"socketLivePlay_KickSuccess"= "Successful kicking";
+"socketLivePlay_SendRedbag" = "Send lucky money in the room! Go to grab it~";
+//socketLive
+"socketLive_closeManagerSuceess" = "Successful cancellation of the admin";
+"socketLive_setManagerSuceess" = "Set the admin successfully";
+"socketLive_CloseLive" = "Live Closed";
+"socketLive_droppedLive" = "Suspected of violation and was dropped";
+"socketLive_silenced" = "You have been muted";
+"socketLive_BecloseManager" = "Removed as an admin";
+"socketLive_BeManager" = "Set as an admin";
+//AppDelegate
+"AppDelegate_oldVersion" = "Use the old version";
+"AppDelegate_GoUpdate" = "Go to Update";
+"AppDelegate_Information_maintain" = "Maintenance Information";
+"AppDelegate_Living" = "The live is in progress and cannot be logged out";
+"AppDelegate_ifCancelLiveRoom" = "Whether to exit the room";
+            
+            
+//VIPVC
+"VIPVC_title" = "The King's Salary";
+"VIPVC_KingLeve%@_title" = "Kingv%1$@";
+"VIPVC_KingLeveCurrent%@" = "Current King Level: VIP%1$@";
+"VIPVC_Charge%@_UpKingLeve%ld" = "There is still a shortage of %1$@ recharge to upgrade to King V%2$ld";
+"VIPVC_KingLeve%@_Rights" = "The distinguished king V%1$@ member, you can enjoy the following rights";
+"VIPVC_Can'tGet" = "Unable to claim";
+"VIPVC_NextTime%@" = "Next time: %1$@";
+"VIPVC_KingRights" = "King Privilege";
+"VIPVC_KingDetailRule" = "King Details";
+"VIPVC_KingRuleLevel" = "King Level";
+"VIPVC_KingRuleChargeRange" = "Total Recharge\nRange";
+"VIPVC_KingRuleUpHandsel" = "Level-up Bonus";
+"VIPVC_KingRuleWeekSalary" = "Weekly Salary";
+"VIPVC_King" = "King";
+"VIPVC_Current_Level" = "Current Level";
+
+"kingsalary_kinglevel" = "King Level";
+"kingsalary_totalrecharge" = "Total Recharge";
+"kingsalary_promotionbonus" = "Promotion Bonus";
+"monthfenglu" = "Monthly Salary";
+"view_wangzhevipdes_zhou_fenglu" = "weekly salary";
+
+
+
+"PostVideo_title" = "Post Video";
+"PostVideo_sub_title1" = "Video Title";
+"PostVideo_sub_title2" = "Add Video Title";
+"PostVideo_sub_title3" = "Add Video";
+"PostVideo_sub_title3_1" = "Change Video";
+"PostVideo_sub_title4" = "Add Video Cover (Optional)";
+"PostVideo_sub_title4_1" = "Replace Video Cover";
+"PostVideo_sub_title5" = "Add Video Tags";
+"PostVideo_chooseTag" = "Please choose a tag";
+"PostVideo_sub_title6" = "Post";
+
+"PostVideo_sub_wait_video" = "Waiting for video upload";
+"PostVideo_sub_wait_cover" = "Waiting for cover upload";
+
+"PostVideo_sub_upload_video_success" = "Video uploaded successfully, go publish it now!";
+"PostVideo_sub_upload_video_error" = "Video upload failed, please select again";
+
+"PostVideo_sub_title_cancel" = "Do you want to cancel the uploading video?";
+"PostVideo_cancel_upload" = "Cancel Upload";
+"PostVideo_continue_upload" = "Continue Upload";
+
+
+
+//BillVC
+"BillVC_consumeDetail" = "Consume Details";
+"BillVC_inComeDetail" = "Income Details";
+"BillVC_consumeToday_%@%@" = "Today consumption %1$@ %2$@";
+"BillVC_incomeToday_%@%@" = "Today's income %1$@ %2$@";
+"BillVC_DateFormat" = "dd-MM";
+"BillVC_DateChoiseTitle" = "Last 7 days";
+"BillVC_Month" = "Month";
+"BillVC_Days" = "Day";
+"BillVC_Anthor_name" = "Camgirl Name";
+            
+//myRechargeCoinVC
+"myRechargeCoinVC_Promotion%@_tile" = "Promotion Revenue %1$@";
+"myRechargeCoinVC_Charge%@_num" = "Enter the %1$@ number to be recharged";
+"myRechargeCoinVC_CanHaveHowMuch" = "CanHaveHowMuch";
+"myRechargeCoinVC_symbol%@" = "%1$@¥";
+"myRechargeCoinVC_OptionSuccess" = "Operation Successful";
+"myRechargeCoinVC_OptionError" = "The operation failed";
+"myRechargeCoinVC_ChargeIn" = "ChargeIn";
+            
+//market
+"market_member" = "Member";
+"market_liangNum" = "Nice ID";
+"market_mount" = "Mount";
+            
+//myProfitVC
+"myProfitVC_WithDrawRecord" = "Record";
+"myProfitVC_WithDrawMoneyChoise" = "Withdrawal Amount";
+
+"myProfitVC_totalNum%@" = "Total%1$@";
+"myProfitVC_WithDrawTotal%@" = "Can extract %1$@";
+"myProfitVC_WithDraw_input%@" = "Enter want to extract %1$@";
+"myProfitVC_To_account_num" = "Actual amount received";
+"myProfitVC_choise_withDraw_account" = "Please select a withdrawal account";
+"myProfitVC_withDraw_now" = "Withdraw Now";
+"myProfitVC_NoWithDrawError"="No withdrawal method selected";
+            
+//profit2
+"profit2_input_withDraw_money" = "Please enter the withdrawal amount";
+"profit2_input_money" = "Please enter the amount";
+"profit2_withDraw_account" = "Withdrawal Account";
+"profit2_add" = "Add";
+"profit2_NoAddAccount" = "You have not yet set up a withdrawal account";
+"profit2_if_delete_account" = "Are you sure you want to delete this withdrawal account?";
+//AddCardViewController
+"AddCard_title" = "Binding Bank Card";
+"AddCard_CardUserName" = "Full Name";
+"AddCard_CardNum" = "The bank card No.";
+"AddCard_CardBankName" = "Select an bank name";
+"AddCard_CardCity" ="Select the region";
+"AddCard_CardAddress" = "Account branch name";
+"AddCard_ChoiseBank" = "Please select a bank";
+"AddCard_CurrencyType" = "Please select currency type";
+"AddCard_ChoiseBankCity" = "Please select a region to apply for";
+"AddCard_Transfor_tip" = "If you transfer someone else’s card number, you will not be able to recover it. Please check the card number carefully to avoid unnecessary losses.";
+"AddCard_Transfor_tip1" = "Please fill in the bank card information carefully to avoid unwanted transaction  (up to 5 bank cards can be added)";
+
+"AddCard_CardUserName_title" = "Bank Account Holder";
+"AddCard_BankNum_title" = "Bank Card Number";
+"AddCard_CardBankName_title" = "Bank Name";
+"AddCard_ChoiseBankCity_title" = "Account Region";
+"AddCard_CardAddress_title" = "Account Branch";
+"AddCard_CurrencyType_title" = "Currency Type";
+"SearchCard_BankName" = "Input Search Key";
+
+//LiveNodeTableViewCell
+"LiveNodeTableViewCell_peopleNumberTitle" = "people watched the live";
+//LiveNodeViewController
+            
+"LiveNodeVC_Record_title" = "Live Record";
+"LiveNodeVC_HaveNoLive" = "You have not live recently";
+"LiveNodeVC_HaveNoLive_tip" = "Go to live now~";
+            
+//myPopularizeVC
+"myPopularizeVC_Charge_title" = "Charge into account";
+"myPopularizeVC_invite%d" = "Invite %1$d people";
+"myPopularizeVC_Charge%d_%@" = "Recharge %@%2$@";
+"myPopularizeVC_WithDrawSuccess" = "Withdraw successfully";
+"myPopularizeVC_WithDraw_Applying" = "Applying for withdrawal";
+"myPopularizeVC_copy_link" = "Copy the promotion link";
+"myPopularizeVC_DetailPopularize" = "----Your income details----";
+            
+//addPopTypeView
+"addPopTypeView_addAccount" = "Add withdrawal account";
+"addPopTypeView_AddAccountType" = "Account Type";
+"addPopTypeView_alipay" = "Alipay";
+"addPopTypeView_input_aplipayAccount" = "Please enter your Alipay account";
+"addPopTypeView_input_aplipayName" = "Please enter your Alipay account name";
+"addPopTypeView_input_WechatAccount" = "Please enter Wechat Account";
+            
+"addPopTypeView_input_bankName" = "Enter the bank name";
+"addPopTypeView_input_bankNum" = "Enter the bank card account number";
+"addPopTypeView_input_bankUserName" = "Enter the cardholder's name";
+"addPopTypeView_Wechat" = "Wechat";
+"addPopTypeView_banKCard" = "Bank Card";
+            
+//setView settings
+"setView_VersionCheck" = "Currently is the latest version";
+"setView_CleardCache"="Cache has been cleared";
+"setView_logout" = "Logout";
+//applePay
+"applePay_error" = "Unable to obtain product information";
+"applePay_checkDebug" = "Please check whether the debugging mode is enabled on the website";
+"applePay_ChargeSuccess" = "ChargeSuccessful";
+"applePay_canBuy" ="User has resumed purchase";
+            
+//YBUserInfoViewController
+"YBUserInfoVC_BillDetail" = "Transactions";
+"YBUserInfoVC_personSet" = "Personal Settings";
+"YBUserInfoVC_total%@_Balance" = "Total Assets (%1$@)";
+"YBUserInfoVC_BindPhone" = "Bind Mob";
+"YBUserInfoVC_BindEmail" = "Bind email";
+"YBUserInfoVC_ExchangeRate" = "（Exchange rate）";
+//YBPersonTableViewModel
+"YBPersonTableViewMode_fansN%.1f" = "%1$.1f million";
+//ExchangeRateViewController
+"ExchangeRateVC_ExchangeRate" = "Exchange Rate";
+//exchangeVC
+"exchangeVC_balance" = "Account balance";
+"exchangeVC_balanceAutoChange" = "Automatic Conversion";
+"exchangeVC_OneKeyBack" = "Recycling";
+"exchangeVC_SwitchIn" = "Switch In";
+"exchangeVC_SwitchOut" = "Switch Out";
+"exchangeVC_Input_Money" = "Enter the amount";
+"exchangeVC_all" = "All";
+"exchangeVC_option" = "Operating";
+"exchangeVC_Refresh%@_Balance" = "[%1$@]Refresh balance"; // [JDB]Refresh balance
+"exchangeVC_RefreshAccountBalance" = "Refresh Balance";
+"exchangeVC_curreny_title" = "Currency";
+
+"Gesture_Password" = "Gesture Password";
+"Gesture_PasswordUnlock" = "Gesture Password Unlock";
+"Modif_UnlockPassword" = "Modify Gesture Password";
+"Draw_UnlockPattern" = "Draw The Unlock Pattern";
+"Draw_Original_Gesturepsd" = "Please draw the original gesture password";
+"Gesture_Neglect" = "Neglect";
+"Gesture_redraw" = "Connect at least 4 points, please redraw";
+"Draw_UnlockPatternAgain" = "Draw the unlock pattern again";
+"Successfully_GestureSet" = "Successfully Set";
+"Draw_PasswordError" = "Password error, please redraw";
+"LastDraw_Inconsistent" = "Inconsistent with the previous drawing, please redraw";
+"Turn_GesturePasscode" = "Turn Off Gesture Passcode";
+"Set_GesturePasscode" = "Set Gesture Passcode";
+"ReSet_GesturePasscode" = "Reset Gesture Passcode";
+"Turn_GesturePasscode_close" = "Are you sure you want to turn off gesture password?";
+"Turn_GesturePasscode_Warn" = "Security tip: It is recommended to set a password to deeply protect your privacy. The product will be automatically locked each time you leave!";
+"Turn_GesturePasscode_forget" = "Forgetting the gesture password requires re-login, and the screen lock protection will be automatically turned off after login";
+"Draw_PasswordErrorNum%d" = "Wrong password,%1$d chances left";
+"Forgot_GesturePassword" = "Forgot gesture password";
+
+            
+//mineVideoVC
+"myWithdrawVC2_Account%@_Balance" ="Account balance %1$@";
+"myWithdrawVC2_Account%@_Balance1" ="Account balance %1$@:";
+"myWithdrawVC2_Account_Balance2" ="VIPPAY balance:";
+"mineVideoVC_youHaveNoVideo" = "You have no video works yet";
+"mineVideoVC_youHaveNoVideo_tip" = "Hurry up and shoot and upload it~";
+//myWithdrawVC2
+"myWithdrawVC2_inputHowMany" = "Enter Amount";
+"myWithdrawVC2_CanWithDrawNum" = "Withdrawable";
+"myWithdrawVC2_limitDes"="Limit Description";
+"myWithdrawVC2_WithDrawDesTip" = "After recharging, the game flow must be greater than your recharge amount to withdraw.\n(The game flow has a 3-5 minute delay, please wait patiently)";
+"myWithdrawVC2_UpdatingBalance" = "Refreshing account balance";
+"myWithdrawVC2_WithDrawOver%@%f" = "The amount exceeds the withdrawal limit: %1$@%2$.2f";
+"myWithdrawVC2_MaxWithDrawMoney%@%.1f" = "Single maximum withdrawal amount: %1$@%2$.1f";
+"myWithdrawVC2_MinWithDrawMoney%@%.1f" = "Single minimum withdrawal amount: %1$@%2$.1f";
+"myWithdrawVC2_WithDrawWaitTip" = "Your withdrawal application is submitted successfully\nWe will process it for you as soon as possible";
+"myWithdrawVC2_CanWithDrawMoney%.1f" = "Your withdrawal limit is: ¥%1$.1f";
+            
+//withdrawPopView
+"withdrawPopView_tip" = "Withdraw Tips";
+"withdrawPopView_Error_tip_BindPhone" = "You can withdraw cash only after you register your phone number";
+"withdrawPopView_goBindPhone" = "Go to bind";
+//myWithdrawVC
+            
+"myWithdrawVC_minWithDrawAmount%.2f" = "Minimum withdrawal amount: ¥%1$.2f";
+            
+///
+"PayInsta_tenTh%.0f" = "%1$.0f10k+";
+"PayInsta_Th%.0f" = "%.0fk+";
+"PayInsta_hund%.0f" = "%.0fHundred+";
+
+
+"Filter_title" = "Filter";
+
+"More_title" = "More";
+
+"movie_pay_Purchased" = "Purchased";
+"movie_pay" = "Pay";
+"movie_nav" = "Navigation";
+"movie_game_menu" = "Play while Watching";
+"movie_video_menu" = "Related Videos";
+"movie_pay_vip" = "VIP Unlock Watch";
+"unlockremind_buyviptips1" = "Upgrade to VIP to use this feature";
+"VIP_Activate_now" = "Activate Now";
+"movie_pay_money" = "Unlock Watch";
+"movie_vip_tip" = "This is a VIP exclusive video, VIP access required to watch";
+"movie_open_vip" = "You are not a VIP yet, activate now";
+"movie_ticket_tip" = "Not enough movie tickets. Place bets to earn more.";
+"movie_amount_tip" = "The current balance is insufficient, recharge immediately";
+"movie_vip_pay_tip" = "This is a VIP paid video, buy to watch";
+"movie_money_pay_tip" = "This is a paid video";
+"movie_money_pay_tip2" = "Buy to watch";
+"movie_money_pay_tip3" = "Browse and watch";
+"movie_trying_load_tip" = "The preview ends after %@. Please watch the full video";
+"movie_trying_end_tip" = "The preview ends. Please watch the full video";
+"movie_money_pay_title" = "Balance Payment";
+"movie_ticket_unit" = "tickets";
+"movie_ticket_name" = "Movie Ticket";
+"movie_time_expire" = "Expiring";
+"movie_time_valid" = "Forever";
+"movie_pay_title" = "Recommended that you use movie tickets";
+"vip_pay_title" = "Open VIP membership";
+"vip_pay_button" = "Open VIP";
+"vip_open_account" = "Open account";
+"vip_open_title" = "Open after recharging";
+"vip_pay_ballance" = "Use balance to pay";
+"vip_pay_need_amount" = "Recharge is still required";
+"create_menu_record" = "Income Report";
+"create_menu_rule" = "Creation Rules";
+"create_menu_upload" = "Upload Video";
+"create_total_income" = "Total Income";
+"create_manage_show" = "Show";
+"create_manage_hide" = "Hide";
+"create_nav_title" = "My Creation";
+"create_state_approved" = "Published";
+"create_state_pending" = "Under Review";
+"create_state_rejected" = "Failed";
+"create_select_count" = "| %@ videos selected";
+"create_should_choose" = "Please select a video";
+"create_date_today" = "Today";
+"create_date_yesterday" = "Yesterday";
+"create_date_week" = "Recent Week";
+"create_date_month" = "Recent Month";
+"create_report_from" = "Video Source";
+"create_report_date" = "Date";
+"create_report_amount" = "Amount of Profit";
+"create_total_amount" = "Total Profit";
+"video_trying_start" = "Previewing(Click Unlock)";
+"video_trying_stop" = "Preview End";
+"video_game_can_full" = "Cannot go full screen in game";
+
+///语言切换
+"swichLanguage" = "Language";
+"swichNotice" = "Notification Settings";
+
+"curreny_unit_alert" = "You will get %1$@ %2$@, current exchange rate %3$@";
+
+"curreny_unit_alert_charge" = "You will get %1$@ %2$@";
+
+
+"WithDrawNumberTip%@" = "withdraw must finish %1$@ turn over(the turn over is the total from betting game)";
+
+"ChargeNumberTip%@" = "Direct Top-up still requires a turnover of %1$@ (turnover is the total amount of bets on lottery and games).";
+
+//签到
+"ContinuousCheckin" = "Sign continuously";
+"ChekinRightNow" = "Sign now";
+
+///还没翻译
+"history_award" = "Win a lottery";
+
+"history_profit" = "profit";
+
+"history_starttime" = "Starting time";
+
+"history_endtime" = "End Time";
+
+"history_statetitle" = "Select transaction status";
+
+"history_typetitle" = "Choose lottery type";
+
+"history_betcontent%@%@" = "Issue number:%1$@ Betting content:%2$@";
+
+"history_betTitle%@" = "Draw %1$@";
+
+"history_bettime%@" = "Betting time:%1$@";
+
+"history_statewillaward" = "No prizes";
+
+"history_statenotaward" = "Not winning";
+
+"history_statedidaward" = "Winning";
+
+"history_stateequal" = "Tie";
+
+"TimeSelect_tipError" = "The start time cannot be greater than the end time";
+
+//历史记录
+"all_state" = "All State";
+"didAward" = "Awarded";
+"notAward" = "Not Awarded";
+"willAward" = "Award to be won";
+"equalEnd" = "Draw";
+"lb_resultTime" = "To";
+"all_type" = "All Type";
+"time_sel" = "Time Screening";
+
+//游戏
+"game_begain" = "Place your bet";
+"game_will_begain" = "Coming soon";
+"game_continue_bet" = "Renewal";
+
+"trend" = "C\nH\nA\nR\nT";
+"trend_title" = "CHART";
+"Chart_Area" = "Range";
+"Chart_Area_Color" = "Special Color";
+
+"Chart_Area_big_small" = "B/S";
+"Chart_Area_single_double" = "S/D";
+"Chart_Area_red_black" = "R/B";
+
+//设置主播名片
+"ContactInfo_notEditTipsTitle" = "You have not set the anchor name card";
+"ContactInfo_notEditTipsMsg" = "Do you want to set it?";
+"ContactInfo_notEditTipsSure" = "Go Settings";
+"ContactInfo_notEditTipsCancel" = "Next";
+//添加提现方式
+"AddWithDrawType_title" = "Please select the added withdrawal method";
+"AddWithDrawType_message" = "";
+"AddWithDrawType_usdt" = "USDT";
+"AddWithDrawType_card" = "Bank card";
+"AddWithDrawType_cancel" = "Cancel";
+"AddProfitTip_Error" = "Not yet open, stay tuned";
+//添加USDT
+"AddUSDT_title" = "Add USDT";
+"AddUSDT_Type_title" = "transfer network";
+"AddUSDT_Address_title" = "USDT address";
+"AddUSDT_ChoiseType_title" = "Please select a transfer network";
+"AddUSDT_Type_Tips" = "You have not selected the USDT mainnet type";
+"AddUSDT_Address_Tips" = "You have not written a USDT address";
+"AddUSDT_Transfor_tip" = "Transfer to other people's wallet address will not be able to recover, please check the wallet address carefully to avoid unnecessary losses";
+"AddUSDT_Paste" = "paste";
+"AddUSDT_PlaceHolder" = "Please enter wallet address";
+//添加其他
+"AddOther_title%@" = "Add %1$@";
+"AddOther_Address_title%@" = "%1$@ address";
+"AddOther_Address_Tips%@" = "You have not written a %1$@ address";
+//禁止录屏
+"Live_ProhibitScreenRecording" = "Prohibit screen recording";
+///直播间弹幕过滤
+"filter_belowf" = "Filter below 100";
+"filter_belows" = "Filter below 1K";
+"filter_belowt" = "Filter below 1W";
+///不用翻译
+"socketLivePlay_Light" = "我点亮了";//不翻译
+"socketLivePlay_Followed" = "关注了主播";//不翻译
+"Livebroadcast_backtoRoom" = "主播回来了";//不翻译
+"Livebroadcast_liveinbackgroud" = "主播离开一下，精彩不中断，不要走开哦";//不翻译
+//OpenAwardViewController
+"OpenAward_NiuNiu_BlueWin" = "蓝方胜";
+"OpenAward_NiuNiu_RedWin" = "红方胜";
+"PublicObj_blue" = "蓝方:";
+"PublicObj_red" = "红方:";
+"PublicObj_Spade" = "黑桃";
+"PublicObj_Heart" = "红心";
+"PublicObj_Club" = "梅花";
+"PublicObj_Diamond" = "方块";
+
+"Hotpage_AddMoreCountry" = "more countries";
+"GameCenter_List" = "Report";
+"Mypage_CopyId" = "Click on the copy";
+"LiveGame_NoBetList" = "No betting record";
+"OpenAward_NiuNiu_Green" = "Green";
+
+"OpenHistory_Dragon" = "龙";
+"OpenHistory_he" = "合";
+"OpenHistory_Tiger" = "虎";
+
+"忘记手势密码" = "Forgot gesture password";
+"指纹解锁" = "Fingerprint unlock";
+"面容ID解锁" = "Face ID unlock";
+"点击进行指纹解锁" = "Click to unlock with fingerprint";
+"点击进行面容ID解锁" = "Click to unlock with Face ID";
+
+"DramaHomeViewController_title" = "Movie Tickets";
+"DramaHomeHistoryCell_history_title" = "Viewing History";
+"DramaHomeHeaderView_latest" = "Latest";
+"DramaHomeHeaderView_hot" = "Popular";
+
+"DramaFavoriteViewController_title" = "Favorites";
+"DramaFavoriteViewController_empty_favorite" = "You haven't favorited any content yet";
+
+"DramaPortraitVideoControlView_fullScreen_title" = "Full Screen Viewing";
+"DramaPortraitVideoControlView_unlock_pay" = "Unlock for a fee";
+"DramaVideoViewController_video_not_available" = "The film has not been released yet";
+"DramaFavoriteViewController_empty_follow" = "You haven't followed any content yet";
+"DramaFavoriteViewController_empty_like" = "You haven't liked any content yet";
+
+"DramaVideoViewController_video_buy_ticket" = "Would you like to spend %d movie vouchers?";
+"DramaAllHeaderView_pay_info" = "Includes %d paid episodes";
+"DramaAllHeaderView_pay_info_vip" = "Includes %d VIP paid episodes";
+"DramaAllHeaderView_all_episodes" = "All %d episodes";
+"DramaAllListCell_pay" = "Pay";
+"Hotpage_skit_entrance" = "Short Drama Entrance";
+"VIP Pay" = "VIP Paid";
+"DramaAllHeaderView_paid_info" = "Includes %d episodes";
+"play" = "Play";
+
+"Please stay tuned" = "Please stay tuned";
+"like" = "Like";
+"work" = "Work";
+"Tap to live stream room" = "Enter Live Room";
+"Not Search Any Result" = "No relevant results found";
+"short_video_favorite_unit" = "M";
+"short_video_preview" = "Preview %@";
+"short_video_buy" = "Purchase";
+"short_video_preview_end" = "Preview Ended";
+
+"post_video_free" = "Free";
+"post_video_ticket_name" = "Ticket";
+"post_video_other_price" = "Other Amount:";
+"post_video_other_tags" = "Other Tags";
+"post_video_no_rule" = "You do not have permission to upload videos";
+"post_video_uploading" = "Publishing, please wait...";
+"post_video_upload_wait" = "Please wait for the upload to complete";
+"post_video_upload_retry" = "Please re-upload the video";
+"post_video_upload_cover_again" = "Please re-upload the cover";
+
+"Live Streaming" = "Live";
+"All %ld episodes, completed" = "All %ld episodes, completed";
+"Favorite" = "Favorite";
+"Watch History" = "Watch History";
+"Serialization" = "Ongoing";
+"Episodes finished" = "Completed";
+"Episodes updating" = "Updating";
+"Not watched" = "Unwatched";
+"Episode %ld" = "Episode %ld";
+"%@ people online" = "%@ users online";
+"follow_recommend" = "Rec Follow";
+"Episodes update to" = "Update to";
+"No Prefix Episode %ld" = "%ld Episodes";
+"Select episode" = "Select Episode";
+
+//短视频评论
+"short_video_comment_lookingForwardYourComments" = "Looking forward to your comments";
+"short_video_comment_leaveCommentExpressYourThoughts" = "Leave a comment to express your thoughts";
+"short_video_comment_noMoreComments" = "No more comments~";
+"short_video_comment_kindWordsBringGood" = "Kind words build good relationships, harsh words hurt hearts";
+"short_video_comment_send" = "Send";
+"short_video_comment_howManyComments" = "Comments";
+"short_video_comment_reply" = "Reply";
+"short_video_comment_expand" = "Expand";
+"short_video_comment_close" = "Close";
+"short_video_comment_year" = "year ago";
+"short_video_comment_month" = "month ago";
+"short_video_comment_weekOfYear" = "week ago";
+"short_video_comment_day" = "day ago";
+"short_video_comment_hour" = "hour ago";
+"short_video_comment_minute" = "minute ago";
+"short_video_comment_justNow" = "just now";
+//首页容器
+"home_container_recommend" = "Recommend";
+"home_container_recommend_space" = "Rec  ommend";
+"home_container_skit_space" = "Skit  ";
+//搜索頁
+"home_search_searchVideos" = "Search videos";
+"home_search_all" = "All";
+"home_search_shortVideo" = "Short Video";
+"home_search_skit" = "Skit";
+"home_search_longVideo" = "Long Video";
+"home_search_anchorNickname" = "Anchor";
+"home_search_searchRecord" = "Search history";
+"home_search_youLike" = "You might like";
+"home_search_hotSearch" = "Hot search";
+"home_search_tenThousand" = "Ten thousand";
+"home_search_thousand" = "Thousand";
+"home_search_noRelevantResultsFound" = "No relevant results found";
+"home_search_modifySearchKeywordsAndTryAgain" = "Modify search keywords and try again";
+"home_search_search" = "Search";
+"home_search_userNickName" = "User Nickname";
+//发布短视频
+"post_video_rules_title" = "Short Video Posting Rules";
+"post_video_desc_section1" = "Video duration";
+"post_video_desc_rulse1" = "The video should be between 10 seconds and 5 minutes.";
+"post_video_desc_section2" = "Video format";
+"post_video_desc_rulse2_1" = "Supported file formats: MP4, MOV, AVI, etc.";
+"post_video_desc_rulse2_2" = "Resolution must be at least 720p (720x1280 pixels).";
+"post_video_desc_rulse2_3" = "File size must not exceed 100MB.";
+"post_video_desc_section3" = "Content guidelines";
+"post_video_desc_rulse3_1" = "Violence, political, and hateful content is strictly prohibited.";
+"post_video_desc_rulse3_2" = "Respect others' privacy; consent must be obtained from those filmed.";
+"post_video_desc_section4" = "Video quality";
+"post_video_desc_rulse4" = "The video should be clear and stable, and the audio should be free of noise.";
+"post_video_desc_section5" = "Video title and description";
+"post_video_desc_rulse5_1" = "The title and description should accurately reflect the video content.";
+"post_video_desc_rulse5_2" = "Use relevant tags for classification and search.";
+"post_video_desc_section6" = "Other requirements";
+"post_video_desc_rulse6_1" = "The video will only be publicly displayed after being reviewed by the platform.";
+"post_video_desc_rulse6_2" = "Choose the appropriate category to post the video based on its content.";
+"post_video_max_tags" = "Up to five tags";
+//我的
+"profile_center_wallet" = "Center Wallet";
+"profile_center_myWallet" = "My Wallet";
+"profile_center_change_unit" = "Switch Currency";
+//消息列表
+"message_list" = "Message List";
+"message_list_no_new_notifi" = "No new notifications";
+"message_list_interactive_messages" = "Interactive Messages";
+"message_list_people_have_saved_your_comments" = "%1$@ people liked your comment";
+"message_list_reply_comment" = "Reply to comment";
+"message_list_like" = "Like";
+"message_list_no_messages" = "No messages, too low-key～";
+"message_list_go_play_game" = "Go play a game first";
+
+// 簽到
+"Signed In" = "Signed In";
+"The more consecutive sign-ins, the greater the rewards" = "The more consecutive sign-ins, the greater the rewards!";
+"Achieved" = "Achieved";
+"Consecutive Sign-ins" = "Consecutive Sign-ins";
+"Daily Sign-in" = "Daily Sign-in";
+
+// 幸運抽獎
+"luckyDraw_title" = "Lucky Draw";
+"luckyDraw_remaining_bonus_in_the_prize_pool" = "Remaining bonus in prize pool";
+"luckyDraw_number_of_draws_remaining" = "Number of draws remaining";
+"luckyDraw_winning_record" = "Winning Record";
+"luckyDraw_bonus_rules" = "Bonus Rules";
+"luckyDraw_reset_time" = "Your draw times will reset at %1$@, please use them soon";
+"luckyDraw_tips" = "Complete the tasks below to earn more draw chances.";
+"luckyDraw_result_tips" = "Keep achieving, and enjoy endless rewards from lucky draws!";
+
+"bounsRules_category_title1" = "Big Prize Record";
+"bounsRules_category_title2" = "My Record";
+
+"bounsRules_section1_title" = "Lucky Draw Event";
+"bounsRules_section1_row1" = "First top-up rewards a draw chance.";
+"bounsRules_section1_row2" = "Bind your phone number for a draw chance.";
+"bounsRules_section1_row3" = "Log in for three consecutive days to get a draw chance.";
+"bounsRules_section1_row4" = "Reward a host with diamonds to get a draw chance (one per day).";
+"bounsRules_section1_row5" = "Bet over ¥100 in a single lottery for a draw chance (one per day).";
+"bounsRules_section1_row6" = "Deposit over ¥100 in a single instant deposit to get a draw chance (one per day).";
+"bounsRules_section2_title" = "Lucky Draw Rules";
+"bounsRules_section2_row1" = "The bonus in the prize pool is generated by players' bets and is updated in real-time.";
+"bounsRules_section2_row2" = "Earned draw chances reset every Sunday at 23:59. If unused, they are forfeited.";
+"bounsRules_section2_row3" = "If the winning amount exceeds the bonus in the prize pool, the remaining bonus is awarded to the winner.";
+"bounsRules_section2_row4" = "If a delay in the system causes a reward not to be received, please re-login or contact online support.";
+"bounsRules_section2_row5" = "The platform reserves the final interpretation right of the Lucky Draw event.";
+
+"Winning_record_welcome" = "Welcome!";
+"Winning_record_lucky" = "Good luck with your draw!";
+"Winning_record_eve" = "Day before yesterday";
+"Winning_record_congratulations_your_winning_draw" = "Congratulations, you won:";
+"Winning_record_Congratulations_user_winning_draw" = "Congratulations, user won:";
+"Winning_record_user_name" = "Username:";
+
+"comment_replay_like_des" = "liked your comment";
+"comment_replay_like_video_des" = "liked your video";
+"comment_post_new_video" = "posted a new work";
+"read_all" = "Mark all read";
+
+"post_video_upload_interrupted" = "Upload Interrupted";
+"post_video_resume_prompt" = "Resume Upload?";
+"post_video_retry" = "Retry Upload";
+"ppublic_continue" = "Continue";
+"ppublic_account" = "Account";
+"video_ticket_float" = "coupon_ticket-en";
+
+"验证码验证超时，请重试" = "Verification timeout, please try again";
+"网络连接失败，请检查网络后重试" = "Network connection failed, please check your network and try again";
+"验证已取消" = "Verification cancelled";
+"验证码初始化失败，请稍后重试" = "Verification initialization failed, please try again later";
+"验证码配置错误，请联系客服" = "Verification configuration error, please contact customer service";
+"验证结果无效，请重新验证" = "Verification result invalid, please verify again";
+"验证失败，请重试" = "Verification failed, please try again";
+"验证失败" = "Verification failed";
+"验证码初始化失败" = "Verification initialization failed";
+"降级模式验证成功" = "Fallback mode verification successful";

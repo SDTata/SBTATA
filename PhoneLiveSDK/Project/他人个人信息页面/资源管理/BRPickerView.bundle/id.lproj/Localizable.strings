@@ -1,0 +1,29 @@
+
+/*
+  Localizable.strings
+  BRPickerViewDemo
+
+  Created by 任波 on 2019/10/30.
+  Copyright © 2019 91renb. All rights reserved.
+*/
+
+"确定" = "Oke";
+"取消" = "Batal";
+"完成" = "Selesai";
+
+"年" = " Tahun";
+"月" = " Bulan";
+"日" = " 日";
+"时" = " Jam";
+"分" = " 分";
+"秒" = " Kedua";
+"至今" = " Sejauh ini";
+"今天" = " Hari ini";
+
+"周一" = " Senin";
+"周二" = " Selasa";
+"周三" = " Rabu";
+"周四" = " Kamis";
+"周五" = " Jumat";
+"周六" = " Sabtu";
+"周日" = " Minggu";
